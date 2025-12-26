@@ -1,0 +1,188 @@
+[
+  {
+    "id": "ic_attr_fire",
+    "name_cn": "火属性",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_attr_water",
+    "name_cn": "水属性",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_attr_wind",
+    "name_cn": "风属性",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_attr_thunder",
+    "name_cn": "雷属性",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_attr_light",
+    "name_cn": "光属性",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_attr_dark",
+    "name_cn": "暗属性",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_attr_nature",
+    "name_cn": "自然属性",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_culture_chinese",
+    "name_cn": "中国神话",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_culture_greek",
+    "name_cn": "希腊神话",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_culture_norse",
+    "name_cn": "北欧神话",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_culture_japanese",
+    "name_cn": "日本神话",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_culture_indian",
+    "name_cn": "印度神话",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_culture_egyptian",
+    "name_cn": "埃及神话",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_culture_celtic",
+    "name_cn": "凯尔特神话",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_home",
+    "name_cn": "首页",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_home_selected",
+    "name_cn": "首页-选中",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_browse",
+    "name_cn": "浏览",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_browse_selected",
+    "name_cn": "浏览-选中",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_encyclopedia",
+    "name_cn": "百科",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_encyclopedia_selected",
+    "name_cn": "百科-选中",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_mine",
+    "name_cn": "我的",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_mine_selected",
+    "name_cn": "我的-选中",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_search",
+    "name_cn": "搜索",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_favorite",
+    "name_cn": "收藏",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_favorite_filled",
+    "name_cn": "收藏-已填充",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_back",
+    "name_cn": "返回",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_star",
+    "name_cn": "星星",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_rarity_legendary",
+    "name_cn": "传说稀有度",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_rarity_epic",
+    "name_cn": "史诗稀有度",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_rarity_rare",
+    "name_cn": "稀有稀有度",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_rarity_common",
+    "name_cn": "普通稀有度",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  }
+]

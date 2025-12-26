@@ -1,0 +1,981 @@
+[
+  {
+    "id": "creature_chinese_yinglong",
+    "name_cn": "应龙",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_chinese_yinglong.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_chinese_zhulong",
+    "name_cn": "烛龙",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_chinese_zhulong.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_chinese_fenghuang",
+    "name_cn": "凤凰",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_chinese_fenghuang.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_chinese_qilin",
+    "name_cn": "麒麟",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_chinese_qilin.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_chinese_taotie",
+    "name_cn": "饕餮",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_chinese_taotie.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_chinese_jiuwei",
+    "name_cn": "九尾狐",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_chinese_jiuwei.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_chinese_kunpeng",
+    "name_cn": "鲲鹏",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_chinese_kunpeng.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_chinese_bifang",
+    "name_cn": "毕方",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_chinese_bifang.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_chinese_baihu",
+    "name_cn": "白虎",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_chinese_baihu.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_chinese_xuanwu",
+    "name_cn": "玄武",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_chinese_xuanwu.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_chinese_qinglong",
+    "name_cn": "青龙",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_chinese_qinglong.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_chinese_zhuque",
+    "name_cn": "朱雀",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_chinese_zhuque.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_chinese_baize",
+    "name_cn": "白泽",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_chinese_baize.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_chinese_xiezhi",
+    "name_cn": "獬豸",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_chinese_xiezhi.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_chinese_qiongqi",
+    "name_cn": "穷奇",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_chinese_qiongqi.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_chinese_taowu",
+    "name_cn": "梼杌",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_chinese_taowu.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_chinese_hundun",
+    "name_cn": "混沌",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_chinese_hundun.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_chinese_jiuying",
+    "name_cn": "九婴",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_chinese_jiuying.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_chinese_chilong",
+    "name_cn": "螭龙",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_chinese_chilong.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_chinese_qiulong",
+    "name_cn": "虬龙",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_chinese_qiulong.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_greek_unicorn",
+    "name_cn": "独角兽",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_greek_unicorn.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_greek_pegasus",
+    "name_cn": "珀伽索斯",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_greek_pegasus.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_greek_griffin",
+    "name_cn": "狮鹫",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_greek_griffin.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_greek_hydra",
+    "name_cn": "九头蛇",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_greek_hydra.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_greek_medusa",
+    "name_cn": "美杜莎",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_greek_medusa.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_greek_minotaur",
+    "name_cn": "米诺陶",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_greek_minotaur.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_greek_centaur",
+    "name_cn": "半人马",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_greek_centaur.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_greek_sphinx",
+    "name_cn": "斯芬克斯",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_greek_sphinx.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_greek_cerberus",
+    "name_cn": "刻耳柏洛斯",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_greek_cerberus.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_greek_typhon",
+    "name_cn": "提丰",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_greek_typhon.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_greek_chimera",
+    "name_cn": "奇美拉",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_greek_chimera.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_greek_cyclops",
+    "name_cn": "独眼巨人",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_greek_cyclops.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_greek_ladon",
+    "name_cn": "拉冬",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_greek_ladon.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_greek_scylla",
+    "name_cn": "斯库拉",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_greek_scylla.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_greek_charybdis",
+    "name_cn": "卡律布狄斯",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_greek_charybdis.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_greek_echidna",
+    "name_cn": "厄喀德那",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_greek_echidna.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_greek_siren",
+    "name_cn": "塞壬",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_greek_siren.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_greek_harpy",
+    "name_cn": "哈耳庇厄",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_greek_harpy.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_greek_gorgon",
+    "name_cn": "戈耳工",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_greek_gorgon.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_greek_nemean_lion",
+    "name_cn": "涅墨亚狮子",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_greek_nemean_lion.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_norse_fenrir",
+    "name_cn": "芬里尔",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_norse_fenrir.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_norse_jormungandr",
+    "name_cn": "耶梦加得",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_norse_jormungandr.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_norse_sleipnir",
+    "name_cn": "斯莱普尼尔",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_norse_sleipnir.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_norse_nidhogg",
+    "name_cn": "尼德霍格",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_norse_nidhogg.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_norse_frost_giant",
+    "name_cn": "冰霜巨人",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_norse_frost_giant.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_norse_fire_giant",
+    "name_cn": "火焰巨人",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_norse_fire_giant.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_norse_valkyrie",
+    "name_cn": "瓦尔基里",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_norse_valkyrie.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_norse_draugr",
+    "name_cn": "尸鬼",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_norse_draugr.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_norse_ratatoskr",
+    "name_cn": "拉塔托斯克",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_norse_ratatoskr.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_norse_huginn_muninn",
+    "name_cn": "福金和雾尼",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_norse_huginn_muninn.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_norse_hel",
+    "name_cn": "海拉",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "creature_norse_garm",
+    "name_cn": "加尔姆",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_norse_garm.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_norse_kraken",
+    "name_cn": "克拉肯",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_norse_kraken.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_norse_einherjar",
+    "name_cn": "英灵战士",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_norse_einherjar.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_norse_jotun",
+    "name_cn": "约顿",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_norse_jotun.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_norse_dwarves",
+    "name_cn": "矮人",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_norse_dwarves.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_norse_light_elf",
+    "name_cn": "光精灵",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_norse_light_elf.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_norse_dark_elf",
+    "name_cn": "暗精灵",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_norse_dark_elf.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_norse_fafnir",
+    "name_cn": "法夫尼尔",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_norse_fafnir.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_norse_audhumla",
+    "name_cn": "奥德姆拉",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_norse_audhumla.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_japanese_kyuubi",
+    "name_cn": "九尾狐",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_japanese_kyuubi.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_japanese_orochi",
+    "name_cn": "八岐大蛇",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_japanese_orochi.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_japanese_tengu",
+    "name_cn": "天狗",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_japanese_tengu.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_japanese_kappa",
+    "name_cn": "河童",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_japanese_kappa.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_japanese_yukionna",
+    "name_cn": "雪女",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_japanese_yukionna.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_japanese_shuten",
+    "name_cn": "酒吞童子",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_japanese_shuten.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_japanese_oni",
+    "name_cn": "鬼",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_japanese_oni.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_japanese_tanuki",
+    "name_cn": "狸猫",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_japanese_tanuki.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_japanese_nekomata",
+    "name_cn": "猫又",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_japanese_nekomata.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_japanese_kitsune",
+    "name_cn": "妖狐",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_japanese_kitsune.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_japanese_jorougumo",
+    "name_cn": "络新妇",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_japanese_jorougumo.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_japanese_ryu",
+    "name_cn": "日本龙",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_japanese_ryu.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_japanese_komainu",
+    "name_cn": "狛犬",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_japanese_komainu.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_japanese_raijin",
+    "name_cn": "雷神",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_japanese_raijin.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_japanese_fujin",
+    "name_cn": "风神",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_japanese_fujin.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_japanese_amaterasu",
+    "name_cn": "天照大神",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_japanese_amaterasu.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_japanese_tsukuyomi",
+    "name_cn": "月读命",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_japanese_tsukuyomi.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_japanese_susanoo",
+    "name_cn": "须佐之男",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_japanese_susanoo.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_japanese_inugami",
+    "name_cn": "犬神",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_japanese_inugami.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_japanese_gashadokuro",
+    "name_cn": "骸骨巨人",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_japanese_gashadokuro.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_indian_garuda",
+    "name_cn": "迦楼罗",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_indian_garuda.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_indian_naga",
+    "name_cn": "那伽",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_indian_naga.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_indian_asura",
+    "name_cn": "阿修罗",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_indian_asura.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_indian_hanuman",
+    "name_cn": "哈努曼",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_indian_hanuman.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_indian_nandi",
+    "name_cn": "南迪",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_indian_nandi.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_indian_makara",
+    "name_cn": "摩羯",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_indian_makara.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_indian_rakshasa",
+    "name_cn": "罗刹",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_indian_rakshasa.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_indian_airavata",
+    "name_cn": "艾拉瓦塔",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_indian_airavata.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_indian_vritra",
+    "name_cn": "弗栗多",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_indian_vritra.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_indian_kinnara",
+    "name_cn": "紧那罗",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_indian_kinnara.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_indian_yaksha",
+    "name_cn": "夜叉",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_indian_yaksha.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_indian_gandharva",
+    "name_cn": "乾达婆",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_indian_gandharva.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_indian_apsara",
+    "name_cn": "飞天",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_indian_apsara.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_indian_shesha",
+    "name_cn": "舍沙",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_indian_shesha.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_indian_simha",
+    "name_cn": "狮面人",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_indian_simha.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_indian_ganesha_mount",
+    "name_cn": "老鼠神兽",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_indian_ganesha_mount.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_indian_varaha",
+    "name_cn": "野猪神",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_indian_varaha.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_indian_matsya",
+    "name_cn": "鱼神",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_indian_matsya.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_indian_kurma",
+    "name_cn": "龟神",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_indian_kurma.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_indian_phoenix",
+    "name_cn": "火凤凰",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_indian_phoenix.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_egyptian_anubis",
+    "name_cn": "阿努比斯",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_egyptian_anubis.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_egyptian_horus",
+    "name_cn": "荷鲁斯",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_egyptian_horus.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_egyptian_sphinx",
+    "name_cn": "斯芬克斯",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_egyptian_sphinx.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_egyptian_bastet",
+    "name_cn": "巴斯特",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_egyptian_bastet.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_egyptian_apophis",
+    "name_cn": "阿佩普",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_egyptian_apophis.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_egyptian_sekhmet",
+    "name_cn": "塞赫美特",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_egyptian_sekhmet.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_egyptian_sobek",
+    "name_cn": "索贝克",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_egyptian_sobek.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_egyptian_thoth",
+    "name_cn": "托特",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_egyptian_thoth.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_egyptian_bennu",
+    "name_cn": "本努鸟",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_egyptian_bennu.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_egyptian_ammit",
+    "name_cn": "阿米特",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_egyptian_ammit.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_egyptian_set_beast",
+    "name_cn": "赛特兽",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_egyptian_set_beast.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_egyptian_wadjet",
+    "name_cn": "瓦吉特",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_egyptian_wadjet.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_egyptian_scarab",
+    "name_cn": "圣甲虫",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_egyptian_scarab.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_egyptian_uraeus",
+    "name_cn": "乌拉厄斯",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_egyptian_uraeus.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_egyptian_serket",
+    "name_cn": "塞尔凯特",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_egyptian_serket.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_egyptian_khepri",
+    "name_cn": "凯布利",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_egyptian_khepri.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_egyptian_mafdet",
+    "name_cn": "马弗德特",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_egyptian_mafdet.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_egyptian_taweret",
+    "name_cn": "塔沃里特",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_egyptian_taweret.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_egyptian_nekhbet",
+    "name_cn": "奈赫贝特",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_egyptian_nekhbet.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_egyptian_sha",
+    "name_cn": "沙兽",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_egyptian_sha.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_celtic_banshee",
+    "name_cn": "报丧女妖",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_celtic_banshee.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_celtic_pooka",
+    "name_cn": "普卡",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_celtic_pooka.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_celtic_cuhulain_hound",
+    "name_cn": "库丘林猎犬",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_celtic_cuhulain_hound.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_celtic_dullahan",
+    "name_cn": "无头骑士",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_celtic_dullahan.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_celtic_leprechaun",
+    "name_cn": "矮妖精",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_celtic_leprechaun.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_celtic_selkie",
+    "name_cn": "海豹精灵",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_celtic_selkie.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_celtic_kelpie",
+    "name_cn": "水马",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_celtic_kelpie.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_celtic_morrigan_crow",
+    "name_cn": "摩莉甘之鸦",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_celtic_morrigan_crow.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_celtic_aos_si",
+    "name_cn": "妖精族",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_celtic_aos_si.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_celtic_cernunnos",
+    "name_cn": "塞尔努诺斯",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_celtic_cernunnos.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_celtic_fomorian",
+    "name_cn": "弗摩尔",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_celtic_fomorian.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_celtic_cwn_annwn",
+    "name_cn": "冥界猎犬",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_celtic_cwn_annwn.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_celtic_fear_gorta",
+    "name_cn": "饥饿幽灵",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_celtic_fear_gorta.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_celtic_cat_sith",
+    "name_cn": "妖精猫",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_celtic_cat_sith.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_celtic_each_uisge",
+    "name_cn": "水马怪",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_celtic_each_uisge.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_celtic_merrow",
+    "name_cn": "美人鱼",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_celtic_merrow.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_celtic_nuckelavee",
+    "name_cn": "无皮恶魔",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_celtic_nuckelavee.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_celtic_pwca",
+    "name_cn": "威尔士精灵",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_celtic_pwca.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_celtic_bean_nighe",
+    "name_cn": "洗衣女妖",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_celtic_bean_nighe.png",
+    "tokens": 16384
+  },
+  {
+    "id": "creature_celtic_green_man",
+    "name_cn": "绿人",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/creature_celtic_green_man.png",
+    "tokens": 16384
+  }
+]

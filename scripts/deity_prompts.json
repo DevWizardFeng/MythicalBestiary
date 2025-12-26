@@ -1,0 +1,149 @@
+{
+  "version": "1.0",
+  "default_settings": {
+    "size": "2048x2048",
+    "style_suffix": "，史诗级神话神祇插画，高度细节，8K超高清，奇幻艺术风格，电影级光影效果，神圣庄严的氛围"
+  },
+  "creatures": [
+    {
+      "id": "deity_chinese_yuhuang",
+      "name_cn": "玉皇大帝",
+      "name_en": "Jade Emperor",
+      "culture": "chinese",
+      "prompt": "玉皇大帝，中国神话至高天神，身着金色龙袍，头戴十二旒冕冠，端坐于九重天宫宝座之上，周围祥云缭绕，金光万丈，手持玉如意，面容威严慈祥，背后是巍峨的天庭宫殿，中国传统神话风格"
+    },
+    {
+      "id": "deity_chinese_fuxi",
+      "name_cn": "伏羲",
+      "name_en": "Fuxi",
+      "culture": "chinese",
+      "prompt": "伏羲，中国神话人文始祖，人首蛇身的神圣形态，手持八卦图，身披兽皮，头顶日月星辰，周围环绕着阴阳太极符号，背景是混沌初开的洪荒景象，古朴神圣的中国上古神话风格"
+    },
+    {
+      "id": "deity_chinese_nvwa",
+      "name_cn": "女娲",
+      "name_en": "Nuwa",
+      "culture": "chinese",
+      "prompt": "女娲娘娘，中国神话创世女神，人首蛇身的圣洁形态，手持五彩石补天，周围是她用黄土捏成的人类，面容慈爱温柔如大地母亲，背景是炼石补天的神话场景，祥云彩霞环绕，中国古典神话风格"
+    },
+    {
+      "id": "deity_greek_zeus",
+      "name_cn": "宙斯",
+      "name_en": "Zeus",
+      "culture": "greek",
+      "prompt": "宙斯，希腊神话众神之王，高大威严的男性神祇形象，银白色长髯，手持闪电霹雳，端坐于奥林匹斯山顶的黄金王座，身披紫色王袍，头戴橄榄枝王冠，雄鹰停栖在旁，雷云环绕，古希腊雕塑风格"
+    },
+    {
+      "id": "deity_greek_hera",
+      "name_cn": "赫拉",
+      "name_en": "Hera",
+      "culture": "greek",
+      "prompt": "赫拉，希腊神话天后，高贵优雅的女神形象，身着华丽的白色长袍配金色腰带，头戴王后冠冕，手持权杖和石榴，孔雀在身旁展开华丽羽翼，表情端庄威严，古希腊古典艺术风格"
+    },
+    {
+      "id": "deity_greek_poseidon",
+      "name_cn": "波塞冬",
+      "name_en": "Poseidon",
+      "culture": "greek",
+      "prompt": "波塞冬，希腊神话海神，强壮威武的男性神祇，手持三叉戟站立于汹涌海浪之上，蓝绿色长袍随风飘扬，海蓝色长发和胡须，身后是巨大的海浪和海洋生物，海马拉动的战车在远处，古希腊神话艺术风格"
+    },
+    {
+      "id": "deity_greek_hades",
+      "name_cn": "哈迪斯",
+      "name_en": "Hades",
+      "culture": "greek",
+      "prompt": "哈迪斯，希腊神话冥界之王，神秘威严的黑暗神祇，身着黑色长袍，手持双叉权杖，端坐于冥界黑曜石王座，隐形头盔放在一旁，三头犬刻耳柏洛斯守护在侧，幽暗的冥界河流斯堤克斯在背景流淌，黑暗神秘的艺术风格"
+    },
+    {
+      "id": "deity_greek_athena",
+      "name_cn": "雅典娜",
+      "name_en": "Athena",
+      "culture": "greek",
+      "prompt": "雅典娜，希腊神话智慧与战争女神，英姿飒爽的女战神形象，头戴雅典式战盔，手持神盾埃癸斯和长矛，身穿闪亮铠甲配白色长袍，猫头鹰停在肩头，橄榄树在背景，智慧与力量并存的古希腊风格"
+    },
+    {
+      "id": "deity_norse_odin",
+      "name_cn": "奥丁",
+      "name_en": "Odin",
+      "culture": "norse",
+      "prompt": "奥丁，北欧神话众神之父，苍老智慧的独眼神王，戴着宽边帽，手持神枪冈格尼尔，肩上栖息着两只渡鸦福金和雾尼，两只狼格里和弗雷基在脚边，背景是宏伟的英灵殿瓦尔哈拉，北欧维京风格"
+    },
+    {
+      "id": "deity_norse_thor",
+      "name_cn": "托尔",
+      "name_en": "Thor",
+      "culture": "norse",
+      "prompt": "托尔，北欧神话雷神，魁梧强壮的红发战神，手持雷神之锤妙尔尼尔，戴着铁手套和力量腰带，身穿战甲，闪电从锤子中迸发，站在彩虹桥上，背景是雷云翻涌，北欧维京神话风格"
+    },
+    {
+      "id": "deity_norse_frigg",
+      "name_cn": "弗丽嘉",
+      "name_en": "Frigg",
+      "culture": "norse",
+      "prompt": "弗丽嘉，北欧神话天后，高贵优雅的金发女神，身穿蓝白色长袍，手持纺锤纺织命运之线，坐在芬萨利尔宫殿的宝座上，周围是柔和的光芒，面容慈祥温柔，北欧神话艺术风格"
+    },
+    {
+      "id": "deity_norse_loki",
+      "name_cn": "洛基",
+      "name_en": "Loki",
+      "culture": "norse",
+      "prompt": "洛基，北欧神话诡计之神，俊美却狡黠的神祇，红发和绿眼，身着绿黑色华服，表情玩味神秘，周围有变幻的火焰和幻象，背景是阿斯加德的金色宫殿与混沌交织，北欧神话风格"
+    },
+    {
+      "id": "deity_japanese_amaterasu",
+      "name_cn": "天照大神",
+      "name_en": "Amaterasu",
+      "culture": "japanese",
+      "prompt": "天照大御神，日本神话太阳女神，身着白色十二单衣的圣洁女神形象，手持八咫镜，周围光芒万丈如太阳，长发飘逸如瀑布，站在高天原神殿前，神圣庄严的日本神道风格"
+    },
+    {
+      "id": "deity_japanese_tsukuyomi",
+      "name_cn": "月读命",
+      "name_en": "Tsukuyomi",
+      "culture": "japanese",
+      "prompt": "月读命，日本神话月神，俊美冷峻的男性神祇形象，身着银白色和服，面容如月般皎洁，手持发光的月亮球体，站在夜空之中，周围是繁星点点和轻柔月光，神秘优雅的日本神道风格"
+    },
+    {
+      "id": "deity_japanese_susanoo",
+      "name_cn": "素戋呜尊",
+      "name_en": "Susanoo",
+      "culture": "japanese",
+      "prompt": "素戋呜尊，日本神话风暴之神，狂野勇猛的男性战神形象，手持天丛云剑，身穿武士铠甲，长发在狂风中飞扬，背景是汹涌的海浪和雷暴云，正在与八岐大蛇战斗的英姿，日本神话武士风格"
+    },
+    {
+      "id": "deity_japanese_okuninushi",
+      "name_cn": "大国主神",
+      "name_en": "Okuninushi",
+      "culture": "japanese",
+      "prompt": "大国主神，日本神话国土之神，温和仁慈的男性神祇形象，身着绿色衣袍，手持大国主袋，白兔在脚边，站在出云大社前，周围是翠绿的山林和田野，慈悲温柔的日本神道风格"
+    },
+    {
+      "id": "deity_indian_brahma",
+      "name_cn": "梵天",
+      "name_en": "Brahma",
+      "culture": "indian",
+      "prompt": "梵天，印度神话创造之神，四头四臂的红色皮肤神祇，端坐于莲花宝座上，四只手分别持吠陀经典、念珠、勺子和莲花，白色长须，穿着白色衣袍，背景是宇宙创生的金色光芒，印度教艺术风格"
+    },
+    {
+      "id": "deity_indian_vishnu",
+      "name_cn": "毗湿奴",
+      "name_en": "Vishnu",
+      "culture": "indian",
+      "prompt": "毗湿奴，印度神话保护之神，蓝色皮肤的四臂神祇，手持法螺、轮宝、神锤和莲花，头戴金冠，身着黄色丝绸，乘坐在神鹰迦楼罗背上，背景是宇宙海洋和千头蛇舍沙，印度教艺术风格"
+    },
+    {
+      "id": "deity_indian_shiva",
+      "name_cn": "湿婆",
+      "name_en": "Shiva",
+      "culture": "indian",
+      "prompt": "湿婆，印度神话毁灭与再生之神，蓝色皮肤的苦行者形象，额头有第三只眼，颈缠眼镜蛇，手持三叉戟和达玛如鼓，坐在虎皮上，恒河从发髻中流出，背景是喜马拉雅雪山，印度教艺术风格"
+    },
+    {
+      "id": "deity_indian_shakti",
+      "name_cn": "萨克蒂",
+      "name_en": "Shakti",
+      "culture": "indian",
+      "prompt": "萨克蒂，印度神话宇宙能量女神，多臂的金色皮肤女神形象，手持各种神器和武器，骑坐在狮子背上，身穿红色华丽纱丽，周围是燃烧的能量光环和莲花，代表神圣女性力量的印度教艺术风格"
+    }
+  ]
+}

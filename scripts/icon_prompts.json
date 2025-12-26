@@ -1,0 +1,241 @@
+{
+  "version": "1.1",
+  "description": "神话志App图标生成提示词配置 - 透明背景版",
+  "default_settings": {
+    "size": "2048x2048",
+    "style_suffix": "，精致手绘插画风格，图标主体尽量大占满画面85%区域，纯黑色背景(#000000)，无边框无装饰，主体居中，边缘清晰锐利，高清细节，简约图标设计"
+  },
+  "creatures": [
+    {
+      "id": "ic_attr_fire",
+      "name_cn": "火属性",
+      "name_en": "Fire",
+      "culture": "icon",
+      "prompt": "炽热的火焰图标，橙红色火焰在中心燃烧，火苗向上升腾，带有神话魔法光芒效果，主色调为橙红色(#ff4500)和金橙色(#ff8c00)，火焰边缘有微妙的光晕"
+    },
+    {
+      "id": "ic_attr_water",
+      "name_cn": "水属性",
+      "name_en": "Water",
+      "culture": "icon",
+      "prompt": "灵动的水元素图标，一滴晶莹剔透的水珠或流动的水波纹，带有神秘的光泽和波光粼粼效果，主色调为湛蓝色(#1e90ff)和青蓝色(#00ced1)，水面有细腻的反光"
+    },
+    {
+      "id": "ic_attr_wind",
+      "name_cn": "风属性",
+      "name_en": "Wind",
+      "culture": "icon",
+      "prompt": "飘逸的风元素图标，优雅的气旋或流动的风纹，带有轻盈飘逸的动感，主色调为碧绿色(#7fffd4)和淡绿色(#98fb98)，风中带有细微的光点和流线"
+    },
+    {
+      "id": "ic_attr_thunder",
+      "name_cn": "雷属性",
+      "name_en": "Thunder",
+      "culture": "icon",
+      "prompt": "威严的雷电图标，一道锐利的闪电划破天际，电光闪烁，带有强烈的能量感，主色调为紫罗兰色(#9370db)和紫色(#8a2be2)，闪电周围有电弧光芒"
+    },
+    {
+      "id": "ic_attr_light",
+      "name_cn": "光属性",
+      "name_en": "Light",
+      "culture": "icon",
+      "prompt": "神圣的光明图标，璀璨的光芒从中心向外辐射，如同太阳或神圣之光，主色调为金色(#ffd700)和淡金色(#ffffe0)，光线柔和而神圣"
+    },
+    {
+      "id": "ic_attr_dark",
+      "name_cn": "暗属性",
+      "name_en": "Dark",
+      "culture": "icon",
+      "prompt": "神秘的暗影图标，漩涡状的黑暗能量或深邃的暗影，带有神秘莫测的氛围，主色调为深灰色(#2f4f4f)和午夜蓝(#191970)，暗影中有微弱的幽光"
+    },
+    {
+      "id": "ic_attr_nature",
+      "name_cn": "自然属性",
+      "name_en": "Nature",
+      "culture": "icon",
+      "prompt": "生机盎然的自然图标，翠绿的树叶或缠绕的藤蔓，充满生命力，主色调为森林绿(#228b22)和翠绿色(#3cb371)，叶片上有细腻的脉络纹理"
+    },
+    {
+      "id": "ic_culture_chinese",
+      "name_cn": "中国神话",
+      "name_en": "Chinese",
+      "culture": "icon",
+      "prompt": "中国传统文化图标，盘旋的东方龙纹或祥云图案，带有浓郁的中国神话色彩，主色调为中国红(#dc143c)和金色，采用传统东方美学设计，线条流畅华丽"
+    },
+    {
+      "id": "ic_culture_greek",
+      "name_cn": "希腊神话",
+      "name_en": "Greek",
+      "culture": "icon",
+      "prompt": "古希腊神话图标，金色月桂冠或希腊柱式元素，带有古典主义的庄严美感，主色调为皇室蓝(#4169e1)和金色，体现希腊神话的高贵与智慧"
+    },
+    {
+      "id": "ic_culture_norse",
+      "name_cn": "北欧神话",
+      "name_en": "Norse",
+      "culture": "icon",
+      "prompt": "北欧神话图标，维京符文或雷神之锤元素，带有冰雪北国的冷峻气息，主色调为冰蓝色(#1e90ff)和银灰色，展现北欧维京的力量与神秘"
+    },
+    {
+      "id": "ic_culture_japanese",
+      "name_cn": "日本神话",
+      "name_en": "Japanese",
+      "culture": "icon",
+      "prompt": "日本神话图标，飘落的樱花或日式家纹图案，带有东瀛美学的精致与优雅，主色调为樱花粉(#ff69b4)和白色，展现和风之美"
+    },
+    {
+      "id": "ic_culture_indian",
+      "name_cn": "印度神话",
+      "name_en": "Indian",
+      "culture": "icon",
+      "prompt": "印度神话图标，精美的曼陀罗或盛开的莲花图案，带有印度教的神圣感，主色调为橙金色(#ff8c00)和深红色，充满神秘的东方异域风情"
+    },
+    {
+      "id": "ic_culture_egyptian",
+      "name_cn": "埃及神话",
+      "name_en": "Egyptian",
+      "culture": "icon",
+      "prompt": "古埃及神话图标，荷鲁斯之眼或金字塔元素，带有法老时代的神秘与威严，主色调为金色(#ffd700)和黑色，展现古埃及文明的辉煌"
+    },
+    {
+      "id": "ic_culture_celtic",
+      "name_cn": "凯尔特神话",
+      "name_en": "Celtic",
+      "culture": "icon",
+      "prompt": "凯尔特神话图标，精美的凯尔特结或三叶草图案，带有爱尔兰神话的神秘感，主色调为森林绿(#228b22)和金色，展现凯尔特文化的独特魅力"
+    },
+    {
+      "id": "ic_home",
+      "name_cn": "首页",
+      "name_en": "Home",
+      "culture": "icon",
+      "prompt": "神话宫殿图标，宏伟的神殿入口或神话城堡剪影，带有庄严神圣的氛围，主色调为银灰色和淡金色，象征神话世界的入口"
+    },
+    {
+      "id": "ic_home_selected",
+      "name_cn": "首页-选中",
+      "name_en": "Home Selected",
+      "culture": "icon",
+      "prompt": "发光的神话宫殿图标，宏伟的神殿入口或神话城堡剪影，正在散发金色光芒，主色调为明亮的金色(#ffd700)，整体充满神圣光辉"
+    },
+    {
+      "id": "ic_browse",
+      "name_cn": "浏览",
+      "name_en": "Browse",
+      "culture": "icon",
+      "prompt": "古老卷轴图标，展开的神话典籍或古老羊皮卷，带有知识与探索的意味，主色调为银灰色和暗金色，象征神话知识的宝库"
+    },
+    {
+      "id": "ic_browse_selected",
+      "name_cn": "浏览-选中",
+      "name_en": "Browse Selected",
+      "culture": "icon",
+      "prompt": "发光的古老卷轴图标，展开的神话典籍正在散发金色光芒，卷轴上有闪烁的魔法符文，主色调为明亮的金色(#ffd700)"
+    },
+    {
+      "id": "ic_encyclopedia",
+      "name_cn": "百科",
+      "name_en": "Encyclopedia",
+      "culture": "icon",
+      "prompt": "魔法书籍图标，厚重的知识宝典或魔法典籍，书脊上有神秘符文，主色调为银灰色和深紫色，象征神话智慧的结晶"
+    },
+    {
+      "id": "ic_encyclopedia_selected",
+      "name_cn": "百科-选中",
+      "name_en": "Encyclopedia Selected",
+      "culture": "icon",
+      "prompt": "发光的魔法书籍图标，打开的知识宝典正在散发金色光芒，书页上有闪烁的光点，主色调为明亮的金色(#ffd700)"
+    },
+    {
+      "id": "ic_mine",
+      "name_cn": "我的",
+      "name_en": "Mine",
+      "culture": "icon",
+      "prompt": "神话英雄头像图标，神秘的勇士或神话人物轮廓，带有英雄气概，主色调为银灰色，简洁而有力量感"
+    },
+    {
+      "id": "ic_mine_selected",
+      "name_cn": "我的-选中",
+      "name_en": "Mine Selected",
+      "culture": "icon",
+      "prompt": "发光的神话英雄头像图标，神秘的勇士轮廓正在散发金色光芒，周围有神圣光环，主色调为明亮的金色(#ffd700)"
+    },
+    {
+      "id": "ic_search",
+      "name_cn": "搜索",
+      "name_en": "Search",
+      "culture": "icon",
+      "prompt": "魔法放大镜图标，精美的探索水晶或魔法放大镜，镜片中有微弱的魔法光芒，主色调为银灰色和淡蓝色，象征探索与发现"
+    },
+    {
+      "id": "ic_favorite",
+      "name_cn": "收藏",
+      "name_en": "Favorite",
+      "culture": "icon",
+      "prompt": "精致心形图标，空心的宝石心形轮廓，带有优雅的线条，主色调为银灰色，简洁而优雅的收藏标识"
+    },
+    {
+      "id": "ic_favorite_filled",
+      "name_cn": "收藏-已填充",
+      "name_en": "Favorite Filled",
+      "culture": "icon",
+      "prompt": "实心宝石心形图标，闪耀的红宝石心形，晶莹剔透散发光芒，主色调为红宝石色(#ff4757)，象征珍贵的收藏"
+    },
+    {
+      "id": "ic_back",
+      "name_cn": "返回",
+      "name_en": "Back",
+      "culture": "icon",
+      "prompt": "明亮的返回箭头图标，简洁的向左箭头，带有流畅的曲线和发光效果，主色调为纯白色(#ffffff)和淡金色(#ffd700)，箭头边缘有柔和的光晕，高对比度清晰可见"
+    },
+    {
+      "id": "ic_star",
+      "name_cn": "星星",
+      "name_en": "Star",
+      "culture": "icon",
+      "prompt": "神话星辰图标，璀璨的魔法星星，闪烁着神秘的光芒，主色调为金色(#ffd700)，象征评价与荣耀"
+    },
+    {
+      "id": "ic_rarity_legendary",
+      "name_cn": "传说稀有度",
+      "name_en": "Legendary",
+      "culture": "icon",
+      "prompt": "传说级徽章图标，华丽的皇冠或神话荣耀徽章，镶嵌着宝石，主色调为华丽金色(#ffd700)和琥珀色，散发着至高无上的光辉"
+    },
+    {
+      "id": "ic_rarity_epic",
+      "name_cn": "史诗稀有度",
+      "name_en": "Epic",
+      "culture": "icon",
+      "prompt": "史诗级徽章图标，精美的紫水晶勋章或史诗级纹章，主色调为深紫色(#9b30ff)和紫罗兰色，散发着神秘的紫色光芒"
+    },
+    {
+      "id": "ic_rarity_rare",
+      "name_cn": "稀有稀有度",
+      "name_en": "Rare",
+      "culture": "icon",
+      "prompt": "稀有级徽章图标，精致的蓝宝石徽章或稀有级纹章，主色调为宝蓝色(#4169e1)和天蓝色，散发着清澈的蓝色光芒"
+    },
+    {
+      "id": "ic_rarity_common",
+      "name_cn": "普通稀有度",
+      "name_en": "Common",
+      "culture": "icon",
+      "prompt": "普通级徽章图标，简约的石质徽章或铜色纹章，主色调为灰色(#808080)和铜褐色，朴实而稳重的设计"
+    },
+    {
+      "id": "ic_arrow_left",
+      "name_cn": "左箭头",
+      "name_en": "Arrow Left",
+      "culture": "icon",
+      "prompt": "金色古典游戏风格左箭头图标，精致的金属质感向左箭头，带有华丽的古典浮雕装饰边框，箭头主体为明亮的黄金色(#ffd700)，带有光泽和高光反射效果，边缘有精美的卷草纹装饰，整体呈现RPG游戏界面风格，高贵典雅"
+    },
+    {
+      "id": "ic_arrow_right",
+      "name_cn": "右箭头",
+      "name_en": "Arrow Right",
+      "culture": "icon",
+      "prompt": "金色古典游戏风格右箭头图标，精致的金属质感向右箭头，带有华丽的古典浮雕装饰边框，箭头主体为明亮的黄金色(#ffd700)，带有光泽和高光反射效果，边缘有精美的卷草纹装饰，整体呈现RPG游戏界面风格，高贵典雅"
+    }
+  ]
+}

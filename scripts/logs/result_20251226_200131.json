@@ -1,0 +1,16 @@
+[
+  {
+    "id": "ic_arrow_left",
+    "name_cn": "左箭头",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_arrow_left.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_arrow_right",
+    "name_cn": "右箭头",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_arrow_right.png",
+    "tokens": 16384
+  }
+]

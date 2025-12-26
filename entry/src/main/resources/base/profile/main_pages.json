@@ -1,5 +1,20 @@
 {
   "src": [
-    "pages/Index"
+    "pages/Index",
+    "pages/CreatureDetail",
+    "pages/DeityList",
+    "pages/DeityDetail",
+    "pages/SearchPage",
+    "pages/AttributeDetail",
+    "pages/CultureDetail",
+    "pages/AbilityList",
+    "pages/Favorites",
+    "pages/History",
+    "pages/Settings",
+    "pages/DailyDivination",
+    "pages/AttributeTest",
+    "pages/DeityTest",
+    "pages/TopicList",
+    "pages/TopicDetail"
   ]
 }

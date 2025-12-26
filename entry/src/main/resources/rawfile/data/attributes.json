@@ -1,0 +1,86 @@
+[
+  {
+    "id": "fire",
+    "nameCn": "火",
+    "nameEn": "Fire",
+    "color": "#ff4500",
+    "secondaryColor": "#ff8c00",
+    "icon": "ic_attr_fire",
+    "meaning": "热烈、激情、力量、毁灭。火属性代表着燃烧的意志和不屈的精神，是战斗与破坏的象征。",
+    "strengths": ["nature", "wind"],
+    "weaknesses": ["water"],
+    "representativeCreatures": ["creature_chinese_zhulong", "creature_chinese_fenghuang", "creature_greek_typhon"]
+  },
+  {
+    "id": "water",
+    "nameCn": "水",
+    "nameEn": "Water",
+    "color": "#1e90ff",
+    "secondaryColor": "#00ced1",
+    "icon": "ic_attr_water",
+    "meaning": "柔和、智慧、流动、适应。水属性代表着包容与变化，能够适应任何环境，以柔克刚。",
+    "strengths": ["fire"],
+    "weaknesses": ["wind", "thunder"],
+    "representativeCreatures": ["creature_chinese_yinglong", "creature_norse_jormungandr", "creature_japanese_orochi"]
+  },
+  {
+    "id": "wind",
+    "nameCn": "风",
+    "nameEn": "Wind",
+    "color": "#7fffd4",
+    "secondaryColor": "#98fb98",
+    "icon": "ic_attr_wind",
+    "meaning": "自由、速度、变化、无形。风属性代表着不可捉摸的力量，来去无踪，迅捷如风。",
+    "strengths": ["thunder"],
+    "weaknesses": ["fire", "nature"],
+    "representativeCreatures": ["creature_chinese_kunpeng", "creature_greek_pegasus", "creature_japanese_tengu"]
+  },
+  {
+    "id": "thunder",
+    "nameCn": "雷",
+    "nameEn": "Thunder",
+    "color": "#9370db",
+    "secondaryColor": "#8a2be2",
+    "icon": "ic_attr_thunder",
+    "meaning": "威严、力量、正义、惩罚。雷属性代表着天罚与神威，是上天意志的体现。",
+    "strengths": ["water"],
+    "weaknesses": ["light"],
+    "representativeCreatures": ["creature_chinese_qiulong", "creature_japanese_raijin", "creature_indian_airavata"]
+  },
+  {
+    "id": "light",
+    "nameCn": "光",
+    "nameEn": "Light",
+    "color": "#ffd700",
+    "secondaryColor": "#ffffe0",
+    "icon": "ic_attr_light",
+    "meaning": "光明、希望、净化、守护。光属性代表着驱散黑暗的力量，是正义与救赎的象征。",
+    "strengths": ["dark"],
+    "weaknesses": ["dark"],
+    "representativeCreatures": ["creature_chinese_qilin", "creature_greek_unicorn", "creature_japanese_amaterasu"]
+  },
+  {
+    "id": "dark",
+    "nameCn": "暗",
+    "nameEn": "Dark",
+    "color": "#2f4f4f",
+    "secondaryColor": "#191970",
+    "icon": "ic_attr_dark",
+    "meaning": "神秘、深邃、恐惧、死亡。暗属性代表着未知与恐惧，是夜之力量的化身。",
+    "strengths": ["light"],
+    "weaknesses": ["light"],
+    "representativeCreatures": ["creature_chinese_taotie", "creature_greek_medusa", "creature_norse_fenrir"]
+  },
+  {
+    "id": "nature",
+    "nameCn": "自然",
+    "nameEn": "Nature",
+    "color": "#228b22",
+    "secondaryColor": "#3cb371",
+    "icon": "ic_attr_nature",
+    "meaning": "生命、成长、治愈、循环。自然属性代表着万物的生长与轮回，是大地母亲的馈赠。",
+    "strengths": ["water"],
+    "weaknesses": ["fire"],
+    "representativeCreatures": ["creature_chinese_qinglong", "creature_greek_centaur", "creature_celtic_green_man"]
+  }
+]

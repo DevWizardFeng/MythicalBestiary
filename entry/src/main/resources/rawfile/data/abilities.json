@@ -1,0 +1,208 @@
+[
+  {
+    "id": "ability_fire_breath",
+    "nameCn": "火焰吐息",
+    "nameEn": "Fire Breath",
+    "category": "elemental",
+    "description": "喷射高温火焰的能力，可造成大范围伤害",
+    "attribute": "fire",
+    "famousUsage": [
+      {"creatureId": "creature_chinese_zhulong", "description": "烛龙口衔烛火，其火焰能够照亮天地"}
+    ]
+  },
+  {
+    "id": "ability_flight",
+    "nameCn": "飞行",
+    "nameEn": "Flight",
+    "category": "physical",
+    "description": "在空中自由飞翔的能力",
+    "famousUsage": [
+      {"creatureId": "creature_chinese_fenghuang", "description": "凤凰展翅飞翔于祥云之间"}
+    ]
+  },
+  {
+    "id": "ability_immortality",
+    "nameCn": "不死",
+    "nameEn": "Immortality",
+    "category": "special",
+    "description": "永生不死或浴火重生的能力",
+    "famousUsage": [
+      {"creatureId": "creature_chinese_fenghuang", "description": "凤凰浴火重生，生生不息"}
+    ]
+  },
+  {
+    "id": "ability_shapeshifting",
+    "nameCn": "变形",
+    "nameEn": "Shapeshifting",
+    "category": "special",
+    "description": "改变自身外形的能力",
+    "famousUsage": [
+      {"creatureId": "creature_chinese_jiuwei", "description": "九尾狐能够变化为绝世美女"}
+    ]
+  },
+  {
+    "id": "ability_telepathy",
+    "nameCn": "心灵感应",
+    "nameEn": "Telepathy",
+    "category": "mental",
+    "description": "感知和传递思想的能力",
+    "famousUsage": []
+  },
+  {
+    "id": "ability_lightning",
+    "nameCn": "闪电",
+    "nameEn": "Lightning",
+    "category": "elemental",
+    "description": "召唤和操控雷电的能力",
+    "attribute": "thunder",
+    "famousUsage": [
+      {"creatureId": "creature_japanese_raijin", "description": "雷神敲击雷鼓制造雷电"}
+    ]
+  },
+  {
+    "id": "ability_ice_control",
+    "nameCn": "冰霜操控",
+    "nameEn": "Ice Control",
+    "category": "elemental",
+    "description": "操控寒冰和霜冻的能力",
+    "attribute": "water",
+    "famousUsage": [
+      {"creatureId": "creature_japanese_yukionna", "description": "雪女能够冻结人类"}
+    ]
+  },
+  {
+    "id": "ability_regeneration",
+    "nameCn": "再生",
+    "nameEn": "Regeneration",
+    "category": "physical",
+    "description": "快速恢复伤口和断肢的能力",
+    "famousUsage": [
+      {"creatureId": "creature_greek_hydra", "description": "九头蛇砍掉一个头会长出两个"}
+    ]
+  },
+  {
+    "id": "ability_petrification",
+    "nameCn": "石化",
+    "nameEn": "Petrification",
+    "category": "special",
+    "description": "将目标化为石像的能力",
+    "famousUsage": [
+      {"creatureId": "creature_greek_medusa", "description": "美杜莎的眼神能将人化为石头"}
+    ]
+  },
+  {
+    "id": "ability_prophecy",
+    "nameCn": "预言",
+    "nameEn": "Prophecy",
+    "category": "mental",
+    "description": "预知未来的能力",
+    "famousUsage": [
+      {"creatureId": "creature_chinese_baize", "description": "白泽知晓天下万物"}
+    ]
+  },
+  {
+    "id": "ability_water_control",
+    "nameCn": "水流操控",
+    "nameEn": "Water Control",
+    "category": "elemental",
+    "description": "操控水流和海洋的能力",
+    "attribute": "water",
+    "famousUsage": [
+      {"creatureId": "creature_chinese_yinglong", "description": "应龙掌控风雨"}
+    ]
+  },
+  {
+    "id": "ability_wind_control",
+    "nameCn": "风暴操控",
+    "nameEn": "Wind Control",
+    "category": "elemental",
+    "description": "操控风暴和气流的能力",
+    "attribute": "wind",
+    "famousUsage": [
+      {"creatureId": "creature_japanese_fujin", "description": "风神释放狂风"}
+    ]
+  },
+  {
+    "id": "ability_super_strength",
+    "nameCn": "超级力量",
+    "nameEn": "Super Strength",
+    "category": "physical",
+    "description": "拥有远超常人的力量",
+    "famousUsage": [
+      {"creatureId": "creature_indian_hanuman", "description": "哈努曼力大无穷"}
+    ]
+  },
+  {
+    "id": "ability_light_manipulation",
+    "nameCn": "光明操控",
+    "nameEn": "Light Manipulation",
+    "category": "elemental",
+    "description": "操控光明和圣光的能力",
+    "attribute": "light",
+    "famousUsage": [
+      {"creatureId": "creature_japanese_amaterasu", "description": "天照大神的光芒普照大地"}
+    ]
+  },
+  {
+    "id": "ability_darkness_control",
+    "nameCn": "黑暗操控",
+    "nameEn": "Darkness Control",
+    "category": "elemental",
+    "description": "操控黑暗和阴影的能力",
+    "attribute": "dark",
+    "famousUsage": [
+      {"creatureId": "creature_norse_hel", "description": "海拉统治冥界"}
+    ]
+  },
+  {
+    "id": "ability_nature_control",
+    "nameCn": "自然操控",
+    "nameEn": "Nature Control",
+    "category": "elemental",
+    "description": "操控植物和自然力量的能力",
+    "attribute": "nature",
+    "famousUsage": [
+      {"creatureId": "creature_celtic_green_man", "description": "绿人是森林精灵的化身"}
+    ]
+  },
+  {
+    "id": "ability_soul_guide",
+    "nameCn": "引魂",
+    "nameEn": "Soul Guide",
+    "category": "special",
+    "description": "引导亡灵前往冥界的能力",
+    "famousUsage": [
+      {"creatureId": "creature_egyptian_anubis", "description": "阿努比斯引导亡者进入冥界"}
+    ]
+  },
+  {
+    "id": "ability_curse",
+    "nameCn": "诅咒",
+    "nameEn": "Curse",
+    "category": "mental",
+    "description": "施加诅咒的能力",
+    "famousUsage": [
+      {"creatureId": "creature_celtic_banshee", "description": "报丧女妖的哭嚎预示死亡"}
+    ]
+  },
+  {
+    "id": "ability_illusion",
+    "nameCn": "幻术",
+    "nameEn": "Illusion",
+    "category": "mental",
+    "description": "制造幻象迷惑敌人的能力",
+    "famousUsage": [
+      {"creatureId": "creature_chinese_jiuwei", "description": "九尾狐能够迷惑人心"}
+    ]
+  },
+  {
+    "id": "ability_poison",
+    "nameCn": "剧毒",
+    "nameEn": "Poison",
+    "category": "physical",
+    "description": "释放或免疫剧毒的能力",
+    "famousUsage": [
+      {"creatureId": "creature_greek_hydra", "description": "九头蛇的毒液致命"}
+    ]
+  }
+]

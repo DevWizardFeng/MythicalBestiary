@@ -1,0 +1,683 @@
+[
+  {
+    "id": "deity_chinese_yuhuang",
+    "name": {
+      "original": "玉皇大帝",
+      "cn": "玉皇大帝",
+      "en": "Jade Emperor"
+    },
+    "culture": "chinese",
+    "domain": ["天庭统治", "宇宙主宰", "天意秩序"],
+    "symbols": ["九龙袍", "十二旒冕", "玉如意"],
+    "description": "道教信仰中的至高神，统领三界，掌管天庭秩序。",
+    "mythology": "玉皇大帝是道教信仰中至高无上的天神，全称「昊天金阙无上至尊自然妙有弥罗至真玉皇上帝」。他统领三界十方，掌管天庭朝政，是众神之首。传说玉皇大帝原为光严妙乐国太子，修行功圆果满，历劫成道。他居于太微玉清宫，以公正无私著称，代表着宇宙的最高法则和秩序。每年正月初九是玉皇大帝的诞辰，民间称为「天公生」，是重要的祭祀节日。",
+    "famousStories": [
+      {
+        "title": "封神榜册封诸神",
+        "description": "玉皇大帝下令封神，将有功之士册封为天庭各路神仙，建立完整的天庭神职体系。"
+      },
+      {
+        "title": "王母蟠桃会",
+        "description": "玉皇大帝与王母娘娘共同主持蟠桃盛会，宴请三界神仙，彰显天庭威严。"
+      }
+    ],
+    "relationships": [],
+    "relatedCreatures": ["creature_chinese_qinglong", "creature_chinese_baihu", "creature_chinese_zhuque", "creature_chinese_xuanwu"],
+    "image": "deity_chinese_yuhuang",
+    "tags": ["玉皇", "天帝", "道教", "天庭", "至高神"]
+  },
+  {
+    "id": "deity_chinese_fuxi",
+    "name": {
+      "original": "伏羲",
+      "cn": "伏羲",
+      "en": "Fuxi"
+    },
+    "culture": "chinese",
+    "domain": ["人文始祖", "八卦创始", "渔猎教化"],
+    "symbols": ["八卦图", "规", "蛇身"],
+    "description": "中华民族人文始祖，创制八卦，教民渔猎，开创华夏文明。",
+    "mythology": "伏羲是中国上古神话中的创世神和人文始祖，与女娲并称为人类始祖。传说他人首蛇身，生于成纪，都于陈。伏羲仰观天象，俯察地理，创制八卦，以通神明之德，以类万物之情。他教民结网捕鱼、驯养牲畜、创制婚姻制度，被尊为「太昊」。伏羲与女娲成婚繁衍人类的神话，体现了中华民族对祖先的崇敬和对文明起源的追溯。",
+    "famousStories": [
+      {
+        "title": "画卦于台",
+        "description": "伏羲于蔡水之阳仰观天文，俯察地理，近取诸身，远取诸物，始画八卦。"
+      },
+      {
+        "title": "结绳记事",
+        "description": "伏羲发明结绳记事的方法，为文字的产生奠定了基础。"
+      }
+    ],
+    "relationships": [
+      {
+        "type": "spouse",
+        "deityId": "deity_chinese_nvwa",
+        "description": "女娲是伏羲的妹妹和妻子，二人共同创造人类"
+      }
+    ],
+    "relatedCreatures": ["creature_chinese_qinglong", "creature_chinese_kunpeng"],
+    "image": "deity_chinese_fuxi",
+    "tags": ["伏羲", "八卦", "始祖", "太昊", "创世"]
+  },
+  {
+    "id": "deity_chinese_nvwa",
+    "name": {
+      "original": "女娲",
+      "cn": "女娲",
+      "en": "Nuwa"
+    },
+    "culture": "chinese",
+    "domain": ["创世女神", "补天救世", "大地之母"],
+    "symbols": ["五彩石", "泥土", "蛇身"],
+    "description": "创世女神，抟土造人，炼石补天，被尊为大地之母。",
+    "mythology": "女娲是中国上古神话中最伟大的女神，人首蛇身，与伏羲并为人类始祖。传说在天地初开之时，女娲用黄土仿照自己抟土造人，创造了人类。后来共工与颛顼争帝，怒触不周山，天柱折，地维绝。女娲炼五彩石补天，断鳌足立四极，杀黑龙济冀州，积芦灰止淫水。女娲不仅创造了人类，还拯救了世界，被尊为人类的始母和保护神。",
+    "famousStories": [
+      {
+        "title": "抟土造人",
+        "description": "女娲用黄土捏成人形，赋予生命，创造了人类。后用藤条蘸泥甩出更多人类。"
+      },
+      {
+        "title": "炼石补天",
+        "description": "共工撞断天柱后，女娲炼五彩石修补天穹，拯救苍生于水火之中。"
+      }
+    ],
+    "relationships": [
+      {
+        "type": "spouse",
+        "deityId": "deity_chinese_fuxi",
+        "description": "伏羲是女娲的兄长和丈夫，二人共同繁衍人类"
+      }
+    ],
+    "relatedCreatures": ["creature_chinese_fenghuang", "creature_chinese_qilin"],
+    "image": "deity_chinese_nvwa",
+    "tags": ["女娲", "造人", "补天", "始母", "创世女神"]
+  },
+  {
+    "id": "deity_greek_zeus",
+    "name": {
+      "original": "Ζεύς",
+      "cn": "宙斯",
+      "en": "Zeus"
+    },
+    "culture": "greek",
+    "domain": ["众神之王", "天空", "雷霆", "正义"],
+    "symbols": ["闪电", "鹰", "橡树", "王座"],
+    "description": "希腊神话众神之王，掌管天空与雷霆，统治奥林匹斯山。",
+    "mythology": "宙斯是希腊神话中最高的神，克洛诺斯和瑞亚之子。他推翻了父亲的统治，与兄弟们分割世界，成为天空和大地的统治者。宙斯居住在奥林匹斯山顶，以闪电为武器，维护着神与人的秩序。他拥有众多子女，包括雅典娜、阿波罗、阿耳忒弥斯等重要神祇。虽然宙斯有许多风流韵事，但他也是誓言和客旅的保护神，代表着权威与正义。",
+    "famousStories": [
+      {
+        "title": "推翻泰坦",
+        "description": "宙斯领导奥林匹斯诸神与泰坦神族进行十年战争，最终获胜成为众神之王。"
+      },
+      {
+        "title": "普罗米修斯的惩罚",
+        "description": "宙斯因普罗米修斯盗火给人类而将其锁在高加索山上，让神鹰日复一日啄食他的肝脏。"
+      }
+    ],
+    "relationships": [
+      {
+        "type": "spouse",
+        "deityId": "deity_greek_hera",
+        "description": "赫拉是宙斯的妻子和姐姐"
+      },
+      {
+        "type": "sibling",
+        "deityId": "deity_greek_poseidon",
+        "description": "波塞冬是宙斯的兄弟，海洋之神"
+      },
+      {
+        "type": "sibling",
+        "deityId": "deity_greek_hades",
+        "description": "哈迪斯是宙斯的兄弟，冥界之王"
+      },
+      {
+        "type": "child",
+        "deityId": "deity_greek_athena",
+        "description": "雅典娜是宙斯的女儿，从他的头颅中诞生"
+      }
+    ],
+    "relatedCreatures": ["creature_greek_pegasus", "creature_greek_griffin"],
+    "image": "deity_greek_zeus",
+    "tags": ["宙斯", "众神之王", "雷霆", "奥林匹斯", "天神"]
+  },
+  {
+    "id": "deity_greek_hera",
+    "name": {
+      "original": "Ἥρα",
+      "cn": "赫拉",
+      "en": "Hera"
+    },
+    "culture": "greek",
+    "domain": ["天后", "婚姻", "生育", "家庭"],
+    "symbols": ["孔雀", "石榴", "王冠", "权杖"],
+    "description": "希腊神话天后，婚姻与家庭的守护女神，宙斯之妻。",
+    "mythology": "赫拉是克洛诺斯和瑞亚的女儿，宙斯的姐姐和妻子，奥林匹斯众神的天后。她是婚姻、家庭和生育的女神，以嫉妒心强闻名。赫拉常常惩罚宙斯的情人和私生子，包括著名的赫拉克勒斯。尽管如此，赫拉也是神圣婚姻的守护者，代表着妻子的忠贞和母亲的威严。孔雀是她的圣鸟，其羽毛上的眼睛据说来自她的守护者阿尔戈斯的百眼。",
+    "famousStories": [
+      {
+        "title": "金苹果之争",
+        "description": "赫拉参与争夺刻有「献给最美者」的金苹果，这一事件最终导致了特洛伊战争。"
+      },
+      {
+        "title": "迫害赫拉克勒斯",
+        "description": "赫拉因嫉妒使赫拉克勒斯发疯杀死自己的妻儿，并让他完成十二项艰巨任务。"
+      }
+    ],
+    "relationships": [
+      {
+        "type": "spouse",
+        "deityId": "deity_greek_zeus",
+        "description": "宙斯是赫拉的丈夫和弟弟"
+      }
+    ],
+    "relatedCreatures": ["creature_greek_hydra"],
+    "image": "deity_greek_hera",
+    "tags": ["赫拉", "天后", "婚姻", "孔雀", "嫉妒"]
+  },
+  {
+    "id": "deity_greek_poseidon",
+    "name": {
+      "original": "Ποσειδῶν",
+      "cn": "波塞冬",
+      "en": "Poseidon"
+    },
+    "culture": "greek",
+    "domain": ["海洋", "地震", "马匹", "风暴"],
+    "symbols": ["三叉戟", "海马", "海豚", "公牛"],
+    "description": "希腊神话海神，掌管海洋、地震与马匹，性格狂暴多变。",
+    "mythology": "波塞冬是克洛诺斯和瑞亚之子，宙斯和哈迪斯的兄弟。在推翻泰坦后，三兄弟抽签分割世界，波塞冬获得了海洋的统治权。他手持三叉戟，能引发海啸和地震，性情喜怒无常，令水手们又敬又畏。波塞冬是海马和马匹的创造者，与雅典娜争夺雅典城的保护权时，他用三叉戟敲击岩石创造了马匹，但最终败给了雅典娜的橄榄树。",
+    "famousStories": [
+      {
+        "title": "争夺雅典城",
+        "description": "波塞冬与雅典娜竞争成为雅典的守护神，他创造了马匹，但雅典娜的橄榄树更受欢迎。"
+      },
+      {
+        "title": "阻挠奥德修斯",
+        "description": "波塞冬因奥德修斯刺瞎他儿子独眼巨人波吕斐摩斯，让奥德修斯在海上漂泊十年。"
+      }
+    ],
+    "relationships": [
+      {
+        "type": "sibling",
+        "deityId": "deity_greek_zeus",
+        "description": "宙斯是波塞冬的弟弟"
+      },
+      {
+        "type": "sibling",
+        "deityId": "deity_greek_hades",
+        "description": "哈迪斯是波塞冬的兄弟"
+      }
+    ],
+    "relatedCreatures": ["creature_greek_charybdis", "creature_greek_scylla"],
+    "image": "deity_greek_poseidon",
+    "tags": ["波塞冬", "海神", "三叉戟", "地震", "马匹"]
+  },
+  {
+    "id": "deity_greek_hades",
+    "name": {
+      "original": "ᾍδης",
+      "cn": "哈迪斯",
+      "en": "Hades"
+    },
+    "culture": "greek",
+    "domain": ["冥界", "死亡", "地下财富", "公正审判"],
+    "symbols": ["双叉权杖", "隐形头盔", "水仙花", "柏树"],
+    "description": "希腊神话冥界之王，统治亡灵世界，掌管地下财富。",
+    "mythology": "哈迪斯是克洛诺斯和瑞亚的长子，宙斯和波塞冬的兄长。在分割世界时，他获得了冥界的统治权。哈迪斯虽然掌管死亡，但并非邪恶之神，他公正地审判亡灵，维持冥界秩序。他的隐形头盔使他能够隐身，他的宫殿中堆满了地下的金银珠宝。哈迪斯劫走珀耳塞福涅为妻的故事解释了四季的轮回：珀耳塞福涅每年有三分之一的时间在冥界，这段时间大地就是冬天。",
+    "famousStories": [
+      {
+        "title": "劫走珀耳塞福涅",
+        "description": "哈迪斯爱上了谷物女神德墨忒尔的女儿珀耳塞福涅，将她劫到冥界为妻，导致四季更迭。"
+      },
+      {
+        "title": "俄耳甫斯下冥界",
+        "description": "歌手俄耳甫斯的歌声感动哈迪斯，允许他带走亡妻，但俄耳甫斯回头看而失去了她。"
+      }
+    ],
+    "relationships": [
+      {
+        "type": "sibling",
+        "deityId": "deity_greek_zeus",
+        "description": "宙斯是哈迪斯的弟弟"
+      },
+      {
+        "type": "sibling",
+        "deityId": "deity_greek_poseidon",
+        "description": "波塞冬是哈迪斯的弟弟"
+      }
+    ],
+    "relatedCreatures": ["creature_greek_cerberus"],
+    "image": "deity_greek_hades",
+    "tags": ["哈迪斯", "冥王", "冥界", "亡灵", "财富"]
+  },
+  {
+    "id": "deity_greek_athena",
+    "name": {
+      "original": "Ἀθηνᾶ",
+      "cn": "雅典娜",
+      "en": "Athena"
+    },
+    "culture": "greek",
+    "domain": ["智慧", "战争策略", "工艺", "正义"],
+    "symbols": ["猫头鹰", "橄榄树", "神盾埃癸斯", "长矛"],
+    "description": "希腊神话智慧与战争女神，雅典城守护神，代表策略与文明。",
+    "mythology": "雅典娜是宙斯最宠爱的女儿，以独特的方式诞生——从宙斯的头颅中全副武装地跳出。她是处女神，代表智慧的战争而非暴力的战争。雅典娜发明了许多工艺技术，包括纺织、造船和陶器制作。她在与波塞冬的竞争中为雅典带来了橄榄树，因此成为雅典的守护神。帕台农神庙就是为她而建。她的神盾埃癸斯上嵌有美杜莎的头颅，能将敌人变成石头。",
+    "famousStories": [
+      {
+        "title": "从宙斯头颅诞生",
+        "description": "宙斯吞下怀孕的墨提斯，后因头痛让赫淮斯托斯劈开他的头颅，雅典娜全副武装地跳出。"
+      },
+      {
+        "title": "帮助珀尔修斯",
+        "description": "雅典娜帮助英雄珀尔修斯斩杀美杜莎，并将美杜莎的头颅嵌在自己的神盾上。"
+      }
+    ],
+    "relationships": [
+      {
+        "type": "parent",
+        "deityId": "deity_greek_zeus",
+        "description": "宙斯是雅典娜的父亲"
+      }
+    ],
+    "relatedCreatures": ["creature_greek_medusa", "creature_greek_sphinx"],
+    "image": "deity_greek_athena",
+    "tags": ["雅典娜", "智慧", "战争女神", "工艺", "雅典"]
+  },
+  {
+    "id": "deity_norse_odin",
+    "name": {
+      "original": "Óðinn",
+      "cn": "奥丁",
+      "en": "Odin"
+    },
+    "culture": "norse",
+    "domain": ["众神之父", "智慧", "战争", "诗歌", "死亡"],
+    "symbols": ["冈格尼尔神枪", "渡鸦", "狼", "独眼"],
+    "description": "北欧神话众神之父，智慧与战争之神，统治阿斯加德。",
+    "mythology": "奥丁是北欧神话中最高的神，阿萨神族之王。他牺牲一只眼睛换取了智慧之泉的水，将自己悬挂在世界树上九天九夜获得了符文的秘密。奥丁手持永不落空的神枪冈格尼尔，肩上栖息着两只渡鸦福金和雾尼，它们每天飞遍世界为他收集情报。奥丁居住在英灵殿瓦尔哈拉，收留在战斗中英勇战死的战士，为诸神黄昏做准备。他是矛盾的神：既追求智慧也热爱战争，既给予生命也带来死亡。",
+    "famousStories": [
+      {
+        "title": "牺牲眼睛换智慧",
+        "description": "奥丁用一只眼睛作为代价，获得了从密米尔之井饮水的权利，获得了无尽的智慧。"
+      },
+      {
+        "title": "自我牺牲获得符文",
+        "description": "奥丁用长矛刺穿自己，倒挂在世界树上九天九夜，最终领悟了符文的奥秘。"
+      }
+    ],
+    "relationships": [
+      {
+        "type": "spouse",
+        "deityId": "deity_norse_frigg",
+        "description": "弗丽嘉是奥丁的妻子"
+      },
+      {
+        "type": "child",
+        "deityId": "deity_norse_thor",
+        "description": "托尔是奥丁的儿子"
+      }
+    ],
+    "relatedCreatures": ["creature_norse_sleipnir", "creature_norse_fenrir", "creature_norse_huginn_muninn"],
+    "image": "deity_norse_odin",
+    "tags": ["奥丁", "众神之父", "智慧", "符文", "英灵殿"]
+  },
+  {
+    "id": "deity_norse_thor",
+    "name": {
+      "original": "Þórr",
+      "cn": "托尔",
+      "en": "Thor"
+    },
+    "culture": "norse",
+    "domain": ["雷霆", "力量", "保护", "农业", "战斗"],
+    "symbols": ["雷神之锤妙尔尼尔", "铁手套", "力量腰带", "战车"],
+    "description": "北欧神话雷神，力量与保护之神，巨人的主要对抗者。",
+    "mythology": "托尔是奥丁与大地女神约德之子，是北欧神话中最受爱戴的神。他手持永不会丢失的雷神之锤妙尔尼尔，戴着能翻倍力量的铁手套和力量腰带。托尔驾驶着由两只山羊拉动的战车在天空驰骋，雷声就是他的战车轰鸣声。他是巨人族的主要敌人，保护阿斯加德和米德加尔德免受巨人侵扰。托尔性格直爽、勇猛无畏，深受普通民众喜爱。在诸神黄昏中，他将与世界之蛇耶梦加得同归于尽。",
+    "famousStories": [
+      {
+        "title": "与巨人的战斗",
+        "description": "托尔多次深入巨人领地，用雷神之锤击杀无数巨人，保护神族与人类。"
+      },
+      {
+        "title": "钓世界之蛇",
+        "description": "托尔曾用牛头为饵，几乎钓起世界之蛇耶梦加得，预示了诸神黄昏的命运。"
+      }
+    ],
+    "relationships": [
+      {
+        "type": "parent",
+        "deityId": "deity_norse_odin",
+        "description": "奥丁是托尔的父亲"
+      }
+    ],
+    "relatedCreatures": ["creature_norse_jormungandr", "creature_norse_frost_giant"],
+    "image": "deity_norse_thor",
+    "tags": ["托尔", "雷神", "雷神之锤", "巨人克星", "力量"]
+  },
+  {
+    "id": "deity_norse_frigg",
+    "name": {
+      "original": "Frigg",
+      "cn": "弗丽嘉",
+      "en": "Frigg"
+    },
+    "culture": "norse",
+    "domain": ["天后", "婚姻", "家庭", "预知", "母爱"],
+    "symbols": ["纺锤", "钥匙", "苍鹭羽毛", "芬萨利尔宫"],
+    "description": "北欧神话天后，婚姻与家庭女神，奥丁之妻，拥有预知能力。",
+    "mythology": "弗丽嘉是北欧神话中的天后，奥丁的妻子，居住在芬萨利尔宫殿。她是婚姻、家庭和母爱的女神，拥有预知未来的能力，但从不泄露她所见的命运。弗丽嘉是巴德尔的母亲，她曾让世间万物发誓不伤害巴德尔，却唯独忘记了槲寄生。弗丽嘉代表着北欧女性的智慧与尊严，她的名字是英语Friday（星期五）的词源。",
+    "famousStories": [
+      {
+        "title": "为巴德尔求情",
+        "description": "弗丽嘉让世间万物发誓不伤害她的儿子巴德尔，却遗漏了槲寄生，导致悲剧发生。"
+      },
+      {
+        "title": "与奥丁的智慧较量",
+        "description": "传说弗丽嘉曾与奥丁比赛智慧，两人旗鼓相当，展现了她非凡的智慧。"
+      }
+    ],
+    "relationships": [
+      {
+        "type": "spouse",
+        "deityId": "deity_norse_odin",
+        "description": "奥丁是弗丽嘉的丈夫"
+      }
+    ],
+    "relatedCreatures": ["creature_norse_valkyrie"],
+    "image": "deity_norse_frigg",
+    "tags": ["弗丽嘉", "天后", "预知", "母爱", "星期五"]
+  },
+  {
+    "id": "deity_norse_loki",
+    "name": {
+      "original": "Loki",
+      "cn": "洛基",
+      "en": "Loki"
+    },
+    "culture": "norse",
+    "domain": ["诡计", "混乱", "变形", "火焰", "变革"],
+    "symbols": ["火焰", "蛇", "狼", "变形"],
+    "description": "北欧神话诡计之神，既是诸神的伙伴也是灾祸的根源。",
+    "mythology": "洛基是北欧神话中最复杂的神，虽非阿萨神族，却与奥丁结为兄弟。他机智狡猾，精通变形术，既帮助诸神解决难题，也常惹出麻烦。洛基是芬里尔狼、世界之蛇耶梦加得和死亡女神赫尔的父亲。他因设计害死光明神巴德尔而被诸神囚禁，用毒蛇的毒液折磨。在诸神黄昏中，洛基将挣脱束缚，率领巨人和怪物与诸神决战。",
+    "famousStories": [
+      {
+        "title": "剪去希芙的金发",
+        "description": "洛基剪掉托尔妻子希芙的金发作为恶作剧，后被迫让矮人为她打造新的金发。"
+      },
+      {
+        "title": "害死巴德尔",
+        "description": "洛基利用槲寄生，引导盲神霍德尔杀死了光明神巴德尔，导致诸神黄昏加速来临。"
+      }
+    ],
+    "relationships": [
+      {
+        "type": "rival",
+        "deityId": "deity_norse_thor",
+        "description": "托尔与洛基关系复杂，既是伙伴也有冲突"
+      }
+    ],
+    "relatedCreatures": ["creature_norse_fenrir", "creature_norse_jormungandr"],
+    "image": "deity_norse_loki",
+    "tags": ["洛基", "诡计之神", "变形", "恶作剧", "诸神黄昏"]
+  },
+  {
+    "id": "deity_japanese_amaterasu",
+    "name": {
+      "original": "天照大御神",
+      "cn": "天照大神",
+      "en": "Amaterasu"
+    },
+    "culture": "japanese",
+    "domain": ["太阳", "光明", "皇室始祖", "宇宙秩序"],
+    "symbols": ["八咫镜", "太阳", "白色", "神宫"],
+    "description": "日本神话太阳女神，高天原统治者，日本天皇的始祖。",
+    "mythology": "天照大御神是日本神话中最重要的神祇，从伊邪那岐的左眼诞生，是太阳的化身。她统治高天原，代表光明与秩序。天照大神曾因弟弟素戋呜尊的暴行而躲入天岩户，导致世界陷入黑暗。众神用八咫镜引诱她出洞，光明才重回世间。天照大神是日本皇室的始祖神，三神器之一的八咫镜就是她的神体。伊势神宫是祭祀她的最高圣地。",
+    "famousStories": [
+      {
+        "title": "天岩户传说",
+        "description": "天照大神因素戋呜尊的恶行躲入天岩户，众神用舞蹈和镜子将她引出，世界重获光明。"
+      },
+      {
+        "title": "赐予三神器",
+        "description": "天照大神将八咫镜、天丛云剑、八尺琼勾玉赐予孙子瓊瓊杵尊，开创了天皇家系。"
+      }
+    ],
+    "relationships": [
+      {
+        "type": "sibling",
+        "deityId": "deity_japanese_tsukuyomi",
+        "description": "月读命是天照大神的弟弟"
+      },
+      {
+        "type": "sibling",
+        "deityId": "deity_japanese_susanoo",
+        "description": "素戋呜尊是天照大神的弟弟"
+      }
+    ],
+    "relatedCreatures": ["creature_japanese_amaterasu", "creature_japanese_komainu"],
+    "image": "deity_japanese_amaterasu",
+    "tags": ["天照", "太阳女神", "皇室始祖", "伊势神宫", "光明"]
+  },
+  {
+    "id": "deity_japanese_tsukuyomi",
+    "name": {
+      "original": "月読命",
+      "cn": "月读命",
+      "en": "Tsukuyomi"
+    },
+    "culture": "japanese",
+    "domain": ["月亮", "夜晚", "时间", "宁静"],
+    "symbols": ["月亮", "银色", "夜空", "静谧"],
+    "description": "日本神话月神，掌管夜晚，天照大神之弟。",
+    "mythology": "月读命是日本神话中的月神，从伊邪那岐的右眼诞生，与天照大神和素戋呜尊并称为「三贵子」。月读命掌管夜晚和月亮，性格冷静庄严。传说他曾杀死食物女神保食神，因此被天照大神厌恶，从此太阳与月亮不再相见，形成了昼夜交替。月读命虽然在神话中出场较少，但作为月神有着重要的象征意义。",
+    "famousStories": [
+      {
+        "title": "杀死保食神",
+        "description": "月读命受天照大神之命拜访保食神，却因厌恶其献食方式而将其杀死，从此与太阳决裂。"
+      },
+      {
+        "title": "昼夜分离",
+        "description": "天照大神因月读命杀死保食神而愤怒，宣布永不与他相见，形成了日月交替。"
+      }
+    ],
+    "relationships": [
+      {
+        "type": "sibling",
+        "deityId": "deity_japanese_amaterasu",
+        "description": "天照大神是月读命的姐姐"
+      },
+      {
+        "type": "sibling",
+        "deityId": "deity_japanese_susanoo",
+        "description": "素戋呜尊是月读命的弟弟"
+      }
+    ],
+    "relatedCreatures": ["creature_japanese_tsukuyomi"],
+    "image": "deity_japanese_tsukuyomi",
+    "tags": ["月读", "月神", "夜晚", "三贵子", "月亮"]
+  },
+  {
+    "id": "deity_japanese_susanoo",
+    "name": {
+      "original": "素戔嗚尊",
+      "cn": "素戋呜尊",
+      "en": "Susanoo"
+    },
+    "culture": "japanese",
+    "domain": ["风暴", "海洋", "勇武", "驱邪"],
+    "symbols": ["天丛云剑", "风暴", "海洋", "蛇"],
+    "description": "日本神话风暴之神，性格狂暴，曾斩杀八岐大蛇。",
+    "mythology": "素戋呜尊是日本神话中的风暴与海洋之神，从伊邪那岐的鼻子诞生。他性格狂暴任性，在高天原胡作非为，导致姐姐天照大神躲入天岩户。被逐出高天原后，素戋呜尊来到出云，英勇斩杀了为祸一方的八岐大蛇，从蛇尾获得天丛云剑。他迎娶了被献祭的少女奇�的田�的姬，成为出云地区的守护神。素戋呜尊代表着破坏与创造的双重力量。",
+    "famousStories": [
+      {
+        "title": "被逐出高天原",
+        "description": "素戋呜尊在高天原作乱，破坏田地、污染神殿，最终被众神驱逐。"
+      },
+      {
+        "title": "斩杀八岐大蛇",
+        "description": "素戋呜尊用计灌醉八岐大蛇，将其斩杀，从蛇尾中取出天丛云剑献给天照大神。"
+      }
+    ],
+    "relationships": [
+      {
+        "type": "sibling",
+        "deityId": "deity_japanese_amaterasu",
+        "description": "天照大神是素戋呜尊的姐姐"
+      },
+      {
+        "type": "sibling",
+        "deityId": "deity_japanese_tsukuyomi",
+        "description": "月读命是素戋呜尊的兄长"
+      }
+    ],
+    "relatedCreatures": ["creature_japanese_orochi", "creature_japanese_susanoo"],
+    "image": "deity_japanese_susanoo",
+    "tags": ["素戋呜尊", "风暴", "八岐大蛇", "天丛云剑", "出云"]
+  },
+  {
+    "id": "deity_japanese_okuninushi",
+    "name": {
+      "original": "大国主神",
+      "cn": "大国主神",
+      "en": "Okuninushi"
+    },
+    "culture": "japanese",
+    "domain": ["国土经营", "医药", "幽冥", "结缘"],
+    "symbols": ["大袋", "白兔", "出云大社", "药草"],
+    "description": "日本神话国土之神，出云神话主神，掌管医药与结缘。",
+    "mythology": "大国主神是日本出云神话的中心人物，素戋呜尊的后裔。他最初被称为大己贵命，是一位仁慈善良的神。传说他救助了因幡的白兔，因此与八十神争夺八上比卖，历经磨难后成为大国主神。他开拓国土，传授医药知识，被尊为「大黑天」。后来天照大神派使者要求他让出国土，大国主神同意将地上世界让给天孙，自己则退居幽冥世界。出云大社就是祭祀他的神社，也是著名的结缘圣地。",
+    "famousStories": [
+      {
+        "title": "因幡白兔",
+        "description": "大国主神救助了被骗去皮毛的白兔，教它用蒲草治愈伤口，白兔预言他将娶到美丽的公主。"
+      },
+      {
+        "title": "让国神话",
+        "description": "天照大神派使者要求大国主神让出国土，他提出建造出云大社作为条件后，将国土让给天孙。"
+      }
+    ],
+    "relationships": [],
+    "relatedCreatures": ["creature_japanese_kitsune"],
+    "image": "deity_japanese_okuninushi",
+    "tags": ["大国主神", "出云", "结缘", "医药", "国土神"]
+  },
+  {
+    "id": "deity_indian_brahma",
+    "name": {
+      "original": "ब्रह्मा",
+      "cn": "梵天",
+      "en": "Brahma"
+    },
+    "culture": "indian",
+    "domain": ["创造", "知识", "宇宙起源", "吠陀"],
+    "symbols": ["四头", "四臂", "念珠", "莲花", "吠陀经典"],
+    "description": "印度神话创造之神，三相神之一，宇宙的创造者。",
+    "mythology": "梵天是印度教三相神（Trimurti）之一，代表创造的力量。他有四个头颅，象征四部吠陀经典，四只手臂分别持有念珠、勺子、吠陀经和莲花。传说他从宇宙原初的莲花中诞生，或从毗湿奴的肚脐生长的莲花中出现。梵天创造了世界万物，包括时间、空间和一切生灵。尽管梵天是创造之神，但在现代印度教中对他的崇拜相对较少，这与一个神话有关：梵天曾撒谎说找到了湿婆林伽的顶端，因此被诅咒不再受到广泛崇拜。",
+    "famousStories": [
+      {
+        "title": "从莲花中诞生",
+        "description": "梵天从毗湿奴肚脐生长出的莲花中诞生，开始创造世界万物。"
+      },
+      {
+        "title": "创造萨拉斯瓦蒂",
+        "description": "梵天创造了智慧与艺术女神萨拉斯瓦蒂，后来她成为梵天的配偶。"
+      }
+    ],
+    "relationships": [],
+    "relatedCreatures": ["creature_indian_airavata"],
+    "image": "deity_indian_brahma",
+    "tags": ["梵天", "创造", "三相神", "四头", "吠陀"]
+  },
+  {
+    "id": "deity_indian_vishnu",
+    "name": {
+      "original": "विष्णु",
+      "cn": "毗湿奴",
+      "en": "Vishnu"
+    },
+    "culture": "indian",
+    "domain": ["保护", "维持", "化身", "正法"],
+    "symbols": ["法螺", "轮宝", "神锤", "莲花", "蓝色皮肤"],
+    "description": "印度神话保护之神，三相神之一，以多种化身降世救世。",
+    "mythology": "毗湿奴是印度教三相神之一，代表维持与保护的力量。他呈蓝色皮肤，四臂分别持有法螺、轮宝、神锤和莲花。毗湿奴躺卧在千头蛇舍沙身上，漂浮在宇宙海洋中。每当世界陷入危机，毗湿奴就会以不同的化身降世拯救。他的十大化身包括鱼、龟、野猪、人狮、侏儒、持斧罗摩、罗摩、克利须那、佛陀和迦尔吉。其中罗摩和克利须那是最受崇拜的化身，各自有史诗讲述他们的故事。",
+    "famousStories": [
+      {
+        "title": "搅动乳海",
+        "description": "毗湿奴化身为海龟库尔玛，承托曼陀罗山，帮助众神与阿修罗搅动乳海获得长生不老药。"
+      },
+      {
+        "title": "罗摩化身",
+        "description": "毗湿奴化身为王子罗摩，击败魔王罗波那，救回妻子悉多，成为《罗摩衍那》的主角。"
+      }
+    ],
+    "relationships": [],
+    "relatedCreatures": ["creature_indian_garuda", "creature_indian_shesha", "creature_indian_kurma"],
+    "image": "deity_indian_vishnu",
+    "tags": ["毗湿奴", "保护", "化身", "蓝色", "三相神"]
+  },
+  {
+    "id": "deity_indian_shiva",
+    "name": {
+      "original": "शिव",
+      "cn": "湿婆",
+      "en": "Shiva"
+    },
+    "culture": "indian",
+    "domain": ["毁灭", "再生", "舞蹈", "苦行", "转化"],
+    "symbols": ["三叉戟", "第三眼", "恒河", "眼镜蛇", "达玛如鼓"],
+    "description": "印度神话毁灭与再生之神，三相神之一，宇宙之舞者。",
+    "mythology": "湿婆是印度教三相神之一，代表毁灭与再生的力量。他呈苦行者形象，蓝色皮肤，额头有第三只眼，能喷射毁灭之火。湿婆的颈上缠绕着眼镜蛇，头发中流淌着恒河。他手持三叉戟和达玛如鼓，跳着宇宙之舞纳塔罗阇。湿婆的毁灭并非终结，而是为新的创造扫清道路。他既是可怕的毁灭者，也是慈悲的赐福者；既是狂野的苦行僧，也是爱护家庭的丈夫。他与雪山神女帕尔瓦蒂的爱情故事被广为传颂。",
+    "famousStories": [
+      {
+        "title": "喝下毒海",
+        "description": "搅动乳海时出现了能毁灭世界的毒海，湿婆为拯救众生将毒液喝下，喉咙因此变蓝。"
+      },
+      {
+        "title": "恒河降世",
+        "description": "湿婆用头发接住从天而降的恒河水，使其温和地流向人间，避免了大地被冲毁。"
+      }
+    ],
+    "relationships": [
+      {
+        "type": "spouse",
+        "deityId": "deity_indian_shakti",
+        "description": "萨克蒂（雪山神女）是湿婆的配偶"
+      }
+    ],
+    "relatedCreatures": ["creature_indian_nandi", "creature_indian_naga"],
+    "image": "deity_indian_shiva",
+    "tags": ["湿婆", "毁灭", "再生", "第三眼", "三相神"]
+  },
+  {
+    "id": "deity_indian_shakti",
+    "name": {
+      "original": "शक्ति",
+      "cn": "萨克蒂",
+      "en": "Shakti"
+    },
+    "culture": "indian",
+    "domain": ["神圣能量", "女性力量", "母神", "转化"],
+    "symbols": ["多臂", "狮子", "三叉戟", "莲花", "武器"],
+    "description": "印度神话宇宙能量女神，代表神圣的女性力量。",
+    "mythology": "萨克蒂代表宇宙中的神圣女性能量，是所有女神的源头。她以多种形态出现：作为湿婆的配偶时是温柔的雪山神女帕尔瓦蒂；面对邪恶时是凶猛的杜尔迦，骑着狮子持多种武器；愤怒时化身为黑色的伽梨。萨克蒂代表着shakti（力量）的概念，认为没有女性能量的激活，男性神也无法发挥力量。她既是慈爱的母亲，也是可怕的战士，体现了女性力量的多面性。杜尔迦女神节是印度最盛大的节日之一。",
+    "famousStories": [
+      {
+        "title": "杜尔迦杀死牛魔",
+        "description": "阿修罗王马希沙苏拉获得众神无法杀死他的祝福，众神将能量集中创造出杜尔迦女神，她最终杀死了牛魔。"
+      },
+      {
+        "title": "伽梨的诞生",
+        "description": "杜尔迦在战斗中愤怒到极点，从额头生出黑色的伽梨，她杀敌无数却陷入疯狂，直到湿婆躺在她脚下才平息。"
+      }
+    ],
+    "relationships": [
+      {
+        "type": "spouse",
+        "deityId": "deity_indian_shiva",
+        "description": "湿婆是萨克蒂的配偶"
+      }
+    ],
+    "relatedCreatures": ["creature_indian_simha"],
+    "image": "deity_indian_shakti",
+    "tags": ["萨克蒂", "女神", "能量", "杜尔迦", "帕尔瓦蒂"]
+  }
+]

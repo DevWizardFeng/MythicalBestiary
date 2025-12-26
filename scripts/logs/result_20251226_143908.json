@@ -1,0 +1,142 @@
+[
+  {
+    "id": "deity_chinese_yuhuang",
+    "name_cn": "玉皇大帝",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/deity_chinese_yuhuang.png",
+    "tokens": 16384
+  },
+  {
+    "id": "deity_chinese_fuxi",
+    "name_cn": "伏羲",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/deity_chinese_fuxi.png",
+    "tokens": 16384
+  },
+  {
+    "id": "deity_chinese_nvwa",
+    "name_cn": "女娲",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/deity_chinese_nvwa.png",
+    "tokens": 16384
+  },
+  {
+    "id": "deity_greek_zeus",
+    "name_cn": "宙斯",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/deity_greek_zeus.png",
+    "tokens": 16384
+  },
+  {
+    "id": "deity_greek_hera",
+    "name_cn": "赫拉",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/deity_greek_hera.png",
+    "tokens": 16384
+  },
+  {
+    "id": "deity_greek_poseidon",
+    "name_cn": "波塞冬",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/deity_greek_poseidon.png",
+    "tokens": 16384
+  },
+  {
+    "id": "deity_greek_hades",
+    "name_cn": "哈迪斯",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/deity_greek_hades.png",
+    "tokens": 16384
+  },
+  {
+    "id": "deity_greek_athena",
+    "name_cn": "雅典娜",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/deity_greek_athena.png",
+    "tokens": 16384
+  },
+  {
+    "id": "deity_norse_odin",
+    "name_cn": "奥丁",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/deity_norse_odin.png",
+    "tokens": 16384
+  },
+  {
+    "id": "deity_norse_thor",
+    "name_cn": "托尔",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/deity_norse_thor.png",
+    "tokens": 16384
+  },
+  {
+    "id": "deity_norse_frigg",
+    "name_cn": "弗丽嘉",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/deity_norse_frigg.png",
+    "tokens": 16384
+  },
+  {
+    "id": "deity_norse_loki",
+    "name_cn": "洛基",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/deity_norse_loki.png",
+    "tokens": 16384
+  },
+  {
+    "id": "deity_japanese_amaterasu",
+    "name_cn": "天照大神",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/deity_japanese_amaterasu.png",
+    "tokens": 16384
+  },
+  {
+    "id": "deity_japanese_tsukuyomi",
+    "name_cn": "月读命",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/deity_japanese_tsukuyomi.png",
+    "tokens": 16384
+  },
+  {
+    "id": "deity_japanese_susanoo",
+    "name_cn": "素戋呜尊",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/deity_japanese_susanoo.png",
+    "tokens": 16384
+  },
+  {
+    "id": "deity_japanese_okuninushi",
+    "name_cn": "大国主神",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/deity_japanese_okuninushi.png",
+    "tokens": 16384
+  },
+  {
+    "id": "deity_indian_brahma",
+    "name_cn": "梵天",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/deity_indian_brahma.png",
+    "tokens": 16384
+  },
+  {
+    "id": "deity_indian_vishnu",
+    "name_cn": "毗湿奴",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/deity_indian_vishnu.png",
+    "tokens": 16384
+  },
+  {
+    "id": "deity_indian_shiva",
+    "name_cn": "湿婆",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/deity_indian_shiva.png",
+    "tokens": 16384
+  },
+  {
+    "id": "deity_indian_shakti",
+    "name_cn": "萨克蒂",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/deity_indian_shakti.png",
+    "tokens": 16384
+  }
+]

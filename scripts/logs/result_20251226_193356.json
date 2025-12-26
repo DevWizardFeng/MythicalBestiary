@@ -1,0 +1,219 @@
+[
+  {
+    "id": "ic_attr_fire",
+    "name_cn": "火属性",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_attr_fire.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_attr_water",
+    "name_cn": "水属性",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_attr_water.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_attr_wind",
+    "name_cn": "风属性",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_attr_wind.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_attr_thunder",
+    "name_cn": "雷属性",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_attr_thunder.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_attr_light",
+    "name_cn": "光属性",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_attr_light.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_attr_dark",
+    "name_cn": "暗属性",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_attr_dark.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_attr_nature",
+    "name_cn": "自然属性",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_attr_nature.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_culture_chinese",
+    "name_cn": "中国神话",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_culture_chinese.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_culture_greek",
+    "name_cn": "希腊神话",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_culture_greek.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_culture_norse",
+    "name_cn": "北欧神话",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_culture_norse.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_culture_japanese",
+    "name_cn": "日本神话",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_culture_japanese.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_culture_indian",
+    "name_cn": "印度神话",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_culture_indian.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_culture_egyptian",
+    "name_cn": "埃及神话",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_culture_egyptian.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_culture_celtic",
+    "name_cn": "凯尔特神话",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_culture_celtic.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_home",
+    "name_cn": "首页",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_home.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_home_selected",
+    "name_cn": "首页-选中",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_home_selected.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_browse",
+    "name_cn": "浏览",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_browse.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_browse_selected",
+    "name_cn": "浏览-选中",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_browse_selected.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_encyclopedia",
+    "name_cn": "百科",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_encyclopedia.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_encyclopedia_selected",
+    "name_cn": "百科-选中",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_encyclopedia_selected.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_mine",
+    "name_cn": "我的",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_mine.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_mine_selected",
+    "name_cn": "我的-选中",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_mine_selected.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_search",
+    "name_cn": "搜索",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_search.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_favorite",
+    "name_cn": "收藏",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_favorite.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_favorite_filled",
+    "name_cn": "收藏-已填充",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_favorite_filled.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_back",
+    "name_cn": "返回",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_back.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_star",
+    "name_cn": "星星",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_star.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_rarity_legendary",
+    "name_cn": "传说稀有度",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_rarity_legendary.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_rarity_epic",
+    "name_cn": "史诗稀有度",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_rarity_epic.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_rarity_rare",
+    "name_cn": "稀有稀有度",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_rarity_rare.png",
+    "tokens": 16384
+  },
+  {
+    "id": "ic_rarity_common",
+    "name_cn": "普通稀有度",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/ic_rarity_common.png",
+    "tokens": 16384
+  }
+]
