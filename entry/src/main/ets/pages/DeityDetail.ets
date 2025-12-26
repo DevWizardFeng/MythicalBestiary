@@ -9,6 +9,7 @@ import { CultureType, getCultureName, getCultureColor, CultureNameInfo } from '.
 import { Deity, DeityStory, DeityRelationship, getRelationshipTypeName } from '../model/Deity';
 import { MythicalCreature } from '../model/MythicalCreature';
 import { DataLoader } from '../utils/DataLoader';
+import { StorageUtil } from '../utils/Storage';
 
 interface RouterParams {
   deityId: string;
@@ -20,6 +21,7 @@ struct DeityDetail {
   @State deity: Deity | null = null;
   @State relatedCreatures: MythicalCreature[] = [];
   @State relatedDeities: Deity[] = [];
+  @State isFavorite: boolean = false;
   @State isLoading: boolean = true;
   @State currentTab: number = 0;
   private deityId: string = '';
@@ -56,12 +58,34 @@ struct DeityDetail {
           }
           this.relatedDeities = results;
         }
+
+        // 检查是否已收藏
+        const storage = StorageUtil.getInstance();
+        await storage.initialize();
+        this.isFavorite = await storage.isDeityFavorite(this.deityId);
+
+        // 记录浏览历史
+        await storage.addBrowsingHistoryWithType(this.deityId, 'deity');
       }
 
       this.isLoading = false;
     } catch (error) {
       console.error('Failed to load deity detail:', error);
       this.isLoading = false;
+    }
+  }
+
+  async toggleFavorite() {
+    try {
+      const storage = StorageUtil.getInstance();
+      if (this.isFavorite) {
+        await storage.removeDeityFavorite(this.deityId);
+      } else {
+        await storage.addDeityFavorite(this.deityId);
+      }
+      this.isFavorite = !this.isFavorite;
+    } catch (error) {
+      console.error('Failed to toggle favorite:', error);
     }
   }
 
@@ -126,6 +150,21 @@ struct DeityDetail {
       })
 
       Blank()
+
+      // 收藏按钮
+      Stack() {
+        Circle()
+          .width(36)
+          .height(36)
+          .fill('rgba(0,0,0,0.3)')
+
+        Image(this.isFavorite ? $r('app.media.ic_favorite_filled') : $r('app.media.ic_favorite'))
+          .width(20)
+          .height(20)
+      }
+      .onClick(() => {
+        this.toggleFavorite();
+      })
     }
     .width('100%')
     .padding({ left: 16, right: 16, top: 48, bottom: 12 })

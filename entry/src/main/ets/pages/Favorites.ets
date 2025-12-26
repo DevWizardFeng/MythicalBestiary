@@ -24,6 +24,11 @@ struct Favorites {
     this.loadData();
   }
 
+  onPageShow() {
+    // 返回页面时刷新收藏数据
+    this.loadData();
+  }
+
   async loadData() {
     try {
       const storage = StorageUtil.getInstance();
@@ -207,6 +212,8 @@ struct Favorites {
           .borderRadius(8)
           .position({ x: 8, y: 8 })
       }
+      .width('100%')
+      .height(140)
 
       Column({ space: 4 }) {
         Text(deity.name.cn)

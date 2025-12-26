@@ -25,6 +25,11 @@ struct History {
     this.loadData();
   }
 
+  onPageShow() {
+    // 返回页面时刷新历史数据
+    this.loadData();
+  }
+
   async loadData() {
     try {
       const storage = StorageUtil.getInstance();
