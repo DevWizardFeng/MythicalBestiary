@@ -1,0 +1,3 @@
+<h1 _ngcontent-vob-c119="" class="doc-title ng-star-inserted" title="应用接续"> 应用接续 </h1>
+
+<div _ngcontent-vob-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/app-continuation-overview">应用接续特性简介</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/app-continuation-guide">应用接续开发指导</a></strong><br> </li> </ul> </div></div>

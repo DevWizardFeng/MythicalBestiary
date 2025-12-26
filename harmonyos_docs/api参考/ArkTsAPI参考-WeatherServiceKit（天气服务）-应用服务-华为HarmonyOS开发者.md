@@ -1,0 +1,3 @@
+<h1 _ngcontent-cdc-c119="" class="doc-title ng-star-inserted" title="ArkTs API参考"> ArkTs API参考 </h1>
+
+<div _ngcontent-cdc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/weather-service-weatherservice">weatherService（天气数据服务）</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/weather-service-error-code">ArkTS API错误码</a></strong><br> </li> </ul> </div></div>

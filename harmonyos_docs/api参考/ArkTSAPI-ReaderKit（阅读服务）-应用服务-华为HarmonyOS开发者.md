@@ -1,0 +1,3 @@
+<h1 _ngcontent-vvq-c119="" class="doc-title ng-star-inserted" title="ArkTS API"> ArkTS API </h1>
+
+<div _ngcontent-vvq-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/reader-book-parser">bookParser（书籍解析能力）</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/reader-read-core">readerCore（阅读核心能力）</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-lou-c119="" class="doc-title ng-star-inserted" title="Health Service Kit（运动健康服务）"> Health Service Kit（运动健康服务） </h1>
+
+<div _ngcontent-lou-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/health-api-arkts">ArkTS API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/errorcode-healthservice">ArkTS API错误码</a></strong><br> </li> </ul> </div></div>

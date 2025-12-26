@@ -1,0 +1,3 @@
+<h1 _ngcontent-rje-c119="" class="doc-title ng-star-inserted" title="Graphics Accelerate Kit（图形加速服务）"> Graphics Accelerate Kit（图形加速服务） </h1>
+
+<div _ngcontent-rje-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/graphics-accelerate-arkts">ArkTS API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/graphics_accelerate_c_api">C API</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-mae-c119="" class="doc-title ng-star-inserted" title="冷启动分析：Launch分析"> 冷启动分析：Launch分析 </h1>
+
+<div _ngcontent-mae-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000002293150085"><p id="ZH-CN_TOPIC_0000002510174441__p8060118"></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-insight-session-launch">Launch模板基本操作</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-profiler-launch-case">案例：应用冷启动首帧完成时延问题分析</a></strong><br> </li> </ul> </div></div>

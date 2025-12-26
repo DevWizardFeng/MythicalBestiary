@@ -1,0 +1,3 @@
+<h1 _ngcontent-xjo-c119="" class="doc-title ng-star-inserted" title="手势控制"> 手势控制 </h1>
+
+<div _ngcontent-xjo-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-gesture-customize-judge">自定义手势判定</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-gesture-blocking-enhancement">手势拦截增强</a></strong><br> </li> </ul> </div></div>

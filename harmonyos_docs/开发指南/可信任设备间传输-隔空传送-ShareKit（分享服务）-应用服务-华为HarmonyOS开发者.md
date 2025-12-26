@@ -1,0 +1,3 @@
+<h1 _ngcontent-utg-c119="" class="doc-title ng-star-inserted" title="可信任设备间传输"> 可信任设备间传输 </h1>
+
+<div _ngcontent-utg-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><ul><li>若双端已登录相同的华为账号，则默认设备可信，无需确认即可传输。</li><li>若双端未登录相同的华为账号，需询问用户是否信任对端设备。双端同时信任后，1小时内再次传输无需确认。<p><span><img height="338.88206474811636" originheight="1296" originwidth="3518" src="https://alliance-communityfile-drcn.dbankcdn.com/FileServer/getFile/cmtyPub/011/111/111/0000000000011111111.20251211114603.46129170368863138567569364343710:50001231000000:2800:AEACF2FA3F27639E24E586C48DB10915AFD00F3DAC2AAF3CDF107A3497DCC765.png" title="点击放大" width="920"></span></p> <p></p> </li></ul> </div> <div></div></div>

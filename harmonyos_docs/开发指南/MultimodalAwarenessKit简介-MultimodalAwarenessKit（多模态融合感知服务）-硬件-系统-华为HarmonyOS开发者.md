@@ -1,0 +1,3 @@
+<h1 _ngcontent-vlu-c119="" class="doc-title ng-star-inserted" title="Multimodal Awareness Kit简介"> Multimodal Awareness Kit简介 </h1>
+
+<div _ngcontent-vlu-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>多模态融合感知是利用设备上的多种传感器数据，如加速度计和陀螺仪等，来识别活动、状态和姿态等信息，例如，判断设备是否处于静止状态。</p>  <div class="tiledSection"><h2 id="运作机制">运作机制<i class="anchor-icon anchor-icon-link" anchorid="运作机制" tips="复制节点链接"></i></h2><p>多模态融合感知能力作为系统为应用提供的一种基础服务，需要应用在所使用的业务场景，向系统主动发起订阅服务，并在业务场景结束时，主动取消订阅服务，在此过程中系统会将实时的设备状态结果上报给应用。</p> </div>  <div class="tiledSection"><h2 id="约束与限制">约束与限制<i class="anchor-icon anchor-icon-link" anchorid="约束与限制" tips="复制节点链接"></i></h2><p>使用多模融合感知，需要用户进行相关权限的申请。设备需要支持对应能力所需的传感器。</p> </div> </div> <div></div></div>

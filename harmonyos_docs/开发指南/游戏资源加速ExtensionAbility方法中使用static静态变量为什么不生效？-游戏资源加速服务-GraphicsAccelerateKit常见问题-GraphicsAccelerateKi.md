@@ -1,0 +1,3 @@
+<h1 _ngcontent-xya-c119="" class="doc-title ng-star-inserted" title="游戏资源加速ExtensionAbility方法中使用static静态变量为什么不生效？"> 游戏资源加速ExtensionAbility方法中使用static静态变量为什么不生效？ </h1>
+
+<div _ngcontent-xya-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>资源加速ExtensionAbility的进程可能会切换，避免在ExtensionAbility方法使用应用自身的上下文变量，例如类成员变量、全局static静态变量。</p> <p>若想在资源加速ExtensionAbility方法中共享变量，应使用<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/app-data-persistence-overview" target="_blank">数据持久化技术</a>，在不同方法中共享变量。</p> </div> <div></div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-den-c119="" class="doc-title ng-star-inserted" title="App Linking Kit（应用链接服务）"> App Linking Kit（应用链接服务） </h1>
+
+<div _ngcontent-den-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/applinking-arkts-api">ArkTS API</a></strong><br> </li> </ul> </div></div>

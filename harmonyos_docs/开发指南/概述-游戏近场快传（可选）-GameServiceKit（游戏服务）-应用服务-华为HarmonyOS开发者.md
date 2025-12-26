@@ -1,0 +1,3 @@
+<h1 _ngcontent-cdj-c119="" class="doc-title ng-star-inserted" title="概述"> 概述 </h1>
+
+<div _ngcontent-cdj-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><div class="tiledSection"><h2 id="section18051027319">功能说明<i class="anchor-icon anchor-icon-link" anchorid="section18051027319" tips="复制节点链接"></i></h2><p>从5.1.0(18)版本开始，新增游戏近场快传服务。</p> <p>游戏近场快传服务支持设备在彼此靠近的情况下进行游戏数据交换。</p> </div> <div class="tiledSection"><h2 id="section1487514211530">场景介绍<i class="anchor-icon anchor-icon-link" anchorid="section1487514211530" tips="复制节点链接"></i></h2><p>支持玩家们面对面互传游戏资源包。已更新游戏版本的玩家可发送自己设备上的游戏资源包给未更新玩家，助其迅速完成游戏更新，节省玩家下载资源包所需的流量和时间，同时可降低因游戏频繁更新影响用户体验，导致用户流失的可能性。</p> </div> </div> <div></div></div>

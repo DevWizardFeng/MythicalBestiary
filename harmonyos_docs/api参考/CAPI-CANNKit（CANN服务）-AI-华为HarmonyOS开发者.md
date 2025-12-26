@@ -1,0 +1,3 @@
+<h1 _ngcontent-wpi-c119="" class="doc-title ng-star-inserted" title="C API"> C API </h1>
+
+<div _ngcontent-wpi-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/cannkit-index">模块</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/cannkit-total">头文件和结构体</a></strong><br> </li> </ul> </div></div>

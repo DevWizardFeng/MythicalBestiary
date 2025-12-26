@@ -1,0 +1,3 @@
+<h1 _ngcontent-tyo-c119="" class="doc-title ng-star-inserted" title="退款申请通知与处理"> 退款申请通知与处理 </h1>
+
+<div _ngcontent-tyo-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/iap-server-refund-receive-notify">接收退款申请事件通知</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/iap-server-refund-return-result">返回退款审核结果</a></strong><br> </li> </ul> </div></div>

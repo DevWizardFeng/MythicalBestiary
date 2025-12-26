@@ -1,0 +1,3 @@
+<h1 _ngcontent-pov-c119="" class="doc-title ng-star-inserted" title="如何获取指定城市的天气数据？"> 如何获取指定城市的天气数据？ </h1>
+
+<div _ngcontent-pov-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>先调用<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-geolocationmanager#geolocationmanagergetaddressesfromlocationname-1" target="_blank">getAddressesFromLocationName</a>方法获取指定城市的经纬度信息，然后根据返回的经纬度数据调用<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/weather-service-weatherservice#section78181857767" target="_blank">getWeather</a>方法获取天气数据。</p> </div> <div></div></div>

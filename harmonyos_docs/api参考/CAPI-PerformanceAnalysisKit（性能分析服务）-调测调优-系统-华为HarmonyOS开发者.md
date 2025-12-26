@@ -1,0 +1,3 @@
+<h1 _ngcontent-bix-c119="" class="doc-title ng-star-inserted" title="C API"> C API </h1>
+
+<div _ngcontent-bix-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/performance-analysis-module">模块</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/performance-analysis-headerfile">头文件</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/performance-analysis-struct">结构体</a></strong><br> </li> </ul> </div></div>

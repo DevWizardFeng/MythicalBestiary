@@ -1,0 +1,3 @@
+<h1 _ngcontent-usc-c119="" class="doc-title ng-star-inserted" title="典型全场景协同开发案例"> 典型全场景协同开发案例 </h1>
+
+<div _ngcontent-usc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-continue">内容编辑多设备协同</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-vdeocast">视频投播</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-audio-cast">音频投播</a></strong><br> </li> </ul> </div></div>

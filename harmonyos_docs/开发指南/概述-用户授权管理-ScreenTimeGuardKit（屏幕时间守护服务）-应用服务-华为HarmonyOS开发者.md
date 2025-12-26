@@ -1,0 +1,3 @@
+<h1 _ngcontent-kgs-c119="" class="doc-title ng-star-inserted" title="概述"> 概述 </h1>
+
+<div _ngcontent-kgs-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>Screen Time Guard Kit需要经过用户授权才能对用户设备做时间管控和应用限制。Screen Time Guard Kit提供了请求用户授权和取消授权的接口，并且在健康使用设备的授权列表页面中，提供了用户主动打开/关闭授权的入口。开发者也可通过实现指定ExtensionAbility的回调方法，感知用户在健康使用设备的授权列表页中打开/关闭授权的行为。</p> </div> <div></div></div>

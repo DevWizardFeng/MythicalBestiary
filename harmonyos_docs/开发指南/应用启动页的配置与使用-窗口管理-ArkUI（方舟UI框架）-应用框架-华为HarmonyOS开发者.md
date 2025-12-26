@@ -1,0 +1,3 @@
+<h1 _ngcontent-qfw-c119="" class="doc-title ng-star-inserted" title="应用启动页的配置与使用"> 应用启动页的配置与使用 </h1>
+
+<div _ngcontent-qfw-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/launch-page-overview">应用启动页简介</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/launch-page-config">配置应用启动页</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/launch-page-resource-config">启动页资源分类配置</a></strong><br> </li> </ul> </div></div>

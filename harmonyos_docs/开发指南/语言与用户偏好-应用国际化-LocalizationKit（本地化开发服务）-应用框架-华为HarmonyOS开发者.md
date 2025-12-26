@@ -1,0 +1,3 @@
+<h1 _ngcontent-dhg-c119="" class="doc-title ng-star-inserted" title="语言与用户偏好"> 语言与用户偏好 </h1>
+
+<div _ngcontent-dhg-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/i18n-system-language-region">系统语言与区域</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/i18n-preferred-language">应用偏好语言</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/i18n-user-preferences">用户偏好</a></strong><br> </li> </ul> </div></div>

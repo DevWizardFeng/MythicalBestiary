@@ -1,0 +1,3 @@
+<h1 _ngcontent-dhc-c119="" class="doc-title ng-star-inserted" title="在AppGallery Connect中单独修改商品在某个地区的价格，以后汇率变动，是否会影响应用内的商品价格？"> 在AppGallery Connect中单独修改商品在某个地区的价格，以后汇率变动，是否会影响应用内的商品价格？ </h1>
+
+<div _ngcontent-dhc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>不会，除非开发者自己修改，修改方法请参考<a href="https://developer.huawei.com/consumer/cn/doc/app/revise-digital-products-0000001959074889" target="_blank">修改数字商品</a>。</p> </div> <div></div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-mtl-c119="" class="doc-title ng-star-inserted" title="验证应用数据迁移"> 验证应用数据迁移 </h1>
+
+<div _ngcontent-mtl-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/self-verification">开发者自验证</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/e2e-verification">端到端验证</a></strong><br> </li> </ul> </div></div>

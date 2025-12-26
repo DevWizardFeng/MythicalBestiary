@@ -1,0 +1,3 @@
+<h1 _ngcontent-vfb-c119="" class="doc-title ng-star-inserted" title="动态照片"> 动态照片 </h1>
+
+<div _ngcontent-vfb-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/photoaccesshelper-movingphoto">访问和管理动态照片资源</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/movingphotoview-guidelines">使用MovingPhotoView播放动态照片</a></strong><br> </li> </ul> </div></div>

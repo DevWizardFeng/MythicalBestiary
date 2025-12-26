@@ -1,0 +1,3 @@
+<h1 _ngcontent-cal-c119="" class="doc-title ng-star-inserted" title="查询退款订单"> 查询退款订单 </h1>
+
+<div _ngcontent-cal-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-partner-combined-sys-query-refund">通过sysRefundOrderNo查询退款订单信息</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-partner-combined-merc-query-refund">通过mercRefundOrderNo查询退款订单信息</a></strong><br> </li> </ul> </div></div>

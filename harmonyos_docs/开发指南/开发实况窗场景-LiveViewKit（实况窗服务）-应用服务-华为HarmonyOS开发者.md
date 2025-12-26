@@ -1,0 +1,3 @@
+<h1 _ngcontent-xjx-c119="" class="doc-title ng-star-inserted" title="开发实况窗场景"> 开发实况窗场景 </h1>
+
+<div _ngcontent-xjx-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/liveview-scenes-intro">开发实况窗须知</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/liveview-create-locally">构建本地实况窗</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/liveview-update-by-push">通过Push Kit更新实况窗</a></strong><br> </li> </ul> </div></div>

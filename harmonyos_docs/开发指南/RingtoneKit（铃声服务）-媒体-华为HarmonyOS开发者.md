@@ -1,0 +1,3 @@
+<h1 _ngcontent-mte-c119="" class="doc-title ng-star-inserted" title="Ringtone Kit（铃声服务）"> Ringtone Kit（铃声服务） </h1>
+
+<div _ngcontent-mte-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ringtone-introduction">Ringtone Kit简介</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ringtone-preparations">设置铃声</a></strong><br> </li> </ul> </div></div>

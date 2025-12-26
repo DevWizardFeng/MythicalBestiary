@@ -1,0 +1,3 @@
+<h1 _ngcontent-fvh-c119="" class="doc-title ng-star-inserted" title="App集成"> App集成 </h1>
+
+<div _ngcontent-fvh-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-creating-a-project">创建项目</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-compiling-the-napi">配置项目NAPI</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-integration-model">集成模型</a></strong><br> </li> </ul> </div></div>

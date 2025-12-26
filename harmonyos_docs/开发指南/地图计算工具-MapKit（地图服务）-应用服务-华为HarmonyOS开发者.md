@@ -1,0 +1,3 @@
+<h1 _ngcontent-htc-c119="" class="doc-title ng-star-inserted" title="地图计算工具"> 地图计算工具 </h1>
+
+<div _ngcontent-htc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/map-convert-coordinate">坐标纠偏</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/map-calculate-distance">距离计算</a></strong><br> </li> </ul> </div></div>

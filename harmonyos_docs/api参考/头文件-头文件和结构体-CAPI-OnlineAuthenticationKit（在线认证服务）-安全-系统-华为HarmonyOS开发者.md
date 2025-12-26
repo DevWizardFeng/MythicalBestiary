@@ -1,0 +1,3 @@
+<h1 _ngcontent-kcd-c119="" class="doc-title ng-star-inserted" title="头文件"> 头文件 </h1>
+
+<div _ngcontent-kcd-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/onlineauthentication_capi_header_fido2">fido2_api.h</a></strong><br> </li> </ul> </div></div>

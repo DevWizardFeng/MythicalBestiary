@@ -1,0 +1,3 @@
+<h1 _ngcontent-jim-c119="" class="doc-title ng-star-inserted" title="Native子进程开发指导"> Native子进程开发指导 </h1>
+
+<div _ngcontent-jim-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/capi_nativechildprocess_development_guideline">创建Native子进程（C/C++）</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/capi-nativechildprocess-exit-info">获取Native子进程退出信息</a></strong><br> </li> </ul> </div></div>

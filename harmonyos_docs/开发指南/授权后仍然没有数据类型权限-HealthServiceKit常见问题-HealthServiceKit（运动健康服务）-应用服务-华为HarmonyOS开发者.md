@@ -1,0 +1,3 @@
+<h1 _ngcontent-jao-c119="" class="doc-title ng-star-inserted" title="授权后仍然没有数据类型权限"> 授权后仍然没有数据类型权限 </h1>
+
+<div _ngcontent-jao-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>鉴权时使用的权限是用户授权的权限与应用申请的权限的交集，需确认：</p> <ol><li>应用已申请了对应的数据类型权限，申请步骤请参考<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/health-apply">申请运动健康服务</a>，数据类型对应的权限参考<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/health-permission-description">权限说明</a>。</li><li>用户授权已勾选对应的权限。  </li></ol> </div> <div></div></div>

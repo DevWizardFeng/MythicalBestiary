@@ -1,0 +1,3 @@
+<h1 _ngcontent-xsk-c119="" class="doc-title ng-star-inserted" title="意图框架开发指导"> 意图框架开发指导 </h1>
+
+<div _ngcontent-xsk-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/insight-intent-overview">意图框架概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/insight-intent-development">开发意图</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/insight-intent-debug">调试意图</a></strong><br> </li> </ul> </div></div>

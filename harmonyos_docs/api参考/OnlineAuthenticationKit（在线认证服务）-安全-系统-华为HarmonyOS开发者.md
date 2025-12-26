@@ -1,0 +1,3 @@
+<h1 _ngcontent-gky-c119="" class="doc-title ng-star-inserted" title="Online Authentication Kit（在线认证服务）"> Online Authentication Kit（在线认证服务） </h1>
+
+<div _ngcontent-gky-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/onlineauthentication_arkts">ArkTS API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/online-authentication-c">C API</a></strong><br> </li> </ul> </div></div>

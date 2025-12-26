@@ -1,0 +1,3 @@
+<h1 _ngcontent-mgr-c119="" class="doc-title ng-star-inserted" title="ArkTS API"> ArkTS API </h1>
+
+<div _ngcontent-mgr-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-cryptoframework">@ohos.security.cryptoFramework (加解密算法库框架)</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/crypto-architecture-arkts-dep">已停止维护的接口</a></strong><br> </li> </ul> </div></div>

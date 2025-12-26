@@ -1,0 +1,3 @@
+<h1 _ngcontent-xre-c119="" class="doc-title ng-star-inserted" title="应用功耗体验建议"> 应用功耗体验建议 </h1>
+
+<div _ngcontent-xre-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/app-power-experience-standards-overview">概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/standard-background-power">后台场景</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/standard-foreground-power">前台场景</a></strong><br> </li> </ul> </div></div>

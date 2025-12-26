@@ -1,0 +1,3 @@
+<h1 _ngcontent-wqf-c119="" class="doc-title ng-star-inserted" title="后台场景"> 后台场景 </h1>
+
+<div _ngcontent-wqf-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/standard-background-task">后台任务使用</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/standard-background-hardware">后台硬件资源使用</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/standard-background-software">后台软件资源使用</a></strong><br> </li> </ul> </div></div>

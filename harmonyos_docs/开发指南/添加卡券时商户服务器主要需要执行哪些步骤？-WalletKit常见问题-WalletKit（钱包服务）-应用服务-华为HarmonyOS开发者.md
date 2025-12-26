@@ -1,0 +1,3 @@
+<h1 _ngcontent-coe-c119="" class="doc-title ng-star-inserted" title="添加卡券时商户服务器主要需要执行哪些步骤？"> 添加卡券时商户服务器主要需要执行哪些步骤？ </h1>
+
+<div _ngcontent-coe-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><ol><li><span>参考<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/wallet-carkey-operation">钥匙开通</a>推送模板数据至华为服务器。</span></li><li><span>用户点击“按钮”或“链接”时将实例加密成JWE数据后推送给华为服务器。</span></li></ol> </div> <div></div></div>

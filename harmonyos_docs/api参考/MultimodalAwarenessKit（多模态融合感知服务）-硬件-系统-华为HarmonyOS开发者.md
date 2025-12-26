@@ -1,0 +1,3 @@
+<h1 _ngcontent-cim-c119="" class="doc-title ng-star-inserted" title="Multimodal Awareness Kit（多模态融合感知服务）"> Multimodal Awareness Kit（多模态融合感知服务） </h1>
+
+<div _ngcontent-cim-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/multimodal-awareness-arkts">ArkTS API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ultimodal-awareness-arkts-errcode">错误码</a></strong><br> </li> </ul> </div></div>

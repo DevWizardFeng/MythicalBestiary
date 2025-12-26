@@ -1,0 +1,3 @@
+<h1 _ngcontent-lba-c119="" class="doc-title ng-star-inserted" title="服务与支持"> 服务与支持 </h1>
+
+<div _ngcontent-lba-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>如有鸿蒙支付服务相关问题需要帮助，开发者可以通过<a href="https://developer.huawei.com/consumer/cn/support/feedback/#/add/13?level2=111" target="_blank">在线工单系统</a>与我们联系，提交后的工单可在开发者联盟页面，点击右上角头像图标，选择“我的客服”，查看工单处理进展。</p> </div> <div></div></div>

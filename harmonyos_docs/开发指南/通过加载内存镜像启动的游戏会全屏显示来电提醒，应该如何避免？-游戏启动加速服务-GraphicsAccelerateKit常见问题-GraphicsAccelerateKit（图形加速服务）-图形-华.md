@@ -1,0 +1,3 @@
+<h1 _ngcontent-hoq-c119="" class="doc-title ng-star-inserted" title="通过加载内存镜像启动的游戏会全屏显示来电提醒，应该如何避免？"> 通过加载内存镜像启动的游戏会全屏显示来电提醒，应该如何避免？ </h1>
+
+<div _ngcontent-hoq-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>没有通过加载内存镜像启动的游戏，用户在游戏期间来电，来电提醒悬浮在手机正上方。</p> <p>通过加载内存镜像启动的游戏，用户在游戏期间来电，游戏画面会被切至后台，当前来电提醒会被全屏显示，这影响了用户的游戏体验。</p> <p>开发者应在onWindowStageCreate生命周期中调用<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-window-window#setwindowsystembarenable9" target="_blank">setWindowSystemBarEnable</a>，隐藏状态栏和导航栏，确保快速启动的游戏在来电提醒时悬浮在手机正上方。</p> </div> <div></div></div>

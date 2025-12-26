@@ -1,0 +1,3 @@
+<h1 _ngcontent-spb-c119="" class="doc-title ng-star-inserted" title="DataCopy"> DataCopy </h1>
+
+<div _ngcontent-spb-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-common-data-movement">普通数据搬运</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-channel-associated-format-conversion">随路格式转换</a></strong><br> </li> </ul> </div></div>

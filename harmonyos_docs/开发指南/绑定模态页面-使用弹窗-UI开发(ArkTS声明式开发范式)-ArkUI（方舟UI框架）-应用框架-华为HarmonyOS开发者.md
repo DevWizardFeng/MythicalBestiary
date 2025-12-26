@@ -1,0 +1,3 @@
+<h1 _ngcontent-vmb-c119="" class="doc-title ng-star-inserted" title="绑定模态页面"> 绑定模态页面 </h1>
+
+<div _ngcontent-vmb-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-modal-overview">绑定模态页面概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-sheet-page">绑定半模态页面（bindSheet）</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-contentcover-page">绑定全模态页面（bindContentCover）</a></strong><br> </li> </ul> </div></div>

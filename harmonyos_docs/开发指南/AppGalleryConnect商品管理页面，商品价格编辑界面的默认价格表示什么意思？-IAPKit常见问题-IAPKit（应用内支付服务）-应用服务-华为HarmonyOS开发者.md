@@ -1,0 +1,3 @@
+<h1 _ngcontent-uch-c119="" class="doc-title ng-star-inserted" title="AppGallery Connect商品管理页面，商品价格编辑界面的默认价格表示什么意思？"> AppGallery Connect商品管理页面，商品价格编辑界面的默认价格表示什么意思？ </h1>
+
+<div _ngcontent-uch-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>该默认价格在<a href="https://developer.huawei.com/consumer/cn/service/josp/agc/index.html" target="_blank">AppGallery Connect</a>页面其他地方涉及商品价格展示时使用。</p> </div> <div></div></div>

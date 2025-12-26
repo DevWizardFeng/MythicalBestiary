@@ -1,0 +1,3 @@
+<h1 _ngcontent-gtc-c119="" class="doc-title ng-star-inserted" title="要实现即时聊天功能应该使用什么类型的场景化消息？"> 要实现即时聊天功能应该使用什么类型的场景化消息？ </h1>
+
+<div _ngcontent-gtc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>可以使用通知消息和通知扩展消息，详情请参见<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/push-send-alert">发送通知消息</a>、<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/push-send-extend-noti">发送通知扩展消息</a>。</p> </div> <div></div></div>

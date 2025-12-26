@@ -1,0 +1,3 @@
+<h1 _ngcontent-bvp-c119="" class="doc-title ng-star-inserted" title="连接网络"> 连接网络 </h1>
+
+<div _ngcontent-bvp-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/net-connection-manager">管理网络连接</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/native-netmanager-guidelines">管理网络连接(C/C++)</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/net-vpnextension">连接VPN</a></strong><br> </li> </ul> </div></div>

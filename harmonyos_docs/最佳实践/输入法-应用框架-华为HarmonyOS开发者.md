@@ -1,0 +1,3 @@
+<h1 _ngcontent-qej-c119="" class="doc-title ng-star-inserted" title="输入法"> 输入法 </h1>
+
+<div _ngcontent-qej-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-keyboard-layout-adapt">软键盘布局适配</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-custom-keyboard">自定义键盘</a></strong><br> </li> </ul> </div></div>

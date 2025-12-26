@@ -1,0 +1,3 @@
+<h1 _ngcontent-pbr-c119="" class="doc-title ng-star-inserted" title="头文件"> 头文件 </h1>
+
+<div _ngcontent-pbr-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/gameservice_game_performance_8h">game_performance.h</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-uub-c119="" class="doc-title ng-star-inserted" title="是否必须使用SHA256的证书才能通过验签？"> 是否必须使用SHA256的证书才能通过验签？ </h1>
+
+<div _ngcontent-uub-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>是的，现在华为开发者联盟上要求配置的就是SHA256指纹，具体请参考<a href="https://developer.huawei.com/consumer/cn/doc/app/agc-help-cert-fingerprint-0000002278002933" target="_blank">配置公钥指纹</a>。</p> </div> <div></div></div>

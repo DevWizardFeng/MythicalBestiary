@@ -1,0 +1,3 @@
+<h1 _ngcontent-glj-c119="" class="doc-title ng-star-inserted" title="多客户端订阅场景"> 多客户端订阅场景 </h1>
+
+<div _ngcontent-glj-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/devicesecurity-audit-subscribe-arkts-filterevent">订阅通知类事件</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/devicesecurity-audit-subscribe-arkts-auth">订阅阻断类事件</a></strong><br> </li> </ul> </div></div>

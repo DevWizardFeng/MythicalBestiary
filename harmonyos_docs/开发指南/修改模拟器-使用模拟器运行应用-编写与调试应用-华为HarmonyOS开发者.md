@@ -1,0 +1,3 @@
+<h1 _ngcontent-idb-c119="" class="doc-title ng-star-inserted" title="修改模拟器"> 修改模拟器 </h1>
+
+<div _ngcontent-idb-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000002347757653"></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-emulator-customize-screen-configuration">自定义屏幕配置</a></strong><br> </li> </ul> </div></div>

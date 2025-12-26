@@ -1,0 +1,3 @@
+<h1 _ngcontent-bag-c119="" class="doc-title ng-star-inserted" title="图片编码"> 图片编码 </h1>
+
+<div _ngcontent-bag-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/image-encoding">使用ImagePacker完成图片编码</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/image-picture-encoding">使用ImagePacker完成多图对象编码</a></strong><br> </li> </ul> </div></div>

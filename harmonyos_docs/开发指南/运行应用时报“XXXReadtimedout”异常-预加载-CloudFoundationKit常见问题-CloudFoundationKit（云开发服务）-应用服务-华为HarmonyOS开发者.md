@@ -1,0 +1,3 @@
+<h1 _ngcontent-wgy-c119="" class="doc-title ng-star-inserted" title="运行应用时报“XXX Read timed out”异常"> 运行应用时报“XXX Read timed out”异常 </h1>
+
+<div _ngcontent-wgy-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p><strong>问题现象</strong></p> <p>运行应用时报“XXX Read timed out”异常。</p> <p><span><img originheight="72" originwidth="1226" src="https://alliance-communityfile-drcn.dbankcdn.com/FileServer/getFile/cmtyPub/011/111/111/0000000000011111111.20251211114700.05477933660234098802670369455952:50001231000000:2800:B15567D5E3C7AF440520A1776BF365B4A18509E03C0F08C9DC81371381E150B1.png" width="920" height="54.029363784665584"></span></p> <p><strong>解决措施</strong></p> <p>出现此错误，是因为云侧没有启动云函数实例，卸载应用重新安装即可。</p> </div> <div></div></div>

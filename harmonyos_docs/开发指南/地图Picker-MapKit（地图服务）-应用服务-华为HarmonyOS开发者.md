@@ -1,0 +1,3 @@
+<h1 _ngcontent-uxq-c119="" class="doc-title ng-star-inserted" title="地图Picker"> 地图Picker </h1>
+
+<div _ngcontent-uxq-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/map-location-details">地点详情展示</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/map-location-selecting">地点选取</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/map-location-division">区划选择</a></strong><br> </li> </ul> </div></div>

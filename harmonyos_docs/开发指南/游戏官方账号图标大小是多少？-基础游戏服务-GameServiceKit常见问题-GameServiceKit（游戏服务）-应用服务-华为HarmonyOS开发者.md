@@ -1,0 +1,3 @@
+<h1 _ngcontent-qdb-c119="" class="doc-title ng-star-inserted" title="游戏官方账号图标大小是多少？"> 游戏官方账号图标大小是多少？ </h1>
+
+<div _ngcontent-qdb-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>游戏官方账号ICON大小总和不超过35KB。若超过35KB，调用<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/gameservice-gameplayer#section157848375136" target="_blank">unionLogin</a>接口时，会出现<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/gameservice-error-code#section132125911468" target="_blank">1002000001</a>错误码。</p> </div> <div></div></div>

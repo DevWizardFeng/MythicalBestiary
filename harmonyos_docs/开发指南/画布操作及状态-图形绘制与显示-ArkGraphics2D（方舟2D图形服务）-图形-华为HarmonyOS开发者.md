@@ -1,0 +1,3 @@
+<h1 _ngcontent-hgm-c119="" class="doc-title ng-star-inserted" title="画布操作及状态"> 画布操作及状态 </h1>
+
+<div _ngcontent-hgm-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/canvas-operation-state-arkts">画布操作及状态处理（ArkTS）</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/canvas-operation-state-c">画布操作及状态处理（C/C++）</a></strong><br> </li> </ul> </div></div>

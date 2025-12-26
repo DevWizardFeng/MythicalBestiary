@@ -1,0 +1,3 @@
+<h1 _ngcontent-jst-c119="" class="doc-title ng-star-inserted" title="应用内关闭未成年人模式"> 应用内关闭未成年人模式 </h1>
+
+<div _ngcontent-jst-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/account-appself-turn-off-minorsprotection">关闭应用的未成年人模式（推荐）</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/account-system-turn-off-minorsprotection">关闭系统的未成年人模式</a></strong><br> </li> </ul> </div></div>

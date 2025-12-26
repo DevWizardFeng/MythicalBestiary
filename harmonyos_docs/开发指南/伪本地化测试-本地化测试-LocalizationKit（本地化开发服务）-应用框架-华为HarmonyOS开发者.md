@@ -1,0 +1,3 @@
+<h1 _ngcontent-lly-c119="" class="doc-title ng-star-inserted" title="伪本地化测试"> 伪本地化测试 </h1>
+
+<div _ngcontent-lly-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/pseudo-i18n-testing-overview">伪本地化测试概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/pseudo-i18n-testing-translation">翻译伪本地化测试</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/pseudo-i18n-testing-mirror">界面镜像伪本地化测试</a></strong><br> </li> </ul> </div></div>

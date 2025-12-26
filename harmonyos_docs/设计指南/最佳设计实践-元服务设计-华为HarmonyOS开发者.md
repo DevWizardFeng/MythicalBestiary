@@ -1,0 +1,3 @@
+<h1 _ngcontent-lra-c119="" class="doc-title ng-star-inserted" title="最佳设计实践"> 最佳设计实践 </h1>
+
+<div _ngcontent-lra-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000002004044485"><p id="ZH-CN_TOPIC_0000002004044485__p8060118"></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/design-guides/accounts-0000001967444380">账号</a></strong><br> </li> </ul> </div></div>

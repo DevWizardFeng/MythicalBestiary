@@ -1,0 +1,3 @@
+<h1 _ngcontent-ksf-c119="" class="doc-title ng-star-inserted" title="算子编译安装"> 算子编译安装 </h1>
+
+<div _ngcontent-ksf-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-operator-project-compilation">算子工程编译</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-operator-package-deployment">算子包安装</a></strong><br> </li> </ul> </div></div>

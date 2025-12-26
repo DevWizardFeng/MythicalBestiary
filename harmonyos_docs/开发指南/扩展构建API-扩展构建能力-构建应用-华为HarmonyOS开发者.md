@@ -1,0 +1,3 @@
+<h1 _ngcontent-wff-c119="" class="doc-title ng-star-inserted" title="扩展构建API"> 扩展构建API </h1>
+
+<div _ngcontent-wff-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000001908095037"></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-api">基础构建能力</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-build-expanding-context">插件上下文</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-build-expanding-sample">API使用示例</a></strong><br> </li> </ul> </div></div>

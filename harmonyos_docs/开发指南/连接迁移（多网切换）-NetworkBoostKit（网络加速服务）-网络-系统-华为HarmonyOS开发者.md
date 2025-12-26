@@ -1,0 +1,3 @@
+<h1 _ngcontent-nex-c119="" class="doc-title ng-star-inserted" title="连接迁移（多网切换）"> 连接迁移（多网切换） </h1>
+
+<div _ngcontent-nex-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/networkboost-nethandovercallback">连接迁移通知</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/networkboost-reporthandovermode">迁移模式设置</a></strong><br> </li> </ul> </div></div>

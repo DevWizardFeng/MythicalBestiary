@@ -1,0 +1,3 @@
+<h1 _ngcontent-lks-c119="" class="doc-title ng-star-inserted" title="管理转化事件"> 管理转化事件 </h1>
+
+<div _ngcontent-lks-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/store-attribution-trigger-standard">标准转化事件</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/store-attribution-trigger-custom">自定义转化事件</a></strong><br> </li> </ul> </div></div>

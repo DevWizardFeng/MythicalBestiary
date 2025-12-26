@@ -1,0 +1,3 @@
+<h1 _ngcontent-aoa-c119="" class="doc-title ng-star-inserted" title="查询签约订单"> 查询签约订单 </h1>
+
+<div _ngcontent-aoa-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000001827602584"></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-partner-withhold-query-contractcode">通过mercContractCode查询签约信息</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-partner-withhold-query-contractid">通过contractId查询签约信息</a></strong><br> </li> </ul> </div></div>

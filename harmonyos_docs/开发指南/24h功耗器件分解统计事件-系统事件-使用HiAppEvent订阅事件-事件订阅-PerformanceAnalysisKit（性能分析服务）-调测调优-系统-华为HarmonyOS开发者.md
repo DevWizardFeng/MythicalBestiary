@@ -1,0 +1,3 @@
+<h1 _ngcontent-iwg-c119="" class="doc-title ng-star-inserted" title="24h功耗器件分解统计事件"> 24h功耗器件分解统计事件 </h1>
+
+<div _ngcontent-iwg-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hiappevent-watcher-battery-usage-event">24h功耗器件分解统计事件介绍</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hiappevent-watcher-battery-usage-arkts">订阅24h功耗器件分解统计事件（ArkTS）</a></strong><br> </li> </ul> </div></div>

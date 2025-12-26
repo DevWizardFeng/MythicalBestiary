@@ -1,0 +1,3 @@
+<h1 _ngcontent-qdy-c119="" class="doc-title ng-star-inserted" title="绑定手势"> 绑定手势 </h1>
+
+<div _ngcontent-qdy-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-gesture-settings">绑定手势方法</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-uigestureevent">设置组件绑定的手势</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-gesturehandler">手势处理器</a></strong><br> </li> </ul> </div></div>

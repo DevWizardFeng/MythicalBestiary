@@ -1,0 +1,3 @@
+<h1 _ngcontent-djt-c119="" class="doc-title ng-star-inserted" title="一键登录场景下，应用已展示一键登录页，此时用户退出、切换或注销华为账号应该如何处理"> 一键登录场景下，应用已展示一键登录页，此时用户退出、切换或注销华为账号应该如何处理 </h1>
+
+<div _ngcontent-djt-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>应用通过<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/account-login-state">订阅华为账号的登录/登出事件</a>监听当前设备华为账号的登录状态，若监听到华为账号登出事件，则需跳转至其他登录页面；若监听到华为账号登录事件，则需重新获取匿名手机号并刷新一键登录页。示例代码详见<a href="https://gitcode.com/HarmonyOS_Samples/accountkit-samplecode-clientdemo-arkts" target="_blank">华为账号一键登录SampleCode</a>。</p> </div> <div></div></div>

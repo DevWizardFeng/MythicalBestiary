@@ -1,0 +1,3 @@
+<h1 _ngcontent-thv-c119="" class="doc-title ng-star-inserted" title="Core Speech Kit（基础语音服务）"> Core Speech Kit（基础语音服务） </h1>
+
+<div _ngcontent-thv-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/core-speech-arkts">ArkTS API</a></strong><br> </li> </ul> </div></div>

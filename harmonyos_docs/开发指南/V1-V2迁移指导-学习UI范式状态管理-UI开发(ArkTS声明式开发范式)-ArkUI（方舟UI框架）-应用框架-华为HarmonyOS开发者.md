@@ -1,0 +1,3 @@
+<h1 _ngcontent-vcd-c119="" class="doc-title ng-star-inserted" title="V1-&gt;V2迁移指导"> V1-&gt;V2迁移指导 </h1>
+
+<div _ngcontent-vcd-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-v1-v2-migration">V1-&gt;V2迁移指导概述</a></strong><br> </li> </ul> </div></div>

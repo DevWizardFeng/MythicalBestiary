@@ -1,0 +1,3 @@
+<h1 _ngcontent-rbe-c119="" class="doc-title ng-star-inserted" title="ArkTS组件"> ArkTS组件 </h1>
+
+<div _ngcontent-rbe-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/speech-textreadericon">TextReaderIcon (朗读听筒图标)</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/speech-aicaptioncomponent">AICaptionComponent (AI字幕组件)</a></strong><br> </li> </ul> </div></div>

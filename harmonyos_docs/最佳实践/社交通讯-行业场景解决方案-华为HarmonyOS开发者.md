@@ -1,0 +1,3 @@
+<h1 _ngcontent-cen-c119="" class="doc-title ng-star-inserted" title="社交通讯"> 社交通讯 </h1>
+
+<div _ngcontent-cen-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-content-creation">AI辅助图文内容编创</a></strong><br> </li> </ul> </div></div>

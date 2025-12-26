@@ -1,0 +1,3 @@
+<h1 _ngcontent-prr-c119="" class="doc-title ng-star-inserted" title="应用基础功能和兼容性体验建议"> 应用基础功能和兼容性体验建议 </h1>
+
+<div _ngcontent-prr-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/compatibility-overview">概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/system-features-functions">系统特性与基础功能</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/basic-compatibility">基础兼容性</a></strong><br> </li> </ul> </div></div>

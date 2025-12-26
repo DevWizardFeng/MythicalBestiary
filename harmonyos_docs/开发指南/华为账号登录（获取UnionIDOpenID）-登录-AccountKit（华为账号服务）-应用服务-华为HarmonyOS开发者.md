@@ -1,0 +1,3 @@
+<h1 _ngcontent-qyx-c119="" class="doc-title ng-star-inserted" title="华为账号登录（获取UnionID/OpenID）"> 华为账号登录（获取UnionID/OpenID） </h1>
+
+<div _ngcontent-qyx-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/account-unionid-login-button">使用“华为账号登录”按钮登录</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/account-unionid-login-api">使用自定义按钮登录</a></strong><br> </li> </ul> </div></div>

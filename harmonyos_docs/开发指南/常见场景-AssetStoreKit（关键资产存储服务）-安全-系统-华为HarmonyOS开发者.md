@@ -1,0 +1,3 @@
+<h1 _ngcontent-jht-c119="" class="doc-title ng-star-inserted" title="常见场景"> 常见场景 </h1>
+
+<div _ngcontent-jht-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/asset-scenario1">保护密码类数据</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/asset-scenario2">保护需要用户认证的密码类数据</a></strong><br> </li> </ul> </div></div>

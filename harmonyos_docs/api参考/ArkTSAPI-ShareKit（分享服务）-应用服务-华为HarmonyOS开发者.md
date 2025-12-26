@@ -1,0 +1,3 @@
+<h1 _ngcontent-chb-c119="" class="doc-title ng-star-inserted" title="ArkTS API"> ArkTS API </h1>
+
+<div _ngcontent-chb-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/share-system-share">systemShare（分享）</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/share-harmony-share">harmonyShare（华为分享）</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/share-error-code">ArkTS API错误码</a></strong><br> </li> </ul> </div></div>

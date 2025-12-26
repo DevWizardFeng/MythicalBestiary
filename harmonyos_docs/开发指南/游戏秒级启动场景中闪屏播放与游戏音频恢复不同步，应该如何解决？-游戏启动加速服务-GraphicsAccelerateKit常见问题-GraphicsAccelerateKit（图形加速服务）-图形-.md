@@ -1,0 +1,3 @@
+<h1 _ngcontent-xnm-c119="" class="doc-title ng-star-inserted" title="游戏秒级启动场景中闪屏播放与游戏音频恢复不同步，应该如何解决？"> 游戏秒级启动场景中闪屏播放与游戏音频恢复不同步，应该如何解决？ </h1>
+
+<div _ngcontent-xnm-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>在游戏秒级启动场景中，进入前台后，系统会立即恢复引擎（resume）。若此时ArkTS层仍在播放闪屏动画，游戏内部音频也会被同时恢复，导致“画面仍在闪屏 → 声音提前播放”的不同步问题。</p> <p>为解决上述问题，我们提供两种可选方案：</p> <ul><li><strong>方案一</strong>：基于闪屏播放完成标识控制引擎恢复<p>在游戏启动初期设置splashScreenFinishFlag=false，表示闪屏未结束，引擎不应恢复。</p> <p>闪屏动画播放完毕后：</p> <ol><li>将splashScreenFinishFlag设置为 true</li><li>主动调用引擎的resume()方法</li></ol> </li><li><strong>方案二</strong>：引擎侧支持音频静音/取消静音能力<p>在进入秒级启动恢复流程时，ArkTS层主动调用引擎静音接口，阻断闪屏阶段所有游戏内的音频输出。</p> <p>闪屏播放结束后，再调用取消静音接口恢复引擎音频。</p> </li></ul> </div> <div></div></div>

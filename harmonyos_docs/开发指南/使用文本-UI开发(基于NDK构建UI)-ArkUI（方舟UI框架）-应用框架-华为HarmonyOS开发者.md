@@ -1,0 +1,3 @@
+<h1 _ngcontent-aov-c119="" class="doc-title ng-star-inserted" title="使用文本"> 使用文本 </h1>
+
+<div _ngcontent-aov-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ndk-styled-string">Text组件的文本绘制与显示</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ndk-textarea-event">监听输入框事件</a></strong><br> </li> </ul> </div></div>

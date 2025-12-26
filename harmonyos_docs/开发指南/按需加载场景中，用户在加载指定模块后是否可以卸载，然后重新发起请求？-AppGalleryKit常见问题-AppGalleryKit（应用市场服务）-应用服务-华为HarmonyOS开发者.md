@@ -1,0 +1,3 @@
+<h1 _ngcontent-glo-c119="" class="doc-title ng-star-inserted" title="按需加载场景中，用户在加载指定模块后是否可以卸载，然后重新发起请求？"> 按需加载场景中，用户在加载指定模块后是否可以卸载，然后重新发起请求？ </h1>
+
+<div _ngcontent-glo-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;">   <div>    <p>可以卸载指定模块后重新调用<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/store-moduleinstallmanager#section1375123411137" target="_blank">fetchModules</a>接口发起按需加载请求。</p>    <p>使用hdc指令卸载指定应用的指定模块后重新发起请求，卸载命令请参考：hdc shell bm uninstall -n com.xxxx.instantdownloaddemo -m modulelibName。</p>   </div>   <div></div></div>

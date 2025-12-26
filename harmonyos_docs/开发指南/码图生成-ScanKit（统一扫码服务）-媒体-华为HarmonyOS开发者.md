@@ -1,0 +1,3 @@
+<h1 _ngcontent-odw-c119="" class="doc-title ng-star-inserted" title="码图生成"> 码图生成 </h1>
+
+<div _ngcontent-odw-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/scan-barcodegenerate">通过文本生成码图</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/scan-generatearray">通过字节数组生成码图</a></strong><br> </li> </ul> </div></div>

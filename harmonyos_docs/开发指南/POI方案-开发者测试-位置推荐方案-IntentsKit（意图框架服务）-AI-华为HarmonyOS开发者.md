@@ -1,0 +1,3 @@
+<h1 _ngcontent-llk-c119="" class="doc-title ng-star-inserted" title="POI方案"> POI方案 </h1>
+
+<div _ngcontent-llk-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>根据与华为方锁定的场景选择的POI方案对应步骤详情参考：</p> <p><a href="https://developer.huawei.com/consumer/cn/doc/app/agc-help-location-sense-by-poi-xiaoyi-0000002349175920" target="_blank">近场服务-POI接入小艺建议场景</a></p> </div> <div></div></div>

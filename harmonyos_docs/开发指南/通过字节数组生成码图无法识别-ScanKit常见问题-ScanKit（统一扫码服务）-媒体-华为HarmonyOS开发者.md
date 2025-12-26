@@ -1,0 +1,3 @@
+<h1 _ngcontent-kun-c119="" class="doc-title ng-star-inserted" title="通过字节数组生成码图无法识别"> 通过字节数组生成码图无法识别 </h1>
+
+<div _ngcontent-kun-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p><strong>问题现象</strong></p> <p>Scan Kit识别该码图内容显示为乱码，无法解析。</p> <p><strong>解决措施</strong></p> <p>通过字节数组生成码图，Scan Kit识别该码图内容显示为乱码，这种字节数组需要专门的解码器解析，例如地铁闸机。</p> </div> <div></div></div>

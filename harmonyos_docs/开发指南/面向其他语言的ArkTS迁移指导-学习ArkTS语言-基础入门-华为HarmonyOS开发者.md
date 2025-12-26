@@ -1,0 +1,3 @@
+<h1 _ngcontent-ybx-c119="" class="doc-title ng-star-inserted" title="面向其他语言的ArkTS迁移指导"> 面向其他语言的ArkTS迁移指导 </h1>
+
+<div _ngcontent-ybx-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/getting-started-with-arkts-for-java-programmers">从Java到ArkTS的迁移指导</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/getting-started-with-arkts-for-swift-programmers">从Swift到ArkTS的迁移指导</a></strong><br> </li> </ul> </div></div>

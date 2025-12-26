@@ -1,0 +1,3 @@
+<h1 _ngcontent-qwt-c119="" class="doc-title ng-star-inserted" title="附录"> 附录 </h1>
+
+<div _ngcontent-qwt-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/gameservice-address">配置回调地址</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/gameservice-key">获取游戏密钥</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-jhc-c119="" class="doc-title ng-star-inserted" title="跨应用数据共享"> 跨应用数据共享 </h1>
+
+<div _ngcontent-jhc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/data-share-overview">跨应用数据共享概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/one-to-many-data-share">一对多跨应用数据共享</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/many-to-many-data-share">多对多跨应用数据共享</a></strong><br> </li> </ul> </div></div>

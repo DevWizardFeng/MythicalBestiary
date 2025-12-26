@@ -1,0 +1,3 @@
+<h1 _ngcontent-pnn-c119="" class="doc-title ng-star-inserted" title="启用数字商品服务"> 启用数字商品服务 </h1>
+
+<div _ngcontent-pnn-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/store-iap-config-agc">开通相关服务和配置参数</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/store-iap-config-app">配置应用</a></strong><br> </li> </ul> </div></div>

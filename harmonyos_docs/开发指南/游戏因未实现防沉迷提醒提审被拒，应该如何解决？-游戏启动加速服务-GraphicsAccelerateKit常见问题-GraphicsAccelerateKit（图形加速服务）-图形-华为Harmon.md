@@ -1,0 +1,3 @@
+<h1 _ngcontent-uuo-c119="" class="doc-title ng-star-inserted" title="游戏因未实现防沉迷提醒提审被拒，应该如何解决？"> 游戏因未实现防沉迷提醒提审被拒，应该如何解决？ </h1>
+
+<div _ngcontent-uuo-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>根据上架审核规则，建议游戏秒级启动时增加游戏健康公告闪屏，然后再进入内存镜像界面，详细操作可参考<a href="https://developer.huawei.com/consumer/cn/codelabsPortal/carddetails/tutorials_LaunchAcceleration-ArkTS" target="_blank">Codelab</a>示例工程。</p> </div> <div></div></div>

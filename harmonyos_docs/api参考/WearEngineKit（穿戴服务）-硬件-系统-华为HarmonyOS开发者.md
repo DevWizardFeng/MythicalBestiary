@@ -1,0 +1,3 @@
+<h1 _ngcontent-kas-c119="" class="doc-title ng-star-inserted" title="Wear Engine Kit（穿戴服务）"> Wear Engine Kit（穿戴服务） </h1>
+
+<div _ngcontent-kas-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/wearengine_arkts_api">ArkTS API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/wearengine_api_error_code">ArkTS API错误码</a></strong><br> </li> </ul> </div></div>

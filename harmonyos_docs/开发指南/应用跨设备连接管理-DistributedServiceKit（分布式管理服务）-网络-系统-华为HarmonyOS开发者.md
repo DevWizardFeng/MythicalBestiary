@@ -1,0 +1,3 @@
+<h1 _ngcontent-ggk-c119="" class="doc-title ng-star-inserted" title="应用跨设备连接管理"> 应用跨设备连接管理 </h1>
+
+<div _ngcontent-ggk-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/abilityconnectmanager-guidelines">UIAbility与UIAbility连接开发指南</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/linkenhance_development-guide">增强连接开发指导</a></strong><br> </li> </ul> </div></div>

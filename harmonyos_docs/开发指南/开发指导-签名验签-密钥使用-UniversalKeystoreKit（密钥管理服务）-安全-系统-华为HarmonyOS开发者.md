@@ -1,0 +1,3 @@
+<h1 _ngcontent-kkk-c119="" class="doc-title ng-star-inserted" title="开发指导"> 开发指导 </h1>
+
+<div _ngcontent-kkk-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/huks-signing-signature-verification-arkts">签名/验签(ArkTS)</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/huks-signing-signature-verification-ndk">签名/验签(C/C++)</a></strong><br> </li> </ul> </div></div>

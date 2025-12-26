@@ -1,0 +1,3 @@
+<h1 _ngcontent-pfm-c119="" class="doc-title ng-star-inserted" title="AppGallery Connect商品管理页面中，价格展示是否做了数字调整？比如小数点第二位6/9等调整？"> AppGallery Connect商品管理页面中，价格展示是否做了数字调整？比如小数点第二位6/9等调整？ </h1>
+
+<div _ngcontent-pfm-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>做了调整，具体调整规则请参见<a href="https://developer.huawei.com/consumer/cn/doc/distribution/app/agc-help-conversion-rule-description-0000001146614687" target="_blank">换算规则</a>。</p> </div> <div></div></div>

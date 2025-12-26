@@ -1,0 +1,3 @@
+<h1 _ngcontent-qps-c119="" class="doc-title ng-star-inserted" title="特殊界面布局场景"> 特殊界面布局场景 </h1>
+
+<div _ngcontent-qps-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-folded-hover">折叠屏悬停态</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-multi-device-camera">相机硬件差异</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-web-adaptation">Web响应式布局</a></strong><br> </li> </ul> </div></div>

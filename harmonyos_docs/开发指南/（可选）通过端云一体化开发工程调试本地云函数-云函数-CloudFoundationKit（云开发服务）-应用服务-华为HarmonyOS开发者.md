@@ -1,0 +1,3 @@
+<h1 _ngcontent-jpb-c119="" class="doc-title ng-star-inserted" title="（可选）通过端云一体化开发工程调试本地云函数"> （可选）通过端云一体化开发工程调试本地云函数 </h1>
+
+<div _ngcontent-jpb-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cloudfoundation-start-local-function">启动本地云函数</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cloudfoundation-call-local-function">调用本地云函数</a></strong><br> </li> </ul> </div></div>

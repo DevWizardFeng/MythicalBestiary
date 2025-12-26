@@ -1,0 +1,3 @@
+<h1 _ngcontent-utc-c119="" class="doc-title ng-star-inserted" title="inputParams报错Value should be one of: &quot;intentName&quot;, &quot;domain&quot;, &quot;intentVersion&quot;, &quot;srcEntry&quot;, &quot;uiAbility&quot;, &quot;serviceExtension&quot;, &quot;uiExtension&quot;, &quot;form&quot;如何解决？"> inputParams报错Value should be one of: "intentName", "domain", "intentVersion", "srcEntry", "uiAbility", "serviceExtension", "uiExtension", "form"如何解决？ </h1>
+
+<div _ngcontent-utc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>从5.1.0(18)开始支持功能一步达接入方案，可通过升级对应版本DevEco Studio解决。</p> </div> <div></div></div>

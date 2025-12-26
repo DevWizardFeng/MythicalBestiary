@@ -1,0 +1,3 @@
+<h1 _ngcontent-pla-c119="" class="doc-title ng-star-inserted" title="新闻阅读"> 新闻阅读 </h1>
+
+<div _ngcontent-pla-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-news_homepage">首页信息流体验优化</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-reader-page-flip">阅读器翻页</a></strong><br> </li> </ul> </div></div>

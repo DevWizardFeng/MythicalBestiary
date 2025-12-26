@@ -1,0 +1,3 @@
+<h1 _ngcontent-lbn-c119="" class="doc-title ng-star-inserted" title="碰一碰分享"> 碰一碰分享 </h1>
+
+<div _ngcontent-lbn-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/knock-share-between-phones">手机与手机碰一碰分享</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/knock-share-pc-phones">手机与PC/2in1碰一碰分享</a></strong><br> </li> </ul> </div></div>

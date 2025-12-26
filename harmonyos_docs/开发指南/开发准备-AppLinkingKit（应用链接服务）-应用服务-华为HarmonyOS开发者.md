@@ -1,0 +1,3 @@
+<h1 _ngcontent-jqb-c119="" class="doc-title ng-star-inserted" title="开发准备"> 开发准备 </h1>
+
+<div _ngcontent-jqb-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/applinking-basic-preparation">基本准备工作</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/applinking-enable-applinking">开通App Linking服务</a></strong><br> </li> </ul> </div></div>

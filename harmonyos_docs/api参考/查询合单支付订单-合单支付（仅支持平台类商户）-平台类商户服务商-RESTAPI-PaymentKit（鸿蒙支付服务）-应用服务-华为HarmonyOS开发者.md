@@ -1,0 +1,3 @@
+<h1 _ngcontent-lri-c119="" class="doc-title ng-star-inserted" title="查询合单支付订单"> 查询合单支付订单 </h1>
+
+<div _ngcontent-lri-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-partner-combined-sys-query-order">通过combinedSysTransOrderNo查询订单信息</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-partner-combined-merc-query-order">通过combinedMercOrderNo查询订单信息</a></strong><br> </li> </ul> </div></div>

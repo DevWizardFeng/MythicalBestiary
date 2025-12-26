@@ -1,0 +1,3 @@
+<h1 _ngcontent-frp-c119="" class="doc-title ng-star-inserted" title="游戏场景感知"> 游戏场景感知 </h1>
+
+<div _ngcontent-frp-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/gameservice-faq-6">使用C#语言开发的游戏是否可以接入游戏场景感知功能？</a></strong><br> </li> </ul> </div></div>

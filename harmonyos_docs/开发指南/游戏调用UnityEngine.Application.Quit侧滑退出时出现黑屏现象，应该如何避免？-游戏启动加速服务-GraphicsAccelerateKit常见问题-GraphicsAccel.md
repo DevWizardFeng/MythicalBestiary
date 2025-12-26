@@ -1,0 +1,3 @@
+<h1 _ngcontent-bmk-c119="" class="doc-title ng-star-inserted" title="游戏调用UnityEngine.Application.Quit侧滑退出时出现黑屏现象，应该如何避免？"> 游戏调用UnityEngine.Application.Quit侧滑退出时出现黑屏现象，应该如何避免？ </h1>
+
+<div _ngcontent-bmk-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>若退出后下次启动游戏时希望继续快启游戏，需要调用<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-inner-application-uiabilitycontext#terminateself" target="_blank">terminateself</a>实现侧滑时优雅退出。</p> <p>若退出后下次启动游戏时不希望快启游戏，需要调用<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-inner-application-applicationcontext#applicationcontextkillallprocesses" target="_blank">killAllProcesses</a>实现侧滑时强制退出。</p> </div> <div></div></div>

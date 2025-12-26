@@ -1,0 +1,3 @@
+<h1 _ngcontent-tay-c119="" class="doc-title ng-star-inserted" title="语法"> 语法 </h1>
+
+<div _ngcontent-tay-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/js-framework-syntax-hml">HML语法参考</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/js-framework-syntax-css">CSS语法参考</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/js-framework-syntax-js">JS语法参考</a></strong><br> </li> </ul> </div></div>

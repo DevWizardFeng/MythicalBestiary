@@ -1,0 +1,3 @@
+<h1 _ngcontent-tdo-c119="" class="doc-title ng-star-inserted" title="跨设备协同通知"> 跨设备协同通知 </h1>
+
+<div _ngcontent-tdo-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/notification-distributed-overview">跨设备协同通知概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/notification-distributed-messageid">清除跨设备场景下的重复通知</a></strong><br> </li> </ul> </div></div>

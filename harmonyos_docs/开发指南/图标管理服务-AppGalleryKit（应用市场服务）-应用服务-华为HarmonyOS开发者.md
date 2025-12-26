@@ -1,0 +1,3 @@
+<h1 _ngcontent-pic-c119="" class="doc-title ng-star-inserted" title="图标管理服务"> 图标管理服务 </h1>
+
+<div _ngcontent-pic-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/appgallery-appinfo-manage">通过AppGallery Connect动态管理应用图标</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/appgallery-appinfo-use">实现应用图标动态切换</a></strong><br> </li> </ul> </div></div>

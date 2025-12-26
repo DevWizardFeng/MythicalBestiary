@@ -1,0 +1,3 @@
+<h1 _ngcontent-jfy-c119="" class="doc-title ng-star-inserted" title="附录"> 附录 </h1>
+
+<div _ngcontent-jfy-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/push-detail-rules">通知内容管理细则</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/push-punishment-standards">通知违规处罚标准</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/push-country">支持的国家/地区</a></strong><br> </li> </ul> </div></div>

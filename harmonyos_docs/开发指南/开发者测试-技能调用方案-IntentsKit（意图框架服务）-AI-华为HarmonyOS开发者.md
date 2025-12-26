@@ -1,0 +1,3 @@
+<h1 _ngcontent-dgj-c119="" class="doc-title ng-star-inserted" title="开发者测试"> 开发者测试 </h1>
+
+<div _ngcontent-dgj-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/intents-skill-all-rec-dp-self-validation-con">配置文件接入方式自测试方案</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/intents-skill-all-rec-dp-self-validation-decorator">装饰器接入方式自测试方案</a></strong><br> </li> </ul> </div></div>

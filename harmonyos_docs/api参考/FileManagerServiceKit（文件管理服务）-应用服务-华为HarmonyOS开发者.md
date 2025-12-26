@@ -1,0 +1,3 @@
+<h1 _ngcontent-iie-c119="" class="doc-title ng-star-inserted" title="File Manager Service Kit（文件管理服务）"> File Manager Service Kit（文件管理服务） </h1>
+
+<div _ngcontent-iie-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/filemanagerservice-arkts">ArkTS API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/filemanagerservice-iconformat">图标格式说明</a></strong><br> </li> </ul> </div></div>

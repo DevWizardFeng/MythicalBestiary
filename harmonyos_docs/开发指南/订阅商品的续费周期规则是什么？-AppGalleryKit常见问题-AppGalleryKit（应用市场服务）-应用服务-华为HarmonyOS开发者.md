@@ -1,0 +1,3 @@
+<h1 _ngcontent-xrc-c119="" class="doc-title ng-star-inserted" title="订阅商品的续费周期规则是什么？"> 订阅商品的续费周期规则是什么？ </h1>
+
+<div _ngcontent-xrc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>当前支持的续费周期为1周、1个月、2个月、3个月、6个月、1年、30天（上次订阅日期+30天）、31天（上次订阅日期+31天），具体配置方法请参考<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/store-iap-product#section167197586468">配置自动续期订阅商品</a>。</p> </div> <div></div></div>

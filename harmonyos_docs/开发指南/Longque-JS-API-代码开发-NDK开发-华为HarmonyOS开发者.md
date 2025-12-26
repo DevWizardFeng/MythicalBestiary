@@ -1,0 +1,3 @@
+<h1 _ngcontent-yyd-c119="" class="doc-title ng-star-inserted" title="Longque-JS-API"> Longque-JS-API </h1>
+
+<div _ngcontent-yyd-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/use-longque-js-api">Longque-JS-API使用指导</a></strong><br> </li> </ul> </div></div>

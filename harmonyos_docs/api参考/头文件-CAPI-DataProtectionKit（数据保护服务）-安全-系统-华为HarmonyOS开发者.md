@@ -1,0 +1,3 @@
+<h1 _ngcontent-ogm-c119="" class="doc-title ng-star-inserted" title="头文件"> 头文件 </h1>
+
+<div _ngcontent-ogm-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-dlp-permission-api-h">dlp_permission_api.h</a></strong><br> </li> </ul> </div></div>

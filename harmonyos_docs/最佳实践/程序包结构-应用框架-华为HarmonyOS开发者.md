@@ -1,0 +1,3 @@
+<h1 _ngcontent-fxe-c119="" class="doc-title ng-star-inserted" title="程序包结构"> 程序包结构 </h1>
+
+<div _ngcontent-fxe-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-desktop-shortcuts">桌面快捷方式</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-cross-module-resource-access">跨模块资源访问</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-cross-module-reference">Native侧跨HAR/HSP模块接口调用</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-vfs-c119="" class="doc-title ng-star-inserted" title="应用账号"> 应用账号 </h1>
+
+<div _ngcontent-vfs-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/manage-application-account">管理应用账号</a></strong><br> </li> </ul> </div></div>

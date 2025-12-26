@@ -1,0 +1,3 @@
+<h1 _ngcontent-cqu-c119="" class="doc-title ng-star-inserted" title="Tensor基础知识参考"> Tensor基础知识参考 </h1>
+
+<div _ngcontent-cqu-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-basic-concepts-of-tensor">Tensor基本概念</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-data-layout-format">数据排布格式</a></strong><br> </li> </ul> </div></div>

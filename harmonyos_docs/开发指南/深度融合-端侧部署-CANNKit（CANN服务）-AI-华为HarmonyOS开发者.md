@@ -1,0 +1,3 @@
+<h1 _ngcontent-ype-c119="" class="doc-title ng-star-inserted" title="深度融合"> 深度融合 </h1>
+
+<div _ngcontent-ype-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>模型推理时结合硬件深度融合，减少对DDR的访问，提升能效比。目前仅支持编译前可变shape场景，调用<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/cannkit#hms_hiaioptions_settuningstrategy" target="_blank">HMS_HiAIOptions_SetTuningStrategy</a>设置模型优化策略为<span class="parmvalue">“HIAI_TUNING_STRATEGY_ON_DEVICE_TUNING”</span>。</p> </div> <div></div></div>

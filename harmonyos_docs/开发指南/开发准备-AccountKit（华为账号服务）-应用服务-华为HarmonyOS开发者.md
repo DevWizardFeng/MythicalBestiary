@@ -1,0 +1,3 @@
+<h1 _ngcontent-npy-c119="" class="doc-title ng-star-inserted" title="开发准备"> 开发准备 </h1>
+
+<div _ngcontent-npy-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/account-config-permissions">申请账号权限</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/account-sign-fingerprints">配置签名和指纹</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/account-client-id">配置Client ID</a></strong><br> </li> </ul> </div></div>

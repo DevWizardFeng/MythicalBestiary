@@ -1,0 +1,3 @@
+<h1 _ngcontent-wmd-c119="" class="doc-title ng-star-inserted" title="在授权时上报1001502014错误"> 在授权时上报1001502014错误 </h1>
+
+<div _ngcontent-wmd-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;">   <div>    <p>确保授权请求参数中的数据类型已经在<strong>Health Service Kit</strong>卡片中申请相应的权限，申请步骤请参考<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/health-apply">申请运动健康服务</a>，数据类型对应的权限参考<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/health-permission-description">权限说明</a>。</p>    <p>更多错误码请参考<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/errorcode-healthservice" target="_blank">ArkTS API错误码</a>。</p>   </div>   <div></div></div>

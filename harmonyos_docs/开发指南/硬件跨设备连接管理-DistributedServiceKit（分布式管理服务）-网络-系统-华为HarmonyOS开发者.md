@@ -1,0 +1,3 @@
+<h1 _ngcontent-hdg-c119="" class="doc-title ng-star-inserted" title="硬件跨设备连接管理"> 硬件跨设备连接管理 </h1>
+
+<div _ngcontent-hdg-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/camera-distributed">分布式相机开发指南</a></strong><br> </li> </ul> </div></div>

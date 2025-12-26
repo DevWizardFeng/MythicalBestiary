@@ -1,0 +1,3 @@
+<h1 _ngcontent-xrn-c119="" class="doc-title ng-star-inserted" title="接入资源包后台下载功能后如何使用指定测试设备进行自测？"> 接入资源包后台下载功能后如何使用指定测试设备进行自测？ </h1>
+
+<div _ngcontent-xrn-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>在AppGallery Connect正式发布资源包下载任务前，可以指定测试设备进行本地自测，具体操作请参见<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/graphics-accelerate-assetdownload-release#section6757103624010">测试下载功能</a>。在测试设备上测试下载功能符合预期效果后，再正式发布资源包下载任务。</p> </div> <div></div></div>

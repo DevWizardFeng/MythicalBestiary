@@ -1,0 +1,3 @@
+<h1 _ngcontent-cbw-c119="" class="doc-title ng-star-inserted" title="更多：若以上FAQ仍不能解决，可通过在线提单反馈"> 更多：若以上FAQ仍不能解决，可通过在线提单反馈 </h1>
+
+<div _ngcontent-cbw-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>打开华为开发者联盟的“<a href="https://developer.huawei.com/consumer/cn/support/feedback/#/" target="_blank">在线提单</a>”页面，根据遇到的问题情况填写“概述”，问题分类选择“HarmonyOS NEXT &gt; 系统 &gt; Wear Engine Kit”，描述问题详情并单击“提交问题”。提交问题后，有时需要您进一步澄清问题，请及时关注进展并予以回复，以便更好地解决问题。</p> </div> <div></div></div>

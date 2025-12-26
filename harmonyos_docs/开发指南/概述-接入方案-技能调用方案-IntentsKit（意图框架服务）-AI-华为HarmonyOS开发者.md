@@ -1,0 +1,3 @@
+<h1 _ngcontent-xix-c119="" class="doc-title ng-star-inserted" title="概述"> 概述 </h1>
+
+<div _ngcontent-xix-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>方案根据不同场景可选择不同接入方式，具体如下：</p> <ol><li>任务执行类场景：适用于配置文件接入方式和装饰器接入方式。<ul><li>配置文件接入方式：主要适用于华为意图框架预定义意图的场景。</li><li>装饰器接入方式：主要适用于开发者将已实现的功能快速接入意图框架的自定义意图场景。</li></ul> </li><li>功能一步达场景：仅支持配置文件接入方式，其对应的意图属于预定义意图中的通用意图。</li></ol> </div> <div></div></div>

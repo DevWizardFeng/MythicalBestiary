@@ -1,0 +1,3 @@
+<h1 _ngcontent-unf-c119="" class="doc-title ng-star-inserted" title="添加预加载依赖类"> 添加预加载依赖类 </h1>
+
+<div _ngcontent-unf-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cloudfoundation-prefetch-tool-class">预加载工具类</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cloudfoundation-prefetch-implementation-class">预加载实现类</a></strong><br> </li> </ul> </div></div>

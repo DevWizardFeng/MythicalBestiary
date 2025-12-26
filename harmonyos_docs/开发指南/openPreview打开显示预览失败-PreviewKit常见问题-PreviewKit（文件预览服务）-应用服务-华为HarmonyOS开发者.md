@@ -1,0 +1,3 @@
+<h1 _ngcontent-qxt-c119="" class="doc-title ng-star-inserted" title="openPreview打开显示预览失败"> openPreview打开显示预览失败 </h1>
+
+<div _ngcontent-qxt-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;">   <div>    <p>Preview Kit的<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/preview-arkts#section144826162913" target="_blank">openPreview</a>接口在传入文件预览信息时，当前仅支持传入文件的<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/user-file-uri-intro" target="_blank">uri</a>，不支持传入文件的沙箱路径。</p>    <p>如果调用openPreview接口后，显示预览失败，请检查传入的是否为uri并且检查传入的uri是否存在。</p>   </div>   <div></div></div>

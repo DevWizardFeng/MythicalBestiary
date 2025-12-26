@@ -1,0 +1,3 @@
+<h1 _ngcontent-mfh-c119="" class="doc-title ng-star-inserted" title="平板"> 平板 </h1>
+
+<div _ngcontent-mfh-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-pad-guide">平板应用开发</a></strong><br> </li> </ul> </div></div>

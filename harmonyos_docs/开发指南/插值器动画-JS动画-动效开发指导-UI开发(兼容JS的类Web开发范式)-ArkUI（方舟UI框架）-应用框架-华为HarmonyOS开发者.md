@@ -1,0 +1,3 @@
+<h1 _ngcontent-cke-c119="" class="doc-title ng-star-inserted" title="插值器动画"> 插值器动画 </h1>
+
+<div _ngcontent-cke-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-js-animate-dynamic-effects">动画动效</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-js-animate-frame">动画帧</a></strong><br> </li> </ul> </div></div>

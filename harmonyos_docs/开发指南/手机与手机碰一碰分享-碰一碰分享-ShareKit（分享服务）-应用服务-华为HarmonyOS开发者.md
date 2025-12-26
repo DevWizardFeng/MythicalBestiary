@@ -1,0 +1,3 @@
+<h1 _ngcontent-ius-c119="" class="doc-title ng-star-inserted" title="手机与手机碰一碰分享"> 手机与手机碰一碰分享 </h1>
+
+<div _ngcontent-ius-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/knock-share-between-phones-overview">概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/knock-share-between-phones-content">内容分享</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/knock-share-between-phones-group">邀请组队</a></strong><br> </li> </ul> </div></div>

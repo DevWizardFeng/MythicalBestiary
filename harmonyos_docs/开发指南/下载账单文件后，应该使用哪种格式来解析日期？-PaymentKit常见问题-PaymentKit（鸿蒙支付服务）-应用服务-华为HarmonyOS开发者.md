@@ -1,0 +1,3 @@
+<h1 _ngcontent-crr-c119="" class="doc-title ng-star-inserted" title="下载账单文件后，应该使用哪种格式来解析日期？"> 下载账单文件后，应该使用哪种格式来解析日期？ </h1>
+
+<div _ngcontent-crr-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><ol><li>不建议用Excel文件格式去解析，Excel打开后可能会被默认格式化处理，导致通过Excel打开文件后，单元格日期格式显示为 “yyyy/MM/dd HH:mm”，双击后显示 “yyyy/MM/dd HH:mm:ss”，以“yyyy/MM/dd HH:mm:ss”格式解析不出来，以“yyyy/MM/dd HH:mm”格式可以解析。</li><li>建议使用csv文件格式，yyyy/MM/dd HH:mm:ss时间格式做解析。</li></ol> </div> <div></div></div>

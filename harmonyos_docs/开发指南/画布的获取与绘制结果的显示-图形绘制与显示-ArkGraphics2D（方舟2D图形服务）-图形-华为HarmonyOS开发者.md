@@ -1,0 +1,3 @@
+<h1 _ngcontent-ofa-c119="" class="doc-title ng-star-inserted" title="画布的获取与绘制结果的显示"> 画布的获取与绘制结果的显示 </h1>
+
+<div _ngcontent-ofa-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/canvas-get-result-draw-arkts">画布的获取与绘制结果的显示（ArkTS）</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/canvas-get-result-draw-c">画布的获取与绘制结果的显示（C/C++）</a></strong><br> </li> </ul> </div></div>

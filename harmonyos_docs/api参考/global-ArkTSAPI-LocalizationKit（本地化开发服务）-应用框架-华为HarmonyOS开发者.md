@@ -1,0 +1,3 @@
+<h1 _ngcontent-gxg-c119="" class="doc-title ng-star-inserted" title="global"> global </h1>
+
+<div _ngcontent-gxg-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-rawfiledescriptor">RawFileDescriptor</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-resource">Resource</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-sendableresource">SendableResource</a></strong><br> </li> </ul> </div></div>

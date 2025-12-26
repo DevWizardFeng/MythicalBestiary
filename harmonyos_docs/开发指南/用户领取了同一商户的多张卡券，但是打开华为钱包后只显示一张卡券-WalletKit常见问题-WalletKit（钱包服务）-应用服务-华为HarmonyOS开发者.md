@@ -1,0 +1,3 @@
+<h1 _ngcontent-smd-c119="" class="doc-title ng-star-inserted" title="用户领取了同一商户的多张卡券，但是打开华为钱包后只显示一张卡券"> 用户领取了同一商户的多张卡券，但是打开华为钱包后只显示一张卡券 </h1>
+
+<div _ngcontent-smd-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>请检查<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/wallet-rest-api-carkey#section129511211195" target="_blank">申请钥匙卡片</a>的请求参数的serialNumber和organizationPassId字段是否都是唯一的。</p> </div> <div></div></div>

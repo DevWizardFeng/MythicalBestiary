@@ -1,0 +1,3 @@
+<h1 _ngcontent-whm-c119="" class="doc-title ng-star-inserted" title="三方开发框架接入的问题"> 三方开发框架接入的问题 </h1>
+
+<div _ngcontent-whm-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>实况窗随HarmonyOS整体框架支持三方平台，HarmonyOS为常见的三方开发框架提供了接入指南：</p> <ul><li><a href="https://gitee.com/react-native-oh-library/usage-docs" target="_blank">React Native</a></li><li><a href="https://gitcode.com/openharmony-tpc/flutter_samples/tree/br_3.7.12-ohos-1.1.0/ohos/docs" target="_blank">Flutter</a></li><li><a href="https://uniapp.dcloud.net.cn/tutorial/harmony/intro.html" target="_blank">Uni-app</a></li></ul> </div> <div></div></div>

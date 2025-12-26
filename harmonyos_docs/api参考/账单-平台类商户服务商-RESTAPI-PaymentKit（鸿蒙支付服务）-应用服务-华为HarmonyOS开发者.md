@@ -1,0 +1,3 @@
+<h1 _ngcontent-hdc-c119="" class="doc-title ng-star-inserted" title="账单"> 账单 </h1>
+
+<div _ngcontent-hdc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-partner-agent-query-trade-bill">查询对账单</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-partner-agent-query-settle-bill">查询结算账单</a></strong><br> </li> </ul> </div></div>

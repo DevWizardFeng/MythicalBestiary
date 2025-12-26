@@ -1,0 +1,3 @@
+<h1 _ngcontent-yfg-c119="" class="doc-title ng-star-inserted" title="常用交互"> 常用交互 </h1>
+
+<div _ngcontent-yfg-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000001748650380"><p id="ZH-CN_TOPIC_0000001748650380__p8060118"></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/design-guides/hmi-scenes-drag-0000001795410277">拖拽</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/design-guides/hmi-scenes-selection-0000001957005521">框选</a></strong><br> </li> </ul> </div></div>

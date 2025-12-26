@@ -1,0 +1,3 @@
+<h1 _ngcontent-mwt-c119="" class="doc-title ng-star-inserted" title="长时任务并发场景"> 长时任务并发场景 </h1>
+
+<div _ngcontent-mwt-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/long-time-task-overview">长时任务并发场景简介</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/long-time-task-guide">长时任务开发指导（TaskPool）</a></strong><br> </li> </ul> </div></div>

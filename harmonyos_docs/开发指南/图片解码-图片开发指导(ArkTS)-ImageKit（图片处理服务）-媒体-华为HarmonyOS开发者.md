@@ -1,0 +1,3 @@
+<h1 _ngcontent-woc-c119="" class="doc-title ng-star-inserted" title="图片解码"> 图片解码 </h1>
+
+<div _ngcontent-woc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/image-decoding">使用ImageSource完成图片解码</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/image-picture-decoding">使用ImageSource完成多图对象解码</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/image-allocator-type">申请图片解码内存(ArkTS)</a></strong><br> </li> </ul> </div></div>

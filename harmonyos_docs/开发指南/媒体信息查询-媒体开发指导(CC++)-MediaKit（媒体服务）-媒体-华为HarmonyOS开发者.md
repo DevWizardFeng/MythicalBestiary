@@ -1,0 +1,3 @@
+<h1 _ngcontent-udd-c119="" class="doc-title ng-star-inserted" title="媒体信息查询"> 媒体信息查询 </h1>
+
+<div _ngcontent-udd-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/using-ndk-avmetadataextractor-for-media">使用AVMetadataExtractor获取元数据(C/C++)</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/using-ndk-avimagegenerator-for-video">使用AVImageGenerator获取视频帧(C/C++)</a></strong><br> </li> </ul> </div></div>

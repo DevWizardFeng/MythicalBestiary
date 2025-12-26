@@ -1,0 +1,3 @@
+<h1 _ngcontent-kdb-c119="" class="doc-title ng-star-inserted" title="商户提供的回调通知接口在Payment Kit生产环境需要加网络允许清单吗？如何验证提供的回调地址Payment Kit服务器访问是否正常？"> 商户提供的回调通知接口在Payment Kit生产环境需要加网络允许清单吗？如何验证提供的回调地址Payment Kit服务器访问是否正常？ </h1>
+
+<div _ngcontent-kdb-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><ol><li>回调通知当前未做网络允许清单限制，不需要在华为支付添加网络允许清单。</li><li>商户提供的回调地址，保证在公网环境下可正常访问即可。</li></ol> </div> <div></div></div>

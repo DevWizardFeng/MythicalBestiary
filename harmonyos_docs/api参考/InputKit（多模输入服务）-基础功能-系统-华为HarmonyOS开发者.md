@@ -1,0 +1,3 @@
+<h1 _ngcontent-fsc-c119="" class="doc-title ng-star-inserted" title="Input Kit（多模输入服务）"> Input Kit（多模输入服务） </h1>
+
+<div _ngcontent-fsc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/input-arkts">ArkTS API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/input-c">C API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/input-arkts-errcode">错误码</a></strong><br> </li> </ul> </div></div>

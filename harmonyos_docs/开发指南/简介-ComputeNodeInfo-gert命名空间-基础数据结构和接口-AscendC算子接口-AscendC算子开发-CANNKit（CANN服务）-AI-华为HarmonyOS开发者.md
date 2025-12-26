@@ -1,0 +1,3 @@
+<h1 _ngcontent-gwm-c119="" class="doc-title ng-star-inserted" title="简介"> 简介 </h1>
+
+<div _ngcontent-gwm-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>ComputeNodeInfo类主要的目的在于将算子的相关编译信息进行序列化保存，以便可以在图执行阶段能够高效地获取这些信息。</p> <p>ComputeNodeInfo的内存空间是平铺式的，内存依次存放ComputeNodeInfo自身的数据成员、算子IR定义输入个数的Anchor信息、实际输入个数和输出个数的编译阶段的Tensor描述信息以及IR定义的属性信息。</p> </div> <div></div></div>

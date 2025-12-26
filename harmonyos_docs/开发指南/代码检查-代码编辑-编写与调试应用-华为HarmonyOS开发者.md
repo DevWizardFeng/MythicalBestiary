@@ -1,0 +1,3 @@
+<h1 _ngcontent-pym-c119="" class="doc-title ng-star-inserted" title="代码检查"> 代码检查 </h1>
+
+<div _ngcontent-pym-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000001657663324"></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-realtime-check">代码实时检查及快速修复</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-code-linter">Code Linter代码检查</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-codelinter-rule">Code Linter代码检查规则</a></strong><br> </li> </ul> </div></div>

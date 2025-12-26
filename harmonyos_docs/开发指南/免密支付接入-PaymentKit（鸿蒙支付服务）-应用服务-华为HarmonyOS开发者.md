@@ -1,0 +1,3 @@
+<h1 _ngcontent-mar-c119="" class="doc-title ng-star-inserted" title="免密支付接入"> 免密支付接入 </h1>
+
+<div _ngcontent-mar-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/payment-password-free-pay-overview">免密代扣说明</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/payment-pay-and-sign">支付并签约场景</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/payment-withhold-process">签约代扣场景</a></strong><br> </li> </ul> </div></div>

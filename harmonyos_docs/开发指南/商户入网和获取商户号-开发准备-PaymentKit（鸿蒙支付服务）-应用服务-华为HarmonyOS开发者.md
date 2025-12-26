@@ -1,0 +1,3 @@
+<h1 _ngcontent-paf-c119="" class="doc-title ng-star-inserted" title="商户入网和获取商户号"> 商户入网和获取商户号 </h1>
+
+<div _ngcontent-paf-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>华为支付当前仅支持商户接入，在开发前需要先完成<a href="https://developer.huawei.com/consumer/cn/doc/pay-docs/hwzf-jieruliucheng-0000001251448455" target="_blank">华为支付商户入网</a>。</p> <p>商户入网后会分配对应的商户号，商户号作为开放API接口请求的必要入参，在开发前需要先<a href="https://developer.huawei.com/consumer/cn/doc/pay-docs/hwzf-shanghuhao-0000001725982508" target="_blank">获取商户号</a>。</p> <p>如已完成商户入网并获取好商户号请跳过该步骤。</p> </div> <div></div></div>

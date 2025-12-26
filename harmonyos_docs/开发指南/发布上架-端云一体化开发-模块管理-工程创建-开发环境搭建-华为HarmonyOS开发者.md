@@ -1,0 +1,3 @@
+<h1 _ngcontent-njx-c119="" class="doc-title ng-star-inserted" title="发布上架"> 发布上架 </h1>
+
+<div _ngcontent-njx-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000001655304554"><p id="ZH-CN_TOPIC_0000002214858689__p462610358421">调试完毕后，将工程打包成APP，提交至AGC申请上架。具体请参见<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-publish-app" target="_blank">HarmonyOS应用/服务发布</a>。</p> </div> <div></div></div>

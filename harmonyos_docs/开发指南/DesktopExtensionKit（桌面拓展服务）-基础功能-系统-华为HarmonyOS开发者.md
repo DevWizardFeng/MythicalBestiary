@@ -1,0 +1,3 @@
+<h1 _ngcontent-mmk-c119="" class="doc-title ng-star-inserted" title="Desktop Extension Kit（桌面拓展服务）"> Desktop Extension Kit（桌面拓展服务） </h1>
+
+<div _ngcontent-mmk-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/statusbar-extension-introduction">DeskTop Extension Kit简介</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/statusbar-extension-guide">应用接入状态栏</a></strong><br> </li> </ul> </div></div>

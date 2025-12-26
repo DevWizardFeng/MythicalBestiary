@@ -1,0 +1,3 @@
+<h1 _ngcontent-seo-c119="" class="doc-title ng-star-inserted" title="是否可以申请长时任务，在游戏前台下载资源包过程中切后台时免冻结并继续下载资源包？"> 是否可以申请长时任务，在游戏前台下载资源包过程中切后台时免冻结并继续下载资源包？ </h1>
+
+<div _ngcontent-seo-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>可以。</p> <p>游戏可以申请<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/continuous-task" target="_blank">dataTransfer类型的长时任务</a>，在游戏前台切后台后，游戏可以保持免冻结并继续下载资源包。</p> </div> <div></div></div>

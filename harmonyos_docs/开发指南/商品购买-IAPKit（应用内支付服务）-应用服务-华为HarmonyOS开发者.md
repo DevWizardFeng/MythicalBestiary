@@ -1,0 +1,3 @@
+<h1 _ngcontent-aqb-c119="" class="doc-title ng-star-inserted" title="商品购买"> 商品购买 </h1>
+
+<div _ngcontent-aqb-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/iap-purchase">消耗型/非消耗型商品购买</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/iap-subscription">自动续期订阅商品购买</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/iap-nonrenewable">非续期订阅商品购买</a></strong><br> </li> </ul> </div></div>

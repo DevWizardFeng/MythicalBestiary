@@ -1,0 +1,3 @@
+<h1 _ngcontent-qcv-c119="" class="doc-title ng-star-inserted" title="ArkTS API"> ArkTS API </h1>
+
+<div _ngcontent-qcv-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-dlppermission">@ohos.dlpPermission (数据防泄漏)</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-identifysensitivecontent">@ohos.security.identifySensitiveContent (识别敏感内容)</a></strong><br> </li> </ul> </div></div>

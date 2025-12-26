@@ -1,0 +1,3 @@
+<h1 _ngcontent-rfl-c119="" class="doc-title ng-star-inserted" title="手机与PC/2in1间相互分享"> 手机与PC/2in1间相互分享 </h1>
+
+<div _ngcontent-rfl-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>手机与PC/2in1设置间相互分享，可参考：<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/knock-share-between-phones-content">手机间内容分享</a>。</p> </div> <div></div></div>

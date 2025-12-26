@@ -1,0 +1,3 @@
+<h1 _ngcontent-icx-c119="" class="doc-title ng-star-inserted" title="Contacts Kit（联系人服务）"> Contacts Kit（联系人服务） </h1>
+
+<div _ngcontent-icx-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/contacts-intro">Contacts Kit开发概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/contacts-addcontactviaui">使用picker管理联系人</a></strong><br> </li> </ul> </div></div>

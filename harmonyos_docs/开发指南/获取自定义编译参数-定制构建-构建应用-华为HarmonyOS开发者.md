@@ -1,0 +1,3 @@
+<h1 _ngcontent-iru-c119="" class="doc-title ng-star-inserted" title="获取自定义编译参数"> 获取自定义编译参数 </h1>
+
+<div _ngcontent-iru-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000001806068821"><p id="ZH-CN_TOPIC_0000002510294331__p8060118"></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-get-build-profile-para-guide">能力说明</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-get-build-profile-para-sample">实践说明</a></strong><br> </li> </ul> </div></div>

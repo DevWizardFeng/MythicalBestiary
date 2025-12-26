@@ -1,0 +1,3 @@
+<h1 _ngcontent-bcq-c119="" class="doc-title ng-star-inserted" title="一次开发，多端部署文档路径调整"> 一次开发，多端部署文档路径调整 </h1>
+
+<div _ngcontent-bcq-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>“一次开发，多端部署”文档路径调整为：<a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-multi-device-overview" target="_blank">“最佳实践”-“多设备开发”-“一次开发，多端部署”</a>。优化后的文档从体验设计、页面开发、功能开发等角度，端到端的给出了指导，帮助开发者快速开发出适配多种类型设备的应用。</p> <p></p> </div></div>

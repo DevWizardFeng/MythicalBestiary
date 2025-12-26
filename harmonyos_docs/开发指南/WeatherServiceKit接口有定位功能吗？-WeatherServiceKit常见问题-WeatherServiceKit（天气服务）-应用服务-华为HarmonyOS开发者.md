@@ -1,0 +1,3 @@
+<h1 _ngcontent-cdh-c119="" class="doc-title ng-star-inserted" title="Weather Service Kit接口有定位功能吗？"> Weather Service Kit接口有定位功能吗？ </h1>
+
+<div _ngcontent-cdh-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>没有，获取当前位置的经纬度可参考<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/weather-service-getweather#section546501255">获取当前位置经纬度</a>。</p> </div> <div></div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-wbh-c119="" class="doc-title ng-star-inserted" title="ArkTS组件"> ArkTS组件 </h1>
+
+<div _ngcontent-wbh-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ohos-useriam-userauthicon">@ohos.userIAM.userAuthIcon (嵌入式用户身份认证控件)</a></strong><br> </li> </ul> </div></div>

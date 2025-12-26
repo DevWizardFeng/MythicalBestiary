@@ -1,0 +1,3 @@
+<h1 _ngcontent-sib-c119="" class="doc-title ng-star-inserted" title="已停止维护的接口"> 已停止维护的接口 </h1>
+
+<div _ngcontent-sib-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-vector">@ohos.util.Vector (线性容器Vector)</a></strong><br> </li> </ul> </div></div>

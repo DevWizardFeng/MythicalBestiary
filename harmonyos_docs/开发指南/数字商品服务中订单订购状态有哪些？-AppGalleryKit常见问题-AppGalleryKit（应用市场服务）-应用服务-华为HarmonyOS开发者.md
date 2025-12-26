@@ -1,0 +1,3 @@
+<h1 _ngcontent-def-c119="" class="doc-title ng-star-inserted" title="数字商品服务中订单订购状态有哪些？"> 数字商品服务中订单订购状态有哪些？ </h1>
+
+<div _ngcontent-def-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><ol><li>订阅型商品的订阅状态，请查看<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/iap-query-subscription-status#section9100101211811" target="_blank">订阅状态（status）</a>。</li><li>消耗型/非消耗性商品，请查看<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/iap-server-data-model#section1950214943118" target="_blank">发货状态（finishStatus）和是否撤销的状态（purchaseOrderRevocationReasonCode）</a>。</li></ol> </div> <div></div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-fdd-c119="" class="doc-title ng-star-inserted" title="使用投播组件"> 使用投播组件 </h1>
+
+<div _ngcontent-fdd-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/distributed-playback-overview">播控特性简介</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/distributed-playback-guide">投播组件开发指导</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/avsession-extended-screen">扩展屏投播开发指导</a></strong><br> </li> </ul> </div></div>

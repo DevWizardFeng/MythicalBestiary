@@ -1,0 +1,3 @@
+<h1 _ngcontent-ltj-c119="" class="doc-title ng-star-inserted" title="开发态功耗检测"> 开发态功耗检测 </h1>
+
+<div _ngcontent-ltj-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-application-power-test">场景功耗测试</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-power-basic-quality-test">功耗基础质量测试</a></strong><br> </li> </ul> </div></div>

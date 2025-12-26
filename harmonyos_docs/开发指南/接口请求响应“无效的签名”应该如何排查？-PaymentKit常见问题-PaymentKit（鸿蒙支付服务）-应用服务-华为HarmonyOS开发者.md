@@ -1,0 +1,3 @@
+<h1 _ngcontent-ohn-c119="" class="doc-title ng-star-inserted" title="接口请求响应“无效的签名”应该如何排查？"> 接口请求响应“无效的签名”应该如何排查？ </h1>
+
+<div _ngcontent-ohn-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;">   <div>    <ol>     <li>加签私钥和上传到商户平台的公钥是否配对。</li>     <li>排查待加签字符串是否正确拼接。 对象内的待加签字段需要排序后再拼接。对象内的嵌套的下一级对象也需要排序后再拼接。具体示例参考<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-rest-overview#section174821258151218" target="_blank">签名规则</a>。</li>     <li>排序拼接的字段命名和请求参数命名方式是否一致（如加签字段使用了匈牙利命名方式，请求参数则用小驼峰命名方式，导致加签验证内容不一致）。</li>     <li>相关加签内容字段（如sign）内容是否正确设置（如加签后内容未及时设置到sign字段，一直使用固定的sign内容去发起请求）。</li>     <li>检查加签算法是否和要求的加签算法一致。</li>    </ol>   </div>   <div></div></div>

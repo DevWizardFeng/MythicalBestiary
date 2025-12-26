@@ -1,0 +1,3 @@
+<h1 _ngcontent-ful-c119="" class="doc-title ng-star-inserted" title="没有弹出用户授权界面"> 没有弹出用户授权界面 </h1>
+
+<div _ngcontent-ful-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><ol><li>首次使用运动健康App，请打开App同意相关的隐私声明。</li><li>请确保已按照<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/request_user_authorization">请求用户授权</a>章节，完成功能开发。</li></ol> </div> <div></div></div>

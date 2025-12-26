@@ -1,0 +1,3 @@
+<h1 _ngcontent-qqj-c119="" class="doc-title ng-star-inserted" title="Neural Network Runtime Kit（Neural Network运行时服务）"> Neural Network Runtime Kit（Neural Network运行时服务） </h1>
+
+<div _ngcontent-qqj-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/neural-network-runtime-kit-introduction">Neural Network Runtime Kit简介</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/neural-network-runtime-guidelines">Neural Network Runtime对接AI推理框架开发指导</a></strong><br> </li> </ul> </div></div>

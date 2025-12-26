@@ -1,0 +1,3 @@
+<h1 _ngcontent-dip-c119="" class="doc-title ng-star-inserted" title="附录"> 附录 </h1>
+
+<div _ngcontent-dip-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/health-help">如何获取帮助</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/health-logo-usage-regulations">标志使用规范</a></strong><br> </li> </ul> </div></div>

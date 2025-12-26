@@ -1,0 +1,3 @@
+<h1 _ngcontent-alr-c119="" class="doc-title ng-star-inserted" title="Image Kit常见问题"> Image Kit常见问题 </h1>
+
+<div _ngcontent-alr-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/heif-adapter-faq">如何处理HEIF图片</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/image-rotate-faq">如何获取图片的旋转角度信息</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/image-error-faq">Image Kit异常处理</a></strong><br> </li> </ul> </div></div>

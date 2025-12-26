@@ -1,0 +1,3 @@
+<h1 _ngcontent-doj-c119="" class="doc-title ng-star-inserted" title="几何图形绘制"> 几何图形绘制 </h1>
+
+<div _ngcontent-doj-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-shape-overview">几何图形绘制概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-geometric-shape-drawing">绘制几何图形 (Shape)</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-clip-shape">形状裁剪（clipShape）</a></strong><br> </li> </ul> </div></div>

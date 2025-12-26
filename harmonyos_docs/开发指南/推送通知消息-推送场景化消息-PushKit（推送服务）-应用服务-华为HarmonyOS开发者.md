@@ -1,0 +1,3 @@
+<h1 _ngcontent-jql-c119="" class="doc-title ng-star-inserted" title="推送通知消息"> 推送通知消息 </h1>
+
+<div _ngcontent-jql-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/push-send-alert">发送通知消息</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/push-revoke-alert">撤回通知消息</a></strong><br> </li> </ul> </div></div>

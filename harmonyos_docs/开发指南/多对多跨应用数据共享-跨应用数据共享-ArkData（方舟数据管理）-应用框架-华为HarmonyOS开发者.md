@@ -1,0 +1,3 @@
+<h1 _ngcontent-act-c119="" class="doc-title ng-star-inserted" title="多对多跨应用数据共享"> 多对多跨应用数据共享 </h1>
+
+<div _ngcontent-act-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/unified-data-channels">通过标准化数据通路实现数据共享 (ArkTS)</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/unified-data-channels-c">通过标准化数据通路实现数据共享 (C/C++)</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-brb-c119="" class="doc-title ng-star-inserted" title="使用C#语言开发的游戏是否可以接入游戏场景感知功能？"> 使用C#语言开发的游戏是否可以接入游戏场景感知功能？ </h1>
+
+<div _ngcontent-brb-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>当前提供游戏场景感知C# SDK，可以实现使用C#语言开发的游戏接入游戏场景感知功能，具体请参见<a href="https://gitee.com/petal-gaming-services/HarmonyAdaptivePerformanceForUnity/blob/main/游戏场景感知C-SDK开发指导.md" target="_blank">游戏场景感知C# SDK开发指导</a>。</p> </div> <div></div></div>

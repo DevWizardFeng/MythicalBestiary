@@ -1,0 +1,3 @@
+<h1 _ngcontent-gdf-c119="" class="doc-title ng-star-inserted" title="功耗场景优化案例"> 功耗场景优化案例 </h1>
+
+<div _ngcontent-gdf-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-vsync-power-optimization">Vsync低功耗优化</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-buffer-power-optimization">Buffer低功耗优化</a></strong><br> </li> </ul> </div></div>

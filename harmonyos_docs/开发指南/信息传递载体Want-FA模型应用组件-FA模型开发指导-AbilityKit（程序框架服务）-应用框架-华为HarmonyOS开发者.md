@@ -1,0 +1,3 @@
+<h1 _ngcontent-fco-c119="" class="doc-title ng-star-inserted" title="信息传递载体Want"> 信息传递载体Want </h1>
+
+<div _ngcontent-fco-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>请参见<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ability-terminology#stage模型">Stage模型</a>的"<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/want-overview">信息传递载体Want</a>"。</p> </div> <div></div></div>

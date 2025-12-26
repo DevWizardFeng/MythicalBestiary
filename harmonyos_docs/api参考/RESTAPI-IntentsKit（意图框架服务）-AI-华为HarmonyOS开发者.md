@@ -1,0 +1,3 @@
+<h1 _ngcontent-evj-c119="" class="doc-title ng-star-inserted" title="REST API"> REST API </h1>
+
+<div _ngcontent-evj-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/intents-rest-api-intent-share">意图共享</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/intents-rest-api-revoke-event">事件撤销</a></strong><br> </li> </ul> </div></div>

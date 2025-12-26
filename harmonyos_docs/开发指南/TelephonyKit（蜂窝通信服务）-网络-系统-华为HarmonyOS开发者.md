@@ -1,0 +1,3 @@
+<h1 _ngcontent-dcl-c119="" class="doc-title ng-star-inserted" title="Telephony Kit（蜂窝通信服务）"> Telephony Kit（蜂窝通信服务） </h1>
+
+<div _ngcontent-dcl-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/telephony-overview">Telephony Kit简介</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/telephony-call">拨打电话</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/telephony-sms">短信服务</a></strong><br> </li> </ul> </div></div>

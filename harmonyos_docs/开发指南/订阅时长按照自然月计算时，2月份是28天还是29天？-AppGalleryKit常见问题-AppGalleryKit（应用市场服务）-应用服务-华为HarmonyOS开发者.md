@@ -1,0 +1,3 @@
+<h1 _ngcontent-xat-c119="" class="doc-title ng-star-inserted" title="订阅时长按照自然月计算时，2月份是28天还是29天？"> 订阅时长按照自然月计算时，2月份是28天还是29天？ </h1>
+
+<div _ngcontent-xat-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>根据订阅日期决定。例如：当月第N日订阅，下个月的第N日续期。如果这个N在下个月不存在，那就在下个月的最后一日续期，下下个月恢复第N日续期。</p> </div> <div></div></div>

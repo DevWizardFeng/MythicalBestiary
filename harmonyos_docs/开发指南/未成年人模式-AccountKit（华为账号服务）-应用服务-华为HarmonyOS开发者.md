@@ -1,0 +1,3 @@
+<h1 _ngcontent-cgb-c119="" class="doc-title ng-star-inserted" title="未成年人模式"> 未成年人模式 </h1>
+
+<div _ngcontent-cgb-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/account-overview-minorsprotection">概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/account-follow-minorsprotection">应用与系统实现未成年人模式联动</a></strong><br> </li> </ul> </div></div>

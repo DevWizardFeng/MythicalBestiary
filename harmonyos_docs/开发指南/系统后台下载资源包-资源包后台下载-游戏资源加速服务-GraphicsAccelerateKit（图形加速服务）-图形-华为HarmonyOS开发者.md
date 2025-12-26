@@ -1,0 +1,3 @@
+<h1 _ngcontent-ybq-c119="" class="doc-title ng-star-inserted" title="系统后台下载资源包"> 系统后台下载资源包 </h1>
+
+<div _ngcontent-ybq-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/graphics-accelerate-assetdownload-back-system">extension系统托管下载</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/graphics-accelerate-assetdownload-back-self">extension协同下载</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-isi-c119="" class="doc-title ng-star-inserted" title="AscendC算子接口"> AscendC算子接口 </h1>
+
+<div _ngcontent-isi-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-ascend-c-api">AscendC API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-basic-data-structure-and-apis">基础数据结构和接口</a></strong><br> </li> </ul> </div></div>

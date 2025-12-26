@@ -1,0 +1,3 @@
+<h1 _ngcontent-arf-c119="" class="doc-title ng-star-inserted" title="交互事件分发控制"> 交互事件分发控制 </h1>
+
+<div _ngcontent-arf-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-on-touch-intercept">自定义事件拦截</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-on-child-touch-test">自定义事件分发</a></strong><br> </li> </ul> </div></div>

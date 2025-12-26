@@ -1,0 +1,3 @@
+<h1 _ngcontent-beb-c119="" class="doc-title ng-star-inserted" title="本地化名称"> 本地化名称 </h1>
+
+<div _ngcontent-beb-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/i18n-display-overview">概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/i18n-language-region-display">本地化语言与地区名称</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/i18n-time-zone-display">本地化时区名称</a></strong><br> </li> </ul> </div></div>

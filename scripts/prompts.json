@@ -1,0 +1,1275 @@
+{
+  "version": "1.0",
+  "default_settings": {
+    "size": "2048x2048",
+    "style_suffix": "，史诗级神话生物插画，高度细节，8K超高清，奇幻艺术风格，电影级光影效果"
+  },
+  "creatures": [
+    {
+      "id": "creature_chinese_yinglong",
+      "name_cn": "应龙",
+      "name_en": "Yinglong",
+      "culture": "chinese",
+      "type": "dragon",
+      "attribute": "water",
+      "prompt": "一条威严的中国应龙，金色鳞片在阳光下闪烁，巨大的羽翼展开如同云翳，身躯蜿蜒盘旋于暴风雨云海之中，龙角威武，龙须飘逸，掌控风雨的神龙形象，中国传统神话风格"
+    },
+    {
+      "id": "creature_chinese_zhulong",
+      "name_cn": "烛龙",
+      "name_en": "Zhulong",
+      "culture": "chinese",
+      "type": "dragon",
+      "attribute": "fire",
+      "prompt": "烛龙，人面龙身的上古神兽，口中衔着燃烧的烛火，身躯巨大盘踞在昆仑山巅，睁眼为昼闭眼为夜，红色鳞片如烈焰，周围是混沌的光明与黑暗交界，中国上古神话风格"
+    },
+    {
+      "id": "creature_chinese_fenghuang",
+      "name_cn": "凤凰",
+      "name_en": "Fenghuang",
+      "culture": "chinese",
+      "type": "phoenix",
+      "attribute": "fire",
+      "prompt": "中国凤凰，百鸟之王，五彩斑斓的羽毛如火焰般绚丽，长长的尾羽飘逸如霞，头戴华冠，展翅飞翔于祥云之间，周围是金色光芒和火焰特效，象征吉祥与重生"
+    },
+    {
+      "id": "creature_chinese_qilin",
+      "name_cn": "麒麟",
+      "name_en": "Qilin",
+      "culture": "chinese",
+      "type": "beast",
+      "attribute": "light",
+      "prompt": "中国麒麟，龙头鹿身的祥瑞神兽，全身覆盖金色鳞片，头上有独角，蹄下生火焰却不伤害任何生灵，周围是祥云缭绕，金色神圣光芒，仁慈威严的神兽形象"
+    },
+    {
+      "id": "creature_chinese_taotie",
+      "name_cn": "饕餮",
+      "name_en": "Taotie",
+      "culture": "chinese",
+      "type": "beast",
+      "attribute": "dark",
+      "prompt": "饕餮，上古凶兽，巨大的兽首只有头部没有身体，血红色的眼睛充满贪婪，巨口獠牙能吞噬一切，青铜器纹样风格，暗黑恐怖的氛围，中国上古神话凶兽"
+    },
+    {
+      "id": "creature_chinese_jiuwei",
+      "name_cn": "九尾狐",
+      "name_en": "Nine-tailed Fox",
+      "culture": "chinese",
+      "type": "spirit",
+      "attribute": "fire",
+      "prompt": "九尾狐，中国神话中的灵狐，洁白如雪的皮毛，九条蓬松的尾巴散发着金色光芒，妖媚而神秘的眼神，周围是月光和狐火，既美丽又危险的神秘生物"
+    },
+    {
+      "id": "creature_chinese_kunpeng",
+      "name_cn": "鲲鹏",
+      "name_en": "Kunpeng",
+      "culture": "chinese",
+      "type": "phoenix",
+      "attribute": "wind",
+      "prompt": "鲲鹏，北冥之鱼化为大鹏，巨大的翅膀遮天蔽日，从深海跃入云霄，半鱼半鸟的神话形态，深蓝色与金色相间，气势磅礴，扶摇直上九万里的壮观景象"
+    },
+    {
+      "id": "creature_chinese_bifang",
+      "name_cn": "毕方",
+      "name_en": "Bifang",
+      "culture": "chinese",
+      "type": "phoenix",
+      "attribute": "fire",
+      "prompt": "毕方鸟，火神之鸟，外形似鹤却只有一条腿，赤红色羽毛燃烧着火焰，嘴巴是白色的，出现则代表火灾将至，周围是熊熊烈火，神秘的火焰神鸟"
+    },
+    {
+      "id": "creature_chinese_baihu",
+      "name_cn": "白虎",
+      "name_en": "White Tiger",
+      "culture": "chinese",
+      "type": "beast",
+      "attribute": "wind",
+      "prompt": "白虎，西方神兽，浑身雪白的巨虎，虎纹呈现银色光泽，威风凛凛，眼神锐利如电，周围是金秋肃杀之气，代表西方与秋季的神圣守护兽"
+    },
+    {
+      "id": "creature_chinese_xuanwu",
+      "name_cn": "玄武",
+      "name_en": "Xuanwu",
+      "culture": "chinese",
+      "type": "beast",
+      "attribute": "water",
+      "prompt": "玄武，北方神兽，龟蛇合体，巨大的玄龟背上盘踞着一条黑蛇，龟壳上有神秘的星象纹路，周围是深蓝色的水波和冰霜，代表北方与冬季的神秘守护兽"
+    },
+    {
+      "id": "creature_chinese_qinglong",
+      "name_cn": "青龙",
+      "name_en": "Azure Dragon",
+      "culture": "chinese",
+      "type": "dragon",
+      "attribute": "nature",
+      "prompt": "青龙，东方神兽，通体翠绿的神龙，鳞片闪烁着碧玉般的光泽，身姿矫健穿行于春雷云霄之间，周围是青绿色的祥云和雷电，代表东方与春季的神圣守护龙"
+    },
+    {
+      "id": "creature_chinese_zhuque",
+      "name_cn": "朱雀",
+      "name_en": "Vermilion Bird",
+      "culture": "chinese",
+      "type": "phoenix",
+      "attribute": "fire",
+      "prompt": "朱雀，南方神兽，通体朱红如火的神鸟，羽毛燃烧着永恒的火焰，展翅翱翔于烈日之下，周围是炽热的火焰和红色祥云，代表南方与夏季的神圣守护鸟"
+    },
+    {
+      "id": "creature_chinese_baize",
+      "name_cn": "白泽",
+      "name_en": "Baize",
+      "culture": "chinese",
+      "type": "beast",
+      "attribute": "light",
+      "prompt": "白泽，知晓天下万物的祥瑞神兽，狮身羊头，通体雪白，头上有角，能够驱除邪祟，眼中闪烁着智慧的光芒，周围是金色圣光，神圣睿智的守护神兽"
+    },
+    {
+      "id": "creature_chinese_xiezhi",
+      "name_cn": "獬豸",
+      "name_en": "Xiezhi",
+      "culture": "chinese",
+      "type": "beast",
+      "attribute": "light",
+      "prompt": "獬豸，公正的神兽，外形似羊却有独角，能够辨别忠奸善恶，全身青色毛发，眼神锐利正直，会用角触碰有罪之人，周围是庄严的金色光芒，正义的象征"
+    },
+    {
+      "id": "creature_chinese_qiongqi",
+      "name_cn": "穷奇",
+      "name_en": "Qiongqi",
+      "culture": "chinese",
+      "type": "beast",
+      "attribute": "dark",
+      "prompt": "穷奇，上古四凶之一，外形如有翅膀的老虎，全身黑色毛发如刺猬，性格残暴专门袭击善良之人，眼中充满邪恶的红光，周围是阴暗的黑雾，邪恶的凶兽形象"
+    },
+    {
+      "id": "creature_chinese_taowu",
+      "name_cn": "梼杌",
+      "name_en": "Taowu",
+      "culture": "chinese",
+      "type": "beast",
+      "attribute": "dark",
+      "prompt": "梼杌，上古四凶之一，人面虎身，身上有长毛如野猪鬃毛，凶残暴戾，眼神中充满疯狂与愤怒，周围是混乱的黑暗能量，象征顽固不化的邪恶凶兽"
+    },
+    {
+      "id": "creature_chinese_hundun",
+      "name_cn": "混沌",
+      "name_en": "Hundun",
+      "culture": "chinese",
+      "type": "beast",
+      "attribute": "dark",
+      "prompt": "混沌，上古四凶之一，形如黄囊无面目，有足无爪，浑圆的身体没有七窍，代表着混沌未开的原始状态，周围是灰蒙蒙的混沌之气，神秘莫测的凶兽"
+    },
+    {
+      "id": "creature_chinese_jiuying",
+      "name_cn": "九婴",
+      "name_en": "Jiuying",
+      "culture": "chinese",
+      "type": "beast",
+      "attribute": "water",
+      "prompt": "九婴，上古凶兽，拥有九个头颅的水火怪兽，既能喷水又能吐火，身躯巨大如山，九个头颅各有不同表情，周围是水火交织的混乱场景，被后羿射杀的凶兽"
+    },
+    {
+      "id": "creature_chinese_chilong",
+      "name_cn": "螭龙",
+      "name_en": "Chilong",
+      "culture": "chinese",
+      "type": "dragon",
+      "attribute": "water",
+      "prompt": "螭龙，无角的幼龙，身姿灵动如蛇，青绿色的鳞片光滑润泽，常见于建筑装饰，正在云间穿梭嬉戏，周围是青色云雾，可爱而灵动的龙族幼崽"
+    },
+    {
+      "id": "creature_chinese_qiulong",
+      "name_cn": "虬龙",
+      "name_en": "Qiulong",
+      "culture": "chinese",
+      "type": "dragon",
+      "attribute": "thunder",
+      "prompt": "虬龙，有角的小龙，角如鹿角弯曲，全身金黄色鳞片，身姿矫健盘曲，在雷云中翱翔，周围是紫色雷电和金色光芒，年轻有力的龙族形象"
+    },
+
+    {
+      "id": "creature_greek_unicorn",
+      "name_cn": "独角兽",
+      "name_en": "Unicorn",
+      "culture": "greek",
+      "type": "beast",
+      "attribute": "light",
+      "prompt": "希腊神话独角兽，通体雪白的神马，额头有一只螺旋形的金色独角，鬃毛飘逸如丝，眼神纯洁高贵，周围是彩虹光芒和森林精灵，纯洁神圣的象征"
+    },
+    {
+      "id": "creature_greek_pegasus",
+      "name_cn": "珀伽索斯",
+      "name_en": "Pegasus",
+      "culture": "greek",
+      "type": "beast",
+      "attribute": "wind",
+      "prompt": "飞马珀伽索斯，希腊神话中的天马，洁白的躯体配上巨大的羽翼，在蓝天白云间翱翔，鬃毛随风飘扬，周围是金色阳光和云朵，自由高贵的神马"
+    },
+    {
+      "id": "creature_greek_griffin",
+      "name_cn": "狮鹫",
+      "name_en": "Griffin",
+      "culture": "greek",
+      "type": "beast",
+      "attribute": "wind",
+      "prompt": "希腊神话狮鹫，鹰头狮身，前肢是巨大的鹰爪，后肢是强壮的狮腿，金色羽毛与棕色皮毛相间，巨大的翅膀展开，守护宝藏的威严姿态，神圣的守护兽"
+    },
+    {
+      "id": "creature_greek_hydra",
+      "name_cn": "九头蛇",
+      "name_en": "Hydra",
+      "culture": "greek",
+      "type": "dragon",
+      "attribute": "water",
+      "prompt": "勒拿九头蛇海德拉，希腊神话中的毒蛇怪物，九个蛇头从巨大的身躯中伸出，每砍掉一个头就会长出两个，深绿色的鳞片滴着剧毒，周围是沼泽毒雾"
+    },
+    {
+      "id": "creature_greek_medusa",
+      "name_cn": "美杜莎",
+      "name_en": "Medusa",
+      "culture": "greek",
+      "type": "spirit",
+      "attribute": "dark",
+      "prompt": "美杜莎，蛇发女妖，美丽却致命的面容，头发是无数条扭动的毒蛇，眼神能将人化为石头，蛇身人面，周围是石化的雕像，恐怖与美丽并存的怪物"
+    },
+    {
+      "id": "creature_greek_minotaur",
+      "name_cn": "米诺陶",
+      "name_en": "Minotaur",
+      "culture": "greek",
+      "type": "beast",
+      "attribute": "dark",
+      "prompt": "米诺陶洛斯，牛头人身的怪物，巨大的牛角弯曲锋利，肌肉发达的人类身躯，手持巨斧，在克里特迷宫中徘徊，眼中充满狂暴与饥饿，可怕的迷宫怪物"
+    },
+    {
+      "id": "creature_greek_centaur",
+      "name_cn": "半人马",
+      "name_en": "Centaur",
+      "culture": "greek",
+      "type": "beast",
+      "attribute": "nature",
+      "prompt": "希腊半人马，人身马体的种族，上半身是英俊的人类战士，下半身是强壮的骏马，手持弓箭，在草原上奔驰，既野性又智慧的神话种族"
+    },
+    {
+      "id": "creature_greek_sphinx",
+      "name_cn": "斯芬克斯",
+      "name_en": "Sphinx",
+      "culture": "greek",
+      "type": "beast",
+      "attribute": "light",
+      "prompt": "希腊斯芬克斯，人面狮身的怪物，女性的面容神秘莫测，狮子的身躯强壮威武，巨大的羽翼收拢，正在悬崖上出谜题等待旅人，智慧与力量的化身"
+    },
+    {
+      "id": "creature_greek_cerberus",
+      "name_cn": "刻耳柏洛斯",
+      "name_en": "Cerberus",
+      "culture": "greek",
+      "type": "beast",
+      "attribute": "dark",
+      "prompt": "地狱三头犬刻耳柏洛斯，守卫冥界大门的巨犬，三个狗头同时咆哮，脖子上缠绕着毒蛇，尾巴是一条毒蛇，周围是冥界的黑色火焰，恐怖的地狱守卫"
+    },
+    {
+      "id": "creature_greek_typhon",
+      "name_cn": "提丰",
+      "name_en": "Typhon",
+      "culture": "greek",
+      "type": "giant",
+      "attribute": "fire",
+      "prompt": "提丰，希腊神话中最强大的怪物，巨人般的身躯，下半身是两条巨蛇，肩上生有一百个龙头，能喷射火焰，与宙斯大战的恐怖怪物，周围是火山岩浆"
+    },
+    {
+      "id": "creature_greek_chimera",
+      "name_cn": "奇美拉",
+      "name_en": "Chimera",
+      "culture": "greek",
+      "type": "beast",
+      "attribute": "fire",
+      "prompt": "奇美拉，希腊神话嵌合兽，狮头羊身蛇尾，背上还有一个山羊头，口中喷射火焰，是利西亚地区的恐怖怪物，周围是燃烧的村庄废墟"
+    },
+    {
+      "id": "creature_greek_cyclops",
+      "name_cn": "独眼巨人",
+      "name_en": "Cyclops",
+      "culture": "greek",
+      "type": "giant",
+      "attribute": "fire",
+      "prompt": "独眼巨人库克罗普斯，额头正中只有一只巨大的眼睛，身材魁梧如山，是锻造雷霆的工匠巨人，手持铁锤站在火山熔炉前，周围是锻造的火花"
+    },
+    {
+      "id": "creature_greek_ladon",
+      "name_cn": "拉冬",
+      "name_en": "Ladon",
+      "culture": "greek",
+      "type": "dragon",
+      "attribute": "nature",
+      "prompt": "百头龙拉冬，守护金苹果园的巨龙，拥有一百个头颅永不休息，盘踞在生命之树上，全身绿色鳞片与树木融为一体，周围是金色的苹果和圣园"
+    },
+    {
+      "id": "creature_greek_scylla",
+      "name_cn": "斯库拉",
+      "name_en": "Scylla",
+      "culture": "greek",
+      "type": "beast",
+      "attribute": "water",
+      "prompt": "斯库拉，海峡女妖，上半身是美丽的女性，下半身变成六条狗头和十二只脚，潜伏在海峡礁石中伏击水手，周围是汹涌的海浪和破碎的船只残骸"
+    },
+    {
+      "id": "creature_greek_charybdis",
+      "name_cn": "卡律布狄斯",
+      "name_en": "Charybdis",
+      "culture": "greek",
+      "type": "beast",
+      "attribute": "water",
+      "prompt": "卡律布狄斯，海峡大漩涡怪物，巨大的嘴巴可以吞噬整艘船只，在海底制造致命的大漩涡，周围是被卷入漩涡的船只和绝望的水手"
+    },
+    {
+      "id": "creature_greek_echidna",
+      "name_cn": "厄喀德那",
+      "name_en": "Echidna",
+      "culture": "greek",
+      "type": "spirit",
+      "attribute": "dark",
+      "prompt": "厄喀德那，众妖之母，上半身是美丽的女性，下半身是巨大的蛇尾，居住在地下洞穴中，生下了众多可怕的怪物，周围是阴暗的地下世界"
+    },
+    {
+      "id": "creature_greek_siren",
+      "name_cn": "塞壬",
+      "name_en": "Siren",
+      "culture": "greek",
+      "type": "spirit",
+      "attribute": "water",
+      "prompt": "海妖塞壬，美丽的人首鸟身生物，坐在礁石上唱着迷惑水手的歌声，周围是沉船和白骨，夕阳下的海洋背景，美丽而致命的海中精灵"
+    },
+    {
+      "id": "creature_greek_harpy",
+      "name_cn": "哈耳庇厄",
+      "name_en": "Harpy",
+      "culture": "greek",
+      "type": "spirit",
+      "attribute": "wind",
+      "prompt": "哈耳庇厄，风暴女妖，人面鸟身，巨大的翅膀掀起狂风，锋利的爪子和尖锐的嘴，在暴风雨中飞翔，周围是雷电和乌云，惩罚罪人的神使"
+    },
+    {
+      "id": "creature_greek_gorgon",
+      "name_cn": "戈耳工",
+      "name_en": "Gorgon",
+      "culture": "greek",
+      "type": "spirit",
+      "attribute": "dark",
+      "prompt": "戈耳工三姐妹，蛇发女怪，铜爪金翼，目光能将人化为石头，三姐妹中只有美杜莎会死亡，周围是无数石化的雕像，恐怖的蛇发女妖群像"
+    },
+    {
+      "id": "creature_greek_nemean_lion",
+      "name_cn": "涅墨亚狮子",
+      "name_en": "Nemean Lion",
+      "culture": "greek",
+      "type": "beast",
+      "attribute": "light",
+      "prompt": "涅墨亚狮子，刀枪不入的神兽，金色的皮毛如同黄金铠甲，巨大威猛，是赫拉克勒斯十二试炼的第一个目标，周围是希腊神殿废墟"
+    },
+
+    {
+      "id": "creature_norse_fenrir",
+      "name_cn": "芬里尔",
+      "name_en": "Fenrir",
+      "culture": "norse",
+      "type": "beast",
+      "attribute": "dark",
+      "prompt": "芬里尔巨狼，北欧神话中最可怕的魔狼，被神锁链束缚却终将挣脱，在诸神黄昏中吞噬奥丁，巨大的身躯如同山峦，周围是冰雪和黑暗"
+    },
+    {
+      "id": "creature_norse_jormungandr",
+      "name_cn": "耶梦加得",
+      "name_en": "Jormungandr",
+      "culture": "norse",
+      "type": "dragon",
+      "attribute": "water",
+      "prompt": "世界巨蛇耶梦加得，身躯环绕整个中庭世界，在深海中沉睡，巨大的蛇身从海面升起，与雷神托尔宿命对决，周围是汹涌的海洋和雷电风暴"
+    },
+    {
+      "id": "creature_norse_sleipnir",
+      "name_cn": "斯莱普尼尔",
+      "name_en": "Sleipnir",
+      "culture": "norse",
+      "type": "beast",
+      "attribute": "wind",
+      "prompt": "八足神马斯莱普尼尔，奥丁的坐骑，拥有八条腿的灰色骏马，能够在九界之间自由穿行，奔跑在彩虹桥上，周围是北欧的极光和星空"
+    },
+    {
+      "id": "creature_norse_nidhogg",
+      "name_cn": "尼德霍格",
+      "name_en": "Nidhogg",
+      "culture": "norse",
+      "type": "dragon",
+      "attribute": "dark",
+      "prompt": "尼德霍格，啃食世界之树根部的黑龙，在地狱深处盘踞，不断撕咬尤克特拉希尔的根系，全身黑色鳞片，眼中充满毁灭的欲望，周围是腐朽的树根"
+    },
+    {
+      "id": "creature_norse_frost_giant",
+      "name_cn": "冰霜巨人",
+      "name_en": "Frost Giant",
+      "culture": "norse",
+      "type": "giant",
+      "attribute": "water",
+      "prompt": "约顿海姆的冰霜巨人，身躯高大如山，皮肤呈冰蓝色，浑身覆盖着冰霜和雪花，手持冰冻巨斧，周围是暴风雪和冰川，北欧神话中的原始种族"
+    },
+    {
+      "id": "creature_norse_fire_giant",
+      "name_cn": "火焰巨人",
+      "name_en": "Fire Giant",
+      "culture": "norse",
+      "type": "giant",
+      "attribute": "fire",
+      "prompt": "穆斯贝尔海姆的火焰巨人苏尔特尔，手持燃烧的巨剑，全身燃烧着永恒的火焰，在诸神黄昏中焚毁世界，周围是熔岩和火海，毁灭性的力量"
+    },
+    {
+      "id": "creature_norse_valkyrie",
+      "name_cn": "瓦尔基里",
+      "name_en": "Valkyrie",
+      "culture": "norse",
+      "type": "spirit",
+      "attribute": "light",
+      "prompt": "瓦尔基里，北欧神话的战争女武神，身穿金色铠甲，骑着飞马翱翔战场上空，手持长枪和盾牌，选择勇敢的战士带往英灵殿，周围是北极光"
+    },
+    {
+      "id": "creature_norse_draugr",
+      "name_cn": "尸鬼",
+      "name_en": "Draugr",
+      "culture": "norse",
+      "type": "undead",
+      "attribute": "dark",
+      "prompt": "北欧尸鬼德劳格，从坟墓中苏醒的亡灵战士，身穿腐朽的铠甲，眼中燃烧着蓝色的鬼火，守护着地下的宝藏，周围是古老的墓穴和符文"
+    },
+    {
+      "id": "creature_norse_ratatoskr",
+      "name_cn": "拉塔托斯克",
+      "name_en": "Ratatoskr",
+      "culture": "norse",
+      "type": "beast",
+      "attribute": "nature",
+      "prompt": "拉塔托斯克，世界之树上的神奇松鼠，红棕色的毛发，在尤克特拉希尔上下奔跑传递消息，搬弄是非的小精灵，周围是巨大的世界之树"
+    },
+    {
+      "id": "creature_norse_huginn_muninn",
+      "name_cn": "福金和雾尼",
+      "name_en": "Huginn and Muninn",
+      "culture": "norse",
+      "type": "beast",
+      "attribute": "dark",
+      "prompt": "奥丁的双鸦福金与雾尼，代表思想与记忆的神鸦，漆黑的羽毛闪烁着智慧的光芒，每日飞遍九界收集情报，周围是奥丁的王座和符文"
+    },
+    {
+      "id": "creature_norse_hel",
+      "name_cn": "海拉",
+      "name_en": "Hel",
+      "culture": "norse",
+      "type": "spirit",
+      "attribute": "dark",
+      "prompt": "死亡女神海拉，冥界的统治者，半边脸是美丽的女性半边是腐烂的骷髅，坐在冥界的宝座上，周围是亡灵和阴暗的冥界景象"
+    },
+    {
+      "id": "creature_norse_garm",
+      "name_cn": "加尔姆",
+      "name_en": "Garm",
+      "culture": "norse",
+      "type": "beast",
+      "attribute": "dark",
+      "prompt": "冥界守卫犬加尔姆，守护海拉冥界大门的血色猛犬，巨大的身躯覆盖着暗红色的毛发，在诸神黄昏中与提尔同归于尽，周围是冥界的入口"
+    },
+    {
+      "id": "creature_norse_kraken",
+      "name_cn": "克拉肯",
+      "name_en": "Kraken",
+      "culture": "norse",
+      "type": "beast",
+      "attribute": "water",
+      "prompt": "克拉肯海怪，北欧传说中的巨型章鱼，巨大的触手能够拉沉整支舰队，从深海升起袭击船只，周围是破碎的船只和惊恐的水手"
+    },
+    {
+      "id": "creature_norse_einherjar",
+      "name_cn": "英灵战士",
+      "name_en": "Einherjar",
+      "culture": "norse",
+      "type": "spirit",
+      "attribute": "light",
+      "prompt": "英灵殿的战士英灵，被瓦尔基里选中的勇士亡灵，身穿金色铠甲在英灵殿中日夜操练，为诸神黄昏做准备，周围是宏伟的英灵殿"
+    },
+    {
+      "id": "creature_norse_jotun",
+      "name_cn": "约顿",
+      "name_en": "Jotun",
+      "culture": "norse",
+      "type": "giant",
+      "attribute": "nature",
+      "prompt": "约顿巨人，北欧神话中的原始巨人族，身形巨大如山峰，是诸神的对手也是祖先，皮肤粗糙如岩石，周围是约顿海姆的荒野山脉"
+    },
+    {
+      "id": "creature_norse_dwarves",
+      "name_cn": "矮人",
+      "name_en": "Dwarves",
+      "culture": "norse",
+      "type": "spirit",
+      "attribute": "fire",
+      "prompt": "北欧神话矮人，居住在斯瓦塔尔法海姆的工匠种族，身材矮小但力大无穷，正在锻造雷神之锤，周围是地下锻造炉的火光和神器"
+    },
+    {
+      "id": "creature_norse_light_elf",
+      "name_cn": "光精灵",
+      "name_en": "Light Elf",
+      "culture": "norse",
+      "type": "spirit",
+      "attribute": "light",
+      "prompt": "阿尔夫海姆的光精灵，美丽的精灵种族，皮肤散发着柔和的光芒，尖耳朵和飘逸的长发，周围是阳光明媚的精灵王国"
+    },
+    {
+      "id": "creature_norse_dark_elf",
+      "name_cn": "暗精灵",
+      "name_en": "Dark Elf",
+      "culture": "norse",
+      "type": "spirit",
+      "attribute": "dark",
+      "prompt": "斯瓦塔尔法海姆的暗精灵，生活在地下的黑暗精灵，灰色的皮肤和发光的眼睛，精通锻造和黑魔法，周围是幽暗的地下洞穴"
+    },
+    {
+      "id": "creature_norse_fafnir",
+      "name_cn": "法夫尼尔",
+      "name_en": "Fafnir",
+      "culture": "norse",
+      "type": "dragon",
+      "attribute": "dark",
+      "prompt": "法夫尼尔龙，因贪婪而变成巨龙的矮人，守护着被诅咒的黄金，全身覆盖着坚硬的鳞甲，被英雄齐格鲁德斩杀，周围是金币宝藏"
+    },
+    {
+      "id": "creature_norse_audhumla",
+      "name_cn": "奥德姆拉",
+      "name_en": "Audhumla",
+      "culture": "norse",
+      "type": "beast",
+      "attribute": "light",
+      "prompt": "太初之牛奥德姆拉，北欧创世神话中的神牛，巨大的白色母牛舔舐冰块释放出第一位神祖，周围是创世之初的混沌冰霜世界"
+    },
+
+    {
+      "id": "creature_japanese_kyuubi",
+      "name_cn": "九尾狐",
+      "name_en": "Kyuubi",
+      "culture": "japanese",
+      "type": "spirit",
+      "attribute": "fire",
+      "prompt": "日本九尾妖狐，金色的皮毛闪烁着妖异光芒，九条蓬松的尾巴散发着狐火，能够变化为绝世美女迷惑人心，周围是日本神社和月光"
+    },
+    {
+      "id": "creature_japanese_orochi",
+      "name_cn": "八岐大蛇",
+      "name_en": "Yamata no Orochi",
+      "culture": "japanese",
+      "type": "dragon",
+      "attribute": "water",
+      "prompt": "八岐大蛇，日本神话中的巨蛇，拥有八个头颅和八条尾巴，身躯覆盖着苔藓和树木，被须佐之男斩杀，周围是日本古代森林和暴风雨"
+    },
+    {
+      "id": "creature_japanese_tengu",
+      "name_cn": "天狗",
+      "name_en": "Tengu",
+      "culture": "japanese",
+      "type": "spirit",
+      "attribute": "wind",
+      "prompt": "日本天狗，红脸长鼻的山中妖怪，身穿山伏装束手持羽扇，巨大的翅膀能够呼风唤雨，周围是日本深山和杉木林，武道高手的形象"
+    },
+    {
+      "id": "creature_japanese_kappa",
+      "name_cn": "河童",
+      "name_en": "Kappa",
+      "culture": "japanese",
+      "type": "spirit",
+      "attribute": "water",
+      "prompt": "日本河童，绿色皮肤的水中妖怪，头顶有盛水的凹陷，龟壳般的背部，喙状的嘴巴，喜欢相扑和黄瓜，周围是日本乡村河流"
+    },
+    {
+      "id": "creature_japanese_yukionna",
+      "name_cn": "雪女",
+      "name_en": "Yuki-onna",
+      "culture": "japanese",
+      "type": "spirit",
+      "attribute": "water",
+      "prompt": "日本雪女，穿着白色和服的美丽女妖，苍白的皮肤和长长的黑发，能够冻结人类，在暴风雪中若隐若现，周围是日本雪山和飘雪"
+    },
+    {
+      "id": "creature_japanese_shuten",
+      "name_cn": "酒吞童子",
+      "name_en": "Shuten-doji",
+      "culture": "japanese",
+      "type": "spirit",
+      "attribute": "fire",
+      "prompt": "酒吞童子，日本最强的鬼王，红色的皮肤和巨大的角，手持酒杯，统领众鬼，被源赖光讨伐，周围是日本古代宫殿和鬼火"
+    },
+    {
+      "id": "creature_japanese_oni",
+      "name_cn": "鬼",
+      "name_en": "Oni",
+      "culture": "japanese",
+      "type": "spirit",
+      "attribute": "dark",
+      "prompt": "日本鬼，红色或蓝色皮肤的恶鬼，头上有角手持金棒，穿着虎皮兜裆布，狰狞的面容，在地狱中惩罚罪人，周围是日本地狱的场景"
+    },
+    {
+      "id": "creature_japanese_tanuki",
+      "name_cn": "狸猫",
+      "name_en": "Tanuki",
+      "culture": "japanese",
+      "type": "spirit",
+      "attribute": "nature",
+      "prompt": "日本狸猫妖怪，圆滚滚的身体和大肚子，戴着斗笠手持酒壶，能够变化成各种东西，可爱又调皮的妖怪形象，周围是日本乡村"
+    },
+    {
+      "id": "creature_japanese_nekomata",
+      "name_cn": "猫又",
+      "name_en": "Nekomata",
+      "culture": "japanese",
+      "type": "spirit",
+      "attribute": "dark",
+      "prompt": "日本猫又，年老的猫变成的妖怪，拥有分叉的两条尾巴，能够操控死者和火焰，诡异的眼神，周围是日本古老的房屋和鬼火"
+    },
+    {
+      "id": "creature_japanese_kitsune",
+      "name_cn": "妖狐",
+      "name_en": "Kitsune",
+      "culture": "japanese",
+      "type": "spirit",
+      "attribute": "fire",
+      "prompt": "日本妖狐，白色或金色的狐狸精灵，能够变化为人形，是稻荷神的使者，周围是日本稻荷神社的红色�的鸟居和狐狸石像"
+    },
+    {
+      "id": "creature_japanese_jorougumo",
+      "name_cn": "络新妇",
+      "name_en": "Jorogumo",
+      "culture": "japanese",
+      "type": "spirit",
+      "attribute": "dark",
+      "prompt": "络新妇，日本蜘蛛妖怪，上半身是美丽的和服女子下半身是巨大的蜘蛛，在瀑布边诱惑男子，周围是蜘蛛网和日本瀑布"
+    },
+    {
+      "id": "creature_japanese_ryu",
+      "name_cn": "日本龙",
+      "name_en": "Ryu",
+      "culture": "japanese",
+      "type": "dragon",
+      "attribute": "water",
+      "prompt": "日本龙神，细长的身躯在云间飞舞，没有翅膀但能操控风雨，白色或蓝色的鳞片，龙须飘逸，周围是日本寺庙和樱花云海"
+    },
+    {
+      "id": "creature_japanese_komainu",
+      "name_cn": "狛犬",
+      "name_en": "Komainu",
+      "culture": "japanese",
+      "type": "beast",
+      "attribute": "light",
+      "prompt": "日本狛犬，守护神社的石狮子，一只张嘴一只闭嘴，威严的姿态守护在神社入口两侧，周围是日本神社的�的鸟居和石阶"
+    },
+    {
+      "id": "creature_japanese_raijin",
+      "name_cn": "雷神",
+      "name_en": "Raijin",
+      "culture": "japanese",
+      "type": "spirit",
+      "attribute": "thunder",
+      "prompt": "日本雷神，红色皮肤的鬼神形象，背后环绕着一圈雷鼓，手持鼓槌敲击制造雷电，狂野的表情，周围是雷云和闪电"
+    },
+    {
+      "id": "creature_japanese_fujin",
+      "name_cn": "风神",
+      "name_en": "Fujin",
+      "culture": "japanese",
+      "type": "spirit",
+      "attribute": "wind",
+      "prompt": "日本风神，绿色皮肤的鬼神形象，肩上扛着装满风的布袋，释放狂风，与雷神成对出现，周围是狂风卷起的云层"
+    },
+    {
+      "id": "creature_japanese_amaterasu",
+      "name_cn": "天照大神",
+      "name_en": "Amaterasu",
+      "culture": "japanese",
+      "type": "spirit",
+      "attribute": "light",
+      "prompt": "天照大神的神兽形态，日本太阳女神，金色的光芒普照大地，化身为神圣的白狼或凤凰，周围是神道教的八咫镜和日本皇室象征"
+    },
+    {
+      "id": "creature_japanese_tsukuyomi",
+      "name_cn": "月读命",
+      "name_en": "Tsukuyomi",
+      "culture": "japanese",
+      "type": "spirit",
+      "attribute": "dark",
+      "prompt": "月读命，日本月亮神的神兽形态，银白色的光芒笼罩夜空，神秘而冷峻的气质，周围是日本夜空的满月和星辰"
+    },
+    {
+      "id": "creature_japanese_susanoo",
+      "name_cn": "须佐之男",
+      "name_en": "Susanoo",
+      "culture": "japanese",
+      "type": "spirit",
+      "attribute": "thunder",
+      "prompt": "须佐之男的战斗形态，日本风暴之神，手持天丛云剑，狂野的长发随风飘舞，周围是海浪和雷暴，斩杀八岐大蛇的英雄形象"
+    },
+    {
+      "id": "creature_japanese_inugami",
+      "name_cn": "犬神",
+      "name_en": "Inugami",
+      "culture": "japanese",
+      "type": "spirit",
+      "attribute": "dark",
+      "prompt": "日本犬神，被封印的狗灵，能够附身和诅咒人类，幽灵般的黑犬形象，眼中燃烧着怨恨的火焰，周围是日本古老的咒术符咒"
+    },
+    {
+      "id": "creature_japanese_gashadokuro",
+      "name_cn": "骸骨巨人",
+      "name_en": "Gashadokuro",
+      "culture": "japanese",
+      "type": "undead",
+      "attribute": "dark",
+      "prompt": "日本骸骨巨人，由战死者的骨骼聚合而成的巨大骷髅，在深夜袭击行人，比树木还高大，周围是日本古战场的夜景和月光"
+    },
+
+    {
+      "id": "creature_indian_garuda",
+      "name_cn": "迦楼罗",
+      "name_en": "Garuda",
+      "culture": "indian",
+      "type": "phoenix",
+      "attribute": "fire",
+      "prompt": "迦楼罗，印度神话中的神鸟，毗湿奴的坐骑，金色羽毛闪烁如太阳，人面鸟身巨大的翅膀，是龙族的天敌，周围是印度神殿和金色光芒"
+    },
+    {
+      "id": "creature_indian_naga",
+      "name_cn": "那伽",
+      "name_en": "Naga",
+      "culture": "indian",
+      "type": "dragon",
+      "attribute": "water",
+      "prompt": "那伽龙王，印度神话中的蛇神，人首蛇身头顶多个蛇头形成的华盖，守护着地下宝藏，全身覆盖着宝石般的鳞片，周围是印度宫殿和水池"
+    },
+    {
+      "id": "creature_indian_asura",
+      "name_cn": "阿修罗",
+      "name_en": "Asura",
+      "culture": "indian",
+      "type": "spirit",
+      "attribute": "fire",
+      "prompt": "阿修罗，印度神话中的战神种族，三面六臂的战斗形态，多只手持不同武器，与天神永恒对抗，周围是印度式的战场和火焰"
+    },
+    {
+      "id": "creature_indian_hanuman",
+      "name_cn": "哈努曼",
+      "name_en": "Hanuman",
+      "culture": "indian",
+      "type": "beast",
+      "attribute": "wind",
+      "prompt": "神猴哈努曼，印度史诗中的猴神，金色的毛发强壮的身躯，手持金箍棒能够飞行，忠诚勇敢的战士形象，周围是印度古代战场"
+    },
+    {
+      "id": "creature_indian_nandi",
+      "name_cn": "南迪",
+      "name_en": "Nandi",
+      "culture": "indian",
+      "type": "beast",
+      "attribute": "nature",
+      "prompt": "神牛南迪，湿婆神的坐骑，纯白色的神圣公牛，身上装饰着金色的饰物，虔诚地守护在湿婆神殿前，周围是印度神庙"
+    },
+    {
+      "id": "creature_indian_makara",
+      "name_cn": "摩羯",
+      "name_en": "Makara",
+      "culture": "indian",
+      "type": "beast",
+      "attribute": "water",
+      "prompt": "摩羯，印度神话中的海兽，鳄鱼与鱼的结合体，巨大的嘴巴和鱼尾，是恒河女神的坐骑，周围是印度的恒河和莲花"
+    },
+    {
+      "id": "creature_indian_rakshasa",
+      "name_cn": "罗刹",
+      "name_en": "Rakshasa",
+      "culture": "indian",
+      "type": "spirit",
+      "attribute": "dark",
+      "prompt": "罗刹，印度神话中的恶魔种族，獠牙利爪红色的眼睛，能够变化形态吃人，邪恶而强大的种族，周围是印度式的黑暗森林"
+    },
+    {
+      "id": "creature_indian_airavata",
+      "name_cn": "艾拉瓦塔",
+      "name_en": "Airavata",
+      "culture": "indian",
+      "type": "beast",
+      "attribute": "thunder",
+      "prompt": "神象艾拉瓦塔，因陀罗的坐骑，洁白的三头象身上装饰着黄金和宝石，能够呼唤雷雨，周围是印度天界的云层和彩虹"
+    },
+    {
+      "id": "creature_indian_vritra",
+      "name_cn": "弗栗多",
+      "name_en": "Vritra",
+      "culture": "indian",
+      "type": "dragon",
+      "attribute": "water",
+      "prompt": "弗栗多，印度神话中的巨龙，堵塞河流的恶龙，巨大的身躯盘踞在山间，被因陀罗斩杀释放了河水，周围是干旱的大地和河流"
+    },
+    {
+      "id": "creature_indian_kinnara",
+      "name_cn": "紧那罗",
+      "name_en": "Kinnara",
+      "culture": "indian",
+      "type": "spirit",
+      "attribute": "light",
+      "prompt": "紧那罗，印度神话中的天乐神，人首马身的神灵，擅长音乐和舞蹈，美丽优雅的形象，周围是印度天界和天花乱坠"
+    },
+    {
+      "id": "creature_indian_yaksha",
+      "name_cn": "夜叉",
+      "name_en": "Yaksha",
+      "culture": "indian",
+      "type": "spirit",
+      "attribute": "nature",
+      "prompt": "夜叉，印度神话中的自然精灵，守护宝藏的强壮战士形象，既可善良也可凶猛，周围是印度式的森林和宝藏"
+    },
+    {
+      "id": "creature_indian_gandharva",
+      "name_cn": "乾达婆",
+      "name_en": "Gandharva",
+      "culture": "indian",
+      "type": "spirit",
+      "attribute": "wind",
+      "prompt": "乾达婆，印度神话中的天界乐师，俊美的男性形象身穿华丽服饰，手持乐器在云中演奏，周围是印度天界的宫殿和云彩"
+    },
+    {
+      "id": "creature_indian_apsara",
+      "name_cn": "飞天",
+      "name_en": "Apsara",
+      "culture": "indian",
+      "type": "spirit",
+      "attribute": "water",
+      "prompt": "飞天仙女，印度神话中的水中仙女，绝美的女性形象身穿轻纱飘带飞舞，在天界舞蹈，周围是印度式的云彩和莲花池"
+    },
+    {
+      "id": "creature_indian_shesha",
+      "name_cn": "舍沙",
+      "name_en": "Shesha",
+      "culture": "indian",
+      "type": "dragon",
+      "attribute": "water",
+      "prompt": "千首蛇王舍沙，那伽之王拥有千个蛇头，毗湿奴在其身上安眠，巨大的身躯托起整个世界，周围是宇宙之海和星辰"
+    },
+    {
+      "id": "creature_indian_simha",
+      "name_cn": "狮面人",
+      "name_en": "Narasimha",
+      "culture": "indian",
+      "type": "beast",
+      "attribute": "fire",
+      "prompt": "狮面人那罗希摩，毗湿奴的化身，狮子的头颅人类的身体，愤怒地撕裂恶魔，周围是印度神殿的柱子和火焰光芒"
+    },
+    {
+      "id": "creature_indian_ganesha_mount",
+      "name_cn": "老鼠神兽",
+      "name_en": "Mushika",
+      "culture": "indian",
+      "type": "beast",
+      "attribute": "nature",
+      "prompt": "象神伽内什的坐骑神鼠，巨大的老鼠形象，灵活敏捷，能够穿越任何障碍，周围是印度神庙和象神雕像"
+    },
+    {
+      "id": "creature_indian_varaha",
+      "name_cn": "野猪神",
+      "name_en": "Varaha",
+      "culture": "indian",
+      "type": "beast",
+      "attribute": "nature",
+      "prompt": "野猪神筏罗诃，毗湿奴的化身，巨大的野猪从宇宙之海中托起大地女神，强壮威武的神兽形象，周围是宇宙海洋"
+    },
+    {
+      "id": "creature_indian_matsya",
+      "name_cn": "鱼神",
+      "name_en": "Matsya",
+      "culture": "indian",
+      "type": "beast",
+      "attribute": "water",
+      "prompt": "鱼神摩蹉，毗湿奴的第一个化身，上半身是四臂神祇下半身是金色巨鱼，在大洪水中拯救人类，周围是汹涌的洪水"
+    },
+    {
+      "id": "creature_indian_kurma",
+      "name_cn": "龟神",
+      "name_en": "Kurma",
+      "culture": "indian",
+      "type": "beast",
+      "attribute": "water",
+      "prompt": "龟神俱利摩，毗湿奴化身为巨龟托起搅拌乳海的曼陀罗山，巨大的龟壳支撑着整座山峰，周围是众神搅拌乳海的壮观场景"
+    },
+    {
+      "id": "creature_indian_phoenix",
+      "name_cn": "火凤凰",
+      "name_en": "Indian Phoenix",
+      "culture": "indian",
+      "type": "phoenix",
+      "attribute": "fire",
+      "prompt": "印度火凤凰，浴火重生的神鸟，全身燃烧着神圣的火焰，金红色的羽毛光芒万丈，象征着永恒与轮回，周围是莲花和火焰"
+    },
+
+    {
+      "id": "creature_egyptian_anubis",
+      "name_cn": "阿努比斯",
+      "name_en": "Anubis",
+      "culture": "egyptian",
+      "type": "spirit",
+      "attribute": "dark",
+      "prompt": "阿努比斯，埃及死神，胡狼头人身的神祇，手持生命之符和权杖，守护亡者灵魂引导其进入冥界，周围是埃及金字塔和沙漠夜空"
+    },
+    {
+      "id": "creature_egyptian_horus",
+      "name_cn": "荷鲁斯",
+      "name_en": "Horus",
+      "culture": "egyptian",
+      "type": "spirit",
+      "attribute": "light",
+      "prompt": "荷鲁斯，埃及天空之神，鹰头人身的威严形象，头戴埃及王冠，荷鲁斯之眼闪烁着光芒，周围是埃及神殿和太阳"
+    },
+    {
+      "id": "creature_egyptian_sphinx",
+      "name_cn": "斯芬克斯",
+      "name_en": "Egyptian Sphinx",
+      "culture": "egyptian",
+      "type": "beast",
+      "attribute": "light",
+      "prompt": "埃及斯芬克斯，人面狮身的守护神兽，法老的面容配上雄狮的身躯，守护着金字塔和法老陵墓，周围是沙漠和金字塔背景"
+    },
+    {
+      "id": "creature_egyptian_bastet",
+      "name_cn": "巴斯特",
+      "name_en": "Bastet",
+      "culture": "egyptian",
+      "type": "spirit",
+      "attribute": "light",
+      "prompt": "猫神巴斯特，埃及的猫首女神，优雅的猫头人身形象，手持叉铃象征保护与家庭，周围是埃及神殿和圣猫"
+    },
+    {
+      "id": "creature_egyptian_apophis",
+      "name_cn": "阿佩普",
+      "name_en": "Apophis",
+      "culture": "egyptian",
+      "type": "dragon",
+      "attribute": "dark",
+      "prompt": "混沌巨蛇阿佩普，埃及神话中的混沌之蛇，试图在冥界吞噬太阳神拉，巨大的黑色蛇身，眼中燃烧着混沌之火，周围是冥界的黑暗"
+    },
+    {
+      "id": "creature_egyptian_sekhmet",
+      "name_cn": "塞赫美特",
+      "name_en": "Sekhmet",
+      "culture": "egyptian",
+      "type": "spirit",
+      "attribute": "fire",
+      "prompt": "战争女神塞赫美特，狮头女神的威猛形象，头顶太阳圆盘手持权杖，愤怒时能够毁灭人类，周围是战场和烈日"
+    },
+    {
+      "id": "creature_egyptian_sobek",
+      "name_cn": "索贝克",
+      "name_en": "Sobek",
+      "culture": "egyptian",
+      "type": "beast",
+      "attribute": "water",
+      "prompt": "鳄鱼神索贝克，尼罗河的守护神，鳄鱼头人身的强壮形象，头顶羽毛王冠，象征法老的力量，周围是尼罗河和莲花"
+    },
+    {
+      "id": "creature_egyptian_thoth",
+      "name_cn": "托特",
+      "name_en": "Thoth",
+      "culture": "egyptian",
+      "type": "spirit",
+      "attribute": "light",
+      "prompt": "智慧之神托特，朱鹭头人身的神祇，手持书写工具记录一切知识，是魔法和智慧的化身，周围是埃及图书馆和象形文字"
+    },
+    {
+      "id": "creature_egyptian_bennu",
+      "name_cn": "本努鸟",
+      "name_en": "Bennu",
+      "culture": "egyptian",
+      "type": "phoenix",
+      "attribute": "fire",
+      "prompt": "本努鸟，埃及的不死鸟，灰色苍鹭般的神鸟头戴双羽冠，从太阳神的火焰中诞生，象征重生和太阳，周围是日出和金字塔"
+    },
+    {
+      "id": "creature_egyptian_ammit",
+      "name_cn": "阿米特",
+      "name_en": "Ammit",
+      "culture": "egyptian",
+      "type": "beast",
+      "attribute": "dark",
+      "prompt": "阿米特，埃及冥界的吞噬者，鳄鱼头狮身河马后腿的怪物，在死者审判中吞噬罪恶的心脏，周围是冥界审判厅和天平"
+    },
+    {
+      "id": "creature_egyptian_set_beast",
+      "name_cn": "赛特兽",
+      "name_en": "Set Animal",
+      "culture": "egyptian",
+      "type": "beast",
+      "attribute": "dark",
+      "prompt": "赛特神兽，混沌之神赛特的化身，奇特的动物形象长方形耳朵弯曲的长嘴，代表沙漠和风暴，周围是沙尘暴和沙漠"
+    },
+    {
+      "id": "creature_egyptian_wadjet",
+      "name_cn": "瓦吉特",
+      "name_en": "Wadjet",
+      "culture": "egyptian",
+      "type": "dragon",
+      "attribute": "fire",
+      "prompt": "眼镜蛇女神瓦吉特，埃及的守护蛇神，眼镜蛇头戴着太阳圆盘，是法老的保护者和王权象征，周围是埃及王冠和神殿"
+    },
+    {
+      "id": "creature_egyptian_scarab",
+      "name_cn": "圣甲虫",
+      "name_en": "Scarab",
+      "culture": "egyptian",
+      "type": "beast",
+      "attribute": "light",
+      "prompt": "埃及圣甲虫凯布利，推动太阳穿越天空的神圣甲虫，金色的外壳闪闪发光，象征重生和太阳，周围是升起的太阳和金字塔"
+    },
+    {
+      "id": "creature_egyptian_uraeus",
+      "name_cn": "乌拉厄斯",
+      "name_en": "Uraeus",
+      "culture": "egyptian",
+      "type": "dragon",
+      "attribute": "fire",
+      "prompt": "圣蛇乌拉厄斯，法老王冠上的眼镜蛇，昂首吐信喷射火焰保护法老，金色的鳞片闪烁，周围是法老王冠和金色光芒"
+    },
+    {
+      "id": "creature_egyptian_serket",
+      "name_cn": "塞尔凯特",
+      "name_en": "Serket",
+      "culture": "egyptian",
+      "type": "spirit",
+      "attribute": "dark",
+      "prompt": "蝎子女神塞尔凯特，头顶蝎子的女神形象，掌管毒物和治愈，保护法老的木乃伊，周围是埃及陵墓和蝎子"
+    },
+    {
+      "id": "creature_egyptian_khepri",
+      "name_cn": "凯布利",
+      "name_en": "Khepri",
+      "culture": "egyptian",
+      "type": "spirit",
+      "attribute": "light",
+      "prompt": "日出之神凯布利，圣甲虫头人身的神祇，象征早晨的太阳和重生，推动太阳升起，周围是黎明的天空和金字塔"
+    },
+    {
+      "id": "creature_egyptian_mafdet",
+      "name_cn": "马弗德特",
+      "name_en": "Mafdet",
+      "culture": "egyptian",
+      "type": "beast",
+      "attribute": "light",
+      "prompt": "猎豹女神马弗德特，最古老的埃及猫科女神，猎豹的头颅身穿法官服饰，执行正义惩罚罪人，周围是埃及法庭和正义天平"
+    },
+    {
+      "id": "creature_egyptian_taweret",
+      "name_cn": "塔沃里特",
+      "name_en": "Taweret",
+      "culture": "egyptian",
+      "type": "beast",
+      "attribute": "water",
+      "prompt": "河马女神塔沃里特，保护孕妇和婴儿的女神，河马的头狮子的四肢鳄鱼的尾巴，慈祥的表情，周围是尼罗河和莲花"
+    },
+    {
+      "id": "creature_egyptian_nekhbet",
+      "name_cn": "奈赫贝特",
+      "name_en": "Nekhbet",
+      "culture": "egyptian",
+      "type": "phoenix",
+      "attribute": "wind",
+      "prompt": "秃鹫女神奈赫贝特，上埃及的守护神，展开巨大翅膀的秃鹫形象保护法老，周围是埃及王冠和神殿"
+    },
+    {
+      "id": "creature_egyptian_sha",
+      "name_cn": "沙兽",
+      "name_en": "Sha",
+      "culture": "egyptian",
+      "type": "beast",
+      "attribute": "dark",
+      "prompt": "赛特神的沙兽形态，方形耳朵箭头尾巴的神秘动物，掌管沙漠和混沌，在沙尘暴中若隐若现，周围是埃及沙漠和风暴"
+    },
+
+    {
+      "id": "creature_celtic_banshee",
+      "name_cn": "报丧女妖",
+      "name_en": "Banshee",
+      "culture": "celtic",
+      "type": "spirit",
+      "attribute": "dark",
+      "prompt": "凯尔特报丧女妖班希，穿着白色或绿色长袍的鬼魂女性，长发飘散发出凄厉的哭嚎预示死亡，周围是爱尔兰的雾气和荒野"
+    },
+    {
+      "id": "creature_celtic_pooka",
+      "name_cn": "普卡",
+      "name_en": "Pooka",
+      "culture": "celtic",
+      "type": "spirit",
+      "attribute": "nature",
+      "prompt": "凯尔特精灵普卡，能够变化为马兔狗等动物的恶作剧精灵，常以黑马形态出现，金色的眼睛闪烁狡黠光芒，周围是爱尔兰的田野"
+    },
+    {
+      "id": "creature_celtic_cuhulain_hound",
+      "name_cn": "库丘林猎犬",
+      "name_en": "Cu Chulainn Hound",
+      "culture": "celtic",
+      "type": "beast",
+      "attribute": "dark",
+      "prompt": "凯尔特英雄库丘林的魔犬，巨大的爱尔兰猎犬，全身覆盖着战斗的伤疤，守护主人至死不渝，周围是凯尔特式的战场"
+    },
+    {
+      "id": "creature_celtic_dullahan",
+      "name_cn": "无头骑士",
+      "name_en": "Dullahan",
+      "culture": "celtic",
+      "type": "undead",
+      "attribute": "dark",
+      "prompt": "凯尔特无头骑士，骑着黑马手提自己的头颅，头颅的眼睛燃烧着鬼火，手持人脊椎做的鞭子，周围是爱尔兰的迷雾小路"
+    },
+    {
+      "id": "creature_celtic_leprechaun",
+      "name_cn": "矮妖精",
+      "name_en": "Leprechaun",
+      "culture": "celtic",
+      "type": "spirit",
+      "attribute": "nature",
+      "prompt": "爱尔兰矮妖精，穿着绿色燕尾服和高筒帽的小精灵，守护着彩虹尽头的金币罐，狡猾的笑容，周围是爱尔兰的三叶草田"
+    },
+    {
+      "id": "creature_celtic_selkie",
+      "name_cn": "海豹精灵",
+      "name_en": "Selkie",
+      "culture": "celtic",
+      "type": "spirit",
+      "attribute": "water",
+      "prompt": "凯尔特海豹精灵，能够脱下海豹皮变成美丽人类的精灵，半人半海豹的形态在月光下海边，周围是苏格兰海岸和月光"
+    },
+    {
+      "id": "creature_celtic_kelpie",
+      "name_cn": "水马",
+      "name_en": "Kelpie",
+      "culture": "celtic",
+      "type": "spirit",
+      "attribute": "water",
+      "prompt": "苏格兰水马凯尔派，变化为美丽马匹诱惑人类的水妖，真身是可怕的水怪，周围是苏格兰的湖泊和迷雾"
+    },
+    {
+      "id": "creature_celtic_morrigan_crow",
+      "name_cn": "摩莉甘之鸦",
+      "name_en": "Morrigan Crow",
+      "culture": "celtic",
+      "type": "phoenix",
+      "attribute": "dark",
+      "prompt": "战争女神摩莉甘的乌鸦形态，巨大的黑色乌鸦在战场上盘旋，预示战争和死亡，周围是凯尔特战场和迷雾"
+    },
+    {
+      "id": "creature_celtic_aos_si",
+      "name_cn": "妖精族",
+      "name_en": "Aos Si",
+      "culture": "celtic",
+      "type": "spirit",
+      "attribute": "light",
+      "prompt": "凯尔特妖精族，居住在山丘下的美丽种族，尖耳朵和飘逸的服饰，既美丽又危险，周围是爱尔兰的绿色山丘和魔法光芒"
+    },
+    {
+      "id": "creature_celtic_cernunnos",
+      "name_cn": "塞尔努诺斯",
+      "name_en": "Cernunnos",
+      "culture": "celtic",
+      "type": "spirit",
+      "attribute": "nature",
+      "prompt": "有角之神塞尔努诺斯，凯尔特的森林之神，人身鹿角盘腿坐在森林中，周围环绕着各种森林动物，周围是古老的橡树森林"
+    },
+    {
+      "id": "creature_celtic_fomorian",
+      "name_cn": "弗摩尔",
+      "name_en": "Fomorian",
+      "culture": "celtic",
+      "type": "giant",
+      "attribute": "dark",
+      "prompt": "凯尔特弗摩尔巨人，混沌和黑暗的化身，畸形的巨人种族只有一只眼睛或一条腿，与众神战斗，周围是爱尔兰的荒野和风暴"
+    },
+    {
+      "id": "creature_celtic_cwn_annwn",
+      "name_cn": "冥界猎犬",
+      "name_en": "Cwn Annwn",
+      "culture": "celtic",
+      "type": "beast",
+      "attribute": "dark",
+      "prompt": "威尔士冥界猎犬，白色皮毛红色耳朵的幽灵猎犬，在夜空中追逐亡灵，叫声越近反而越远，周围是威尔士的月夜荒野"
+    },
+    {
+      "id": "creature_celtic_fear_gorta",
+      "name_cn": "饥饿幽灵",
+      "name_en": "Fear Gorta",
+      "culture": "celtic",
+      "type": "undead",
+      "attribute": "dark",
+      "prompt": "爱尔兰饥饿幽灵，骨瘦如柴的亡灵形象在饥荒时出现，给予食物者将得到祝福，周围是饥荒年代的爱尔兰荒野"
+    },
+    {
+      "id": "creature_celtic_cat_sith",
+      "name_cn": "妖精猫",
+      "name_en": "Cat Sith",
+      "culture": "celtic",
+      "type": "spirit",
+      "attribute": "dark",
+      "prompt": "苏格兰妖精猫，全身漆黑胸前有白色斑点的巨大黑猫，能够偷走死者的灵魂，眼睛闪烁着绿光，周围是苏格兰高地的夜晚"
+    },
+    {
+      "id": "creature_celtic_each_uisge",
+      "name_cn": "水马怪",
+      "name_en": "Each-uisge",
+      "culture": "celtic",
+      "type": "beast",
+      "attribute": "water",
+      "prompt": "苏格兰水马怪，比凯尔派更加凶残的水妖，变成英俊的马或人诱惑受害者然后溺死他们，周围是苏格兰的深水湖泊"
+    },
+    {
+      "id": "creature_celtic_merrow",
+      "name_cn": "美人鱼",
+      "name_en": "Merrow",
+      "culture": "celtic",
+      "type": "spirit",
+      "attribute": "water",
+      "prompt": "爱尔兰美人鱼梅罗，上半身是美丽女性下半身是鱼尾，戴着红色帽子能够在水下呼吸，周围是爱尔兰海岸和海藻"
+    },
+    {
+      "id": "creature_celtic_nuckelavee",
+      "name_cn": "无皮恶魔",
+      "name_en": "Nuckelavee",
+      "culture": "celtic",
+      "type": "spirit",
+      "attribute": "dark",
+      "prompt": "苏格兰海洋恶魔，没有皮肤的恐怖生物，骑手与马合为一体，肌肉和血管暴露在外，周围是苏格兰海岸的腐烂气息"
+    },
+    {
+      "id": "creature_celtic_pwca",
+      "name_cn": "威尔士精灵",
+      "name_en": "Pwca",
+      "culture": "celtic",
+      "type": "spirit",
+      "attribute": "nature",
+      "prompt": "威尔士的恶作剧精灵普卡，能够变化成各种动物的调皮精灵，喜欢捉弄旅人但也会帮助好心人，周围是威尔士的乡村"
+    },
+    {
+      "id": "creature_celtic_bean_nighe",
+      "name_cn": "洗衣女妖",
+      "name_en": "Bean Nighe",
+      "culture": "celtic",
+      "type": "spirit",
+      "attribute": "water",
+      "prompt": "苏格兰洗衣女妖，在河边洗涤将死之人衣物的女鬼，穿着绿色衣服只有一只鼻孔，周围是苏格兰河流和迷雾"
+    },
+    {
+      "id": "creature_celtic_green_man",
+      "name_cn": "绿人",
+      "name_en": "Green Man",
+      "culture": "celtic",
+      "type": "spirit",
+      "attribute": "nature",
+      "prompt": "凯尔特绿人，森林精灵的化身，面容由树叶和藤蔓构成，嘴里长出枝条，象征自然的重生，周围是古老的凯尔特森林"
+    }
+  ]
+}

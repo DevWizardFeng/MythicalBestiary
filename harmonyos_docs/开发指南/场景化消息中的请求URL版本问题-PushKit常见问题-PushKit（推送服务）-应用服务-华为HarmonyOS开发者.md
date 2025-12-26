@@ -1,0 +1,3 @@
+<h1 _ngcontent-ljl-c119="" class="doc-title ng-star-inserted" title="场景化消息中的请求URL版本问题"> 场景化消息中的请求URL版本问题 </h1>
+
+<div _ngcontent-ljl-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;">   <div>    <p>场景化消息<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/push-scenariozed-api-request-struct" target="_blank">请求体结构</a>中，请求URL版本为V3（https://push-api.cloud.huawei.com/v3/[projectId]/messages:send）时，仅支持给HarmonyOS Next/5.x及之后的系统版本推送通知；版本为V2（https://push-api.cloud.huawei.com/v2/[projectId]/messages:send）时，仅支持给HarmonyOS 3.x/4.x的系统版本推送通知。</p>    <p><strong>请使用V3版本</strong>的请求URL（https://push-api.cloud.huawei.com/v3/[projectId]/messages:send）进行消息推送。</p>    <p></p>   </div>   <div></div></div>

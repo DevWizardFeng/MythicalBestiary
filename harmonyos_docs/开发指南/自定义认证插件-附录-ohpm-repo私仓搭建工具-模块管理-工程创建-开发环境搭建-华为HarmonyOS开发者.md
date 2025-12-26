@@ -1,0 +1,3 @@
+<h1 _ngcontent-tec-c119="" class="doc-title ng-star-inserted" title="自定义认证插件"> 自定义认证插件 </h1>
+
+<div _ngcontent-tec-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000001831852624"></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-custom-auth-plugin-configuration">自定义认证插件配置</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-custom-auth-plugin-template">模板文件</a></strong><br> </li> </ul> </div></div>

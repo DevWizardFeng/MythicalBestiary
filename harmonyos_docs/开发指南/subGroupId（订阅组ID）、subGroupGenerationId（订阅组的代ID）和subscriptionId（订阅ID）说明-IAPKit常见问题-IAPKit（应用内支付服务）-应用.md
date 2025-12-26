@@ -1,0 +1,3 @@
+<h1 _ngcontent-aaw-c119="" class="doc-title ng-star-inserted" title="subGroupId（订阅组ID）、subGroupGenerationId（订阅组的代ID）和subscriptionId（订阅ID）说明"> subGroupId（订阅组ID）、subGroupGenerationId（订阅组的代ID）和subscriptionId（订阅ID）说明 </h1>
+
+<div _ngcontent-aaw-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><ul><li>subGroupId(订阅组ID)标识一个订阅组，一个订阅组下存在多个自动续期订阅商品。</li><li>subGroupGenerationId(订阅组的代ID)是标识用户在同一订阅组下连续订阅的唯一ID。用户首次订阅时生成，在同一订阅组内切换其它订阅商品该ID不会改变，在订阅失效且超出<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/iap-subscription-functions#section1656191811315" target="_blank">保留期</a>后，用户重新购买商品时改变。</li><li>subscriptionId(订阅ID)标识用户对订阅组中的一个商品存在订阅关系。</li></ul> </div> <div></div></div>

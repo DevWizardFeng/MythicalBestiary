@@ -1,0 +1,3 @@
+<h1 _ngcontent-ejm-c119="" class="doc-title ng-star-inserted" title="使用安全控件"> 使用安全控件 </h1>
+
+<div _ngcontent-ejm-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/security-component-overview">安全控件概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/pastebutton">使用粘贴控件</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/savebutton">使用保存控件</a></strong><br> </li> </ul> </div></div>

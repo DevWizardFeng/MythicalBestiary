@@ -1,0 +1,3 @@
+<h1 _ngcontent-atk-c119="" class="doc-title ng-star-inserted" title="开发准备"> 开发准备 </h1>
+
+<div _ngcontent-atk-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><ol><li>请先确认设备支持星闪功能。确认方法：进入“设置 &gt; 多设备协同”界面（不同产品或系统版本可能为“设置 &gt; 星闪和蓝牙”），确认“星闪”选项存在。若选项不存在，则设备不支持星闪功能。</li><li>请参考“<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/application-dev-overview" target="_blank">应用开发准备</a>”完成开发者注册、创建应用、安装开发环境、配置签名信息等基本准备工作，再继续进行以下开发活动。</li><li>开发者需要在应用中动态申请星闪权限ohos.permission.ACCESS_NEARLINK，包括在应用配置文件中声明此权限，并向用户申请授权。具体申请方式请参考<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/request-user-authorization" target="_blank">向用户申请授权</a>。</li></ol> </div> <div></div></div>

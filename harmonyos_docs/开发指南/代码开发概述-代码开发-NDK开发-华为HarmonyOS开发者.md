@@ -1,0 +1,3 @@
+<h1 _ngcontent-btf-c119="" class="doc-title ng-star-inserted" title="代码开发概述"> 代码开发概述 </h1>
+
+<div _ngcontent-btf-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;">   <div>    <p>HarmonyOS NDK提供多个开放能力库，如图形图像、内存管理、设备管理等，供开发者实现代码逻辑；同时提供业界标准库，如<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/musl" target="_blank">libc标准库</a>、<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/cpp" target="_blank">标准C++库</a>、<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/napi-introduction">Node-API</a>等。</p>   </div>   <div></div></div>

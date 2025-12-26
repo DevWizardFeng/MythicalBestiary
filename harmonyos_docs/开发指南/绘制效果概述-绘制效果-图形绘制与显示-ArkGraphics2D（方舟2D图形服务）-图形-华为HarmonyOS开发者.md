@@ -1,0 +1,3 @@
+<h1 _ngcontent-knj-c119="" class="doc-title ng-star-inserted" title="绘制效果概述"> 绘制效果概述 </h1>
+
+<div _ngcontent-knj-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>Canvas在创建后会有默认的填充和描边效果，可以直接进行图元的绘制。但多数情况下默认的效果并不能满足需要，比如默认的颜色是黑色，只能绘制黑色的图形，默认没有模糊或渐变效果等。如果需要更多的绘制效果，比如绘制红色的图形、添加模糊效果或渐变效果等，则需要给Canvas设置自定义的画刷（Brush）或者画笔（Pen）。</p> <p>画刷（Brush）用于实现填充效果，针对的是图形的内部区域，基础效果包括填充颜色、抗锯齿等。</p> <p>画笔（Pen）用于实现描边效果，针对的是图形的轮廓，基础效果包括描边颜色、宽度、线条连接方式、线条端点样式等。</p> <p>同时，画刷和画笔还可以实现更多更复杂的效果，比如：</p> <ul><li><p>混合模式。</p>  </li><li><p>路径效果（虚线效果等）。</p>  </li><li><p>着色器效果（线性渐变、径向渐变等）。</p>  </li><li><p>滤波效果（模糊效果等）。</p>  </li></ul> <p>画刷和画笔可以根据需要二选一，也可以都设置或都不设置，不设置即使用默认的黑色画刷。</p> </div> <div></div></div>

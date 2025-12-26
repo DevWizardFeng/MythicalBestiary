@@ -1,0 +1,3 @@
+<h1 _ngcontent-ori-c119="" class="doc-title ng-star-inserted" title="PDF Kit 常见问题"> PDF Kit 常见问题 </h1>
+
+<div _ngcontent-ori-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/pdf-faq-4">PDF Kit可以移除具体页面的页眉页脚、水印、背景吗？</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/pdf-faq-4-online-preview">PDF文档支持在线预览吗？</a></strong><br> </li> </ul> </div></div>

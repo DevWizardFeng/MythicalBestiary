@@ -1,0 +1,3 @@
+<h1 _ngcontent-wmy-c119="" class="doc-title ng-star-inserted" title="Beacon（蓝牙信标设备）方案"> Beacon（蓝牙信标设备）方案 </h1>
+
+<div _ngcontent-wmy-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>根据与华为方锁定的场景选择的Beacon（蓝牙信标设备）方案对应步骤详情参考：</p> <p><a href="https://developer.huawei.com/consumer/cn/doc/app/agc-help-location-sense-by-beacon-0000002305369365" target="_blank">近场服务-信标设备场景</a></p> <p></p> </div> <div></div></div>

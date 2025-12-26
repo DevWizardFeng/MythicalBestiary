@@ -1,0 +1,3 @@
+<h1 _ngcontent-vkg-c119="" class="doc-title ng-star-inserted" title="Media Kit（媒体服务）"> Media Kit（媒体服务） </h1>
+
+<div _ngcontent-vkg-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/media-arkts">ArkTS API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/media-c">C API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/media-arkts-errcode">错误码</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-pgo-c119="" class="doc-title ng-star-inserted" title="UI Design Kit常见问题"> UI Design Kit常见问题 </h1>
+
+<div _ngcontent-pgo-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-design-faq1">怎么获取layeredDrawableDescriptor对象信息？</a></strong><br> </li> </ul> </div></div>

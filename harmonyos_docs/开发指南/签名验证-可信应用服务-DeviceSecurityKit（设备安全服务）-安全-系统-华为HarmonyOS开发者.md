@@ -1,0 +1,3 @@
+<h1 _ngcontent-lot-c119="" class="doc-title ng-star-inserted" title="签名验证"> 签名验证 </h1>
+
+<div _ngcontent-lot-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/devicesecurity-taas-verifycertchain">验证匿名证书链</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/devicesecurity-taas-verifysignature">验证签名</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-lcs-c119="" class="doc-title ng-star-inserted" title="空间互传"> 空间互传 </h1>
+
+<div _ngcontent-lcs-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/enterprisespace-set-audit-info">设置审批信息</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/enterprisespace-get-audit-info">获取审批信息</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/enterprisespace-policy-push">配置空间互传单双通策略</a></strong><br> </li> </ul> </div></div>

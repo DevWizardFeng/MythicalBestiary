@@ -1,0 +1,3 @@
+<h1 _ngcontent-wvt-c119="" class="doc-title ng-star-inserted" title="应用市场推荐展示元服务卡片异常"> 应用市场推荐展示元服务卡片异常 </h1>
+
+<div _ngcontent-wvt-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p><strong>问题现象</strong></p> <p>调用展示元服务卡片详情页接口，显示异常页面。</p> <p><strong>解决措施</strong></p> <ol><li>确认元服务卡片是否已上架到应用市场。</li><li>uri链接是否在有效期内。</li></ol> </div> <div></div></div>

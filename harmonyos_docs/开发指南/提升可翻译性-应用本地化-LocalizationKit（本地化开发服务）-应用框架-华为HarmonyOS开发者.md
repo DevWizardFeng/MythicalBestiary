@@ -1,0 +1,3 @@
+<h1 _ngcontent-djj-c119="" class="doc-title ng-star-inserted" title="提升可翻译性"> 提升可翻译性 </h1>
+
+<div _ngcontent-djj-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/l10n-hard-coding-concatenate">避免硬编码与拼接</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/l10n-translation-scene">提供翻译场景</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/l10n-singular-plural">支持单复数</a></strong><br> </li> </ul> </div></div>

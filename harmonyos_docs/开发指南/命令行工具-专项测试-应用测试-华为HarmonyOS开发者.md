@@ -1,0 +1,3 @@
+<h1 _ngcontent-tdo-c119="" class="doc-title ng-star-inserted" title="命令行工具"> 命令行工具 </h1>
+
+<div _ngcontent-tdo-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000001771716766"><p id="ZH-CN_TOPIC_0000002473986462__p8060118"></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/smartperf-guidelines">HiSmartPerf Device性能使用指导</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/wukong-guidelines">wukong稳定性工具使用指导</a></strong><br> </li> </ul> </div></div>

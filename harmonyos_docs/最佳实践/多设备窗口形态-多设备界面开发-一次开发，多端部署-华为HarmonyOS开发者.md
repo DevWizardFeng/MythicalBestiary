@@ -1,0 +1,3 @@
+<h1 _ngcontent-lga-c119="" class="doc-title ng-star-inserted" title="多设备窗口形态"> 多设备窗口形态 </h1>
+
+<div _ngcontent-lga-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-multi-device-window-mode">窗口模式</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-multi-device-window-direction">窗口方向</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-multi-device-window-immersive">窗口沉浸式</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-cxi-c119="" class="doc-title ng-star-inserted" title="Reader Kit（阅读服务）"> Reader Kit（阅读服务） </h1>
+
+<div _ngcontent-cxi-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/reader-arkts">ArkTS API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/reader-api-component">ArkTS组件</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/reader-error-code">ArkTS API错误码</a></strong><br> </li> </ul> </div></div>

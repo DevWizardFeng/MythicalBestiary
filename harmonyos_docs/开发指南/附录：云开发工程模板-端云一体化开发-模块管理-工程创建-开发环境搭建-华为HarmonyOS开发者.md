@@ -1,0 +1,3 @@
+<h1 _ngcontent-mwo-c119="" class="doc-title ng-star-inserted" title="附录：云开发工程模板"> 附录：云开发工程模板 </h1>
+
+<div _ngcontent-mwo-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000001734669089"></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/agc-harmonyos-clouddev-emptyability">通用云开发模板</a></strong><br> </li> </ul> </div></div>

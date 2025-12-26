@@ -1,0 +1,3 @@
+<h1 _ngcontent-knp-c119="" class="doc-title ng-star-inserted" title="开发USB串口通信服务"> 开发USB串口通信服务 </h1>
+
+<div _ngcontent-knp-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/usbserial-overview">USB串口通信服务开发概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/usbserial-configuration">USB串口配置管理</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/usbserial-communication">USB串口通信管理</a></strong><br> </li> </ul> </div></div>

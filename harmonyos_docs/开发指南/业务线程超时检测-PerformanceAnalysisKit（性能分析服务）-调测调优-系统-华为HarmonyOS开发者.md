@@ -1,0 +1,3 @@
+<h1 _ngcontent-jlj-c119="" class="doc-title ng-star-inserted" title="业务线程超时检测"> 业务线程超时检测 </h1>
+
+<div _ngcontent-jlj-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hicollie-guidelines-ndk">使用HiCollie检测业务线程卡死卡顿问题（C/C++）</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hicollie-settimer-guidelines-ndk">使用HiCollie监控函数执行时间超长问题（C/C++）</a></strong><br> </li> </ul> </div></div>

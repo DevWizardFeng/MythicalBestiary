@@ -1,0 +1,3 @@
+<h1 _ngcontent-mid-c119="" class="doc-title ng-star-inserted" title="文本测量"> 文本测量 </h1>
+
+<div _ngcontent-mid-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/text-measure-arkts">文本测量（ArkTS）</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/text-measure-c">文本测量（C/C++）</a></strong><br> </li> </ul> </div></div>

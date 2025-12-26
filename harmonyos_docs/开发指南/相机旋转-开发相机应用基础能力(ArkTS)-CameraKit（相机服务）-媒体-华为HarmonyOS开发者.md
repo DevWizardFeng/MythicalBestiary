@@ -1,0 +1,3 @@
+<h1 _ngcontent-tql-c119="" class="doc-title ng-star-inserted" title="相机旋转"> 相机旋转 </h1>
+
+<div _ngcontent-tql-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/camera-rotation-angle-adaptation">适配相机旋转角度(ArkTS)</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/camera-rotation-term">相机旋转角度的术语</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-nag-c119="" class="doc-title ng-star-inserted" title="创建项目和应用"> 创建项目和应用 </h1>
+
+<div _ngcontent-nag-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>在<a href="https://developer.huawei.com/consumer/cn/service/josp/agc/index.html" target="_blank">AppGallery Connect</a>（简称AGC）上，参考<a href="https://developer.huawei.com/consumer/cn/doc/app/agc-help-create-project-0000002242804048" target="_blank">创建项目</a>和<a href="https://developer.huawei.com/consumer/cn/doc/app/agc-help-create-app-0000002247955506" target="_blank">创建应用</a>完成HarmonyOS应用的创建。</p> </div> <div></div></div>

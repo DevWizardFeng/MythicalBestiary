@@ -1,0 +1,3 @@
+<h1 _ngcontent-ele-c119="" class="doc-title ng-star-inserted" title="按需加载场景中加载动态模块失败"> 按需加载场景中加载动态模块失败 </h1>
+
+<div _ngcontent-ele-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p><strong>问题现象</strong></p> <p>调用加载接口时加载模块失败。</p> <p><strong>解决措施</strong></p> <p>支持按需加载的应用需要先上架到应用市场，然后从应用市场下载应用包。应用包安装后才能在应用中调用动态下载接口。开发者通过本地DevEco Studio编译的示例包无法直接调用下载接口。</p> </div> <div></div></div>

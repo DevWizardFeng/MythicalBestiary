@@ -1,0 +1,3 @@
+<h1 _ngcontent-lfm-c119="" class="doc-title ng-star-inserted" title="生成ArkTSDoc文档"> 生成ArkTSDoc文档 </h1>
+
+<div _ngcontent-lfm-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000002015854934"></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-arktsdoc-generation">文档生成</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-arktsdocs-standard-label">标准标签</a></strong><br> </li> </ul> </div></div>

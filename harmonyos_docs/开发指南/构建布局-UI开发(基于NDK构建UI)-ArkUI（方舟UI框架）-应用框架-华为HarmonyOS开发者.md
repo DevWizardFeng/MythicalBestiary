@@ -1,0 +1,3 @@
+<h1 _ngcontent-pnp-c119="" class="doc-title ng-star-inserted" title="构建布局"> 构建布局 </h1>
+
+<div _ngcontent-pnp-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ndk-loading-long-list">使用列表</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ndk-waterflow">使用瀑布流</a></strong><br> </li> </ul> </div></div>

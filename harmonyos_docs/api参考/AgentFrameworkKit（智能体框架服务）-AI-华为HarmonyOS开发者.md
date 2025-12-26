@@ -1,0 +1,3 @@
+<h1 _ngcontent-cee-c119="" class="doc-title ng-star-inserted" title="Agent Framework Kit（智能体框架服务）"> Agent Framework Kit（智能体框架服务） </h1>
+
+<div _ngcontent-cee-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/hmaf-arkts">ArkTS 组件</a></strong><br> </li> </ul> </div></div>

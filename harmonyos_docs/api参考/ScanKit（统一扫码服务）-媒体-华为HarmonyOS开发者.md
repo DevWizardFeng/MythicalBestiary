@@ -1,0 +1,3 @@
+<h1 _ngcontent-irv-c119="" class="doc-title ng-star-inserted" title="Scan Kit（统一扫码服务）"> Scan Kit（统一扫码服务） </h1>
+
+<div _ngcontent-irv-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/scan-arkts">ArkTS API</a></strong><br> </li> </ul> </div></div>

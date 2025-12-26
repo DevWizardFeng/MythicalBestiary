@@ -1,0 +1,3 @@
+<h1 _ngcontent-riw-c119="" class="doc-title ng-star-inserted" title="PDF文档支持在线预览吗？"> PDF文档支持在线预览吗？ </h1>
+
+<div _ngcontent-riw-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>PDF Kit不支持在线预览，需要把文档下载到本地，才能预览，具体可参见<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/pdf-pdfview-component">预览PDF文档</a>。</p> </div> <div></div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-anc-c119="" class="doc-title ng-star-inserted" title="反诈选择器"> 反诈选择器 </h1>
+
+<div _ngcontent-anc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/devicesecurity-selectfraudmessage">获取诈骗消息</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/devicesecurity-selectfraudcalllog">获取诈骗通话记录</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/devicesecurity-selectfraudapp">获取诈骗应用</a></strong><br> </li> </ul> </div></div>

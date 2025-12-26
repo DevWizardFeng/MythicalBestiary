@@ -1,0 +1,3 @@
+<h1 _ngcontent-xmo-c119="" class="doc-title ng-star-inserted" title="基础兼容性"> 基础兼容性 </h1>
+
+<div _ngcontent-xmo-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/os-compatible">OS兼容</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/upgrade-compatible">升级兼容</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/device-compatible">设备兼容</a></strong><br> </li> </ul> </div></div>

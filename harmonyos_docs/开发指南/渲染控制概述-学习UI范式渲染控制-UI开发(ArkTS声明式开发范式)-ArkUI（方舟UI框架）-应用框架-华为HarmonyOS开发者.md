@@ -1,0 +1,3 @@
+<h1 _ngcontent-stm-c119="" class="doc-title ng-star-inserted" title="渲染控制概述"> 渲染控制概述 </h1>
+
+<div _ngcontent-stm-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>ArkUI通过<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-create-custom-components">自定义组件</a>的build()函数和<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-builder">@Builder装饰器</a>中的声明式UI描述语句构建相应的UI。在声明式描述语句中开发者除了使用系统组件外，还可以使用渲染控制语句来辅助UI的构建，这些渲染控制语句包括控制组件是否显示的条件渲染语句，基于数组数据快速生成组件的循环渲染语句，针对大数据量场景的数据懒加载语句，针对混合模式开发的组件渲染语句。</p> </div> <div></div></div>

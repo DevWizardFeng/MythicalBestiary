@@ -1,0 +1,3 @@
+<h1 _ngcontent-umh-c119="" class="doc-title ng-star-inserted" title="Service Collaboration Kit（协同服务）"> Service Collaboration Kit（协同服务） </h1>
+
+<div _ngcontent-umh-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/servicecollaboration-arkts">ArkTS 组件</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/servicecollaboration-capi">C API</a></strong><br> </li> </ul> </div></div>

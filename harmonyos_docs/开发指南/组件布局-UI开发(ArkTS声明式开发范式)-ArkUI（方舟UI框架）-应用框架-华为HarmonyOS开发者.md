@@ -1,0 +1,3 @@
+<h1 _ngcontent-clf-c119="" class="doc-title ng-star-inserted" title="组件布局"> 组件布局 </h1>
+
+<div _ngcontent-clf-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-layout-development-overview">布局概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-build-layout">构建布局</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-develop-apply-immersive-effects">开发应用沉浸式效果</a></strong><br> </li> </ul> </div></div>

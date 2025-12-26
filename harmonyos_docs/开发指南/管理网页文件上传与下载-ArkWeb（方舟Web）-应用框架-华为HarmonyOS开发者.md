@@ -1,0 +1,3 @@
+<h1 _ngcontent-dhi-c119="" class="doc-title ng-star-inserted" title="管理网页文件上传与下载"> 管理网页文件上传与下载 </h1>
+
+<div _ngcontent-dhi-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/web-file-upload">使用Web组件上传文件</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/web-download">使用Web组件的下载能力</a></strong><br> </li> </ul> </div></div>

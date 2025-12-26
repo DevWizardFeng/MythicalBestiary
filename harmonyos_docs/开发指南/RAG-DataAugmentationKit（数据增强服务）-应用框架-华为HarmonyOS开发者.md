@@ -1,0 +1,3 @@
+<h1 _ngcontent-dqc-c119="" class="doc-title ng-star-inserted" title="RAG"> RAG </h1>
+
+<div _ngcontent-dqc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/data-augmentation-rag-overview">RAG概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/data-augmentation-rag-development">知识问答</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/data-augmentation-rag-demo">完整示例代码</a></strong><br> </li> </ul> </div></div>

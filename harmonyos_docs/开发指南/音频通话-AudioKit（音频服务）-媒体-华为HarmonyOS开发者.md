@@ -1,0 +1,3 @@
+<h1 _ngcontent-ioj-c119="" class="doc-title ng-star-inserted" title="音频通话"> 音频通话 </h1>
+
+<div _ngcontent-ioj-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/audio-call-overview">音频通话开发概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/audio-call-development">开发音频通话功能</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-nwr-c119="" class="doc-title ng-star-inserted" title="媒体数据封装与解析"> 媒体数据封装与解析 </h1>
+
+<div _ngcontent-nwr-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/audio-video-muxer">媒体数据封装</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/audio-video-demuxer">媒体数据解析</a></strong><br> </li> </ul> </div></div>

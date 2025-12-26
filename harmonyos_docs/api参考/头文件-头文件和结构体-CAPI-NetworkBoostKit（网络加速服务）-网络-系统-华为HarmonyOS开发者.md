@@ -1,0 +1,3 @@
+<h1 _ngcontent-wmn-c119="" class="doc-title ng-star-inserted" title="头文件"> 头文件 </h1>
+
+<div _ngcontent-wmn-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/network-boost-c-files-handover">network_boost_handover.h</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/network-boost-c-files-quality">network_boost_quality.h</a></strong><br> </li> </ul> </div></div>

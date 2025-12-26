@@ -1,0 +1,3 @@
+<h1 _ngcontent-osg-c119="" class="doc-title ng-star-inserted" title="多设备交互"> 多设备交互 </h1>
+
+<div _ngcontent-osg-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-multi-interaction">多设备交互</a></strong><br> </li> </ul> </div></div>

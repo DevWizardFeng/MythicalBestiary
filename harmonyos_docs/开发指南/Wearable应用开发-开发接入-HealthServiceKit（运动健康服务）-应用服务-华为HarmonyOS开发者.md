@@ -1,0 +1,3 @@
+<h1 _ngcontent-slp-c119="" class="doc-title ng-star-inserted" title="Wearable应用开发"> Wearable应用开发 </h1>
+
+<div _ngcontent-slp-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/health-wearable-add-permissions">管理用户授权</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/health-wearable-data-manage">管理运动健康数据</a></strong><br> </li> </ul> </div></div>

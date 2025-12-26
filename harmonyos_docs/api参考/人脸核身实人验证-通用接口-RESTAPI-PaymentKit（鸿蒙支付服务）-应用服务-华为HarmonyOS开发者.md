@@ -1,0 +1,3 @@
+<h1 _ngcontent-ijc-c119="" class="doc-title ng-star-inserted" title="人脸核身实人验证"> 人脸核身实人验证 </h1>
+
+<div _ngcontent-ijc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-api-common-face-verifactaion-preverify">人脸核身实人预验证</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-api-common-face-verifactaion-result">人脸核身实人验证结果查询</a></strong><br> </li> </ul> </div></div>

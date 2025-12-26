@@ -1,0 +1,3 @@
+<h1 _ngcontent-jry-c119="" class="doc-title ng-star-inserted" title="应用本地化"> 应用本地化 </h1>
+
+<div _ngcontent-jry-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/l10n-multilingual-resources">提供多语言资源</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/l10n-translation">提升可翻译性</a></strong><br> </li> </ul> </div></div>

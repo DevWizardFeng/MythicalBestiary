@@ -1,0 +1,3 @@
+<h1 _ngcontent-tiw-c119="" class="doc-title ng-star-inserted" title="元服务基本要素"> 元服务基本要素 </h1>
+
+<div _ngcontent-tiw-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000001939135629"></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/design-guides/ux-guidelines-overview-0000001900384976">基础信息</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/design-guides/ux-guidelines-overview-0000001939144821">服务卡片</a></strong><br> </li> </ul> </div></div>

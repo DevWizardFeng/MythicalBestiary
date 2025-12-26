@@ -1,0 +1,3 @@
+<h1 _ngcontent-nae-c119="" class="doc-title ng-star-inserted" title="条形码识别坐标信息为空"> 条形码识别坐标信息为空 </h1>
+
+<div _ngcontent-nae-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p><strong>问题现象</strong></p> <p>条形码识别场景下，存在识别成功后，返回位置信息为空的现象。</p> <p><strong>解决措施</strong></p> <p>由于条形码识别逻辑中，算法返回的位置信息可能位于同一行或同一列，无法返回外接矩形。在此场景下，开发者需判断位置信息是否为空，并进行相应处理。</p> </div> <div></div></div>

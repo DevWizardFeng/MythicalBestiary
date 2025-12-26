@@ -1,0 +1,3 @@
+<h1 _ngcontent-mqo-c119="" class="doc-title ng-star-inserted" title="日志打印"> 日志打印 </h1>
+
+<div _ngcontent-mqo-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hilog-guidelines-arkts">使用HiLog打印日志（ArkTS）</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hilog-guidelines-ndk">使用HiLog打印日志（C/C++）</a></strong><br> </li> </ul> </div></div>

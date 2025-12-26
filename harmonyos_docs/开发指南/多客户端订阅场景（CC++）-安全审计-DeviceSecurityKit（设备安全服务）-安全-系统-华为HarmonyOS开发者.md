@@ -1,0 +1,3 @@
+<h1 _ngcontent-scn-c119="" class="doc-title ng-star-inserted" title="多客户端订阅场景（C/C++）"> 多客户端订阅场景（C/C++） </h1>
+
+<div _ngcontent-scn-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/devicesecurity-audit-subscribe-c-filterevent">订阅通知类事件</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/devicesecurity-audit-subscribe-c-auth">订阅阻断类事件</a></strong><br> </li> </ul> </div></div>

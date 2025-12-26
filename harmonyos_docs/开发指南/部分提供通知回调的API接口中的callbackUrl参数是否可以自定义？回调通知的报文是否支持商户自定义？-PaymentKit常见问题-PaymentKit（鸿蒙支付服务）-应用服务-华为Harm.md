@@ -1,0 +1,3 @@
+<h1 _ngcontent-xjr-c119="" class="doc-title ng-star-inserted" title="部分提供通知回调的API接口中的callbackUrl参数是否可以自定义？回调通知的报文是否支持商户自定义？"> 部分提供通知回调的API接口中的callbackUrl参数是否可以自定义？回调通知的报文是否支持商户自定义？ </h1>
+
+<div _ngcontent-xjr-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><ol><li>API接口callbackUrl参数是可以由商户自行定义的HTTPS协议的有效接口。如：https://www.xxxxxx.com/hw/pay/callback。</li><li>回调通知报文暂时无法由商户自定义。</li></ol> </div> <div></div></div>

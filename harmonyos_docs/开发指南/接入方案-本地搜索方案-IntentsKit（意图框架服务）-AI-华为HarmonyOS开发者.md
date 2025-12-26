@@ -1,0 +1,3 @@
+<h1 _ngcontent-cnr-c119="" class="doc-title ng-star-inserted" title="接入方案"> 接入方案 </h1>
+
+<div _ngcontent-cnr-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/intents-skill-all-rec-function-search">功能搜索方案</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/intents-skill-all-rec-content-search">内容搜索方案</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-kga-c119="" class="doc-title ng-star-inserted" title="概述"> 概述 </h1>
+
+<div _ngcontent-kga-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>Account Kit提供了用户实名信息获取和实名信息校验能力，开发者可以通过Account Kit的相关功能，引导用户完成授权并校验其实名信息。</p> <div class="tiledSection"><h2 id="section58432071113">场景介绍<i class="anchor-icon anchor-icon-link" anchorid="section58432071113" tips="复制节点链接"></i></h2><ul><li><strong>获取实名信息</strong><p>应用服务器获取到用户授权后，调用华为账号服务器获取华为账号实名信息。</p> </li></ul> <ul><li><strong>实名信息</strong><strong>校验</strong><p>应用服务器获取到用户授权后，调用华为账号服务器校验用户实名信息。</p> </li></ul> </div> </div> <div></div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-rwo-c119="" class="doc-title ng-star-inserted" title="条形码识别错误"> 条形码识别错误 </h1>
+
+<div _ngcontent-rwo-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p><strong>问题现象</strong></p> <p>条形码识别过程中存在码图类型识别错误的场景。</p> <p><strong>解决措施</strong></p> <p>条形码识别是通过粗细黑白条组成的模式来进行匹配，由于条形码的图案都比较相似，不同类型的码会出现误匹配现象，Scan Kit在不断优化扫码识别算法，持续提升识别的准确率。</p> </div> <div></div></div>

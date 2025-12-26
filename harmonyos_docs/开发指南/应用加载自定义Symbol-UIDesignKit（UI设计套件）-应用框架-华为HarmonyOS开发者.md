@@ -1,0 +1,3 @@
+<h1 _ngcontent-dpn-c119="" class="doc-title ng-star-inserted" title="应用加载自定义Symbol"> 应用加载自定义Symbol </h1>
+
+<div _ngcontent-dpn-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-design-custom-symbol-res-register">资源注册</a></strong><br> </li> </ul> </div></div>

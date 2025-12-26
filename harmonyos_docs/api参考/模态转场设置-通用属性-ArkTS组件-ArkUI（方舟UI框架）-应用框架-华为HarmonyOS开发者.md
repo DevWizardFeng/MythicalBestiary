@@ -1,0 +1,3 @@
+<h1 _ngcontent-aiv-c119="" class="doc-title ng-star-inserted" title="模态转场设置"> 模态转场设置 </h1>
+
+<div _ngcontent-aiv-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-modal-transition">全屏模态转场</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-sheet-transition">半模态转场</a></strong><br> </li> </ul> </div></div>

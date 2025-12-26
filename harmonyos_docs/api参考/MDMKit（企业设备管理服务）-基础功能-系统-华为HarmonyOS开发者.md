@@ -1,0 +1,3 @@
+<h1 _ngcontent-qqd-c119="" class="doc-title ng-star-inserted" title="MDM Kit（企业设备管理服务）"> MDM Kit（企业设备管理服务） </h1>
+
+<div _ngcontent-qqd-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/mdm-arkts">ArkTS API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/mdm-arkts-errcode">错误码</a></strong><br> </li> </ul> </div></div>

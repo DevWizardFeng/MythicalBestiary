@@ -1,0 +1,3 @@
+<h1 _ngcontent-nrq-c119="" class="doc-title ng-star-inserted" title="AppGallery Kit（应用市场服务）"> AppGallery Kit（应用市场服务） </h1>
+
+<div _ngcontent-nrq-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/store-arkts">ArkTS API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/store-c">C API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/store-rest">REST API</a></strong><br> </li> </ul> </div></div>

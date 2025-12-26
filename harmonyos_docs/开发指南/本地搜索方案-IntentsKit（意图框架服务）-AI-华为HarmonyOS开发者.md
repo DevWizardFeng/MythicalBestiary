@@ -1,0 +1,3 @@
+<h1 _ngcontent-cnn-c119="" class="doc-title ng-star-inserted" title="本地搜索方案"> 本地搜索方案 </h1>
+
+<div _ngcontent-cnn-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/intents-search-rec-introduction">概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/intents-search-rec-scene-experience">场景体验</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/intents-search-rec-access-programme">接入方案</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-hjw-c119="" class="doc-title ng-star-inserted" title="日志打印规范"> 日志打印规范 </h1>
+
+<div _ngcontent-hjw-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-stability-log-standard-hilog">HiLog打印规范</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-haj-c119="" class="doc-title ng-star-inserted" title="AscendC算子开发"> AscendC算子开发 </h1>
+
+<div _ngcontent-haj-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-custom-operator-development">自定义算子开发</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-ascendc-operator-interface">AscendC算子接口</a></strong><br> </li> </ul> </div></div>

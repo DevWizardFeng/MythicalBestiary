@@ -1,0 +1,3 @@
+<h1 _ngcontent-wwc-c119="" class="doc-title ng-star-inserted" title="基本准备工作"> 基本准备工作 </h1>
+
+<div _ngcontent-wwc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>请先参考“<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/application-dev-overview" target="_blank">应用开发准备</a>”完成基本准备工作，请开发者完成配置后再继续进行以下开发活动。</p> </div> <div></div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-xjs-c119="" class="doc-title ng-star-inserted" title="头文件"> 头文件 </h1>
+
+<div _ngcontent-xjs-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/openfileboost-open__file__boost_8h">open_file_boost.h</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/openfileboost-preview__kit_8h">preview_kit.h</a></strong><br> </li> </ul> </div></div>

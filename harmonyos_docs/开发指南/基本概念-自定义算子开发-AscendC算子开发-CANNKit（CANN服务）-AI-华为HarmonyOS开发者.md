@@ -1,0 +1,3 @@
+<h1 _ngcontent-rsn-c119="" class="doc-title ng-star-inserted" title="基本概念"> 基本概念 </h1>
+
+<div _ngcontent-rsn-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-hardware-architecture">硬件架构</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-programming-model">编程模型</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-programming-apis">编程API</a></strong><br> </li> </ul> </div></div>

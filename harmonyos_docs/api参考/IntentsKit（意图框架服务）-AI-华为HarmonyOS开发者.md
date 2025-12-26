@@ -1,0 +1,3 @@
+<h1 _ngcontent-gwv-c119="" class="doc-title ng-star-inserted" title="Intents Kit（意图框架服务）"> Intents Kit（意图框架服务） </h1>
+
+<div _ngcontent-gwv-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/intents-arkts-api">ArkTS API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/intents-rest-api">REST API</a></strong><br> </li> </ul> </div></div>

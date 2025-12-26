@@ -1,0 +1,3 @@
+<h1 _ngcontent-mhs-c119="" class="doc-title ng-star-inserted" title="主线程超时类问题检测方法"> 主线程超时类问题检测方法 </h1>
+
+<div _ngcontent-mhs-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>当应用的主线程执行耗时任务时，用户会感觉到应用卡顿，但若未达到卡死的时间限制，则不会生成故障日志，这给开发者定位问题带来了不便。为此，系统提供了<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/apptask-timeout-guidelines" target="_blank">任务超时检测</a>机制，能够生成采样调用栈文件或trace文件，帮助开发者定位和分析主线程任务的执行情况。开发者可以通过HiAppEvent接口订阅<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/main-thread-jank-events" target="_blank">主线程超时事件</a>，以获取维护和测试信息。</p> </div> <div></div></div>

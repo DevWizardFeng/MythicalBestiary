@@ -1,0 +1,3 @@
+<h1 _ngcontent-iej-c119="" class="doc-title ng-star-inserted" title="应用市场更新功能抛出不在前台异常"> 应用市场更新功能抛出不在前台异常 </h1>
+
+<div _ngcontent-iej-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p><strong>问题现象</strong></p> <p>调用应用市场更新功能相关API时，提示应用不在前台异常。</p> <p><strong>解决措施</strong></p> <p>应用市场更新功能API要求应用必须在前台时进行调用，请在应用处于前台时调用相关接口。</p> </div> <div></div></div>

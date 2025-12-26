@@ -1,0 +1,3 @@
+<h1 _ngcontent-vev-c119="" class="doc-title ng-star-inserted" title="AIPP"> AIPP </h1>
+
+<div _ngcontent-vev-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-aipp-overview">概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-aipp-parameters">AIPP参数</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-aipp-configuration-file">模型转换AIPP配置文件说明</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-svq-c119="" class="doc-title ng-star-inserted" title="Form Kit（卡片开发服务）"> Form Kit（卡片开发服务） </h1>
+
+<div _ngcontent-svq-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/form-arkts">ArkTS API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/form-arkts-dep">已停止维护的接口</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/form-arkts-errcode">错误码</a></strong><br> </li> </ul> </div></div>

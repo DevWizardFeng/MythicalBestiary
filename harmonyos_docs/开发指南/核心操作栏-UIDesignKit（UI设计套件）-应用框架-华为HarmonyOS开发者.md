@@ -1,0 +1,3 @@
+<h1 _ngcontent-idl-c119="" class="doc-title ng-star-inserted" title="核心操作栏"> 核心操作栏 </h1>
+
+<div _ngcontent-idl-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-design-actionbar-main-buttons">设置有主按钮的组件</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-design-actionbar-without-master-button">设置无主按钮的组件</a></strong><br> </li> </ul> </div></div>

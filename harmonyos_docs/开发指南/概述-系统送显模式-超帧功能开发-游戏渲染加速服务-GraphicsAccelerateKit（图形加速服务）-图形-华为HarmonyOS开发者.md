@@ -1,0 +1,3 @@
+<h1 _ngcontent-ydn-c119="" class="doc-title ng-star-inserted" title="概述"> 概述 </h1>
+
+<div _ngcontent-ydn-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>从5.1.0(18)版本开始，新增支持系统送显模式。</p> <p>系统送显模式是相较于游戏送显模式，能减少开发者集成复杂度的方案。在游戏送显模式下，系统完成预测后需要游戏应用主动调用图形API来完成预测帧的送显。 系统送显模式下游戏虽仍需要触发插帧任务，但不再需要负责预测帧送显，系统会完成送显。当前系统送显模式仅支持内插模式。</p> <p><span><img originheight="371" originwidth="1197" src="https://alliance-communityfile-drcn.dbankcdn.com/FileServer/getFile/cmtyPub/011/111/111/0000000000011111111.20251211114414.97134431661860066215884511209492:50001231000000:2800:655AD3C5DE61EB3D376E83C5D8C1E507E96A5CE0F4F13D620C539AEBDBB7F5A5.png" width="920" height="285.14619883040933"></span></p> </div> <div></div></div>

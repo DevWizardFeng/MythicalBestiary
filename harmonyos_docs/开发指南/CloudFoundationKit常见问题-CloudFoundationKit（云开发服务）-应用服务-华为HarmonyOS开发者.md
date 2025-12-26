@@ -1,0 +1,3 @@
+<h1 _ngcontent-yef-c119="" class="doc-title ng-star-inserted" title="Cloud Foundation Kit常见问题"> Cloud Foundation Kit常见问题 </h1>
+
+<div _ngcontent-yef-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cloudfoundation-faq-cloudstorage">云存储</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cloudfoundation-faq-prefetch">预加载</a></strong><br> </li> </ul> </div></div>

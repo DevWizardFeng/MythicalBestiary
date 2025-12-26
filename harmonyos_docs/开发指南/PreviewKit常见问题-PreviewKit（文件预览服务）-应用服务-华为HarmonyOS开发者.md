@@ -1,0 +1,3 @@
+<h1 _ngcontent-syc-c119="" class="doc-title ng-star-inserted" title="Preview Kit常见问题"> Preview Kit常见问题 </h1>
+
+<div _ngcontent-syc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/preview-faq-1">openPreview打开显示预览失败</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/preview-faq-2">使用DocumentViewPicker拿到的uri通过openPreview打开显示预览失败</a></strong><br> </li> </ul> </div></div>

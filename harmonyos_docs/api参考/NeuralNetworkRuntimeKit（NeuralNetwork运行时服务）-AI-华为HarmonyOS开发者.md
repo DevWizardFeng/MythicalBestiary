@@ -1,0 +1,3 @@
+<h1 _ngcontent-oht-c119="" class="doc-title ng-star-inserted" title="Neural Network Runtime Kit（Neural Network运行时服务）"> Neural Network Runtime Kit（Neural Network运行时服务） </h1>
+
+<div _ngcontent-oht-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/neural-network-runtime-c">C API</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-bda-c119="" class="doc-title ng-star-inserted" title="智慧多窗应用开发指南"> 智慧多窗应用开发指南 </h1>
+
+<div _ngcontent-bda-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/multi-window-intro">智慧多窗简介</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/multi-window-adapt">应用适配智慧多窗</a></strong><br> </li> </ul> </div></div>

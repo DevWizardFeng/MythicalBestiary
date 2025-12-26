@@ -1,0 +1,3 @@
+<h1 _ngcontent-kbb-c119="" class="doc-title ng-star-inserted" title="C/C++标准库"> C/C++标准库 </h1>
+
+<div _ngcontent-kbb-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/c-cpp-overview">C/C++标准库机制概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/fdsan">fdsan使用指导</a></strong><br> </li> </ul> </div></div>

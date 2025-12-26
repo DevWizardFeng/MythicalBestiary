@@ -1,0 +1,3 @@
+<h1 _ngcontent-oav-c119="" class="doc-title ng-star-inserted" title="扩展外设基础驱动开发"> 扩展外设基础驱动开发 </h1>
+
+<div _ngcontent-oav-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/driverextensionability">开发无UI界面基础驱动</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/externaldevice-guidelines">开发带UI界面基础驱动</a></strong><br> </li> </ul> </div></div>

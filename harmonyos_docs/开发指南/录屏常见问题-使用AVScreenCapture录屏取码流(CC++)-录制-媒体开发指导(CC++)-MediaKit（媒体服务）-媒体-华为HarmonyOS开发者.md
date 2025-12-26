@@ -1,0 +1,3 @@
+<h1 _ngcontent-kks-c119="" class="doc-title ng-star-inserted" title="录屏常见问题"> 录屏常见问题 </h1>
+
+<div _ngcontent-kks-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div> <div class="tiledSection"><h2 id="录屏启动报错av_screen_capture_err_operate_not_permit">录屏启动报错AV_SCREEN_CAPTURE_ERR_OPERATE_NOT_PERMIT<i class="anchor-icon anchor-icon-link" anchorid="录屏启动报错av_screen_capture_err_operate_not_permit" tips="复制节点链接"></i></h2><p>实例数量超出规格限制，当前规格为每种数据格式最多两个实例。建议释放多余实例后再使用新实例。</p> <p>录屏会话限制策略：</p> <ol><li><p>客户端应用数量上限4个，比如会议屏幕共享、会议投屏、后台听歌识曲、系统录屏同时存在。</p>  </li><li><p>单应用单模式（存为文件或存为码流）可创建实例上限2个，典型场景：在线上会议共享屏幕时，需要同步录制会议内容。</p>  </li></ol> </div> </div> <div></div></div>

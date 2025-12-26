@@ -1,0 +1,3 @@
+<h1 _ngcontent-jix-c119="" class="doc-title ng-star-inserted" title="多端协同"> 多端协同 </h1>
+
+<div _ngcontent-jix-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-smartwatchnavigation">智能穿戴导航协同</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-unified-drag-and-drop">统一拖拽</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-distributed-pasteboard">跨设备剪贴板</a></strong><br> </li> </ul> </div></div>

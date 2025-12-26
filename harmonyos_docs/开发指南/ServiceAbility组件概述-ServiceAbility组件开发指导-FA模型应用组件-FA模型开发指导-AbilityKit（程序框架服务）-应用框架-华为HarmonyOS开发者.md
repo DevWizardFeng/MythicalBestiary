@@ -1,0 +1,3 @@
+<h1 _ngcontent-udc-c119="" class="doc-title ng-star-inserted" title="ServiceAbility组件概述"> ServiceAbility组件概述 </h1>
+
+<div _ngcontent-udc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>ServiceAbility，即"基于Service模板的Ability"，主要用于后台运行任务（如执行音乐播放、文件下载等），不提供用户交互界面。ServiceAbility可由其他应用或PageAbility启动，即使用户切换到其他应用，ServiceAbility仍将在后台继续运行。</p> </div> <div></div></div>

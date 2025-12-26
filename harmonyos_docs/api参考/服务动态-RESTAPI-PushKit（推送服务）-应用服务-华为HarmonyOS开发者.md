@@ -1,0 +1,3 @@
+<h1 _ngcontent-ylr-c119="" class="doc-title ng-star-inserted" title="服务动态"> 服务动态 </h1>
+
+<div _ngcontent-ylr-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/push-api-service-timeline-send">服务动态推送接口</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/push-api-service-timeline-param">服务动态参数说明</a></strong><br> </li> </ul> </div></div>

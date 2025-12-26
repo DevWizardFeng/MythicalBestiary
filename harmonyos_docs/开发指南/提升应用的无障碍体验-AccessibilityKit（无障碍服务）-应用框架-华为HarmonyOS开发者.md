@@ -1,0 +1,3 @@
+<h1 _ngcontent-umi-c119="" class="doc-title ng-star-inserted" title="提升应用的无障碍体验"> 提升应用的无障碍体验 </h1>
+
+<div _ngcontent-umi-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>视障用户难以快速定位页面中的UI对象并理解其功能与操作，我们提供了符合逻辑顺序的手势导航和简洁清晰的语音反馈，确保用户能够高效、直观地获取信息并完成操作；同时，通过开发者自测流程，我们帮助用户实现了无障碍、易用的使用体验，让他们能够独立自信地使用应用。</p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/improve-screen-reader-experience">提升屏幕朗读无障碍体验</a></strong><br> </li> </ul> </div></div>

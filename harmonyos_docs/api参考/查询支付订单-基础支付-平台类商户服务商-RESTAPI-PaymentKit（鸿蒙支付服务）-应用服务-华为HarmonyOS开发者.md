@@ -1,0 +1,3 @@
+<h1 _ngcontent-too-c119="" class="doc-title ng-star-inserted" title="查询支付订单"> 查询支付订单 </h1>
+
+<div _ngcontent-too-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000001774511701"></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-agent-sys-query-order">通过sysTransOrderNo查询订单信息</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-agent-merc-query-order">通过mercOrderNo查询订单信息</a></strong><br> </li> </ul> </div></div>

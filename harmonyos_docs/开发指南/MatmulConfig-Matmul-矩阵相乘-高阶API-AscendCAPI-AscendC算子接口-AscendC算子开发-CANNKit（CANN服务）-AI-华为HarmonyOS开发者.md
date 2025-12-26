@@ -1,0 +1,3 @@
+<h1 _ngcontent-bqv-c119="" class="doc-title ng-star-inserted" title="MatmulConfig"> MatmulConfig </h1>
+
+<div _ngcontent-bqv-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>模板参数MatmulConfig，用于配置Matmul模板信息以及相关的配置参数。不配置默认使能Norm模板。</p> <p>MatmulConfig的参数说明见<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-template-parameters#section7983164315613">参数说明</a>表2。在默认模板范围【CFG_NORM、CFG_MDL、CFG_IBSHARE_NORM】中选取模板，不支持自定义模板。其中，各个接口参数的含义见<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-template-parameters#section7983164315613">参数说明</a>表2。</p> </div> <div></div></div>

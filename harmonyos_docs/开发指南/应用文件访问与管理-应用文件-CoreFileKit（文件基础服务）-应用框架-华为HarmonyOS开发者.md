@@ -1,0 +1,3 @@
+<h1 _ngcontent-xsb-c119="" class="doc-title ng-star-inserted" title="应用文件访问与管理"> 应用文件访问与管理 </h1>
+
+<div _ngcontent-xsb-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/app-file-access">应用文件访问(ArkTS)</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/native-fileio-guidelines">应用文件访问(C/C++)</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/app-fs-space-statistics">应用及文件系统空间统计</a></strong><br> </li> </ul> </div></div>

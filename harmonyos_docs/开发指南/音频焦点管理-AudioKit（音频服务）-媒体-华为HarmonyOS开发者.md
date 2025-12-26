@@ -1,0 +1,3 @@
+<h1 _ngcontent-eyj-c119="" class="doc-title ng-star-inserted" title="音频焦点管理"> 音频焦点管理 </h1>
+
+<div _ngcontent-eyj-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/audio-session-management">使用AudioSession管理应用音频焦点(ArkTS)</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/using-ohaudio-for-session">使用AudioSession管理应用音频焦点(C/C++)</a></strong><br> </li> </ul> </div></div>

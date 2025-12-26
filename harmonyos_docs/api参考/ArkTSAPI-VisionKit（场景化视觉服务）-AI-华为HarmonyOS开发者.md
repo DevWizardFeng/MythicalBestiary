@@ -1,0 +1,3 @@
+<h1 _ngcontent-owj-c119="" class="doc-title ng-star-inserted" title="ArkTS API"> ArkTS API </h1>
+
+<div _ngcontent-owj-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/vision-interactive-liveness">interactiveLiveness（人脸活体检测）</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/vision-image-analyzer">visionImageAnalyzer（AI识图控件）</a></strong><br> </li> </ul> </div></div>

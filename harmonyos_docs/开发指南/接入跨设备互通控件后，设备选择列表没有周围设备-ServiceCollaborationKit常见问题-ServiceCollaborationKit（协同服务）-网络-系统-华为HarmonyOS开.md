@@ -1,0 +1,3 @@
+<h1 _ngcontent-nyq-c119="" class="doc-title ng-star-inserted" title="接入跨设备互通控件后，设备选择列表没有周围设备"> 接入跨设备互通控件后，设备选择列表没有周围设备 </h1>
+
+<div _ngcontent-nyq-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>跨设备互通API支持根据特定调用策略调用设备。调用策略：2in1设备可以调用平板和手机，平板可以调用手机，同类型设备不可调用。</p> <ol><li>确保设备调用策略无误。</li><li>设备选择列表仍没有周围设备，请检查双端设备是否开启WLAN、蓝牙，并且登录同一个华为账号。</li></ol> </div> <div></div></div>

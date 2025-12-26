@@ -1,0 +1,3 @@
+<h1 _ngcontent-ada-c119="" class="doc-title ng-star-inserted" title="附录"> 附录 </h1>
+
+<div _ngcontent-ada-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/account-api-get-user-info-quicklogin-getid">一键登录获取华为账号绑定号码和UnionID/OpenID（不推荐）</a></strong><br> </li> </ul> </div></div>

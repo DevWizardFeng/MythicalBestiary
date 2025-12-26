@@ -1,0 +1,3 @@
+<h1 _ngcontent-tha-c119="" class="doc-title ng-star-inserted" title="图片接收"> 图片接收 </h1>
+
+<div _ngcontent-tha-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/image-receiver-c">使用Image_NativeModule完成图片接收</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/image-info-c">使用Image_NativeModule处理图像信息</a></strong><br> </li> </ul> </div></div>

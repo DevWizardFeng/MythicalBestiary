@@ -1,0 +1,3 @@
+<h1 _ngcontent-hys-c119="" class="doc-title ng-star-inserted" title="属性动画"> 属性动画 </h1>
+
+<div _ngcontent-hys-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-attribute-animation-overview">属性动画概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-attribute-animation-apis">实现属性动画</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-custom-attribute-animation">自定义属性动画</a></strong><br> </li> </ul> </div></div>

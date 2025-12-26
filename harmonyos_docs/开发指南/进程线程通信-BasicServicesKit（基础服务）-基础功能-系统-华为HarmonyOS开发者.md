@@ -1,0 +1,3 @@
+<h1 _ngcontent-kbl-c119="" class="doc-title ng-star-inserted" title="进程线程通信"> 进程线程通信 </h1>
+
+<div _ngcontent-kbl-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/common-event-communication">使用公共事件进行进程间通信</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/itc-with-emitter">使用Emitter进行线程间通信</a></strong><br> </li> </ul> </div></div>

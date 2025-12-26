@@ -1,0 +1,3 @@
+<h1 _ngcontent-unf-c119="" class="doc-title ng-star-inserted" title="未上架应用市场的应用，如何快速接入调试产品特性按需分发功能？"> 未上架应用市场的应用，如何快速接入调试产品特性按需分发功能？ </h1>
+
+<div _ngcontent-unf-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>推荐使用<a href="https://developer.huawei.com/consumer/cn/doc/app/agc-help-invite-test-0000002270829393" target="_blank">邀请测试</a>。</p> </div> <div></div></div>

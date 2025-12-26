@@ -1,0 +1,3 @@
+<h1 _ngcontent-nhw-c119="" class="doc-title ng-star-inserted" title="自定义存储插件"> 自定义存储插件 </h1>
+
+<div _ngcontent-nhw-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000001793228950"></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-ohpm-repo-plugin-configuration">自定义存储插件配置</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-ohpm-repo-template-file">模板文件</a></strong><br> </li> </ul> </div></div>

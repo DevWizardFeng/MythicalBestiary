@@ -1,0 +1,3 @@
+<h1 _ngcontent-llb-c119="" class="doc-title ng-star-inserted" title="是否可以终止已发布的下载任务，例如游戏出现问题时是否能够及时关闭？"> 是否可以终止已发布的下载任务，例如游戏出现问题时是否能够及时关闭？ </h1>
+
+<div _ngcontent-llb-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>能够及时关闭。</p> <p>若在发布下载任务后发现资源包存在问题，可以前往AppGallery Connect终止资源包下载任务，具体操作请参见<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/graphics-accelerate-assetdownload-release#section9206134163716">发布下载任务</a>。下载任务终止后，在安装游戏后/大版本更新后/设备满足闲时条件时，均不再拉起该应用的ExtensionAbility进行资源包后台下载。</p> </div> <div></div></div>

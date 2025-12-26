@@ -1,0 +1,3 @@
+<h1 _ngcontent-afl-c119="" class="doc-title ng-star-inserted" title="多语言排序"> 多语言排序 </h1>
+
+<div _ngcontent-afl-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/i18n-sorting-overview">概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/i18n-sorting-local">本地习惯排序</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/i18n-sorting-index">创建索引</a></strong><br> </li> </ul> </div></div>

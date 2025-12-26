@@ -1,0 +1,3 @@
+<h1 _ngcontent-suf-c119="" class="doc-title ng-star-inserted" title="ArkTS API"> ArkTS API </h1>
+
+<div _ngcontent-suf-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/wearengine_api">wearEngine(穿戴设备能力开放)</a></strong><br> </li> </ul> </div></div>

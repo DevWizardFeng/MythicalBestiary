@@ -1,0 +1,3 @@
+<h1 _ngcontent-ada-c119="" class="doc-title ng-star-inserted" title="REST API"> REST API </h1>
+
+<div _ngcontent-ada-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/store-rest-receive">归因结果回传</a></strong><br> </li> </ul> </div></div>

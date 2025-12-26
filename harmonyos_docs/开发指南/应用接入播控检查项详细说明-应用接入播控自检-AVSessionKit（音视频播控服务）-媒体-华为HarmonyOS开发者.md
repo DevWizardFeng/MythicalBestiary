@@ -1,0 +1,3 @@
+<h1 _ngcontent-yrg-c119="" class="doc-title ng-star-inserted" title="应用接入播控检查项详细说明"> 应用接入播控检查项详细说明 </h1>
+
+<div _ngcontent-yrg-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/basic-playback-control">基础播控</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/quick-playback">快捷播放</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/avcastpicker">音视频投播</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-woc-c119="" class="doc-title ng-star-inserted" title="鲸鸿动能媒体服务平台打开受限"> 鲸鸿动能媒体服务平台打开受限 </h1>
+
+<div _ngcontent-woc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>受制于您所在国家/地区的外汇管制、税务处理等因素，您所在的国家/地区尚未对个人开发者开放鲸鸿动能流量变现服务，您需要实名认证成为华为开发者联盟的企业开发者，包括获得应用开发者合法授权的企业，详细步骤请参见<a href="https://developer.huawei.com/consumer/cn/doc/monetize/restriction-0000001061730052" target="_blank">受限说明</a>。</p> </div> <div></div></div>

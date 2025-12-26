@@ -1,0 +1,3 @@
+<h1 _ngcontent-xfh-c119="" class="doc-title ng-star-inserted" title="核内同步"> 核内同步 </h1>
+
+<div _ngcontent-xfh-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-pipebarrier">PipeBarrier(ISASI)</a></strong><br> </li> </ul> </div></div>

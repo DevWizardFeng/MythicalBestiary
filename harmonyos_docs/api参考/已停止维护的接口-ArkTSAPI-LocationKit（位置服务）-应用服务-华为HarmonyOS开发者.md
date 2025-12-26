@@ -1,0 +1,3 @@
+<h1 _ngcontent-qrv-c119="" class="doc-title ng-star-inserted" title="已停止维护的接口"> 已停止维护的接口 </h1>
+
+<div _ngcontent-qrv-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-geolocation">@ohos.geolocation (位置服务)</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-system-location">@system.geolocation (地理位置)</a></strong><br> </li> </ul> </div></div>

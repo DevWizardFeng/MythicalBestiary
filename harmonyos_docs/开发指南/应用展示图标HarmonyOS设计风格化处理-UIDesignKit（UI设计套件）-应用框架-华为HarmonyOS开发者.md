@@ -1,0 +1,3 @@
+<h1 _ngcontent-bth-c119="" class="doc-title ng-star-inserted" title="应用展示图标HarmonyOS设计风格化处理"> 应用展示图标HarmonyOS设计风格化处理 </h1>
+
+<div _ngcontent-bth-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-design-layered-process">（推荐）分层图标处理</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-design-normal-process">单层图标处理</a></strong><br> </li> </ul> </div></div>

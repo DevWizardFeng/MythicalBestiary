@@ -1,0 +1,3 @@
+<h1 _ngcontent-jsu-c119="" class="doc-title ng-star-inserted" title="ArkTS 组件"> ArkTS 组件 </h1>
+
+<div _ngcontent-jsu-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/hmaf-function-component">FunctionComponent（功能组件）</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/hmaf-error-code">ArkTS API 错误码</a></strong><br> </li> </ul> </div></div>

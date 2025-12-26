@@ -1,0 +1,3 @@
+<h1 _ngcontent-wpx-c119="" class="doc-title ng-star-inserted" title="Share Kit常见问题"> Share Kit常见问题 </h1>
+
+<div _ngcontent-wpx-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/share-faq-1">拉起系统分享框失败</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/share-faq-2">分享数据类型不支持</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/share-faq-3">分享时提示“您选择的文件不支持分享”</a></strong><br> </li> </ul> </div></div>

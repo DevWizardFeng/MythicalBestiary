@@ -1,0 +1,3 @@
+<h1 _ngcontent-tyq-c119="" class="doc-title ng-star-inserted" title="未成年人模式开启后USB断连如何解决"> 未成年人模式开启后USB断连如何解决 </h1>
+
+<div _ngcontent-tyq-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>开发者可以进入设置-系统-开发者选项，点击USB调试开关，会校验健康使用设备密码，校验成功后可解除开发者调试模式限制。</p> <p>如开发者重新开启USB调试开关后，发现DevEco Studio工具上hilog日志未恢复到断连之前，请执行“hdc shell hilog -G 16M”来扩大hilog日志缓存区，若hilog日志仍无法完全展示，可取出hilog日志本地查看。更多命令请参见<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hilog" target="_blank">hilog</a>。</p> </div> <div></div></div>

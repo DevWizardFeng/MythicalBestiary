@@ -1,0 +1,3 @@
+<h1 _ngcontent-vjh-c119="" class="doc-title ng-star-inserted" title="自动续期订阅商品购买"> 自动续期订阅商品购买 </h1>
+
+<div _ngcontent-vjh-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/iap-subscription-functions">自动续期订阅说明</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/iap-integrate-subscription">接入自动续期订阅</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/iap-delivering-subscriptions">权益发放</a></strong><br> </li> </ul> </div></div>

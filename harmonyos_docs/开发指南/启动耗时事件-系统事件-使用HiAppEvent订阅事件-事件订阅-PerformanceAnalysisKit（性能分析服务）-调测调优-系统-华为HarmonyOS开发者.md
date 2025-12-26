@@ -1,0 +1,3 @@
+<h1 _ngcontent-lnr-c119="" class="doc-title ng-star-inserted" title="启动耗时事件"> 启动耗时事件 </h1>
+
+<div _ngcontent-lnr-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hiappevent-watcher-app-launch-event">启动耗时事件介绍</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hiappevent-watcher-app-launch-arkts">订阅启动耗时事件（ArkTS）</a></strong><br> </li> </ul> </div></div>

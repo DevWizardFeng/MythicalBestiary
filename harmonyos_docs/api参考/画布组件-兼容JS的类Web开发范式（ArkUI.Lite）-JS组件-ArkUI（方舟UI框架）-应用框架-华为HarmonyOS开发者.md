@@ -1,0 +1,3 @@
+<h1 _ngcontent-gjk-c119="" class="doc-title ng-star-inserted" title="画布组件"> 画布组件 </h1>
+
+<div _ngcontent-gjk-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-lite-components-canvas-canvas">canvas组件</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-lite-components-canvas-canvasrenderingcontext2d">CanvasRenderingContext2D对象</a></strong><br> </li> </ul> </div></div>

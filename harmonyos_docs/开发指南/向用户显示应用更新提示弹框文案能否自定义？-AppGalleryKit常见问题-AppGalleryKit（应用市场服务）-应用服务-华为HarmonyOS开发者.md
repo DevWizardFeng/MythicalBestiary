@@ -1,0 +1,3 @@
+<h1 _ngcontent-ffx-c119="" class="doc-title ng-star-inserted" title="向用户显示应用更新提示弹框文案能否自定义？"> 向用户显示应用更新提示弹框文案能否自定义？ </h1>
+
+<div _ngcontent-ffx-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>可以，弹框文案详细信息由用户配置，具体请参考<a href="https://developer.huawei.com/consumer/cn/doc/app/agc-help-release-app-intro-0000002313477961" target="_blank">配置本地化基础信息</a>中的新版本特性。</p> </div> <div></div></div>

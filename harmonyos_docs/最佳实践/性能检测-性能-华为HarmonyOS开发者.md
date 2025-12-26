@@ -1,0 +1,3 @@
+<h1 _ngcontent-rhm-c119="" class="doc-title ng-star-inserted" title="性能检测"> 性能检测 </h1>
+
+<div _ngcontent-rhm-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-performance-detection">开发态性能检测</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-performance-runtime-detection">运行态性能检测</a></strong><br> </li> </ul> </div></div>

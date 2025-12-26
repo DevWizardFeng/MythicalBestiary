@@ -1,0 +1,3 @@
+<h1 _ngcontent-hfy-c119="" class="doc-title ng-star-inserted" title="一键登录场景下无法获取到明文手机号如何解决"> 一键登录场景下无法获取到明文手机号如何解决 </h1>
+
+<div _ngcontent-hfy-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>阅读此章节前请先保证已在华为账号一键登录场景成功获取到匿名手机号。在华为账号一键登录场景下无法获取到明文手机号时，建议通过以下步骤排查解决：</p> <ol><li>华为账号未绑定手机号，该异常场景应用需要展示其他登录方式。</li><li>使用华为账号一键登录服务的账号必须是中国境内（不包含中国香港、中国澳门、中国台湾）华为账号。</li><li>应用服务端获取华为账号绑定号码时，该服务器必须部署在中国境内（不包含中国香港、中国澳门、中国台湾）。</li><li>应用用于向服务端获取手机号的authCode不是通过调用华为账号一键登录组件获取到的，详情可参考一键登录<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/account-phone-unionid-login#section834212543125">客户端开发</a>。</li></ol> </div> <div></div></div>

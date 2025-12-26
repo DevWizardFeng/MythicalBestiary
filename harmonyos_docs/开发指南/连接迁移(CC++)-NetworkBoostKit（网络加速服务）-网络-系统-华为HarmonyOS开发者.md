@@ -1,0 +1,3 @@
+<h1 _ngcontent-kwy-c119="" class="doc-title ng-star-inserted" title="连接迁移 (C/C++)"> 连接迁移 (C/C++) </h1>
+
+<div _ngcontent-kwy-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/networkboost-nethandovercallback-c">连接迁移通知 (C/C++)</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/networkboost-reporthandovermode-c">迁移模式设置 (C/C++)</a></strong><br> </li> </ul> </div></div>

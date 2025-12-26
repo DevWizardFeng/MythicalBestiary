@@ -1,0 +1,3 @@
+<h1 _ngcontent-ege-c119="" class="doc-title ng-star-inserted" title="扩展构建能力"> 扩展构建能力 </h1>
+
+<div _ngcontent-ege-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000001731754304"></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-task">开发Hvigor任务</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-plugin">开发Hvigor插件</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-apis">扩展构建API</a></strong><br> </li> </ul> </div></div>

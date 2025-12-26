@@ -1,0 +1,3 @@
+<h1 _ngcontent-bwd-c119="" class="doc-title ng-star-inserted" title="前台场景"> 前台场景 </h1>
+
+<div _ngcontent-bwd-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/standard-foreground-frame-rate">前台帧率</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/standard-foreground-render">前台绘制渲染</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/standard-foreground-resource">前台资源使用</a></strong><br> </li> </ul> </div></div>

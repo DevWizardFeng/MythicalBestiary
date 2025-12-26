@@ -1,0 +1,3 @@
+<h1 _ngcontent-vmj-c119="" class="doc-title ng-star-inserted" title="multimedia"> multimedia </h1>
+
+<div _ngcontent-vmj-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-inner-multimedia-soundpool">SoundPool (音频池)</a></strong><br> </li> </ul> </div></div>

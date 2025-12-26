@@ -1,0 +1,3 @@
+<h1 _ngcontent-bjb-c119="" class="doc-title ng-star-inserted" title="获取HiCar连接状态"> 获取HiCar连接状态 </h1>
+
+<div _ngcontent-bjb-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/car-check-application-start">主动获取HiCar的连接状态</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/car-listener-connect-status">监听HiCar的连接状态</a></strong><br> </li> </ul> </div></div>

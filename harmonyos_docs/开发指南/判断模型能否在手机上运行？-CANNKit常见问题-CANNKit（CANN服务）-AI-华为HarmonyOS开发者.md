@@ -1,0 +1,3 @@
+<h1 _ngcontent-tfl-c119="" class="doc-title ng-star-inserted" title="判断模型能否在手机上运行？"> 判断模型能否在手机上运行？ </h1>
+
+<div _ngcontent-tfl-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>通过调用接口<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/cannkit#hms_hiaicompatibility_checkfromfile" target="_blank">HMS_HiAICompatibility_CheckFromFile</a>或者<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/cannkit#hms_hiaicompatibility_checkfrombuffer" target="_blank">HMS_HiAICompatibility_CheckFromBuffer</a>，传入编译后的模型文件或者模型buffer，如果返回<span class="parmvalue">“HIAI_COMPATIBILITY_COMPATIBLE”</span>表示兼容性检查通过，模型可以在手机上运行。</p> </div> <div></div></div>

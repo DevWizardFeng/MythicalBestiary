@@ -1,0 +1,3 @@
+<h1 _ngcontent-rob-c119="" class="doc-title ng-star-inserted" title="URPC场景"> URPC场景 </h1>
+
+<div _ngcontent-rob-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/remote-communication-urpccall">使用URPC进行远程程序调用</a></strong><br> </li> </ul> </div></div>

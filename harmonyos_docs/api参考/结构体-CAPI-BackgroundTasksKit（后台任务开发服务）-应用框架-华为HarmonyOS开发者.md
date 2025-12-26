@@ -1,0 +1,3 @@
+<h1 _ngcontent-xsl-c119="" class="doc-title ng-star-inserted" title="结构体"> 结构体 </h1>
+
+<div _ngcontent-xsl-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-transienttask-transienttask-delaysuspendinfo">TransientTask_DelaySuspendInfo</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-transienttask-transienttask-transienttaskinfo">TransientTask_TransientTaskInfo</a></strong><br> </li> </ul> </div></div>

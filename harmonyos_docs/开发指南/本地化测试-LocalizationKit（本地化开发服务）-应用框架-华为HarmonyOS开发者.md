@@ -1,0 +1,3 @@
+<h1 _ngcontent-mab-c119="" class="doc-title ng-star-inserted" title="本地化测试"> 本地化测试 </h1>
+
+<div _ngcontent-mab-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/pseudo-i18n-testing">伪本地化测试</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/linguistic-testing">语言测试</a></strong><br> </li> </ul> </div></div>

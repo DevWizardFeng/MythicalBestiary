@@ -1,0 +1,3 @@
+<h1 _ngcontent-dfk-c119="" class="doc-title ng-star-inserted" title="无障碍相关"> 无障碍相关 </h1>
+
+<div _ngcontent-dfk-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-accessibility-event">无障碍控制操作</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-accessibility-hover-event">无障碍悬浮事件</a></strong><br> </li> </ul> </div></div>

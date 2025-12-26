@@ -1,0 +1,3 @@
+<h1 _ngcontent-cwg-c119="" class="doc-title ng-star-inserted" title="Kit支持的设备类型有哪些？"> Kit支持的设备类型有哪些？ </h1>
+
+<div _ngcontent-cwg-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>Graphics Accelerate Kit支持的硬件设备类型包括：华为手机、华为平板设备。同时，您可以通过调用<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/init#caniuse" target="_blank">canIUse()</a>接口并传入"SystemCapability.GraphicsGame.RenderAccelerate"进行设备类型适配查询。</p> </div> <div></div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-gkg-c119="" class="doc-title ng-star-inserted" title="Form Kit（卡片开发服务）"> Form Kit（卡片开发服务） </h1>
+
+<div _ngcontent-gkg-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/formkit-overview">Form Kit简介</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-ui">ArkTS卡片开发（推荐）</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/form-js-ui">JS卡片开发</a></strong><br> </li> </ul> </div></div>

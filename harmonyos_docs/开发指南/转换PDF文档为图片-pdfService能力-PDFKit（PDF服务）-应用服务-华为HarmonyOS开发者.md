@@ -1,0 +1,3 @@
+<h1 _ngcontent-slo-c119="" class="doc-title ng-star-inserted" title="转换PDF文档为图片"> 转换PDF文档为图片 </h1>
+
+<div _ngcontent-slo-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/pdf-get-img">转换指定页面或指定区域为图片</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/pdf-convert-img">转换整个PDF文档为图片</a></strong><br> </li> </ul> </div></div>

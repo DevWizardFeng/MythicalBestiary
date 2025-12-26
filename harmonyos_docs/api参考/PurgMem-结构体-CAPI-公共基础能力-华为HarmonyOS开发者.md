@@ -1,0 +1,3 @@
+<h1 _ngcontent-cxs-c119="" class="doc-title ng-star-inserted" title="PurgMem"> PurgMem </h1>
+
+<div _ngcontent-cxs-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div> <div class="tiledSection"><h2 id="概述">概述<i class="anchor-icon anchor-icon-link" anchorid="概述" tips="复制节点链接"></i></h2><p>可清除的内存结构。</p> <p><strong>起始版本：</strong> 10</p> <p><strong>相关模块：</strong> <a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-memory">memory</a></p> <p><strong>所在头文件：</strong> <a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-purgeable-memory-h">purgeable_memory.h</a></p> </div> </div> <div></div></div>

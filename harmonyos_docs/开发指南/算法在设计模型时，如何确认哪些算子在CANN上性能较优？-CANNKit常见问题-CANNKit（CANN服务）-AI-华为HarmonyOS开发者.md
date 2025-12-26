@@ -1,0 +1,3 @@
+<h1 _ngcontent-byf-c119="" class="doc-title ng-star-inserted" title="算法在设计模型时，如何确认哪些算子在CANN上性能较优？"> 算法在设计模型时，如何确认哪些算子在CANN上性能较优？ </h1>
+
+<div _ngcontent-byf-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>开发者可参考Model Zoo中的<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-model-zoo#section1314713294814" target="_blank">CANN算子性能指导</a>，根据需要选择性能较优的算子。</p> </div> <div></div></div>

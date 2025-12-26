@@ -1,0 +1,3 @@
+<h1 _ngcontent-dnn-c119="" class="doc-title ng-star-inserted" title="界面元素自适应变化"> 界面元素自适应变化 </h1>
+
+<div _ngcontent-dnn-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-multi-device-adaptive-layout">自适应布局</a></strong><br> </li> </ul> </div></div>

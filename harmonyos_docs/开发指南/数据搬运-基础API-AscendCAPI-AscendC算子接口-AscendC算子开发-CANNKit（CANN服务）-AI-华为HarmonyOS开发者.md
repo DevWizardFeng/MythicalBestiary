@@ -1,0 +1,3 @@
+<h1 _ngcontent-bgf-c119="" class="doc-title ng-star-inserted" title="数据搬运"> 数据搬运 </h1>
+
+<div _ngcontent-bgf-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-datacopy">DataCopy</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-datacopypad">DataCopyPad</a></strong><br> </li> </ul> </div></div>

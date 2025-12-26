@@ -1,0 +1,3 @@
+<h1 _ngcontent-ifp-c119="" class="doc-title ng-star-inserted" title="影音娱乐"> 影音娱乐 </h1>
+
+<div _ngcontent-ifp-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-smooth-switching">在线短视频流畅切换</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-short-video-base-adaptivevideo">基于adaptive_video的短视频适配</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-hmos-live-stream-solution">媒体直播场景解决方案</a></strong><br> </li> </ul> </div></div>

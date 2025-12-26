@@ -1,0 +1,3 @@
+<h1 _ngcontent-jit-c119="" class="doc-title ng-star-inserted" title="应用接入播控自检"> 应用接入播控自检 </h1>
+
+<div _ngcontent-jit-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/playback-control-access-checklist">应用接入播控自检表</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/access-checklist">应用接入播控检查项详细说明</a></strong><br> </li> </ul> </div></div>

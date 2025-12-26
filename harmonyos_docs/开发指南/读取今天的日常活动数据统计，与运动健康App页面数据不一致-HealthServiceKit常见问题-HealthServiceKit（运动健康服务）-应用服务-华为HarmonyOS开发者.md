@@ -1,0 +1,3 @@
+<h1 _ngcontent-wyx-c119="" class="doc-title ng-star-inserted" title="读取今天的日常活动数据统计，与运动健康App页面数据不一致"> 读取今天的日常活动数据统计，与运动健康App页面数据不一致 </h1>
+
+<div _ngcontent-wyx-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/health-samplepoint-manage#section1688611214113">聚合查询</a>接口读取今日日常活动数据，数据上报存在延时，读取实时日常活动数据建议使用<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/health-three-ring-read">读取实时三环数据</a>接口。</p> </div> <div></div></div>

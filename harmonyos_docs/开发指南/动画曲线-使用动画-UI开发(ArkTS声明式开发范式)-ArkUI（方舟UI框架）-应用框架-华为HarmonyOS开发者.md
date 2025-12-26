@@ -1,0 +1,3 @@
+<h1 _ngcontent-eyi-c119="" class="doc-title ng-star-inserted" title="动画曲线"> 动画曲线 </h1>
+
+<div _ngcontent-eyi-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-curve-overview">动画曲线概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-traditional-curve">传统曲线</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-spring-curve">弹簧曲线</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-qxw-c119="" class="doc-title ng-star-inserted" title="本地习惯排序"> 本地习惯排序 </h1>
+
+<div _ngcontent-qxw-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div> <div class="tiledSection"><h2 id="使用场景">使用场景<i class="anchor-icon anchor-icon-link" anchorid="使用场景" tips="复制节点链接"></i></h2><p>在用户使用到排序的场景下，提供符合用户使用习惯的排序方法展示内容。例如，设置中“系统和语言”的语言列表，需要按照当地用户习惯进行排序。</p> </div>  <div class="tiledSection"><h2 id="开发步骤">开发步骤<i class="anchor-icon anchor-icon-link" anchorid="开发步骤" tips="复制节点链接"></i></h2><p>多语言列表按照当地用户习惯进行排序，具体可参考<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Intl/Collator" target="_blank">Intl.Collator</a>。</p> </div> </div> <div></div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-fdh-c119="" class="doc-title ng-star-inserted" title="非续期订阅商品购买"> 非续期订阅商品购买 </h1>
+
+<div _ngcontent-fdh-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/iap-integrate-nonrenewable">接入购买</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/iap-delivering-nonrenewable">权益发放</a></strong><br> </li> </ul> </div></div>

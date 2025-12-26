@@ -1,0 +1,3 @@
+<h1 _ngcontent-nvv-c119="" class="doc-title ng-star-inserted" title="创建特性实例失败如何处理"> 创建特性实例失败如何处理 </h1>
+
+<div _ngcontent-nvv-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><ol><li>请使用查询接口<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/xengine-kit-xengine#hms_xeg_getstring" target="_blank">HMS_XEG_GetString</a>或<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/xengine-kit-xengine#hms_xeg_enumeratedeviceextensionproperties" target="_blank">HMS_XEG_EnumerateDeviceExtensionProperties</a>确认XEngine是否支持该扩展。</li><li>如果查询支持该扩展，请<a href="https://developer.huawei.com/consumer/cn/support/feedback/#/" target="_blank">联系我们</a>。</li></ol> </div> <div></div></div>

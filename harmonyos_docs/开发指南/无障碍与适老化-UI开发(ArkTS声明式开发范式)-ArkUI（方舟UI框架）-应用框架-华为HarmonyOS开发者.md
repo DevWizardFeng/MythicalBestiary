@@ -1,0 +1,3 @@
+<h1 _ngcontent-tfl-c119="" class="doc-title ng-star-inserted" title="无障碍与适老化"> 无障碍与适老化 </h1>
+
+<div _ngcontent-tfl-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-universal-attributes-accessibility">支持无障碍</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkui-support-for-aging-adaptation">支持适老化</a></strong><br> </li> </ul> </div></div>

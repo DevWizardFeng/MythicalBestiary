@@ -1,0 +1,3 @@
+<h1 _ngcontent-byb-c119="" class="doc-title ng-star-inserted" title="Tiling数据结构注册"> Tiling数据结构注册 </h1>
+
+<div _ngcontent-byb-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-tilingdata-structure-definition">TilingData结构定义</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-tilingdata-structure-registration">TilingData结构注册</a></strong><br> </li> </ul> </div></div>

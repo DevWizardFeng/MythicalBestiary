@@ -1,0 +1,3 @@
+<h1 _ngcontent-sqa-c119="" class="doc-title ng-star-inserted" title="文件上传下载"> 文件上传下载 </h1>
+
+<div _ngcontent-sqa-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/remote-communication-filetransferfast">快速实现上传下载</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/remote-communication-pauseresume">实现请求暂停、恢复与断点续传</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-ksg-c119="" class="doc-title ng-star-inserted" title="CMAC"> CMAC </h1>
+
+<div _ngcontent-ksg-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/huks-cmac-arkts">CMAC(ArkTS)</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/huks-cmac-native">CMAC(C/C++)</a></strong><br> </li> </ul> </div></div>

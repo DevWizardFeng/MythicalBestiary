@@ -1,0 +1,3 @@
+<h1 _ngcontent-kqd-c119="" class="doc-title ng-star-inserted" title="获取手机号"> 获取手机号 </h1>
+
+<div _ngcontent-kqd-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/account-get-phone-overview">概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/account-get-phonenumber">快速验证</a></strong><br> </li> </ul> </div></div>

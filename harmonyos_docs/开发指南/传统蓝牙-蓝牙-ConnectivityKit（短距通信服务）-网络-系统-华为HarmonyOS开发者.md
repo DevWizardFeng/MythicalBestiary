@@ -1,0 +1,3 @@
+<h1 _ngcontent-sgn-c119="" class="doc-title ng-star-inserted" title="传统蓝牙"> 传统蓝牙 </h1>
+
+<div _ngcontent-sgn-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/br-discovery-development-guide">查找设备</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/br-pair-device-development-guide">配对与连接设备</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/spp-development-guide">连接和传输数据</a></strong><br> </li> </ul> </div></div>

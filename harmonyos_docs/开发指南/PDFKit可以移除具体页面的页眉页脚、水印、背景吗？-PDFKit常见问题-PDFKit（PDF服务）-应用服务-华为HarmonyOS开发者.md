@@ -1,0 +1,3 @@
+<h1 _ngcontent-xls-c119="" class="doc-title ng-star-inserted" title="PDF Kit可以移除具体页面的页眉页脚、水印、背景吗？"> PDF Kit可以移除具体页面的页眉页脚、水印、背景吗？ </h1>
+
+<div _ngcontent-xls-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>不可以，PDF Kit移除页眉页脚、水印或背景不会针对具体页面，请参考<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/pdf-add-headerfooter">页眉页脚</a>，<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/pdf-add-watermark">水印</a>或<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/pdf-add-background">背景图片</a>。</p> </div> <div></div></div>

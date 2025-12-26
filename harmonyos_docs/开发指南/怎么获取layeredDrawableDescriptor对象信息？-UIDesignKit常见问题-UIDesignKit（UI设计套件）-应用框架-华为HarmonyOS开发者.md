@@ -1,0 +1,3 @@
+<h1 _ngcontent-quc-c119="" class="doc-title ng-star-inserted" title="怎么获取layeredDrawableDescriptor对象信息？"> 怎么获取layeredDrawableDescriptor对象信息？ </h1>
+
+<div _ngcontent-quc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>应用配置的图标和名称信息，可以通过<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-resource-manager#getdrawabledescriptor10" target="_blank">resourceManager.getDrawableDescriptor</a>获取。</p> <p></p> </div> <div></div></div>

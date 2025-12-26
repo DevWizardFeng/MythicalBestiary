@@ -1,0 +1,3 @@
+<h1 _ngcontent-hsv-c119="" class="doc-title ng-star-inserted" title="基本准备工作"> 基本准备工作 </h1>
+
+<div _ngcontent-hsv-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>在开发应用前，请先参考“<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/application-dev-overview" target="_blank">应用开发准备</a>”完成基本准备工作。其中<strong>配置签名信息</strong>时，请使用<strong>手动签名</strong>方式。</p> </div> <div></div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-swi-c119="" class="doc-title ng-star-inserted" title="日志与故障分析"> 日志与故障分析 </h1>
+
+<div _ngcontent-swi-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000002239639342"><p id="ZH-CN_TOPIC_0000002510294405__p8060118"></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-setup-hilog">日志分析</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-fault-analysis">故障分析</a></strong><br> </li> </ul> </div></div>

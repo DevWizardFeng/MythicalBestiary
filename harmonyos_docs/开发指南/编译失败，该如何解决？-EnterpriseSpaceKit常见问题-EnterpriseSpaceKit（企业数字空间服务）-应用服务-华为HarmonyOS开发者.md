@@ -1,0 +1,3 @@
+<h1 _ngcontent-iqu-c119="" class="doc-title ng-star-inserted" title="编译失败，该如何解决？"> 编译失败，该如何解决？ </h1>
+
+<div _ngcontent-iqu-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p><strong>问题现象</strong></p> <p>编译不通过，签名证书缺少所需权限，报错：install failed due to grant request permissions failed.</p> <p><strong>解决措施</strong></p> <ol><li>参考<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/access-token-overview" target="_blank">访问控制概述</a>，检查应用签名是否正常配置权限。</li><li>如还未解决，请通过<a href="https://developer.huawei.com/consumer/cn/support/feedback/#/" target="_blank">在线提单</a>提交问题，华为支持人员会及时处理。</li></ol> </div> <div></div></div>

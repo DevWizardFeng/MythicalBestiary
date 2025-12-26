@@ -1,0 +1,3 @@
+<h1 _ngcontent-kmv-c119="" class="doc-title ng-star-inserted" title="Accessibility Kit（无障碍服务）"> Accessibility Kit（无障碍服务） </h1>
+
+<div _ngcontent-kmv-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/accessibility-arkts">ArkTS API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/accessibility-arkts-errcode">错误码</a></strong><br> </li> </ul> </div></div>

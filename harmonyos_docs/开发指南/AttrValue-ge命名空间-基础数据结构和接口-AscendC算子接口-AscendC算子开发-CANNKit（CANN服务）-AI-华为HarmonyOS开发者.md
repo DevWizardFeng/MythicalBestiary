@@ -1,0 +1,3 @@
+<h1 _ngcontent-obe-c119="" class="doc-title ng-star-inserted" title="AttrValue"> AttrValue </h1>
+
+<div _ngcontent-obe-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-attrvalue-construction-and-destructor">构造函数和析构函数</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-createfrom">CreateFrom</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-getvalue">GetValue</a></strong><br> </li> </ul> </div></div>

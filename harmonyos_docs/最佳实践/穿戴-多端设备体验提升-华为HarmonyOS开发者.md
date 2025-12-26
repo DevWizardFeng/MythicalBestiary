@@ -1,0 +1,3 @@
+<h1 _ngcontent-eea-c119="" class="doc-title ng-star-inserted" title="穿戴"> 穿戴 </h1>
+
+<div _ngcontent-eea-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-smartwatch">智能穿戴应用开发</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-lite-wearable-guide">轻量级智能穿戴应用开发</a></strong><br> </li> </ul> </div></div>

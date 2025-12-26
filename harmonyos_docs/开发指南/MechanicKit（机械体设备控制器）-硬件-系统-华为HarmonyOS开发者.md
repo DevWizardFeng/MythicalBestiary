@@ -1,0 +1,3 @@
+<h1 _ngcontent-mge-c119="" class="doc-title ng-star-inserted" title="Mechanic Kit（机械体设备控制器）"> Mechanic Kit（机械体设备控制器） </h1>
+
+<div _ngcontent-mge-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/mechanic-kit-intro">Mechanic Kit简介</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/camera-tracking-guide">智能拍摄跟踪开发指南</a></strong><br> </li> </ul> </div></div>

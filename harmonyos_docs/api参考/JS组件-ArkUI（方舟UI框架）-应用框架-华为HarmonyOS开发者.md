@@ -1,0 +1,3 @@
+<h1 _ngcontent-sde-c119="" class="doc-title ng-star-inserted" title="JS组件"> JS组件 </h1>
+
+<div _ngcontent-sde-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkui-js-full-comp">兼容JS的类Web开发范式（ArkUI.Full）</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkui-js-lite-comp">兼容JS的类Web开发范式（ArkUI.Lite）</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkui-card-comp">JS服务卡片UI组件</a></strong><br> </li> </ul> </div></div>

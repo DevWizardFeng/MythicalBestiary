@@ -1,0 +1,3 @@
+<h1 _ngcontent-fus-c119="" class="doc-title ng-star-inserted" title="默认界面扫码取消后，如何感知"> 默认界面扫码取消后，如何感知 </h1>
+
+<div _ngcontent-fus-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;">   <div>    <p><strong>问题现象</strong></p>    <p>调用默认界面扫码功能，没有扫码直接关闭，如何在逻辑中判断？</p>    <p><strong>解决措施</strong></p>    <p>开启扫码，却没有进行任何扫码操作而直接取消扫码，可以从回调中获取返回错误码：<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/scan-error-code#section158201210912" target="_blank">1000500002</a>，用户取消扫码，据此自行修改逻辑操作。</p>   </div>   <div></div></div>

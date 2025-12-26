@@ -1,0 +1,3 @@
+<h1 _ngcontent-sqx-c119="" class="doc-title ng-star-inserted" title="加解密介绍"> 加解密介绍 </h1>
+
+<div _ngcontent-sqx-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>在数据存储或传输场景中，可以使用加解密操作用于保证数据的机密性，防止敏感数据泄露。</p> <p>使用加解密操作中，典型的场景有：</p> <ol><li><p>使用对称密钥的加解密操作。</p>  </li><li><p>使用非对称密钥的加解密操作。</p>  </li><li><p>使用RSA（PKCS1_OAEP填充模式）时，获取、设置CipherSpecItem参数。</p>  </li></ol> </div> <div></div></div>

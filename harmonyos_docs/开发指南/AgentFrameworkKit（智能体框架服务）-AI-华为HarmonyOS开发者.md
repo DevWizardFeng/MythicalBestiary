@@ -1,0 +1,3 @@
+<h1 _ngcontent-chx-c119="" class="doc-title ng-star-inserted" title="Agent Framework Kit（智能体框架服务）"> Agent Framework Kit（智能体框架服务） </h1>
+
+<div _ngcontent-chx-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hmaf-introduction">Agent Framework Kit简介</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hmaf-function">通过Function组件拉起智能体</a></strong><br> </li> </ul> </div></div>

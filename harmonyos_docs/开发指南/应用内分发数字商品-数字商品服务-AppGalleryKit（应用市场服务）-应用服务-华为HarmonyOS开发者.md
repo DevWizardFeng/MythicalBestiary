@@ -1,0 +1,3 @@
+<h1 _ngcontent-plc-c119="" class="doc-title ng-star-inserted" title="应用内分发数字商品"> 应用内分发数字商品 </h1>
+
+<div _ngcontent-plc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/store-iap-distribute-query">展示数字商品</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/store-iap-distribute-purchase">购买数字商品</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/store-iap-distribute-delivering">发放数字商品权益</a></strong><br> </li> </ul> </div></div>

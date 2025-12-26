@@ -1,0 +1,3 @@
+<h1 _ngcontent-qkc-c119="" class="doc-title ng-star-inserted" title="应用启动与响应优化"> 应用启动与响应优化 </h1>
+
+<div _ngcontent-qkc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-application-cold-start-optimization">应用冷启动时延优化</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-application-latency-optimization-cases">应用时延优化</a></strong><br> </li> </ul> </div></div>

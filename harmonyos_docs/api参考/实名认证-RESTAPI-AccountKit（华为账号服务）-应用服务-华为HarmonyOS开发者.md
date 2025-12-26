@@ -1,0 +1,3 @@
+<h1 _ngcontent-fsd-c119="" class="doc-title ng-star-inserted" title="实名认证"> 实名认证 </h1>
+
+<div _ngcontent-fsd-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/account-api-realname-overview">概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/account-api-get-realname">获取实名信息</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/account-api-verify-realname">实名信息校验</a></strong><br> </li> </ul> </div></div>

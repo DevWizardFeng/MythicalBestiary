@@ -1,0 +1,3 @@
+<h1 _ngcontent-uou-c119="" class="doc-title ng-star-inserted" title="附录"> 附录 </h1>
+
+<div _ngcontent-uou-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/car-appendix-naviturnmode">naviTurnMode</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/car-appendix-trafficlane">trafficLane</a></strong><br> </li> </ul> </div></div>

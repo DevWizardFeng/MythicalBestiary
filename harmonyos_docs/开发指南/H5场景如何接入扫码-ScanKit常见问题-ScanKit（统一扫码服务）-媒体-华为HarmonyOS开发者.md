@@ -1,0 +1,3 @@
+<h1 _ngcontent-hwe-c119="" class="doc-title ng-star-inserted" title="H5场景如何接入扫码"> H5场景如何接入扫码 </h1>
+
+<div _ngcontent-hwe-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p><strong>问题现象</strong></p> <p>Scan Kit没有提供H5的方案接入扫码。</p> <p><strong>解决措施</strong></p> <p>开发者可参考<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/web-in-page-app-function-invoking" target="_blank">前端页面调用应用侧函数</a>方式调用扫码接口，实现网页扫码功能。</p> </div> <div></div></div>

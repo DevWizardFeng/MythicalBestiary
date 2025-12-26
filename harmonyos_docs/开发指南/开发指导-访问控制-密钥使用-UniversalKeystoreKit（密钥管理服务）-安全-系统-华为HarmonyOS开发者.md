@@ -1,0 +1,3 @@
+<h1 _ngcontent-rtd-c119="" class="doc-title ng-star-inserted" title="开发指导"> 开发指导 </h1>
+
+<div _ngcontent-rtd-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/huks-user-identity-authentication">用户身份认证访问控制开发指导</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/huks-refined-user-identity-authentication">细粒度用户身份认证访问控制开发指导</a></strong><br> </li> </ul> </div></div>

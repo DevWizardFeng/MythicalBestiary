@@ -1,0 +1,3 @@
+<h1 _ngcontent-kks-c119="" class="doc-title ng-star-inserted" title="概述"> 概述 </h1>
+
+<div _ngcontent-kks-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>从6.0.0(20)版本开始，新增支持AI超帧能力。</p> <p>AI超帧主要利用了设备上的NPU执行模型推理，大幅降低GPU上的负载从而降低渲染的功耗。此外，AI超帧相比传统超帧算法在大幅运动和非线性运动场景的预测效果上也有明显优势。</p> <p><span><img height="420.89712000000003" originheight="644" originwidth="1224" src="https://alliance-communityfile-drcn.dbankcdn.com/FileServer/getFile/cmtyPub/011/111/111/0000000000011111111.20251211114414.99020798908300172622225204026425:50001231000000:2800:2043AC872A0D200D36453B9D86041286B4DC3CD0516458BB5347ECA7CD7DB702.png" title="点击放大" width="799.995"></span></p> </div> <div></div></div>

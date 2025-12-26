@@ -1,0 +1,3 @@
+<h1 _ngcontent-oqj-c119="" class="doc-title ng-star-inserted" title="相关实例"> 相关实例 </h1>
+
+<div _ngcontent-oqj-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>针对位置开发，有以下相关实例可供参考：</p> <ul><li><a href="https://gitee.com/openharmony/applications_app_samples/tree/master/code/BasicFeature/DeviceManagement/Location" target="_blank">位置服务（ArkTS）</a></li></ul> </div> <div></div></div>

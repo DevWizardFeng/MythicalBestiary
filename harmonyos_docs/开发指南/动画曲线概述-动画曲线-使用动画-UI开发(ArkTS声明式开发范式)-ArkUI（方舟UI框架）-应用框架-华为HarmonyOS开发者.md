@@ -1,0 +1,3 @@
+<h1 _ngcontent-oja-c119="" class="doc-title ng-star-inserted" title="动画曲线概述"> 动画曲线概述 </h1>
+
+<div _ngcontent-oja-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>动画曲线是属性关于时间的变化函数，决定属性变化时产生动画的运动轨迹。某一时刻下动画曲线的斜率代表动画的速度，对应属性变化的快慢。一条优秀的动画曲线具备连续光滑、符合用户意图、符合物理世界客观规律的特点。开发者可结合用户的使用场景和意图，为动效选取合适的动画曲线。</p> <p>根据动画曲线是否符合物理世界客观规律，可将其分为物理曲线（ArkUI当前提供了多种物理弹簧曲线）和传统曲线两种类型。相比于传统曲线，物理曲线产生的运动轨迹更加符合用户认知，有助于创造自然生动的动画效果，建议开发者优先使用物理曲线。</p> </div> <div></div></div>

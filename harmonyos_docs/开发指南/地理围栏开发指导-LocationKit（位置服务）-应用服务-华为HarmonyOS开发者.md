@@ -1,0 +1,3 @@
+<h1 _ngcontent-evv-c119="" class="doc-title ng-star-inserted" title="地理围栏开发指导"> 地理围栏开发指导 </h1>
+
+<div _ngcontent-evv-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/geofence-intro">地理围栏简介</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/geofence-guidelines">端侧GNSS围栏开发指导</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/fenceextensionability">云侧围栏开发指导</a></strong><br> </li> </ul> </div></div>

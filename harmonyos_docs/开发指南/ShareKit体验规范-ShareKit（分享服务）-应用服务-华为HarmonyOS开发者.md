@@ -1,0 +1,3 @@
+<h1 _ngcontent-qjc-c119="" class="doc-title ng-star-inserted" title="Share Kit体验规范"> Share Kit体验规范 </h1>
+
+<div _ngcontent-qjc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/share-access-utd">宿主应用发起分享需使用精细化的utd类型</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/share-access-one-step">目标设备接收分享数据一步直达体验</a></strong><br> </li> </ul> </div></div>

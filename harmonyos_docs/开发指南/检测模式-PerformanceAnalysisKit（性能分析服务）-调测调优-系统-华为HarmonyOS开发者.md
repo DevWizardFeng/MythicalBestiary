@@ -1,0 +1,3 @@
+<h1 _ngcontent-uuc-c119="" class="doc-title ng-star-inserted" title="检测模式"> 检测模式 </h1>
+
+<div _ngcontent-uuc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hichecker-guidelines-arkts">使用HiChecker检测问题（ArkTS）</a></strong><br> </li> </ul> </div></div>

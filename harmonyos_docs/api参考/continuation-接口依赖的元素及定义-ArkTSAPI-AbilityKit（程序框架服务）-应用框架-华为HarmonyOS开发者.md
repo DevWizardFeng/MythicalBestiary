@@ -1,0 +1,3 @@
+<h1 _ngcontent-vsy-c119="" class="doc-title ng-star-inserted" title="continuation"> continuation </h1>
+
+<div _ngcontent-vsy-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-continuation-continuationextraparams">ContinuationExtraParams</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-continuation-continuationresult">ContinuationResult</a></strong><br> </li> </ul> </div></div>

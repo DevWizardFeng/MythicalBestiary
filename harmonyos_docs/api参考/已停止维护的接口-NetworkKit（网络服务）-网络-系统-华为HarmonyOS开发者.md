@@ -1,0 +1,3 @@
+<h1 _ngcontent-nvv-c119="" class="doc-title ng-star-inserted" title="已停止维护的接口"> 已停止维护的接口 </h1>
+
+<div _ngcontent-nvv-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-system-network">@system.network (网络状态)</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-system-fetch">@system.fetch (数据请求)（已废弃）</a></strong><br> </li> </ul> </div></div>

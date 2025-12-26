@@ -1,0 +1,3 @@
+<h1 _ngcontent-ndt-c119="" class="doc-title ng-star-inserted" title="测试应用的无障碍功能"> 测试应用的无障碍功能 </h1>
+
+<div _ngcontent-ndt-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>通过测试无障碍功能，您可以从用户的角度体验您的应用，并发现原本可能忽略的易用性问题。无障碍功能测试可以挖掘出改进机会，使您的应用变得功能更强大且更多样，造福于所有用户，包括残障用户。</p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/test-screen-reader">测试屏幕朗读功能</a></strong><br> </li> </ul> </div></div>

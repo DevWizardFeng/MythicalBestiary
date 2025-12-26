@@ -1,0 +1,3 @@
+<h1 _ngcontent-ntt-c119="" class="doc-title ng-star-inserted" title="HMAC"> HMAC </h1>
+
+<div _ngcontent-ntt-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/huks-hmac-overview">HMAC介绍及算法规格</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/huks-hmac-dev">开发指导</a></strong><br> </li> </ul> </div></div>

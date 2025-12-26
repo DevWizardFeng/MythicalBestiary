@@ -1,0 +1,3 @@
+<h1 _ngcontent-dqg-c119="" class="doc-title ng-star-inserted" title="手机和轻量级智能穿戴设备通信，提示错误码206"> 手机和轻量级智能穿戴设备通信，提示错误码206 </h1>
+
+<div _ngcontent-dqg-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><ul><li>手机和穿戴设备的包名或证书指纹不匹配<ul><li>轻量级智能穿戴设备侧：需要把手机的包名和指纹信息放到白名单中</li><li>手机侧：需要把轻量级智能穿戴设备侧应用的包名和指纹信息配置正确</li></ul> </li><li>轻量级智能穿戴设备侧应用不在前台</li><li>手机或轻量级智能穿戴设备侧应用没有注册消息接收器</li><li>发送的消息为空</li><li>蓝牙未连接</li></ul> </div> <div></div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-rge-c119="" class="doc-title ng-star-inserted" title="游戏启动加速服务"> 游戏启动加速服务 </h1>
+
+<div _ngcontent-rge-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/graphics-accelerate-mirror-launch">秒级启动</a></strong><br> </li> </ul> </div></div>

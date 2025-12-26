@@ -1,0 +1,3 @@
+<h1 _ngcontent-gdu-c119="" class="doc-title ng-star-inserted" title="位置搜索"> 位置搜索 </h1>
+
+<div _ngcontent-gdu-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/map-site-search">POI搜索</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/map-site-geocode">地理编码</a></strong><br> </li> </ul> </div></div>

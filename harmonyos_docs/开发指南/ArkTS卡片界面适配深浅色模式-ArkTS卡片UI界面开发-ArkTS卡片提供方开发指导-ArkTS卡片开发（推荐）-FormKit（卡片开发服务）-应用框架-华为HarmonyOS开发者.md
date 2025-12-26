@@ -1,0 +1,3 @@
+<h1 _ngcontent-yxj-c119="" class="doc-title ng-star-inserted" title="ArkTS卡片界面适配深浅色模式"> ArkTS卡片界面适配深浅色模式 </h1>
+
+<div _ngcontent-yxj-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>当前系统存在深浅色两种显示模式，为了给用户更好的使用体验，保障卡片与页面视觉体验一致性，ArkTS卡片支持适配深浅色模式，具体请参考<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-dark-light-color-adaptation">应用深浅色适配</a>。</p> </div> <div></div></div>

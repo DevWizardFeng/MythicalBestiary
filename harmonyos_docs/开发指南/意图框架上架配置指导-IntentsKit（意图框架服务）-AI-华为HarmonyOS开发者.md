@@ -1,0 +1,3 @@
+<h1 _ngcontent-wtu-c119="" class="doc-title ng-star-inserted" title="意图框架上架配置指导"> 意图框架上架配置指导 </h1>
+
+<div _ngcontent-wtu-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/intents-kit-listing-standard-protocol">意图标准协议上架指导</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/intents-kit-listing-mcp-protocol">MCP协议上架指导</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-wex-c119="" class="doc-title ng-star-inserted" title="矩阵编程（高阶API）"> 矩阵编程（高阶API） </h1>
+
+<div _ngcontent-wex-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-basic-knowledge">基础知识</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-matrix-programming-operator">矩阵编程算子实现</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-kbg-c119="" class="doc-title ng-star-inserted" title="实现HTTP请求定制"> 实现HTTP请求定制 </h1>
+
+<div _ngcontent-kbg-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/remote-communication-customconfig">Configuration：高效实现定制功能</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/remote-communication-interceptconfig">拦截器：更丰富、更高阶的定制能力</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-cbc-c119="" class="doc-title ng-star-inserted" title="应用适配智慧多窗"> 应用适配智慧多窗 </h1>
+
+<div _ngcontent-cbc-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/multi-window-support">应用声明支持智慧多窗</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/multi-window-layout-adapt">应用布局适配智慧多窗</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/multi-window-controlbar-adapt">顶部窗口控制条避让适配智慧多窗</a></strong><br> </li> </ul> </div></div>

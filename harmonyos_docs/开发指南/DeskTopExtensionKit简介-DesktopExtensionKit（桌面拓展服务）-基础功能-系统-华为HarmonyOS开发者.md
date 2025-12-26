@@ -1,0 +1,3 @@
+<h1 _ngcontent-hig-c119="" class="doc-title ng-star-inserted" title="DeskTop Extension Kit简介"> DeskTop Extension Kit简介 </h1>
+
+<div _ngcontent-hig-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>DeskTop Extension Kit（桌面拓展服务）提供系统级统一的操作入口，支持应用快捷功能接入桌面。</p> <div><div class="hw-editor-tip info"><div class="title">说明</div><div class="content"><p>DeskTop Extension Kit（桌面拓展服务）只支持中国境内（不包含中国香港、中国澳门、中国台湾）。</p> </div></div></div> <div class="tiledSection"><h2 id="section63941816134913">场景介绍<i class="anchor-icon anchor-icon-link" anchorid="section63941816134913" tips="复制节点链接"></i></h2><p>当应用启动时或者应用运行过程中，应用可以通过本模块提供的接口接入状态栏，进行快捷操作。</p> </div> </div> <div></div></div>

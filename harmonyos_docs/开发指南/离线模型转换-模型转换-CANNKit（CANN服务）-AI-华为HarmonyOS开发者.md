@@ -1,0 +1,3 @@
+<h1 _ngcontent-opl-c119="" class="doc-title ng-star-inserted" title="离线模型转换"> 离线模型转换 </h1>
+
+<div _ngcontent-opl-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-preparing-for-model-conversion">模型转换前准备</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-model-conversion-example">模型转换示例</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/cannkit-overall-parameter">OMG参数</a></strong><br> </li> </ul> </div></div>

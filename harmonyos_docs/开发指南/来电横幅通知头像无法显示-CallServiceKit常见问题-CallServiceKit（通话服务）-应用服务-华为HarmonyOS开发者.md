@@ -1,0 +1,3 @@
+<h1 _ngcontent-upf-c119="" class="doc-title ng-star-inserted" title="来电横幅通知头像无法显示"> 来电横幅通知头像无法显示 </h1>
+
+<div _ngcontent-upf-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p><strong>问题现象</strong></p> <p>来电过程中，横幅通知展示，但头像无法正常显示。</p> <p><strong>解决措施</strong></p> <ol><li>保证头像图片大小在196608以内。</li><li>支持传入的最大图片大小为 221 x 221 像素，推荐传入的图片大小为 112 x 112 像素。</li><li>如还未解决，请通过<a href="https://developer.huawei.com/consumer/cn/support/feedback/#/" target="_blank">在线提单</a>提交问题，华为支持人员会及时处理。</li></ol> </div> <div></div></div>

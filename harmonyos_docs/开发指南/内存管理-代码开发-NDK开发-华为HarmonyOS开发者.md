@@ -1,0 +1,3 @@
+<h1 _ngcontent-pwk-c119="" class="doc-title ng-star-inserted" title="内存管理"> 内存管理 </h1>
+
+<div _ngcontent-pwk-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/purgeable-memory-guidelines">内存管理purgeable内存开发指导</a></strong><br> </li> </ul> </div></div>

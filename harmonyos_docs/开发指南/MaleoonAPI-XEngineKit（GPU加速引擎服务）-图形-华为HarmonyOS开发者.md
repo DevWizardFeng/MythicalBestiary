@@ -1,0 +1,3 @@
+<h1 _ngcontent-sdg-c119="" class="doc-title ng-star-inserted" title="Maleoon API"> Maleoon API </h1>
+
+<div _ngcontent-sdg-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><div class="tiledSection"><h2 id="section624112515458">约束与限制<i class="anchor-icon anchor-icon-link" anchorid="section624112515458" tips="复制节点链接"></i></h2><p>支持的设备类型：马良910 GPU及以上的Phone设备，并且从5.0.2(14)版本开始，新增支持Tablet、PC/2in1设备，从5.1.0(18)版本开始新增支持TV设备。</p> </div> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/xengine-kit-high-performance-gpu-sorting">高性能GPU排序</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-bio-c119="" class="doc-title ng-star-inserted" title="附录"> 附录 </h1>
+
+<div _ngcontent-bio-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000001818152633"></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-shortcut-key">快捷键</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-graphics-profiler">GPU帧捕获工具：Graphics Profiler抓帧入口</a></strong><br> </li> </ul> </div></div>

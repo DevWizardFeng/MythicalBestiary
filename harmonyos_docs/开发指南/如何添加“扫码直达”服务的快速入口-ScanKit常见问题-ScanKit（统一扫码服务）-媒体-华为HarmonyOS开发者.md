@@ -1,0 +1,3 @@
+<h1 _ngcontent-wxy-c119="" class="doc-title ng-star-inserted" title="如何添加“扫码直达”服务的快速入口"> 如何添加“扫码直达”服务的快速入口 </h1>
+
+<div _ngcontent-wxy-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p><strong>问题现象</strong></p> <p>有些用户编辑过控制中心，删除了默认存在的“扫一扫”入口，后续如何添加。</p> <p><strong>解决措施</strong></p> <p>控制中心编辑添加“扫一扫”入口：手机下滑菜单栏，打开控制中心，点击编辑按钮，在编辑区域中添加选择“扫一扫”后保存，即可在下拉控制列表中找到。</p> </div> <div></div></div>

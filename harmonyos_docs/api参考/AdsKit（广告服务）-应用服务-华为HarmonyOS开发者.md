@@ -1,0 +1,3 @@
+<h1 _ngcontent-jtp-c119="" class="doc-title ng-star-inserted" title="Ads Kit（广告服务）"> Ads Kit（广告服务） </h1>
+
+<div _ngcontent-jtp-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ads-arkts">ArkTS API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ads-comp">ArkTS组件</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ads-arkts-errcode">错误码</a></strong><br> </li> </ul> </div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-sir-c119="" class="doc-title ng-star-inserted" title="兼容性规则@compatibility"> 兼容性规则@compatibility </h1>
+
+<div _ngcontent-sir-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000002450475132"></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-api-compatibility-check">@compatibility/api-compatibility-check</a></strong><br> </li> </ul> </div></div>

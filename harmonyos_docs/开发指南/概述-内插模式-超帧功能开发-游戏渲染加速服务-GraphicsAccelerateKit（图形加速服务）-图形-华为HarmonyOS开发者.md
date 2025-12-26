@@ -1,0 +1,3 @@
+<h1 _ngcontent-ixg-c119="" class="doc-title ng-star-inserted" title="概述"> 概述 </h1>
+
+<div _ngcontent-ixg-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>超帧内插模式是利用相邻两个真实渲染帧进行超帧计算生成中间的预测帧，即利用第N-1帧和第N帧真实渲染帧预测第N-0.5帧预测帧，如下图所示。由于中间预测帧的像素点通常能在前后两帧中找到对应位置，因此内插模式的预测帧效果较外插模式更优。由于第N帧真实渲染帧需要等待第N-0.5帧预测帧生成并送显后才能最终送显，因此会新增1~2帧的响应时延。</p> <p><span><img height="312.519676" originheight="620" originwidth="1690" src="https://alliance-communityfile-drcn.dbankcdn.com/FileServer/getFile/cmtyPub/011/111/111/0000000000011111111.20251211114413.14991439760008349072754273444139:50001231000000:2800:CB8FE1265251885DA97CEDFE37AADD3F1333006B3AA6561629E279A0C0283508.png" title="点击放大" width="851.865"></span></p> </div> <div></div></div>

@@ -1,0 +1,3 @@
+<h1 _ngcontent-ktx-c119="" class="doc-title ng-star-inserted" title="数字商品服务器支持加密套件"> 数字商品服务器支持加密套件 </h1>
+
+<div _ngcontent-ktx-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>具体见<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/iap-rest-common-statement#section519035811613" target="_blank">加密套件</a>。</p> </div> <div></div></div>

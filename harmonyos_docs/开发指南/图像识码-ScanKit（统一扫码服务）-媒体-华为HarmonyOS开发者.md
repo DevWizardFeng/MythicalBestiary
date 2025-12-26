@@ -1,0 +1,3 @@
+<h1 _ngcontent-rlm-c119="" class="doc-title ng-star-inserted" title="图像识码"> 图像识码 </h1>
+
+<div _ngcontent-rlm-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/scan-detectbarcode">识别本地图片</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/scan-decodeimage">识别图像数据</a></strong><br> </li> </ul> </div></div>

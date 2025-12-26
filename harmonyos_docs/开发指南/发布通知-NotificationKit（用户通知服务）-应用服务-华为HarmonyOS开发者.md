@@ -1,0 +1,3 @@
+<h1 _ngcontent-aqv-c119="" class="doc-title ng-star-inserted" title="发布通知"> 发布通知 </h1>
+
+<div _ngcontent-aqv-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/text-notification">发布文本类型通知</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/progress-bar-notification">发布进度条类型通知</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/notification-with-wantagent">为通知添加行为意图</a></strong><br> </li> </ul> </div></div>

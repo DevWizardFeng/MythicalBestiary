@@ -1,0 +1,3 @@
+<h1 _ngcontent-ksf-c119="" class="doc-title ng-star-inserted" title="DRM Kit（数字版权保护服务）"> DRM Kit（数字版权保护服务） </h1>
+
+<div _ngcontent-ksf-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/drm-arkts">ArkTS API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/drm-c">C API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/drm-arkts-errcode">错误码</a></strong><br> </li> </ul> </div></div>

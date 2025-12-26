@@ -1,0 +1,3 @@
+<h1 _ngcontent-rgg-c119="" class="doc-title ng-star-inserted" title="开通推送服务权益"> 开通推送服务权益 </h1>
+
+<div _ngcontent-rgg-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>若开发者需要通过push云侧创建、更新和结束实况窗，在开通实况窗权益前，开发者需要首先为项目开通“推送服务”权益，详情请参见<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/push-config-setting" target="_blank">开通推送服务</a>。</p> <ul><li>开通推送服务后，开发者可<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/liveview-update-by-push">通过Push Kit更新实况窗</a>，或使用Push Token添加调测设备调测实况窗。</li></ul> </div> <div></div></div>

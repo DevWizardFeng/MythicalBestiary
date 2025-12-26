@@ -1,0 +1,3 @@
+<h1 _ngcontent-ysj-c119="" class="doc-title ng-star-inserted" title="是否可以仅接入下载ExtensionAbility，而不改写原先在游戏引擎内部的下载逻辑或下载中间件？"> 是否可以仅接入下载ExtensionAbility，而不改写原先在游戏引擎内部的下载逻辑或下载中间件？ </h1>
+
+<div _ngcontent-ysj-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;">   <div>    <p>可以，支持仅接入下载ExtensionAbility。</p>    <p>但建议在应用进入前台时，通过<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/graphics-accelerate-assetdownloadmanager#section2809432393" target="_blank">removeAllAssetDownloadTasks</a>移除系统中的所有下载任务，对于已完成下载的任务可以复用，避免重复下载。对于未完成下载的任务建议使用应用自身下载器进行重新下载。</p>   </div>   <div></div></div>

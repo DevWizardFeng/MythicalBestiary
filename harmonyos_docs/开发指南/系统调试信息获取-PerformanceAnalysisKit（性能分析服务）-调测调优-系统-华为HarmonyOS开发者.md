@@ -1,0 +1,3 @@
+<h1 _ngcontent-uut-c119="" class="doc-title ng-star-inserted" title="系统调试信息获取"> 系统调试信息获取 </h1>
+
+<div _ngcontent-uut-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hidebug-guidelines">HiDebug能力概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hidebug-guidelines-arkts">HiDebug接口使用示例(ArkTS)</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hidebug-guidelines-ndk">HiDebug接口使用示例(C/C++)</a></strong><br> </li> </ul> </div></div>

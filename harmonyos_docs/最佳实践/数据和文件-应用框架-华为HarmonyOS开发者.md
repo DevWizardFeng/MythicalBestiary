@@ -1,0 +1,3 @@
+<h1 _ngcontent-mln-c119="" class="doc-title ng-star-inserted" title="数据和文件"> 数据和文件 </h1>
+
+<div _ngcontent-mln-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-local-file-and-data-multithreaded-io">多线程操作密集型关系型数据库和文件读写</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-file-native-side">Native侧实现文件访问</a></strong><br> </li> </ul> </div></div>

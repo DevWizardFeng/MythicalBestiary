@@ -1,0 +1,3 @@
+<h1 _ngcontent-cih-c119="" class="doc-title ng-star-inserted" title="简介"> 简介 </h1>
+
+<div _ngcontent-cih-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>在内存中开辟一块连续的空间，用于存储数据的描述信息以及实际的数据元素，元素类型为ContinuousVector结构。不支持动态扩容。</p> <p>本类的描述信息包括：用于存放数据的内存空间的总容量capacity_、当前存放的实际元素数量size_及各个数据元素相对于ContinuousVectorVector结构首地址的偏移量offset_。</p> </div> <div></div></div>

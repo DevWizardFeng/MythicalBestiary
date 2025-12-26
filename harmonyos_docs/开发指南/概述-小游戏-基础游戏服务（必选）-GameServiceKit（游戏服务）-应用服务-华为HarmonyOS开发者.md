@@ -1,0 +1,3 @@
+<h1 _ngcontent-pqo-c119="" class="doc-title ng-star-inserted" title="概述"> 概述 </h1>
+
+<div _ngcontent-pqo-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>从6.0.1(21)版本开始，新增小游戏相关能力。</p> <p>小游戏是一种基于行业标准开发的新型免安装应用，无需安装，即点即玩，并且可以添加到设备桌面。开发者一次开发即可将小游戏分发到所有支持行业标准的设备运行。</p> <div class="tiledSection"><h2 id="section15445655172812">约束与限制<i class="anchor-icon anchor-icon-link" anchorid="section15445655172812" tips="复制节点链接"></i></h2><p>小游戏相关能力支持Phone、Tablet、2in1和TV设备。</p> </div> <div class="tiledSection"><h2 id="section9183203211287">使用场景<i class="anchor-icon anchor-icon-link" anchorid="section9183203211287" tips="复制节点链接"></i></h2><p>提供给小游戏运行时应用间共享库调用，以实现小游戏的登录及支付功能。</p> </div> </div> <div></div></div>

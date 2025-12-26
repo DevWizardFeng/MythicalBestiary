@@ -1,0 +1,3 @@
+<h1 _ngcontent-wxd-c119="" class="doc-title ng-star-inserted" title="GET请求的bodySign是对谁签名得到的？"> GET请求的bodySign是对谁签名得到的？ </h1>
+
+<div _ngcontent-wxd-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;">   <div>    <p>GET请求需要对path url进行签名，例如<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-sys-query-order" target="_blank">查询支付订单</a>的待签名内容是：“/api/v2/aggr/transactions/orders/{sysTransOrderNo}”。</p>   </div>   <div></div></div>

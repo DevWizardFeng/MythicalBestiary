@@ -1,0 +1,3 @@
+<h1 _ngcontent-kmi-c119="" class="doc-title ng-star-inserted" title="AI超帧模式"> AI超帧模式 </h1>
+
+<div _ngcontent-kmi-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/graphics-accelerate-fg-ai-overview">概述</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/graphics-accelerate-fg-ai-vulkan">Vulkan平台</a></strong><br> </li> </ul> </div></div>

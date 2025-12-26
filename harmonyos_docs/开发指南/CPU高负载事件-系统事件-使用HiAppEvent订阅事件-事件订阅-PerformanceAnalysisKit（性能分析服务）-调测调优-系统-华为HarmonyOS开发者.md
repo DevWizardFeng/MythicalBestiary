@@ -1,0 +1,3 @@
+<h1 _ngcontent-kfl-c119="" class="doc-title ng-star-inserted" title="CPU高负载事件"> CPU高负载事件 </h1>
+
+<div _ngcontent-kfl-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hiappevent-watcher-cpu-usage-high-event">CPU高负载事件介绍</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/hiappevent-watcher-cpu-usage-high-arkts">订阅CPU高负载事件（ArkTS）</a></strong><br> </li> </ul> </div></div>

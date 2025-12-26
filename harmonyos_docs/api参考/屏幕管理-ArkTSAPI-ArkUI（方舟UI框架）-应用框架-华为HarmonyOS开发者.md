@@ -1,0 +1,3 @@
+<h1 _ngcontent-qoq-c119="" class="doc-title ng-star-inserted" title="屏幕管理"> 屏幕管理 </h1>
+
+<div _ngcontent-qoq-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-display">@ohos.display (屏幕属性)</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-screenshot">@ohos.screenshot (屏幕截图)</a></strong><br> </li> </ul> </div></div>

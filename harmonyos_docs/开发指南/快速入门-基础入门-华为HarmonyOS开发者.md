@@ -1,0 +1,3 @@
+<h1 _ngcontent-tpw-c119="" class="doc-title ng-star-inserted" title="快速入门"> 快速入门 </h1>
+
+<div _ngcontent-tpw-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/start-overview">开发准备</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/start-with-ets-stage">构建第一个HarmonyOS应用（ArkTS）</a></strong><br> </li> </ul> </div></div>

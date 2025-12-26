@@ -1,0 +1,3 @@
+<h1 _ngcontent-wqk-c119="" class="doc-title ng-star-inserted" title="若游戏无HarmonyOS 4及以下系统包时，是否可以不配置APP ID映射关系？"> 若游戏无HarmonyOS 4及以下系统包时，是否可以不配置APP ID映射关系？ </h1>
+
+<div _ngcontent-wqk-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>不可以。</p> <p>在<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/gameservice-gameplayer-huawei#section3907114313255">配置APP ID映射关系</a>时，请先创建草稿态的HarmonyOS 4及以下游戏，再与HarmonyOS 5.0及以上游戏进行关联。</p> </div> <div></div></div>

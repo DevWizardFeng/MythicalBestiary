@@ -1,0 +1,3 @@
+<h1 _ngcontent-gwj-c119="" class="doc-title ng-star-inserted" title="应用程序包结构"> 应用程序包结构 </h1>
+
+<div _ngcontent-gwj-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/application-package-structure-stage">Stage模型应用程序包结构</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/application-package-structure-fa">FA模型应用程序包结构</a></strong><br> </li> </ul> </div></div>

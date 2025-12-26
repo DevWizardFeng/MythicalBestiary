@@ -1,0 +1,3 @@
+<h1 _ngcontent-ago-c119="" class="doc-title ng-star-inserted" title="使用DocumentViewPicker拿到的uri通过openPreview打开显示预览失败"> 使用DocumentViewPicker拿到的uri通过openPreview打开显示预览失败 </h1>
+
+<div _ngcontent-ago-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>DocumentViewPicker拿到的文件uri应用仅有临时权限，该权限无法分享给预览，导致预览失败。可先对uri<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/file-persistpermission" target="_blank">持久化权限</a>，然后再采用openPreview打开文件；或者可以先将文件拷贝至应用沙箱内，再预览沙箱内文件。</p> </div> <div></div></div>

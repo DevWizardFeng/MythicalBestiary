@@ -1,0 +1,3 @@
+<h1 _ngcontent-xkf-c119="" class="doc-title ng-star-inserted" title="CANN Kit（CANN 服务）"> CANN Kit（CANN 服务） </h1>
+
+<div _ngcontent-xkf-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/hiai-foundation-c">C API</a></strong><br> </li> </ul> </div></div>

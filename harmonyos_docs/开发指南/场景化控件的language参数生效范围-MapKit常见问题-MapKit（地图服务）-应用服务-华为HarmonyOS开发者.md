@@ -1,0 +1,3 @@
+<h1 _ngcontent-aqq-c119="" class="doc-title ng-star-inserted" title="场景化控件的language参数生效范围"> 场景化控件的language参数生效范围 </h1>
+
+<div _ngcontent-aqq-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>1. 不传language：UI界面、底图、逆地理结果都是follow系统语言。</p> <p>2. 传language：UI界面和地图follow系统语言，请求云侧的结果根据language获取；不同的接口所支持的语言数据不同，存在不支持语言的接口返回的数据默认使用英文兜底。</p> </div> <div></div></div>

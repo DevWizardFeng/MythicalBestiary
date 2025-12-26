@@ -1,0 +1,3 @@
+<h1 _ngcontent-xsg-c119="" class="doc-title ng-star-inserted" title="稳定性故障类型及日志规格说明"> 稳定性故障类型及日志规格说明 </h1>
+
+<div _ngcontent-xsg-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>本章节列举了常见的稳定性故障类型以及日志规格。</p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-stability-fault-type">故障类型</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-stability-log-specs">日志规格</a></strong><br> </li> </ul> </div></div>

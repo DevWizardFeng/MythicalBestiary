@@ -1,0 +1,3 @@
+<h1 _ngcontent-vvb-c119="" class="doc-title ng-star-inserted" title="Payment Kit的签名公私钥怎么获取？"> Payment Kit的签名公私钥怎么获取？ </h1>
+
+<div _ngcontent-vvb-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p>签名的公私钥对是由开发者自行生成，生成后将公钥上传到<a href="https://petalpay-merchant.cloud.huawei.com/" target="_blank">华为支付商户平台</a>后可获取相应的请求参数authId，具体流程查看<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/payment-certificates-config#section08051431101916">准备证书</a>章节。</p> </div> <div></div></div>

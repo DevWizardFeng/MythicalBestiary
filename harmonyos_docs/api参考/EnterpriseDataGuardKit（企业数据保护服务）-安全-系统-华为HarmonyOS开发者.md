@@ -1,0 +1,3 @@
+<h1 _ngcontent-epk-c119="" class="doc-title ng-star-inserted" title="Enterprise Data Guard Kit（企业数据保护服务）"> Enterprise Data Guard Kit（企业数据保护服务） </h1>
+
+<div _ngcontent-epk-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/data-guard-arkts">ArkTS API</a></strong><br> </li> </ul> </div></div>

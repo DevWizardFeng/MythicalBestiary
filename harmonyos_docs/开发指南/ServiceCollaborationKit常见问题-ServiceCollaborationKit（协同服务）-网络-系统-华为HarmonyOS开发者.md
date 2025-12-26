@@ -1,0 +1,3 @@
+<h1 _ngcontent-fgp-c119="" class="doc-title ng-star-inserted" title="Service Collaboration Kit常见问题"> Service Collaboration Kit常见问题 </h1>
+
+<div _ngcontent-fgp-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/servicecollaboration-faq-1">接入跨设备互通控件后，设备选择列表没有周围设备</a></strong><br> </li> </ul> </div></div>

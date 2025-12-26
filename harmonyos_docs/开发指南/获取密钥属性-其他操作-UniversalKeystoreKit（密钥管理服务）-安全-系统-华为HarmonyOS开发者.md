@@ -1,0 +1,3 @@
+<h1 _ngcontent-ngh-c119="" class="doc-title ng-star-inserted" title="获取密钥属性"> 获取密钥属性 </h1>
+
+<div _ngcontent-ngh-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/huks-obtain-key-properties-arkts">获取密钥属性(ArkTS)</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/huks-obtain-key-properties-ndk">获取密钥属性(C/C++)</a></strong><br> </li> </ul> </div></div>

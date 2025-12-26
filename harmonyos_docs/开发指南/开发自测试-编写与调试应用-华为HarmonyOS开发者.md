@@ -1,0 +1,3 @@
+<h1 _ngcontent-ytn-c119="" class="doc-title ng-star-inserted" title="开发自测试"> 开发自测试 </h1>
+
+<div _ngcontent-ytn-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div id="body0000001096387767"></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-test">测试框架</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-app-analyzer">应用与元服务体检</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-app-analyzer-rules">应用/元服务体检规则</a></strong><br> </li> </ul> </div></div>

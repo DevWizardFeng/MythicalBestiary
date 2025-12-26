@@ -1,0 +1,3 @@
+<h1 _ngcontent-omy-c119="" class="doc-title ng-star-inserted" title="手机"> 手机 </h1>
+
+<div _ngcontent-omy-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-foldable-guide">折叠屏应用开发</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-purax-guide">Pura X阔折叠应用开发</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-matext-guide">三折叠应用开发</a></strong><br> </li> </ul> </div></div>

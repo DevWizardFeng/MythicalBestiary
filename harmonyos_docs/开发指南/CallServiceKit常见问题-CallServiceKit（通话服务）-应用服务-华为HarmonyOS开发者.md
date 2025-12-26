@@ -1,0 +1,3 @@
+<h1 _ngcontent-vhl-c119="" class="doc-title ng-star-inserted" title="Call Service Kit常见问题"> Call Service Kit常见问题 </h1>
+
+<div _ngcontent-vhl-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/call-faq-1">来电横幅无法拉起</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/call-faq-2">来电横幅通知头像无法显示</a></strong><br> </li> </ul> </div></div>

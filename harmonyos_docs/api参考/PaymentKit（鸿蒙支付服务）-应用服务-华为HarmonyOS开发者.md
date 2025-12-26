@@ -1,0 +1,3 @@
+<h1 _ngcontent-jnl-c119="" class="doc-title ng-star-inserted" title="Payment Kit（鸿蒙支付服务）"> Payment Kit（鸿蒙支付服务） </h1>
+
+<div _ngcontent-jnl-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p></p> </div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-arkts">ArkTS API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-rest">REST API</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-model">数据模型说明</a></strong><br> </li> </ul> </div></div>

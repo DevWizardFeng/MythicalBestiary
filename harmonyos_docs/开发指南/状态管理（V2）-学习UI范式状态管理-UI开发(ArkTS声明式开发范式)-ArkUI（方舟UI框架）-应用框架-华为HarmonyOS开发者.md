@@ -1,0 +1,3 @@
+<h1 _ngcontent-xep-c119="" class="doc-title ng-star-inserted" title="状态管理（V2）"> 状态管理（V2） </h1>
+
+<div _ngcontent-xep-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-v2-decorators">V2所属装饰器</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-new-other-state-mgmt">其他状态管理</a></strong><br> </li> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-mvvm-v2">MVVM模式（状态管理V2）</a></strong><br> </li> </ul> </div></div>

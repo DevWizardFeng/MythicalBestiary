@@ -1,0 +1,3 @@
+<h1 _ngcontent-otu-c119="" class="doc-title ng-star-inserted" title="华为支付签约的免密代扣在哪里可以解约？"> 华为支付签约的免密代扣在哪里可以解约？ </h1>
+
+<div _ngcontent-otu-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;">   <div>    <ul>     <li>方式1：用户可选择“华为钱包 &gt; 我的 &gt; 华为支付”，点击右上角菜单栏“免密代扣 &gt; 华为支付免密代扣”，完成免密代扣解约。</li>     <li>方式2：商户（开发者）通过对外开放的<a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-withhold-unsign" target="_blank">API接口</a>进行解约。</li>    </ul>   </div>   <div></div></div>

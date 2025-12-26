@@ -1,0 +1,3 @@
+<h1 _ngcontent-neo-c119="" class="doc-title ng-star-inserted" title="视频转码"> 视频转码 </h1>
+
+<div _ngcontent-neo-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div></div> <div> <ul class="ullinks"> <li class="ulchildlink"><strong><a href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/using-ndk-avtranscoder-for-transcodering">使用AVTranscoder实现视频转码(C/C++)</a></strong><br> </li> </ul> </div></div>

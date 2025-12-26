@@ -1,0 +1,3 @@
+<h1 _ngcontent-hrd-c119="" class="doc-title ng-star-inserted" title="生态查询服务场景中获取自身场景值为空"> 生态查询服务场景中获取自身场景值为空 </h1>
+
+<div _ngcontent-hrd-c106="" auitextselectionexpansion="" class="markdown-body ng-star-inserted" style="position: relative;"> <div><p><strong>问题现象</strong></p> <p>调用查询自身场景值接口返回场景值为空。</p> <p><strong>解决措施</strong></p> <p>当前应用/元服务没有生成场景值，通过其他应用或者元服务拉起当前应用或者元服务可以产生场景值，然后查询场景值。</p> </div> <div></div></div>
