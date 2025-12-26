@@ -148,7 +148,7 @@ struct AttributeTest {
       Column() {
         // 顶部导航
         Row() {
-          Image($r('app.media.ic_back'))
+          Image($r('app.media.ic_arrow_left'))
             .width(24)
             .height(24)
             .onClick(() => {

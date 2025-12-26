@@ -8,6 +8,7 @@ import { Home } from './Home';
 import { GuideTab } from '../components/GuideTab';
 import { Encyclopedia } from './Encyclopedia';
 import { Mine } from './Mine';
+import { StorageUtil } from '../utils/Storage';
 
 interface TabConfig {
   icon: Resource;
@@ -19,6 +20,20 @@ interface TabConfig {
 @Component
 struct Index {
   @State currentIndex: number = 0;
+
+  aboutToAppear() {
+    // 应用启动时初始化存储，确保全局状态被初始化
+    this.initStorage();
+  }
+
+  async initStorage() {
+    try {
+      const storage = StorageUtil.getInstance();
+      await storage.initialize();
+    } catch (e) {
+      console.error('Failed to initialize storage');
+    }
+  }
 
   private tabs: TabConfig[] = [
     {

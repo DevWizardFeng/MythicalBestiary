@@ -112,25 +112,6 @@ export struct Home {
 
   build() {
     Column() {
-      // 顶部搜索栏
-      Row() {
-        Text('神话志')
-          .fontSize(24)
-          .fontWeight(FontWeight.Bold)
-          .fontColor(DarkTheme.textPrimary)
-
-        Blank()
-
-        Image($r('app.media.ic_search'))
-          .width(24)
-          .height(24)
-          .onClick(() => {
-            router.pushUrl({ url: 'pages/Search' });
-          })
-      }
-      .width('100%')
-      .padding({ left: 16, right: 16, top: 12, bottom: 12 })
-
       if (this.isLoading) {
         this.LoadingView()
       } else {
@@ -142,7 +123,9 @@ export struct Home {
                 this.SectionHeader('神话精选', '神祇与神兽的传说')
                 Blank()
               }
-              .width('100%')
+              .width('100%').margin({
+                top: 16
+              })
 
               if (this.mixedCarouselItems.length > 0) {
                 Swiper() {
@@ -183,21 +166,10 @@ export struct Home {
 
             // 文化体系快速入口
             Column({ space: 12 }) {
-              Row() {
-                this.SectionHeader('文化体系', '')
-                Blank()
-                Text('查看更多')
-                  .fontSize(12)
-                  .fontColor(DarkTheme.accent)
-                  .padding({ right: 16 })
-                  .onClick(() => {
-                    router.pushUrl({ url: 'pages/CultureDetail' });
-                  })
-              }
-              .width('100%')
+              this.SectionHeader('文化体系', '')
 
               Scroll() {
-                Row({ space: 8 }) {
+                Row({ space: 12 }) {
                   ForEach(this.cultureEntries, (entry: QuickEntry) => {
                     this.QuickEntryItem(entry)
                   })
@@ -240,21 +212,10 @@ export struct Home {
 
             // 元素属性快速入口 - 放在传说神兽下方
             Column({ space: 12 }) {
-              Row() {
-                this.SectionHeader('元素属性', '')
-                Blank()
-                Text('查看更多')
-                  .fontSize(12)
-                  .fontColor(DarkTheme.accent)
-                  .padding({ right: 16 })
-                  .onClick(() => {
-                    router.pushUrl({ url: 'pages/AttributeDetail' });
-                  })
-              }
-              .width('100%')
+              this.SectionHeader('元素属性', '')
 
               Scroll() {
-                Row({ space: 8 }) {
+                Row({ space: 12 }) {
                   ForEach(this.attributeEntries, (entry: QuickEntry) => {
                     this.QuickEntryItem(entry)
                   })
@@ -314,21 +275,21 @@ export struct Home {
         .fontSize(12)
         .fontColor(DarkTheme.textPrimary)
     }
-    .width(76)
-    .height(80)
+    .width(68)
+    .height(76)
     .justifyContent(FlexAlign.Center)
     .backgroundColor(DarkTheme.backgroundCard)
     .borderRadius(12)
     .onClick(() => {
       if (entry.type === 'culture') {
         router.pushUrl({
-          url: 'pages/CreatureList',
-          params: { filterType: 'culture', filterValue: entry.id }
+          url: 'pages/CultureDetail',
+          params: { cultureId: entry.id }
         });
       } else {
         router.pushUrl({
-          url: 'pages/CreatureList',
-          params: { filterType: 'attribute', filterValue: entry.id }
+          url: 'pages/AttributeDetail',
+          params: { attributeId: entry.id }
         });
       }
     })

@@ -53,7 +53,7 @@ struct Favorites {
     Column() {
       // 顶部导航
       Row() {
-        Image($r('app.media.ic_back'))
+        Image($r('app.media.ic_arrow_left'))
           .width(24)
           .height(24)
           .onClick(() => {
@@ -77,8 +77,8 @@ struct Favorites {
 
       // Tab切换
       Row({ space: 0 }) {
-        this.TabItem('神兽', this.favoriteCreatures.length, 'creature')
-        this.TabItem('神祇', this.favoriteDeities.length, 'deity')
+        this.TabItem('神兽', 'creature')
+        this.TabItem('神祇', 'deity')
       }
       .width('100%')
       .height(44)
@@ -100,7 +100,7 @@ struct Favorites {
   }
 
   @Builder
-  TabItem(title: string, count: number, tab: 'creature' | 'deity') {
+  TabItem(title: string, tab: 'creature' | 'deity') {
     Column() {
       Row({ space: 4 }) {
         Text(title)
@@ -108,7 +108,7 @@ struct Favorites {
           .fontWeight(this.currentTab === tab ? FontWeight.Bold : FontWeight.Normal)
           .fontColor(this.currentTab === tab ? DarkTheme.accent : DarkTheme.textSecondary)
 
-        Text(`(${count})`)
+        Text(`(${tab === 'creature' ? this.favoriteCreatures.length : this.favoriteDeities.length})`)
           .fontSize(12)
           .fontColor(this.currentTab === tab ? DarkTheme.accent : DarkTheme.textTertiary)
       }

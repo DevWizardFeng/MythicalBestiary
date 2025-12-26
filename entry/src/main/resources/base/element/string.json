@@ -2,15 +2,15 @@
   "string": [
     {
       "name": "module_desc",
-      "value": "module description"
+      "value": "神话志 - 全球神话生物图鉴"
     },
     {
       "name": "EntryAbility_desc",
-      "value": "description"
+      "value": "探索世界各地的神话传说与神秘生物"
     },
     {
       "name": "EntryAbility_label",
-      "value": "label"
+      "value": "神话志"
     }
   ]
 }

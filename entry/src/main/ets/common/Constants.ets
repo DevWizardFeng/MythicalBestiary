@@ -261,6 +261,14 @@ export class StorageKeys {
 }
 
 /**
+ * AppStorage 全局状态键常量
+ */
+export class GlobalStateKeys {
+  static readonly FAVORITE_COUNT: string = 'globalFavoriteCount';
+  static readonly HISTORY_COUNT: string = 'globalHistoryCount';
+}
+
+/**
  * 路由路径常量
  */
 export class RouterPaths {

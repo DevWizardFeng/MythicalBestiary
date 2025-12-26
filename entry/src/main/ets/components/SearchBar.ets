@@ -50,10 +50,9 @@ export struct SearchBar {
 
       // 清除按钮
       if (this.value.length > 0 && !this.readonly) {
-        Image($r('app.media.ic_back'))
+        Image($r('app.media.ic_arrow_right'))
           .width(16)
           .height(16)
-          .rotate({ angle: 180 })
           .onClick(() => {
             if (this.onChange) {
               this.onChange('');

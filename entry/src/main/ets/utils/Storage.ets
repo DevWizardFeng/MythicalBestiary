@@ -3,7 +3,7 @@
  */
 
 import preferences from '@ohos.data.preferences';
-import { StorageKeys } from '../common/Constants';
+import { StorageKeys, GlobalStateKeys } from '../common/Constants';
 import {
   UserFavorites,
   UserHistory,
@@ -106,9 +106,19 @@ export class StorageManager {
     try {
       await pref.put(StorageKeys.FAVORITES, JSON.stringify(favorites));
       await pref.flush();
+      // 更新全局收藏数
+      this.updateGlobalFavoriteCount(favorites);
     } catch (error) {
       console.error('StorageManager: 保存收藏失败', error);
     }
+  }
+
+  /**
+   * 更新全局收藏数
+   */
+  private updateGlobalFavoriteCount(favorites: UserFavorites): void {
+    const count = favorites.creatureIds.length + (favorites.deityIds?.length || 0);
+    AppStorage.setOrCreate(GlobalStateKeys.FAVORITE_COUNT, count);
   }
 
   /**
@@ -230,9 +240,18 @@ export class StorageManager {
     try {
       await pref.put(StorageKeys.HISTORY, JSON.stringify(history));
       await pref.flush();
+      // 更新全局浏览数
+      this.updateGlobalHistoryCount(history);
     } catch (error) {
       console.error('StorageManager: 保存历史失败', error);
     }
+  }
+
+  /**
+   * 更新全局浏览数
+   */
+  private updateGlobalHistoryCount(history: UserHistory): void {
+    AppStorage.setOrCreate(GlobalStateKeys.HISTORY_COUNT, history.items.length);
   }
 
   /**
@@ -461,9 +480,29 @@ export class StorageUtil {
       this.manager.init(context);
       // 加载搜索历史
       await this.loadSearchHistory();
+      // 初始化全局状态
+      await this.initGlobalState();
       this.initialized = true;
     } catch (e) {
       console.warn('StorageUtil: 初始化失败');
+    }
+  }
+
+  /**
+   * 初始化全局状态（收藏数、浏览数）
+   */
+  private async initGlobalState(): Promise<void> {
+    try {
+      const favorites = await this.manager.getFavorites();
+      const favoriteCount = favorites.creatureIds.length + (favorites.deityIds?.length || 0);
+      AppStorage.setOrCreate(GlobalStateKeys.FAVORITE_COUNT, favoriteCount);
+
+      const history = await this.manager.getHistory();
+      AppStorage.setOrCreate(GlobalStateKeys.HISTORY_COUNT, history.items.length);
+    } catch (e) {
+      console.warn('StorageUtil: 初始化全局状态失败');
+      AppStorage.setOrCreate(GlobalStateKeys.FAVORITE_COUNT, 0);
+      AppStorage.setOrCreate(GlobalStateKeys.HISTORY_COUNT, 0);
     }
   }
 

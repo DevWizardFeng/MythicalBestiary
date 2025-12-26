@@ -107,7 +107,7 @@ struct DeityList {
           .height(36)
           .fill(DarkTheme.backgroundSecondary)
 
-        Image($r('app.media.ic_back'))
+        Image($r('app.media.ic_arrow_left'))
           .width(20)
           .height(20)
       }

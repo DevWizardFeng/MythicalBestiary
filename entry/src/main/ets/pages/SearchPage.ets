@@ -90,7 +90,7 @@ struct SearchPage {
     Column() {
       // 顶部搜索栏
       Row({ space: 12 }) {
-        Image($r('app.media.ic_back'))
+        Image($r('app.media.ic_arrow_left'))
           .width(24)
           .height(24)
           .onClick(() => {
@@ -326,10 +326,9 @@ struct SearchPage {
       .layoutWeight(1)
       .alignItems(HorizontalAlign.Start)
 
-      Image($r('app.media.ic_back'))
+      Image($r('app.media.ic_arrow_right'))
         .width(16)
         .height(16)
-        .rotate({ angle: 180 })
     }
     .width('100%')
     .padding(12)

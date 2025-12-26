@@ -5,8 +5,9 @@
 
 import router from '@ohos.router';
 import { DarkTheme } from '../common/Theme';
+import { GlobalStateKeys } from '../common/Constants';
 import { StorageUtil } from '../utils/Storage';
-import { UserSettings, BrowsingRecord } from '../model/UserData';
+import { UserSettings } from '../model/UserData';
 
 interface MenuItem {
   icon: Resource;
@@ -18,26 +19,19 @@ interface MenuItem {
 
 @Component
 export struct Mine {
-  @State favoriteCount: number = 0;
-  @State historyCount: number = 0;
+  // 使用 @StorageLink 绑定全局状态，实现数据同步
+  @StorageLink('globalFavoriteCount') favoriteCount: number = 0;
+  @StorageLink('globalHistoryCount') historyCount: number = 0;
   @State settings: UserSettings | null = null;
 
   aboutToAppear() {
-    this.loadUserData();
+    this.initData();
   }
 
-  async loadUserData() {
+  async initData() {
     try {
       const storage = StorageUtil.getInstance();
       await storage.initialize();
-
-      const creatureFavorites = await storage.getFavorites();
-      const deityFavorites = await storage.getDeityFavorites();
-      this.favoriteCount = creatureFavorites.length + deityFavorites.length;
-
-      const history = await storage.getBrowsingHistory();
-      this.historyCount = history.length;
-
       this.settings = await storage.getSettings();
     } catch (error) {
       console.error('Failed to load user data:', error);
@@ -242,10 +236,9 @@ export struct Mine {
           .margin({ right: 8 })
       }
 
-      Image($r('app.media.ic_back'))
+      Image($r('app.media.ic_arrow_right'))
         .width(16)
         .height(16)
-        .rotate({ angle: 180 })
     }
     .width('100%')
     .padding(16)

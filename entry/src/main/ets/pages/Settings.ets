@@ -69,7 +69,7 @@ struct Settings {
     Column() {
       // 顶部导航
       Row() {
-        Image($r('app.media.ic_back'))
+        Image($r('app.media.ic_arrow_left'))
           .width(24)
           .height(24)
           .onClick(() => {
@@ -200,10 +200,9 @@ struct Settings {
 
       Blank()
 
-      Image($r('app.media.ic_back'))
+      Image($r('app.media.ic_arrow_right'))
         .width(16)
         .height(16)
-        .rotate({ angle: 180 })
     }
     .width('100%')
     .padding(16)

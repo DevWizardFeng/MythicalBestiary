@@ -117,10 +117,9 @@ export struct Encyclopedia {
 
                 Blank()
 
-                Image($r('app.media.ic_back'))
+                Image($r('app.media.ic_arrow_right'))
                   .width(20)
                   .height(20)
-                  .rotate({ angle: 180 })
               }
               .width('100%')
               .padding(16)
@@ -151,10 +150,9 @@ export struct Encyclopedia {
 
                 Blank()
 
-                Image($r('app.media.ic_back'))
+                Image($r('app.media.ic_arrow_right'))
                   .width(20)
                   .height(20)
-                  .rotate({ angle: 180 })
               }
               .width('100%')
               .padding(16)
@@ -251,10 +249,9 @@ export struct Encyclopedia {
       .alignItems(HorizontalAlign.Start)
       .margin({ left: 12 })
 
-      Image($r('app.media.ic_back'))
+      Image($r('app.media.ic_arrow_right'))
         .width(16)
         .height(16)
-        .rotate({ angle: 180 })
     }
     .width('100%')
     .padding(12)

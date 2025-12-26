@@ -117,7 +117,7 @@ struct DeityDetail {
           .height(36)
           .fill('rgba(0,0,0,0.3)')
 
-        Image($r('app.media.ic_back'))
+        Image($r('app.media.ic_arrow_left'))
           .width(20)
           .height(20)
       }
