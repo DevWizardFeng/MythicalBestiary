@@ -1,0 +1,16 @@
+[
+  {
+    "id": "bg_culture_detail",
+    "name_cn": "文化体系详情背景",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/bg_culture_detail.png",
+    "tokens": 16384
+  },
+  {
+    "id": "bg_creature_detail",
+    "name_cn": "神兽详情背景",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/bg_creature_detail.png",
+    "tokens": 16384
+  }
+]
