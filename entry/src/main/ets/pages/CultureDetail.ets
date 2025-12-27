@@ -58,70 +58,79 @@ struct CultureDetail {
   }
 
   build() {
-    Column() {
-      // 顶部导航
-      Row() {
-        Image($r('app.media.ic_arrow_left'))
-          .width(24)
-          .height(24)
-          .onClick(() => {
-            router.back();
-          })
+    Stack() {
+      // 背景图片
+      Image($r('app.media.bg_culture_detail'))
+        .width('100%')
+        .height('100%')
+        .objectFit(ImageFit.Cover)
 
-        Text(this.culture?.nameCn || '文化详情')
-          .fontSize(18)
-          .fontWeight(FontWeight.Bold)
-          .fontColor(DarkTheme.textPrimary)
-          .margin({ left: 16 })
+      Column() {
+        // 顶部导航
+        Row() {
+          Image($r('app.media.ic_arrow_left'))
+            .width(24)
+            .height(24)
+            .onClick(() => {
+              router.back();
+            })
 
-        Blank()
-      }
-      .width('100%')
-      .padding({ left: 16, right: 16, top: 12, bottom: 12 })
+          Text(this.culture?.nameCn || '文化详情')
+            .fontSize(18)
+            .fontWeight(FontWeight.Bold)
+            .fontColor(DarkTheme.textPrimary)
+            .margin({ left: 16 })
 
-      if (this.isLoading) {
-        this.LoadingView()
-      } else if (this.culture) {
-        Scroll() {
-          Column({ space: 24 }) {
-            // 文化卡片
-            this.CultureCard()
-
-            // 文化介绍
-            this.DescriptionSection()
-
-            // 宇宙观
-            if (this.culture.cosmology) {
-              this.CosmologySection()
-            }
-
-            // 文化特色
-            if (this.culture.features && this.culture.features.length > 0) {
-              this.FeaturesSection()
-            }
-
-            // 该文化主神（优先展示）
-            if (this.deities.length > 0) {
-              this.DeitiesSection()
-            }
-
-            // 该文化神兽
-            if (this.creatures.length > 0) {
-              this.CreaturesSection()
-            }
-
-            Column()
-              .height(32)
-          }
+          Blank()
         }
         .width('100%')
-        .layoutWeight(1)
-        .scrollBar(BarState.Off)
+        .padding({ left: 16, right: 16, top: 12, bottom: 12 })
+
+        if (this.isLoading) {
+          this.LoadingView()
+        } else if (this.culture) {
+          Scroll() {
+            Column({ space: 24 }) {
+              // 文化卡片
+              this.CultureCard()
+
+              // 文化介绍
+              this.DescriptionSection()
+
+              // 宇宙观
+              if (this.culture.cosmology) {
+                this.CosmologySection()
+              }
+
+              // 文化特色
+              if (this.culture.features && this.culture.features.length > 0) {
+                this.FeaturesSection()
+              }
+
+              // 该文化主神（优先展示）
+              if (this.deities.length > 0) {
+                this.DeitiesSection()
+              }
+
+              // 该文化神兽
+              if (this.creatures.length > 0) {
+                this.CreaturesSection()
+              }
+
+              Column()
+                .height(32)
+            }
+          }
+          .width('100%')
+          .layoutWeight(1)
+          .scrollBar(BarState.Off)
+        }
       }
+      .width('100%')
+      .height('100%')
     }
     .width('100%')
     .height('100%')
-    .backgroundColor(DarkTheme.background)
   }
 
   @Builder

@@ -91,6 +91,12 @@ struct DeityDetail {
 
   build() {
     Stack({ alignContent: Alignment.Top }) {
+      // 背景图片
+      Image($r('app.media.bg_deity_detail'))
+        .width('100%')
+        .height('100%')
+        .objectFit(ImageFit.Cover)
+
       if (this.isLoading) {
         this.LoadingView()
       } else if (this.deity) {
@@ -128,7 +134,6 @@ struct DeityDetail {
     }
     .width('100%')
     .height('100%')
-    .backgroundColor(DarkTheme.background)
   }
 
   @Builder
@@ -271,7 +276,7 @@ struct DeityDetail {
         .lineHeight(22)
     }
     .width('100%')
-    .padding({ left: 16, right: 16 })
+    .padding({ left: 16, right: 16, top: 16 })
     .alignItems(HorizontalAlign.Start)
   }
 

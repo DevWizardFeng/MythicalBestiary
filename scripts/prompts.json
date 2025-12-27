@@ -1279,6 +1279,134 @@
       "type": "background",
       "attribute": "none",
       "prompt": "东方仙境山水背景，深蓝紫色天空渐变，远山层叠若隐若现，金色祥云缭绕飘渺，仙雾弥漫的空灵意境，无人物无生物，中国水墨画风格与奇幻艺术融合，底部云海翻涌，顶部星辰点缀，适合作为手机App背景，色调以深蓝紫为主配合金色光效，4K超高清，极致细节"
+    },
+
+    {
+      "id": "ic_rank_bronze",
+      "name_cn": "青铜段位",
+      "name_en": "Bronze Tier",
+      "culture": "icon",
+      "type": "icon",
+      "attribute": "none",
+      "prompt": "一枚精美的青铜段位徽章，中国古代风格的圆形铜质奖章，表面有精细的龙纹浮雕，边缘装饰着祥云图案，古朴的青铜色泽带有绿色锈迹纹理，中央是一条盘旋的小龙图腾，周围散发着微弱的青铜色光芒，深蓝色渐变背景，游戏UI图标风格，高度精细的3D渲染效果"
+    },
+    {
+      "id": "ic_rank_silver",
+      "name_cn": "白银段位",
+      "name_en": "Silver Tier",
+      "culture": "icon",
+      "type": "icon",
+      "attribute": "none",
+      "prompt": "一枚华丽的白银段位徽章，中国古典风格的银质奖章，表面有精致的凤凰浮雕纹样，边缘镶嵌着细小的珍珠装饰，闪耀的银白色光泽，中央是一只展翅的凤凰图腾，周围散发着银色月光般的柔和光芒，深蓝色渐变背景，游戏UI图标风格，高度精细的3D渲染效果"
+    },
+    {
+      "id": "ic_rank_gold",
+      "name_cn": "黄金段位",
+      "name_en": "Gold Tier",
+      "culture": "icon",
+      "type": "icon",
+      "attribute": "none",
+      "prompt": "一枚尊贵的黄金段位徽章，中华帝王风格的纯金奖章，表面有精美的麒麟浮雕，边缘装饰着金色火焰纹和祥云，璀璨夺目的金色光泽，中央是一只威严的麒麟图腾，周围散发着耀眼的金色神圣光芒，深蓝色渐变背景，游戏UI图标风格，高度精细的3D渲染效果"
+    },
+    {
+      "id": "ic_rank_platinum",
+      "name_cn": "铂金段位",
+      "name_en": "Platinum Tier",
+      "culture": "icon",
+      "type": "icon",
+      "attribute": "none",
+      "prompt": "一枚极致奢华的铂金段位徽章，仙界神器风格的铂金奖章，表面有流动的云气浮雕纹理，边缘镶嵌着闪烁的星辰宝石，纯净如镜的铂金色泽带有虹彩光效，中央是一条威武的应龙图腾，周围散发着神圣的白金光环和星光，深蓝色渐变背景，游戏UI图标风格，高度精细的3D渲染效果"
+    },
+    {
+      "id": "ic_rank_diamond",
+      "name_cn": "钻石段位",
+      "name_en": "Diamond Tier",
+      "culture": "icon",
+      "type": "icon",
+      "attribute": "none",
+      "prompt": "一枚至尊无上的钻石段位徽章，天界至宝风格的钻石奖章，整体由璀璨的蓝色钻石构成棱角分明的多面体设计，边缘环绕着闪电和星辰能量，晶莹剔透折射出彩虹光芒，中央是一只神圣的鲲鹏图腾凝聚着宇宙能量，周围散发着耀眼的钻石蓝色极光和星尘，深蓝色渐变背景，游戏UI图标风格，高度精细的3D渲染效果"
+    },
+
+    {
+      "id": "bg_culture_detail",
+      "name_cn": "文化体系详情背景",
+      "name_en": "Culture Detail Background",
+      "culture": "background",
+      "type": "background",
+      "attribute": "none",
+      "prompt": "文化体系详情页背景，深蓝紫色天空渐变至深邃靛蓝，远处是不同文明的标志性建筑剪影（希腊神殿、北欧符文石碑、中国古塔、埃及方尖碑等）若隐若现融入云雾中，金色星光点缀天空形成星图纹样，底部是淡淡的云海和古老的文字符号纹理，整体营造出跨越时空的文明交汇氛围，无人物无生物，色调深邃确保文字高对比度清晰可读，适合作为手机App详情页背景，4K超高清，极致细节"
+    },
+    {
+      "id": "bg_attribute_detail",
+      "name_cn": "元素属性详情背景",
+      "name_en": "Attribute Detail Background",
+      "culture": "background",
+      "type": "background",
+      "attribute": "none",
+      "prompt": "元素属性详情页背景，深蓝紫色渐变背景中心有抽象的元素能量流动效果，火焰的橙红、水流的蔚蓝、雷电的紫金、自然的翠绿等色彩以朦胧光晕形式在背景深处交织涌动，形成梦幻般的元素光谱，上方点缀金色星辰和能量粒子，底部是深邃的云雾，整体色调以深蓝紫为主确保文字高对比度，无人物无生物，神秘而富有元素魔法气息，适合作为手机App详情页背景，4K超高清，极致细节"
+    },
+    {
+      "id": "bg_creature_detail",
+      "name_cn": "神兽详情背景",
+      "name_en": "Creature Detail Background",
+      "culture": "background",
+      "type": "background",
+      "attribute": "none",
+      "prompt": "神兽详情页背景，深蓝紫色神秘夜空渐变，远山剪影层层叠叠营造空间纵深感，金色满月高悬云间散发柔和光晕，云层翻滚如龙蛇般缭绕，星辰闪烁点缀天际，底部是幽深的云海和隐约可见的古老山脉轮廓，整体营造出神兽栖息的神秘圣域氛围，无人物无神兽，色调深邃确保文字清晰可读，适合作为手机App详情页背景，4K超高清，极致细节"
+    },
+    {
+      "id": "bg_deity_detail",
+      "name_cn": "神祇详情背景",
+      "name_en": "Deity Detail Background",
+      "culture": "background",
+      "type": "background",
+      "attribute": "none",
+      "prompt": "神祇详情页背景，庄严肃穆的深蓝紫色天穹渐变至深邃靛蓝，天空中有神圣的金色光柱从云间倾泻而下，云层呈现出神殿般的庄重层次感，金色星辰排列成神秘的星座图案，远处隐约可见神圣山峰的轮廓，底部是发光的云海象征天界，整体营造出神圣威严的神域氛围，无人物无神祇，色调深邃确保文字高对比度，适合作为手机App详情页背景，4K超高清，极致细节"
+    },
+    {
+      "id": "bg_challenge_detail",
+      "name_cn": "挑战详情背景",
+      "name_en": "Challenge Detail Background",
+      "culture": "background",
+      "type": "background",
+      "attribute": "none",
+      "prompt": "挑战详情页背景，充满活力的深蓝紫色天空渐变背景，天空中有动感的金色能量波纹和光轨流动，象征挑战和竞技的星光粒子四散飞扬，云层呈现出旋转涌动的活力姿态，底部是深邃的云海中闪烁着竞技场光芒的暗示，远处有抽象的山峰剪影，整体营造出充满挑战精神的竞技氛围，无人物无生物，色调深邃确保答题文字清晰可读，适合作为手机App挑战页背景，4K超高清，极致细节"
+    },
+    {
+      "id": "bg_favorites",
+      "name_cn": "收藏页背景",
+      "name_en": "Favorites Background",
+      "culture": "background",
+      "type": "background",
+      "attribute": "none",
+      "prompt": "收藏页背景，温馨的深蓝紫色夜空渐变背景，天空中有柔和的金色星光形成收藏夹图案的星座连线，云层轻柔飘逸营造出珍藏宝物的温馨氛围，远处是朦胧的山峦轮廓，底部云海中隐约有古老藏宝阁的剪影，金色光点如萤火虫般点缀其间，整体营造出珍藏心爱之物的私密空间感，无人物无生物，色调深邃柔和确保收藏列表文字清晰可读，适合作为手机App收藏页背景，4K超高清，极致细节"
+    },
+    {
+      "id": "bg_history",
+      "name_cn": "历史记录背景",
+      "name_en": "History Background",
+      "culture": "background",
+      "type": "background",
+      "attribute": "none",
+      "prompt": "历史记录页背景，怀旧的深蓝紫色天空渐变背景，天空中有古老的金色时钟纹样和时间之轮的抽象图案若隐若现，云层呈现出时光流逝般的层叠效果，星辰排列成时间线的暗示，远处山峦轮廓古朴沧桑，底部云海中隐约可见古老卷轴的剪影，整体营造出回顾历史足迹的追忆氛围，无人物无生物，色调深邃确保历史记录文字清晰可读，适合作为手机App历史页背景，4K超高清，极致细节"
+    },
+    {
+      "id": "bg_achievements",
+      "name_cn": "成就页背景",
+      "name_en": "Achievements Background",
+      "culture": "background",
+      "type": "background",
+      "attribute": "none",
+      "prompt": "成就页背景，荣耀的深蓝紫色天空渐变至辉煌的金紫色，天空中有璀璨的金色光芒和奖杯轮廓的星座图案，云层呈现出胜利般的壮丽姿态，金色光柱从云间射下，底部云海翻涌中有荣耀殿堂的剪影，勋章和奖章形状的星光点缀其间，整体营造出成就达成的荣耀氛围和激励感，无人物无生物，色调华丽但确保成就列表文字高对比度清晰可读，适合作为手机App成就页背景，4K超高清，极致细节"
+    },
+    {
+      "id": "bg_topic_detail",
+      "name_cn": "专题详情背景",
+      "name_en": "Topic Detail Background",
+      "culture": "background",
+      "type": "background",
+      "attribute": "none",
+      "prompt": "专题详情页背景，知识殿堂风格的深蓝紫色背景渐变，天空中有古老典籍翻开的抽象图案和知识之光的金色光晕，云层呈现出书页般的层叠质感，星辰排列成文字和符号的暗示，远处是智慧图书馆般的建筑剪影，底部云海中浮现古老卷轴和羊皮纸的纹理，整体营造出探索神话知识的学术氛围，无人物无生物，色调深邃确保专题内容文字高度清晰可读，适合作为手机App专题页背景，4K超高清，极致细节"
     }
   ]
 }

@@ -55,53 +55,62 @@ struct Favorites {
   }
 
   build() {
-    Column() {
-      // 顶部导航
-      Row() {
-        Image($r('app.media.ic_arrow_left'))
-          .width(24)
-          .height(24)
-          .onClick(() => {
-            router.back();
-          })
+    Stack() {
+      // 背景图片
+      Image($r('app.media.bg_favorites'))
+        .width('100%')
+        .height('100%')
+        .objectFit(ImageFit.Cover)
 
-        Text('我的收藏')
-          .fontSize(18)
-          .fontWeight(FontWeight.Bold)
-          .fontColor(DarkTheme.textPrimary)
-          .margin({ left: 16 })
+      Column() {
+        // 顶部导航
+        Row() {
+          Image($r('app.media.ic_arrow_left'))
+            .width(24)
+            .height(24)
+            .onClick(() => {
+              router.back();
+            })
 
-        Blank()
+          Text('我的收藏')
+            .fontSize(18)
+            .fontWeight(FontWeight.Bold)
+            .fontColor(DarkTheme.textPrimary)
+            .margin({ left: 16 })
 
-        Text(`${this.getTotalCount()}项`)
-          .fontSize(14)
-          .fontColor(DarkTheme.textSecondary)
-      }
-      .width('100%')
-      .padding({ left: 16, right: 16, top: 12, bottom: 12 })
+          Blank()
 
-      // Tab切换
-      Row({ space: 0 }) {
-        this.TabItem('神兽', 'creature')
-        this.TabItem('神祇', 'deity')
-      }
-      .width('100%')
-      .height(44)
-      .backgroundColor(DarkTheme.backgroundCard)
+          Text(`${this.getTotalCount()}项`)
+            .fontSize(14)
+            .fontColor(DarkTheme.textSecondary)
+        }
+        .width('100%')
+        .padding({ left: 16, right: 16, top: 12, bottom: 12 })
 
-      if (this.isLoading) {
-        this.LoadingView()
-      } else {
-        if (this.currentTab === 'creature') {
-          this.CreatureContent()
+        // Tab切换
+        Row({ space: 0 }) {
+          this.TabItem('神兽', 'creature')
+          this.TabItem('神祇', 'deity')
+        }
+        .width('100%')
+        .height(44)
+        .backgroundColor(DarkTheme.backgroundCard)
+
+        if (this.isLoading) {
+          this.LoadingView()
         } else {
-          this.DeityContent()
+          if (this.currentTab === 'creature') {
+            this.CreatureContent()
+          } else {
+            this.DeityContent()
+          }
         }
       }
+      .width('100%')
+      .height('100%')
     }
     .width('100%')
     .height('100%')
-    .backgroundColor(DarkTheme.background)
   }
 
   @Builder

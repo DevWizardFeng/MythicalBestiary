@@ -1,10 +1,11 @@
 /**
  * 神话志 - 主入口页面
- * 底部Tabs导航：首页 | 图鉴 | 百科 | 我的
+ * 底部Tabs导航：首页 | 挑战 | 图鉴 | 百科 | 我的
  */
 
 import { DarkTheme } from '../common/Theme';
 import { Home } from './Home';
+import { ChallengeTab } from '../components/ChallengeTab';
 import { GuideTab } from '../components/GuideTab';
 import { Encyclopedia } from './Encyclopedia';
 import { Mine } from './Mine';
@@ -21,11 +22,20 @@ interface TabConfig {
 @Component
 struct Index {
   @State currentIndex: number = 0;
-  @State tabScales: number[] = [1, 1, 1, 1];
+  @State tabScales: number[] = [1, 1, 1, 1, 1];
+  @State challengeRefreshKey: number = 0;
 
   aboutToAppear() {
     // 应用启动时初始化存储，确保全局状态被初始化
     this.initStorage();
+  }
+
+  onPageShow() {
+    // 页面显示时刷新当前Tab数据（从其他页面返回时触发）
+    if (this.currentIndex === 1) {
+      // 当前在挑战Tab，刷新数据
+      this.challengeRefreshKey++;
+    }
   }
 
   async initStorage() {
@@ -42,6 +52,11 @@ struct Index {
       icon: $r('app.media.ic_tab_home'),
       iconSelected: $r('app.media.ic_tab_home_selected'),
       label: '首页'
+    },
+    {
+      icon: $r('app.media.ic_tab_challenge'),
+      iconSelected: $r('app.media.ic_tab_challenge_selected'),
+      label: '挑战'
     },
     {
       icon: $r('app.media.ic_tab_guide'),
@@ -114,19 +129,24 @@ struct Index {
           .tabBar(this.TabBuilder(0))
 
           TabContent() {
-            GuideTab()
+            ChallengeTab({ refreshKey: this.challengeRefreshKey })
           }
           .tabBar(this.TabBuilder(1))
 
           TabContent() {
-            Encyclopedia()
+            GuideTab()
           }
           .tabBar(this.TabBuilder(2))
 
           TabContent() {
-            Mine()
+            Encyclopedia()
           }
           .tabBar(this.TabBuilder(3))
+
+          TabContent() {
+            Mine()
+          }
+          .tabBar(this.TabBuilder(4))
         }
         .width('100%')
         .height('100%')
@@ -135,6 +155,10 @@ struct Index {
         .onChange((index: number) => {
           this.animateTabBounce(index);
           this.currentIndex = index;
+          // 切换到挑战Tab时刷新数据
+          if (index === 1) {
+            this.challengeRefreshKey++;
+          }
         })
         .scrollable(false)
         .animationDuration(0)

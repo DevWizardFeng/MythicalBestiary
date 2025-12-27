@@ -15,6 +15,9 @@
     "pages/AttributeTest",
     "pages/DeityTest",
     "pages/TopicList",
-    "pages/TopicDetail"
+    "pages/TopicDetail",
+    "pages/QuizGame",
+    "pages/QuizResult",
+    "pages/Achievements"
   ]
 }

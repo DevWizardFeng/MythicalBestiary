@@ -115,146 +115,155 @@ struct TopicDetail {
   }
 
   build() {
-    Column() {
-      if (this.isLoading) {
-        this.LoadingView()
-      } else if (this.topic) {
-        Scroll() {
-          Column() {
-            // 封面图
-            Stack({ alignContent: Alignment.TopStart }) {
-              Image($r(`app.media.${this.topic.cover}`))
-                .width('100%')
-                .height(240)
-                .objectFit(ImageFit.Cover)
-
-              // 渐变遮罩
-              Column()
-                .width('100%')
-                .height('100%')
-                .linearGradient({
-                  direction: GradientDirection.Top,
-                  colors: [[DarkTheme.background, 0], ['rgba(18,18,18,0.3)', 0.5], ['rgba(18,18,18,0)', 1]]
-                })
-
-              // 返回按钮
-              Stack() {
-                Circle()
-                  .width(36)
-                  .height(36)
-                  .fill('rgba(0,0,0,0.3)')
-
-                Image($r('app.media.ic_arrow_left'))
-                  .width(20)
-                  .height(20)
-              }
-              .margin({ left: 16, top: 48 })
-              .onClick(() => {
-                router.back();
-              })
-            }
-            .width('100%')
-            .height(240)
-
-            // 标题区域
-            Column({ space: 12 }) {
-              Text(this.topic.category)
-                .fontSize(12)
-                .fontColor(DarkTheme.accent)
-                .backgroundColor(DarkTheme.accent + '22')
-                .padding({ left: 8, right: 8, top: 4, bottom: 4 })
-                .borderRadius(8)
-
-              Text(this.topic.title)
-                .fontSize(24)
-                .fontWeight(FontWeight.Bold)
-                .fontColor(DarkTheme.textPrimary)
-
-              Text(this.topic.subtitle)
-                .fontSize(14)
-                .fontColor(DarkTheme.textSecondary)
-
-              Row({ space: 16 }) {
-                Text(this.topic.author)
-                  .fontSize(12)
-                  .fontColor(DarkTheme.textTertiary)
-
-                Text(this.topic.publishDate)
-                  .fontSize(12)
-                  .fontColor(DarkTheme.textTertiary)
-              }
-            }
-            .width('100%')
-            .padding(16)
-            .alignItems(HorizontalAlign.Start)
-
-            // 正文内容
-            Column({ space: 16 }) {
-              ForEach(this.topic.content, (paragraph: string) => {
-                Text(paragraph)
-                  .fontSize(15)
-                  .fontColor(DarkTheme.textSecondary)
-                  .lineHeight(26)
-              })
-            }
-            .width('100%')
-            .padding({ left: 16, right: 16 })
-            .alignItems(HorizontalAlign.Start)
-
-            // 相关神兽
-            if (this.relatedCreatures.length > 0) {
-              Column({ space: 12 }) {
-                Text('相关神兽')
-                  .fontSize(16)
-                  .fontWeight(FontWeight.Bold)
-                  .fontColor(DarkTheme.textPrimary)
-                  .padding({ left: 16 })
-
-                Scroll() {
-                  Row({ space: 12 }) {
-                    ForEach(this.relatedCreatures, (creature: MythicalCreature) => {
-                      Column() {
-                        Image($r(`app.media.${creature.image}`))
-                          .width(100)
-                          .height(100)
-                          .objectFit(ImageFit.Cover)
-                          .borderRadius(8)
-
-                        Text(creature.name.cn)
-                          .fontSize(12)
-                          .fontColor(DarkTheme.textPrimary)
-                          .margin({ top: 6 })
-                      }
-                      .onClick(() => {
-                        router.pushUrl({
-                          url: 'pages/CreatureDetail',
-                          params: { creatureId: creature.id }
-                        });
-                      })
-                    })
-                  }
-                  .padding({ left: 16, right: 16 })
-                }
-                .scrollable(ScrollDirection.Horizontal)
-                .scrollBar(BarState.Off)
-              }
-              .width('100%')
-              .margin({ top: 24 })
-              .alignItems(HorizontalAlign.Start)
-            }
-
-            Column()
-              .height(32)
-          }
-        }
+    Stack() {
+      // 背景图片
+      Image($r('app.media.bg_topic_detail'))
         .width('100%')
         .height('100%')
-        .scrollBar(BarState.Off)
+        .objectFit(ImageFit.Cover)
+
+      Column() {
+        if (this.isLoading) {
+          this.LoadingView()
+        } else if (this.topic) {
+          Scroll() {
+            Column() {
+              // 封面图
+              Stack({ alignContent: Alignment.TopStart }) {
+                Image($r(`app.media.${this.topic.cover}`))
+                  .width('100%')
+                  .height(240)
+                  .objectFit(ImageFit.Cover)
+
+                // 渐变遮罩
+                Column()
+                  .width('100%')
+                  .height('100%')
+                  .linearGradient({
+                    direction: GradientDirection.Top,
+                    colors: [['rgba(18,18,18,0)', 1], ['rgba(18,18,18,0.3)', 0.5], ['rgba(18,18,18,0)', 0]]
+                  })
+
+                // 返回按钮
+                Stack() {
+                  Circle()
+                    .width(36)
+                    .height(36)
+                    .fill('rgba(0,0,0,0.3)')
+
+                  Image($r('app.media.ic_arrow_left'))
+                    .width(20)
+                    .height(20)
+                }
+                .margin({ left: 16, top: 48 })
+                .onClick(() => {
+                  router.back();
+                })
+              }
+              .width('100%')
+              .height(240)
+
+              // 标题区域
+              Column({ space: 12 }) {
+                Text(this.topic.category)
+                  .fontSize(12)
+                  .fontColor(DarkTheme.accent)
+                  .backgroundColor(DarkTheme.accent + '22')
+                  .padding({ left: 8, right: 8, top: 4, bottom: 4 })
+                  .borderRadius(8)
+
+                Text(this.topic.title)
+                  .fontSize(24)
+                  .fontWeight(FontWeight.Bold)
+                  .fontColor(DarkTheme.textPrimary)
+
+                Text(this.topic.subtitle)
+                  .fontSize(14)
+                  .fontColor(DarkTheme.textSecondary)
+
+                Row({ space: 16 }) {
+                  Text(this.topic.author)
+                    .fontSize(12)
+                    .fontColor(DarkTheme.textTertiary)
+
+                  Text(this.topic.publishDate)
+                    .fontSize(12)
+                    .fontColor(DarkTheme.textTertiary)
+                }
+              }
+              .width('100%')
+              .padding(16)
+              .alignItems(HorizontalAlign.Start)
+
+              // 正文内容
+              Column({ space: 16 }) {
+                ForEach(this.topic.content, (paragraph: string) => {
+                  Text(paragraph)
+                    .fontSize(15)
+                    .fontColor(DarkTheme.textSecondary)
+                    .lineHeight(26)
+                })
+              }
+              .width('100%')
+              .padding({ left: 16, right: 16 })
+              .alignItems(HorizontalAlign.Start)
+
+              // 相关神兽
+              if (this.relatedCreatures.length > 0) {
+                Column({ space: 12 }) {
+                  Text('相关神兽')
+                    .fontSize(16)
+                    .fontWeight(FontWeight.Bold)
+                    .fontColor(DarkTheme.textPrimary)
+                    .padding({ left: 16 })
+
+                  Scroll() {
+                    Row({ space: 12 }) {
+                      ForEach(this.relatedCreatures, (creature: MythicalCreature) => {
+                        Column() {
+                          Image($r(`app.media.${creature.image}`))
+                            .width(100)
+                            .height(100)
+                            .objectFit(ImageFit.Cover)
+                            .borderRadius(8)
+
+                          Text(creature.name.cn)
+                            .fontSize(12)
+                            .fontColor(DarkTheme.textPrimary)
+                            .margin({ top: 6 })
+                        }
+                        .onClick(() => {
+                          router.pushUrl({
+                            url: 'pages/CreatureDetail',
+                            params: { creatureId: creature.id }
+                          });
+                        })
+                      })
+                    }
+                    .padding({ left: 16, right: 16 })
+                  }
+                  .scrollable(ScrollDirection.Horizontal)
+                  .scrollBar(BarState.Off)
+                }
+                .width('100%')
+                .margin({ top: 24 })
+                .alignItems(HorizontalAlign.Start)
+              }
+
+              Column()
+                .height(32)
+            }
+          }
+          .width('100%')
+          .height('100%')
+          .scrollBar(BarState.Off)
+        }
       }
+      .width('100%')
+      .height('100%')
     }
     .width('100%')
     .height('100%')
-    .backgroundColor(DarkTheme.background)
   }
 
   @Builder

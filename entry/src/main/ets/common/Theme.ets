@@ -47,8 +47,8 @@ export const DarkTheme: ThemeColors = {
   backgroundCard: '#252550',
 
   textPrimary: '#ffffff',
-  textSecondary: '#b0b0c0',
-  textTertiary: '#8080a0',
+  textSecondary: '#d0d0e0',
+  textTertiary: '#a0a0b8',
 
   accent: '#ffd700',
   accentSecondary: '#9d4edd',

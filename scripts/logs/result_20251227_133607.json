@@ -1,0 +1,65 @@
+[
+  {
+    "id": "bg_culture_detail",
+    "name_cn": "文化体系详情背景",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/bg_culture_detail.png",
+    "tokens": 16384
+  },
+  {
+    "id": "bg_attribute_detail",
+    "name_cn": "元素属性详情背景",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/bg_attribute_detail.png",
+    "tokens": 16384
+  },
+  {
+    "id": "bg_creature_detail",
+    "name_cn": "神兽详情背景",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/bg_creature_detail.png",
+    "tokens": 16384
+  },
+  {
+    "id": "bg_deity_detail",
+    "name_cn": "神祇详情背景",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/bg_deity_detail.png",
+    "tokens": 16384
+  },
+  {
+    "id": "bg_challenge_detail",
+    "name_cn": "挑战详情背景",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/bg_challenge_detail.png",
+    "tokens": 16384
+  },
+  {
+    "id": "bg_favorites",
+    "name_cn": "收藏页背景",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/bg_favorites.png",
+    "tokens": 16384
+  },
+  {
+    "id": "bg_history",
+    "name_cn": "历史记录背景",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/bg_history.png",
+    "tokens": 16384
+  },
+  {
+    "id": "bg_achievements",
+    "name_cn": "成就页背景",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/bg_achievements.png",
+    "tokens": 16384
+  },
+  {
+    "id": "bg_topic_detail",
+    "name_cn": "专题详情背景",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/bg_topic_detail.png",
+    "tokens": 16384
+  }
+]

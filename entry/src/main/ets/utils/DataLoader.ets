@@ -8,6 +8,26 @@ import { Ability } from '../model/Ability';
 import { Attribute } from '../model/Attribute';
 import { CultureSystem } from '../model/CultureSystem';
 import { Deity } from '../model/Deity';
+import { QuizQuestion, QuestionCategory, DifficultyLevel, pickRandom, shuffleArray } from '../model/Quiz';
+
+/**
+ * 题库数据文件接口
+ */
+interface QuizDataFile {
+  questions: QuizQuestion[];
+}
+
+/**
+ * 题目分类统计接口
+ */
+export interface CategoryQuestionCount {
+  creature: number;
+  deity: number;
+  culture: number;
+  attribute: number;
+  ability: number;
+  mixed: number;
+}
 
 /**
  * 数据加载器类
@@ -19,7 +39,9 @@ export class DataLoader {
   private attributes: Attribute[] = [];
   private cultures: CultureSystem[] = [];
   private deities: Deity[] = [];
+  private quizQuestions: QuizQuestion[] = [];
   private isLoaded: boolean = false;
+  private isQuizLoaded: boolean = false;
   private context: Context | null = null;
 
   private constructor() {}
@@ -361,6 +383,142 @@ export class DataLoader {
       d.domain.some(domain => domain.toLowerCase().includes(lowerKeyword)) ||
       d.tags.some(tag => tag.toLowerCase().includes(lowerKeyword))
     );
+  }
+
+  // ==================== 题库相关 ====================
+
+  /**
+   * 加载题库数据
+   */
+  async loadQuizData(): Promise<void> {
+    if (this.isQuizLoaded) {
+      return;
+    }
+
+    if (!this.context) {
+      try {
+        this.context = getContext();
+      } catch (e) {
+        console.warn('DataLoader: 无法获取context');
+        return;
+      }
+    }
+
+    try {
+      const quizData = await this.loadRawFile('data/quiz.json');
+      if (quizData) {
+        const parsed: QuizDataFile = JSON.parse(quizData) as QuizDataFile;
+        this.quizQuestions = parsed.questions as QuizQuestion[];
+        this.isQuizLoaded = true;
+        console.info(`DataLoader: 题库加载完成，共${this.quizQuestions.length}道题`);
+      }
+    } catch (error) {
+      console.error('DataLoader: 题库加载失败', error);
+    }
+  }
+
+  /**
+   * 获取所有题目
+   */
+  getAllQuestions(): QuizQuestion[] {
+    return this.quizQuestions;
+  }
+
+  /**
+   * 根据分类获取题目
+   */
+  getQuestionsByCategory(category: QuestionCategory): QuizQuestion[] {
+    return this.quizQuestions.filter(q => q.category === category);
+  }
+
+  /**
+   * 根据难度获取题目
+   */
+  getQuestionsByDifficulty(difficulty: DifficultyLevel): QuizQuestion[] {
+    return this.quizQuestions.filter(q => q.difficulty === difficulty);
+  }
+
+  /**
+   * 获取随机题目列表
+   */
+  getRandomQuestions(count: number, category?: QuestionCategory, difficulty?: DifficultyLevel): QuizQuestion[] {
+    let filtered = this.quizQuestions;
+
+    if (category && category !== 'mixed') {
+      filtered = filtered.filter(q => q.category === category);
+    }
+
+    if (difficulty) {
+      filtered = filtered.filter(q => q.difficulty === difficulty);
+    }
+
+    return pickRandom(filtered, count);
+  }
+
+  /**
+   * 获取混合难度的题目列表（按比例分配难度）
+   */
+  getMixedDifficultyQuestions(count: number, category?: QuestionCategory): QuizQuestion[] {
+    // 难度分配比例：简单30%、中等50%、困难20%
+    const easyCount = Math.floor(count * 0.3);
+    const mediumCount = Math.floor(count * 0.5);
+    const hardCount = count - easyCount - mediumCount;
+
+    let filtered = this.quizQuestions;
+    if (category && category !== 'mixed') {
+      filtered = filtered.filter(q => q.category === category);
+    }
+
+    const easyQuestions = pickRandom(filtered.filter(q => q.difficulty === 'easy'), easyCount);
+    const mediumQuestions = pickRandom(filtered.filter(q => q.difficulty === 'medium'), mediumCount);
+    const hardQuestions = pickRandom(filtered.filter(q => q.difficulty === 'hard'), hardCount);
+
+    // 合并并打乱顺序
+    const combined: QuizQuestion[] = [];
+    for (const q of easyQuestions) combined.push(q);
+    for (const q of mediumQuestions) combined.push(q);
+    for (const q of hardQuestions) combined.push(q);
+
+    return shuffleArray(combined);
+  }
+
+  /**
+   * 题库是否已加载
+   */
+  isQuizDataLoaded(): boolean {
+    return this.isQuizLoaded;
+  }
+
+  /**
+   * 获取题目总数
+   */
+  getQuestionCount(): number {
+    return this.quizQuestions.length;
+  }
+
+  /**
+   * 获取各分类题目数量
+   */
+  getQuestionCountByCategory(): CategoryQuestionCount {
+    const counts: CategoryQuestionCount = {
+      creature: 0,
+      deity: 0,
+      culture: 0,
+      attribute: 0,
+      ability: 0,
+      mixed: 0
+    } as CategoryQuestionCount;
+
+    for (const q of this.quizQuestions) {
+      if (q.category === 'creature') counts.creature++;
+      else if (q.category === 'deity') counts.deity++;
+      else if (q.category === 'culture') counts.culture++;
+      else if (q.category === 'attribute') counts.attribute++;
+      else if (q.category === 'ability') counts.ability++;
+      else counts.mixed++;
+    }
+
+    return counts;
   }
 }
 

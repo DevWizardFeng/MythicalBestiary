@@ -16,6 +16,27 @@ import {
   EntryType,
   normalizeHistoryItem
 } from '../model/UserData';
+import {
+  ChallengeStats,
+  QuizResult,
+  createEmptyChallengeStats,
+  getTierByScore,
+  UserAchievement
+} from '../model/Quiz';
+import {
+  LeaderboardData,
+  LeaderboardType,
+  checkNewAchievements,
+  PredefinedAchievements
+} from '../model/Leaderboard';
+
+/**
+ * 挑战结果更新返回值接口
+ */
+export interface ChallengeUpdateResult {
+  newAchievements: string[];
+  tierUp: boolean;
+}
 
 /**
  * 存储管理器类
@@ -45,10 +66,27 @@ export class StorageManager {
   }
 
   /**
+   * 确保context已初始化
+   */
+  private ensureContext(): void {
+    if (!this.context) {
+      try {
+        this.context = getContext();
+      } catch (e) {
+        console.error('StorageManager: 获取context失败');
+      }
+    }
+  }
+
+  /**
    * 获取Preferences实例
    */
   private async getPreferences(name: string): Promise<preferences.Preferences | null> {
+    // 确保context已初始化
+    this.ensureContext();
+
     if (!this.context) {
+      console.error('StorageManager: context未初始化');
       return null;
     }
 
@@ -446,6 +484,193 @@ export class StorageManager {
     settings.cacheEnabled = value;
     await this.saveSettings(settings);
   }
+
+  // ==================== 挑战系统相关 ====================
+
+  /**
+   * 获取挑战统计数据
+   */
+  async getChallengeStats(): Promise<ChallengeStats> {
+    const pref = await this.getPreferences('challenge_data');
+    if (!pref) {
+      return createEmptyChallengeStats();
+    }
+
+    try {
+      const data = await pref.get(StorageKeys.CHALLENGE_STATS, '');
+      if (data && typeof data === 'string' && data.length > 0) {
+        return JSON.parse(data) as ChallengeStats;
+      }
+    } catch (error) {
+      console.error('StorageManager: 获取挑战统计失败', error);
+    }
+
+    return createEmptyChallengeStats();
+  }
+
+  /**
+   * 保存挑战统计数据
+   */
+  async saveChallengeStats(stats: ChallengeStats): Promise<void> {
+    const pref = await this.getPreferences('challenge_data');
+    if (!pref) {
+      return;
+    }
+
+    try {
+      await pref.put(StorageKeys.CHALLENGE_STATS, JSON.stringify(stats));
+      await pref.flush();
+      // 更新全局版本号，触发UI刷新
+      this.incrementChallengeStatsVersion();
+    } catch (error) {
+      console.error('StorageManager: 保存挑战统计失败', error);
+    }
+  }
+
+  /**
+   * 递增挑战统计版本号（触发UI刷新）
+   */
+  private incrementChallengeStatsVersion(): void {
+    const currentVersion = AppStorage.get<number>(GlobalStateKeys.CHALLENGE_STATS_VERSION) || 0;
+    AppStorage.setOrCreate(GlobalStateKeys.CHALLENGE_STATS_VERSION, currentVersion + 1);
+  }
+
+  /**
+   * 更新挑战统计（游戏结束后调用）
+   */
+  async updateChallengeStats(result: QuizResult): Promise<ChallengeUpdateResult> {
+    const stats = await this.getChallengeStats();
+    const oldTier = stats.currentTier;
+
+    // 更新统计数据
+    stats.totalGamesPlayed += 1;
+    stats.totalScore += result.totalScore;
+    stats.totalCorrectAnswers += result.correctAnswers;
+    stats.totalQuestions += result.totalQuestions;
+    stats.lastPlayedAt = Date.now();
+
+    // 更新最高分
+    if (result.totalScore > stats.highestScore) {
+      stats.highestScore = result.totalScore;
+    }
+
+    // 更新最大连击
+    if (result.maxCombo > stats.maxCombo) {
+      stats.maxCombo = result.maxCombo;
+    }
+
+    // 更新段位
+    const newTierInfo = getTierByScore(stats.totalScore);
+    stats.currentTier = newTierInfo.type;
+    const tierUp = stats.currentTier !== oldTier;
+
+    // 更新分类统计
+    if (result.category) {
+      const catStats = stats.categoryStats.find(cs => cs.category === result.category);
+      if (catStats) {
+        catStats.totalQuestions += result.totalQuestions;
+        catStats.correctAnswers += result.correctAnswers;
+      } else {
+        stats.categoryStats.push({
+          category: result.category,
+          totalQuestions: result.totalQuestions,
+          correctAnswers: result.correctAnswers
+        });
+      }
+    }
+
+    // 检查新成就
+    const correctRate = result.totalQuestions > 0 ? (result.correctAnswers / result.totalQuestions) * 100 : 0;
+    const newlyUnlocked = checkNewAchievements(stats, result.maxCombo, correctRate);
+    const newAchievementIds: string[] = [];
+
+    for (const achievement of newlyUnlocked) {
+      // 添加到已解锁成就列表
+      const existingIndex = stats.achievements.findIndex(a => a.achievementId === achievement.id);
+      if (existingIndex >= 0) {
+        stats.achievements[existingIndex].unlocked = true;
+        stats.achievements[existingIndex].unlockedAt = Date.now();
+      } else {
+        stats.achievements.push({
+          achievementId: achievement.id,
+          unlocked: true,
+          unlockedAt: Date.now()
+        });
+      }
+      // 成就奖励积分
+      stats.totalScore += achievement.rewardPoints;
+      newAchievementIds.push(achievement.id);
+    }
+
+    // 保存更新后的统计
+    await this.saveChallengeStats(stats);
+
+    const updateResult: ChallengeUpdateResult = {
+      newAchievements: newAchievementIds,
+      tierUp: tierUp
+    } as ChallengeUpdateResult;
+    return updateResult;
+  }
+
+  /**
+   * 获取排行榜数据
+   */
+  async getLeaderboard(type: LeaderboardType): Promise<LeaderboardData | null> {
+    const pref = await this.getPreferences('challenge_data');
+    if (!pref) {
+      return null;
+    }
+
+    try {
+      let key: string;
+      switch (type) {
+        case 'daily':
+          key = StorageKeys.LEADERBOARD_DAILY;
+          break;
+        case 'weekly':
+          key = StorageKeys.LEADERBOARD_WEEKLY;
+          break;
+        default:
+          key = StorageKeys.LEADERBOARD_ALLTIME;
+      }
+      const data = await pref.get(key, '');
+      if (data && typeof data === 'string' && data.length > 0) {
+        return JSON.parse(data) as LeaderboardData;
+      }
+    } catch (error) {
+      console.error('StorageManager: 获取排行榜失败', error);
+    }
+
+    return null;
+  }
+
+  /**
+   * 保存排行榜数据
+   */
+  async saveLeaderboard(data: LeaderboardData): Promise<void> {
+    const pref = await this.getPreferences('challenge_data');
+    if (!pref) {
+      return;
+    }
+
+    try {
+      let key: string;
+      switch (data.type) {
+        case 'daily':
+          key = StorageKeys.LEADERBOARD_DAILY;
+          break;
+        case 'weekly':
+          key = StorageKeys.LEADERBOARD_WEEKLY;
+          break;
+        default:
+          key = StorageKeys.LEADERBOARD_ALLTIME;
+      }
+      await pref.put(key, JSON.stringify(data));
+      await pref.flush();
+    } catch (error) {
+      console.error('StorageManager: 保存排行榜失败', error);
+    }
+  }
 }
 
 /**
@@ -489,7 +714,7 @@ export class StorageUtil {
   }
 
   /**
-   * 初始化全局状态（收藏数、浏览数）
+   * 初始化全局状态（收藏数、浏览数、挑战统计版本）
    */
   private async initGlobalState(): Promise<void> {
     try {
@@ -499,10 +724,14 @@ export class StorageUtil {
 
       const history = await this.manager.getHistory();
       AppStorage.setOrCreate(GlobalStateKeys.HISTORY_COUNT, history.items.length);
+
+      // 初始化挑战统计版本号
+      AppStorage.setOrCreate(GlobalStateKeys.CHALLENGE_STATS_VERSION, 0);
     } catch (e) {
       console.warn('StorageUtil: 初始化全局状态失败');
       AppStorage.setOrCreate(GlobalStateKeys.FAVORITE_COUNT, 0);
       AppStorage.setOrCreate(GlobalStateKeys.HISTORY_COUNT, 0);
+      AppStorage.setOrCreate(GlobalStateKeys.CHALLENGE_STATS_VERSION, 0);
     }
   }
 

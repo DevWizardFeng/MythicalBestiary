@@ -1,0 +1,5693 @@
+{
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "q_creature_001",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "以下哪种神兽被称为'百鸟之王'?",
+      "options": ["凤凰", "朱雀", "鲲鹏", "毕方"],
+      "correctIndex": 0,
+      "explanation": "凤凰是中国神话中的神鸟，被称为百鸟之王，象征吉祥与重生。"
+    },
+    {
+      "id": "q_creature_002",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "中国四大神兽中，代表东方的是哪一个?",
+      "options": ["白虎", "朱雀", "青龙", "玄武"],
+      "correctIndex": 2,
+      "explanation": "青龙代表东方，白虎代表西方，朱雀代表南方，玄武代表北方。"
+    },
+    {
+      "id": "q_creature_003",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "希腊神话中，看守地狱入口的三头犬叫什么?",
+      "options": ["芬里尔", "刻耳柏洛斯", "阿努比斯", "斯芬克斯"],
+      "correctIndex": 1,
+      "explanation": "刻耳柏洛斯(Cerberus)是希腊神话中守护冥界入口的三头犬。"
+    },
+    {
+      "id": "q_creature_004",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "北欧神话中，缠绕世界树的巨蛇叫什么?",
+      "options": ["芬里尔", "耶梦加得", "尼德霍格", "法夫尼尔"],
+      "correctIndex": 1,
+      "explanation": "耶梦加得是洛基之子，一条巨大的海蛇，缠绕整个中庭世界。"
+    },
+    {
+      "id": "q_creature_005",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "以下哪种神兽能够'睁眼为昼，闭眼为夜'?",
+      "options": ["应龙", "烛龙", "螣蛇", "白泽"],
+      "correctIndex": 1,
+      "explanation": "烛龙是中国上古神兽，人面龙身，其睁眼为昼，闭眼为夜。"
+    },
+    {
+      "id": "q_creature_006",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "埃及神话中，人身狮身的怪物叫什么?",
+      "options": ["阿努比斯", "荷鲁斯", "斯芬克斯", "塞特"],
+      "correctIndex": 2,
+      "explanation": "斯芬克斯是埃及神话中人面狮身的神秘生物，会向路人出谜语。"
+    },
+    {
+      "id": "q_creature_007",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "日本神话中的九尾狐最初来自哪个国家?",
+      "options": ["日本", "中国", "印度", "韩国"],
+      "correctIndex": 1,
+      "explanation": "九尾狐的传说最初源于中国的《山海经》，后传入日本成为妖狐信仰。"
+    },
+    {
+      "id": "q_creature_008",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "以下哪种神兽是'有翼的龙'，曾助大禹治水?",
+      "options": ["烛龙", "应龙", "螣蛇", "相柳"],
+      "correctIndex": 1,
+      "explanation": "应龙是有翅膀的龙，传说曾助黄帝战蚩尤、助大禹治水。"
+    },
+    {
+      "id": "q_creature_009",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "希腊神话中，美杜莎属于哪类生物?",
+      "options": ["塞壬", "戈耳工", "哈尔庇亚", "厄里倪厄斯"],
+      "correctIndex": 1,
+      "explanation": "美杜莎是三位戈耳工姐妹中唯一会死的，头发是蛇，看她会变成石头。"
+    },
+    {
+      "id": "q_creature_010",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "麒麟在中国神话中象征什么?",
+      "options": ["战争", "祥瑞", "死亡", "复仇"],
+      "correctIndex": 1,
+      "explanation": "麒麟是中国传统瑞兽，象征祥瑞、太平和吉祥。"
+    },
+    {
+      "id": "q_creature_011",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "希腊神话中的独眼巨人叫什么?",
+      "options": ["泰坦", "库克洛普斯", "百臂巨人", "基迦斯"],
+      "correctIndex": 1,
+      "explanation": "库克洛普斯(Cyclops)是希腊神话中只有一只眼睛的巨人。"
+    },
+    {
+      "id": "q_creature_012",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "北欧神话中，芬里尔最终会吞噬谁?",
+      "options": ["托尔", "洛基", "奥丁", "弗雷"],
+      "correctIndex": 2,
+      "explanation": "在诸神黄昏中，芬里尔巨狼会吞噬众神之父奥丁。"
+    },
+    {
+      "id": "q_creature_013",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "以下哪种生物是半人半马?",
+      "options": ["萨提尔", "半人马", "牛头人", "塞壬"],
+      "correctIndex": 1,
+      "explanation": "半人马(Centaur)是希腊神话中上半身为人、下半身为马的生物。"
+    },
+    {
+      "id": "q_creature_014",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "中国神话中的'饕餮'有什么特点?",
+      "options": ["能预知未来", "贪食无厌", "能言人语", "会喷火焰"],
+      "correctIndex": 1,
+      "explanation": "饕餮是传说中贪食的怪兽，后来成为贪婪的象征。"
+    },
+    {
+      "id": "q_creature_015",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "日本神话中，八岐大蛇有几个头?",
+      "options": ["三个", "七个", "八个", "九个"],
+      "correctIndex": 2,
+      "explanation": "八岐大蛇是日本神话中的巨蛇，有八个头和八条尾巴。"
+    },
+    {
+      "id": "q_deity_001",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "希腊神话中，众神之王是谁?",
+      "options": ["波塞冬", "哈迪斯", "宙斯", "阿波罗"],
+      "correctIndex": 2,
+      "explanation": "宙斯是希腊神话中的众神之王，统治奥林匹斯山。"
+    },
+    {
+      "id": "q_deity_002",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "宙斯的武器是什么?",
+      "options": ["三叉戟", "雷电", "弓箭", "锤子"],
+      "correctIndex": 1,
+      "explanation": "宙斯的标志性武器是雷电(雷霆)，由独眼巨人打造。"
+    },
+    {
+      "id": "q_deity_003",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "北欧神话中，众神之父是谁?",
+      "options": ["托尔", "洛基", "奥丁", "弗雷"],
+      "correctIndex": 2,
+      "explanation": "奥丁是北欧神话中的众神之父，智慧与战争之神。"
+    },
+    {
+      "id": "q_deity_004",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，谁炼石补天?",
+      "options": ["伏羲", "女娲", "盘古", "神农"],
+      "correctIndex": 1,
+      "explanation": "女娲炼五彩石修补天穹，拯救苍生于水火之中。"
+    },
+    {
+      "id": "q_deity_005",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，智慧女神是谁?",
+      "options": ["赫拉", "阿芙洛狄忒", "雅典娜", "阿尔忒弥斯"],
+      "correctIndex": 2,
+      "explanation": "雅典娜是希腊神话中的智慧女神和战争女神。"
+    },
+    {
+      "id": "q_deity_006",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "北欧神话中的雷神是谁?",
+      "options": ["奥丁", "洛基", "托尔", "巴德尔"],
+      "correctIndex": 2,
+      "explanation": "托尔是北欧神话中的雷神，手持神锤妙尔尼尔。"
+    },
+    {
+      "id": "q_deity_007",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "中国神话中，创制八卦的是谁?",
+      "options": ["女娲", "伏羲", "神农", "黄帝"],
+      "correctIndex": 1,
+      "explanation": "伏羲仰观天象、俯察地理，创制八卦。"
+    },
+    {
+      "id": "q_deity_008",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "希腊神话中，海神波塞冬的武器是什么?",
+      "options": ["雷电", "三叉戟", "弓箭", "盾牌"],
+      "correctIndex": 1,
+      "explanation": "波塞冬手持三叉戟，可以引发地震和海啸。"
+    },
+    {
+      "id": "q_deity_009",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "北欧神话中，洛基是什么神?",
+      "options": ["战争之神", "诡计之神", "光明之神", "海洋之神"],
+      "correctIndex": 1,
+      "explanation": "洛基是北欧神话中的诡计之神，善于变形和欺骗。"
+    },
+    {
+      "id": "q_deity_010",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "埃及神话中，太阳神是谁?",
+      "options": ["奥西里斯", "阿努比斯", "拉", "荷鲁斯"],
+      "correctIndex": 2,
+      "explanation": "拉是埃及神话中最重要的太阳神，鹰首人身。"
+    },
+    {
+      "id": "q_deity_011",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "日本神话中，太阳女神是谁?",
+      "options": ["月读", "须佐之男", "天照大神", "伊邪那美"],
+      "correctIndex": 2,
+      "explanation": "天照大神是日本神话中的太阳女神，皇室的始祖神。"
+    },
+    {
+      "id": "q_deity_012",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "印度神话中，毁灭之神是谁?",
+      "options": ["梵天", "毗湿奴", "湿婆", "因陀罗"],
+      "correctIndex": 2,
+      "explanation": "湿婆是印度教三主神之一，主管毁灭与重生。"
+    },
+    {
+      "id": "q_deity_013",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国道教中的最高神是谁?",
+      "options": ["玉皇大帝", "太上老君", "如来佛", "观音菩萨"],
+      "correctIndex": 0,
+      "explanation": "玉皇大帝是道教信仰中至高无上的天神，统领三界。"
+    },
+    {
+      "id": "q_deity_014",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，冥王是谁?",
+      "options": ["宙斯", "波塞冬", "哈迪斯", "阿瑞斯"],
+      "correctIndex": 2,
+      "explanation": "哈迪斯是希腊神话中的冥王，掌管死亡和地下世界。"
+    },
+    {
+      "id": "q_deity_015",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "北欧神话中，奥丁为获得智慧牺牲了什么?",
+      "options": ["一只手", "一只眼睛", "一条腿", "听力"],
+      "correctIndex": 1,
+      "explanation": "奥丁用一只眼睛换取了智慧之泉的泉水，获得了无上智慧。"
+    },
+    {
+      "id": "q_culture_001",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "希腊诸神居住在哪座山上?",
+      "options": ["泰山", "富士山", "奥林匹斯山", "昆仑山"],
+      "correctIndex": 2,
+      "explanation": "奥林匹斯山是希腊神话中众神的居所。"
+    },
+    {
+      "id": "q_culture_002",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "北欧神话中的世界树叫什么?",
+      "options": ["生命树", "智慧树", "尤克特拉希尔", "神树"],
+      "correctIndex": 2,
+      "explanation": "尤克特拉希尔是北欧神话中的世界之树，连接九大世界。"
+    },
+    {
+      "id": "q_culture_003",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，西王母住在哪里?",
+      "options": ["天庭", "昆仑山", "蓬莱", "瀛洲"],
+      "correctIndex": 1,
+      "explanation": "西王母居住在昆仑山的瑶池，掌管不死药。"
+    },
+    {
+      "id": "q_culture_004",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "北欧神话中有几个世界?",
+      "options": ["七个", "八个", "九个", "十个"],
+      "correctIndex": 2,
+      "explanation": "北欧神话中有九大世界，由世界树尤克特拉希尔连接。"
+    },
+    {
+      "id": "q_culture_005",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中的冥界叫什么?",
+      "options": ["冥府", "地狱", "哈迪斯", "冥土"],
+      "correctIndex": 2,
+      "explanation": "哈迪斯既是冥王的名字，也是希腊冥界的名称。"
+    },
+    {
+      "id": "q_culture_006",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "北欧神话中，英灵殿叫什么?",
+      "options": ["阿斯加德", "瓦尔哈拉", "尼弗尔海姆", "约顿海姆"],
+      "correctIndex": 1,
+      "explanation": "瓦尔哈拉是北欧神话中英勇战死的战士死后的归宿。"
+    },
+    {
+      "id": "q_culture_007",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "日本神话中，神道教的神叫什么?",
+      "options": ["佛", "神", "天", "灵"],
+      "correctIndex": 1,
+      "explanation": "日本神道教中的神被称为'神'(カミ/kami)。"
+    },
+    {
+      "id": "q_culture_008",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "埃及神话中，死者之书是用来做什么的?",
+      "options": ["记录历史", "指引亡魂", "召唤神灵", "预言未来"],
+      "correctIndex": 1,
+      "explanation": "死者之书是古埃及的葬礼文献，指引死者通过冥界的试炼。"
+    },
+    {
+      "id": "q_culture_009",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "中国神话中，黄泉是什么地方?",
+      "options": ["仙界", "冥界", "人间", "魔界"],
+      "correctIndex": 1,
+      "explanation": "黄泉是中国神话中死者灵魂所去的地下世界。"
+    },
+    {
+      "id": "q_culture_010",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，命运三女神掌管什么?",
+      "options": ["美丽", "智慧", "生命之线", "战争"],
+      "correctIndex": 2,
+      "explanation": "命运三女神分别纺织、测量和剪断生命之线。"
+    },
+    {
+      "id": "q_attribute_001",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "在元素相克中，水属性通常克制什么属性?",
+      "options": ["风", "火", "雷", "暗"],
+      "correctIndex": 1,
+      "explanation": "水能灭火，因此水属性克制火属性。"
+    },
+    {
+      "id": "q_attribute_002",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "凤凰通常与哪种属性关联最密切?",
+      "options": ["水", "火", "风", "雷"],
+      "correctIndex": 1,
+      "explanation": "凤凰是火属性的代表，象征涅槃重生。"
+    },
+    {
+      "id": "q_attribute_003",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "北欧雷神托尔代表什么属性?",
+      "options": ["火", "水", "雷", "风"],
+      "correctIndex": 2,
+      "explanation": "托尔是雷神，掌控雷电之力。"
+    },
+    {
+      "id": "q_attribute_004",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "玄武在五行中代表什么属性?",
+      "options": ["火", "水", "土", "金"],
+      "correctIndex": 1,
+      "explanation": "玄武代表北方和水属性，是龟蛇合体的神兽。"
+    },
+    {
+      "id": "q_attribute_005",
+      "category": "attribute",
+      "difficulty": "hard",
+      "question": "光明与黑暗属性的关系通常是?",
+      "options": ["相生", "相克", "无关", "融合"],
+      "correctIndex": 1,
+      "explanation": "光明与黑暗是对立的属性，互相克制。"
+    },
+    {
+      "id": "q_creature_016",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "以下哪种生物不是中国四大神兽?",
+      "options": ["青龙", "白虎", "麒麟", "朱雀"],
+      "correctIndex": 2,
+      "explanation": "中国四大神兽是青龙、白虎、朱雀、玄武，麒麟不在其中。"
+    },
+    {
+      "id": "q_creature_017",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "希腊神话中的九头蛇叫什么?",
+      "options": ["美杜莎", "九头蛇", "海德拉", "提丰"],
+      "correctIndex": 2,
+      "explanation": "海德拉是希腊神话中的九头蛇，被赫拉克勒斯斩杀。"
+    },
+    {
+      "id": "q_creature_018",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "埃及神话中，圣甲虫象征什么?",
+      "options": ["死亡", "重生", "战争", "智慧"],
+      "correctIndex": 1,
+      "explanation": "圣甲虫(屎壳郎)在埃及神话中象征太阳的重生。"
+    },
+    {
+      "id": "q_creature_019",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "西方传说中的独角兽有什么特点?",
+      "options": ["喷火", "额头有角", "会飞", "能隐身"],
+      "correctIndex": 1,
+      "explanation": "独角兽的标志是额头上的一只螺旋状的角。"
+    },
+    {
+      "id": "q_creature_020",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "以下哪种生物是半鹰半狮?",
+      "options": ["狮鹫", "飞马", "独角兽", "凤凰"],
+      "correctIndex": 0,
+      "explanation": "狮鹫(Griffin)是鹰头狮身的神话生物。"
+    },
+    {
+      "id": "q_deity_016",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，后羿射下了几个太阳?",
+      "options": ["七个", "八个", "九个", "十个"],
+      "correctIndex": 2,
+      "explanation": "后羿射下了九个太阳，留下一个照耀大地。"
+    },
+    {
+      "id": "q_deity_017",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，爱神是谁?",
+      "options": ["赫拉", "雅典娜", "阿芙洛狄忒", "阿尔忒弥斯"],
+      "correctIndex": 2,
+      "explanation": "阿芙洛狄忒是希腊神话中的爱与美之女神。"
+    },
+    {
+      "id": "q_deity_018",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "北欧神话中，洛基的儿子不包括?",
+      "options": ["芬里尔", "耶梦加得", "赫尔", "托尔"],
+      "correctIndex": 3,
+      "explanation": "托尔是奥丁的儿子，不是洛基的儿子。"
+    },
+    {
+      "id": "q_deity_019",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，月宫里住着谁?",
+      "options": ["西王母", "嫦娥", "织女", "妈祖"],
+      "correctIndex": 1,
+      "explanation": "嫦娥偷吃了后羿的不死药，飞升到月宫。"
+    },
+    {
+      "id": "q_deity_020",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "印度神话中，创造之神是谁?",
+      "options": ["毗湿奴", "梵天", "湿婆", "因陀罗"],
+      "correctIndex": 1,
+      "explanation": "梵天是印度教三主神之一，主管创造。"
+    },
+    {
+      "id": "q_culture_011",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "希腊神话中，特洛伊战争起因是什么?",
+      "options": ["金羊毛", "金苹果", "圣杯", "宝剑"],
+      "correctIndex": 1,
+      "explanation": "金苹果引发了三女神之争，最终导致特洛伊战争。"
+    },
+    {
+      "id": "q_culture_012",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "北欧神话中，诸神黄昏后谁存活了?",
+      "options": ["奥丁", "托尔", "巴德尔", "洛基"],
+      "correctIndex": 2,
+      "explanation": "诸神黄昏后，光明神巴德尔从冥界归来，开启新世界。"
+    },
+    {
+      "id": "q_culture_013",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "埃及神话中，亡者的心脏要和什么比较?",
+      "options": ["金子", "羽毛", "石头", "水"],
+      "correctIndex": 1,
+      "explanation": "亡者的心脏要和真理女神玛亚特的羽毛比较，判定其一生。"
+    },
+    {
+      "id": "q_culture_014",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，蓬莱仙岛位于哪里?",
+      "options": ["西方", "东海", "南方", "北方"],
+      "correctIndex": 1,
+      "explanation": "蓬莱仙岛位于东海之上，是传说中的仙人居所。"
+    },
+    {
+      "id": "q_culture_015",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "日本神话中，天孙降临讲述了什么?",
+      "options": ["世界创造", "天神下凡", "诸神之战", "英雄传说"],
+      "correctIndex": 1,
+      "explanation": "天孙降临讲述天照大神之孙下凡统治人间的故事。"
+    },
+    {
+      "id": "q_creature_021",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "传说中会浴火重生的鸟是?",
+      "options": ["朱雀", "凤凰", "大鹏", "毕方"],
+      "correctIndex": 1,
+      "explanation": "凤凰能在火焰中涅槃重生，象征不朽。"
+    },
+    {
+      "id": "q_creature_022",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "希腊神话中的飞马叫什么?",
+      "options": ["天马", "珀伽索斯", "独角兽", "半人马"],
+      "correctIndex": 1,
+      "explanation": "珀伽索斯是希腊神话中的飞马，从美杜莎的血中诞生。"
+    },
+    {
+      "id": "q_creature_023",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "北欧神话中，哪种生物住在世界树根部啃食树根?",
+      "options": ["芬里尔", "耶梦加得", "尼德霍格", "斯莱普尼尔"],
+      "correctIndex": 2,
+      "explanation": "尼德霍格是一条巨龙，不断啃食世界树的根。"
+    },
+    {
+      "id": "q_creature_024",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "中国神话中的'貔貅'有什么特点?",
+      "options": ["只进不出", "能预言", "会飞", "吐火"],
+      "correctIndex": 0,
+      "explanation": "貔貅只吃不拉，象征招财进宝。"
+    },
+    {
+      "id": "q_creature_025",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "希腊神话中，弥诺陶洛斯是什么形象?",
+      "options": ["蛇身人面", "狮身人面", "牛头人身", "马身人头"],
+      "correctIndex": 2,
+      "explanation": "弥诺陶洛斯是牛头人身的怪物，住在迷宫中。"
+    },
+    {
+      "id": "q_deity_021",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "希腊神话中，狩猎女神是谁?",
+      "options": ["赫拉", "雅典娜", "阿芙洛狄忒", "阿尔忒弥斯"],
+      "correctIndex": 3,
+      "explanation": "阿尔忒弥斯是月亮和狩猎女神，阿波罗的孪生姐妹。"
+    },
+    {
+      "id": "q_deity_022",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "中国神话中，盘古开天辟地后身体变成了什么?",
+      "options": ["只变成山川", "变成万物", "变成星星", "消失了"],
+      "correctIndex": 1,
+      "explanation": "盘古死后身体化为日月星辰、山川河流、草木万物。"
+    },
+    {
+      "id": "q_deity_023",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "希腊神话中，火与锻造之神是谁?",
+      "options": ["阿瑞斯", "赫菲斯托斯", "阿波罗", "赫尔墨斯"],
+      "correctIndex": 1,
+      "explanation": "赫菲斯托斯是火神和锻造之神，众神的工匠。"
+    },
+    {
+      "id": "q_deity_024",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "北欧神话中，弗蕾雅是什么女神?",
+      "options": ["战争女神", "爱与美女神", "智慧女神", "狩猎女神"],
+      "correctIndex": 1,
+      "explanation": "弗蕾雅是北欧神话中的爱与美女神。"
+    },
+    {
+      "id": "q_deity_025",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "埃及神话中，冥王是谁?",
+      "options": ["拉", "荷鲁斯", "奥西里斯", "塞特"],
+      "correctIndex": 2,
+      "explanation": "奥西里斯是埃及神话中的冥王，掌管死亡与复活。"
+    },
+    {
+      "id": "q_attribute_006",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "青龙代表哪个方位?",
+      "options": ["东", "西", "南", "北"],
+      "correctIndex": 0,
+      "explanation": "青龙代表东方，属木，代表春季。"
+    },
+    {
+      "id": "q_attribute_007",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "朱雀代表哪种元素?",
+      "options": ["水", "火", "土", "木"],
+      "correctIndex": 1,
+      "explanation": "朱雀代表南方和火属性。"
+    },
+    {
+      "id": "q_attribute_008",
+      "category": "attribute",
+      "difficulty": "hard",
+      "question": "五行相生中，木生什么?",
+      "options": ["金", "水", "火", "土"],
+      "correctIndex": 2,
+      "explanation": "五行相生：木生火，火生土，土生金，金生水，水生木。"
+    },
+    {
+      "id": "q_attribute_009",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "雷属性通常与哪种天气关联?",
+      "options": ["晴天", "雨天", "暴风雨", "雪天"],
+      "correctIndex": 2,
+      "explanation": "雷属性与暴风雨、雷电天气关联最密切。"
+    },
+    {
+      "id": "q_attribute_010",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "自然属性通常代表什么?",
+      "options": ["死亡", "生命与植物", "黑暗", "混沌"],
+      "correctIndex": 1,
+      "explanation": "自然属性代表生命、植物和大地的力量。"
+    },
+    {
+      "id": "q_creature_026",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "西方神话中的龙通常是什么形象?",
+      "options": ["善良的", "邪恶的", "中立的", "不存在"],
+      "correctIndex": 1,
+      "explanation": "西方神话中的龙通常是邪恶的，看守宝藏或绑架公主。"
+    },
+    {
+      "id": "q_creature_027",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "中国神话中，穷奇是什么形象?",
+      "options": ["善兽", "恶兽", "灵兽", "仙兽"],
+      "correctIndex": 1,
+      "explanation": "穷奇是四凶之一，专门欺负好人、奖励恶人。"
+    },
+    {
+      "id": "q_creature_028",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "希腊神话中，塞壬是什么生物?",
+      "options": ["人鱼", "女妖", "海妖", "水精灵"],
+      "correctIndex": 2,
+      "explanation": "塞壬是希腊神话中的海妖，用歌声诱惑水手。"
+    },
+    {
+      "id": "q_creature_029",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "北欧神话中，奥丁的八足神马叫什么?",
+      "options": ["芬里尔", "斯莱普尼尔", "尼德霍格", "赫里姆法克西"],
+      "correctIndex": 1,
+      "explanation": "斯莱普尼尔是奥丁的八足神马，是洛基所生。"
+    },
+    {
+      "id": "q_creature_030",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "埃及神话中，荷鲁斯是什么形象?",
+      "options": ["狼头人身", "狮身人面", "鹰头人身", "豺狼头人身"],
+      "correctIndex": 2,
+      "explanation": "荷鲁斯是鹰头人身的天空之神。"
+    },
+    {
+      "id": "q_deity_026",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "希腊神话中，战争之神是谁?",
+      "options": ["宙斯", "阿瑞斯", "阿波罗", "赫尔墨斯"],
+      "correctIndex": 1,
+      "explanation": "阿瑞斯是希腊神话中的战争之神。"
+    },
+    {
+      "id": "q_deity_027",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "中国神话中，主管文运的神是谁?",
+      "options": ["财神", "文昌帝君", "关公", "门神"],
+      "correctIndex": 1,
+      "explanation": "文昌帝君是道教中主管功名利禄的神明。"
+    },
+    {
+      "id": "q_deity_028",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "北欧神话中，和平与丰收之神是谁?",
+      "options": ["托尔", "洛基", "弗雷", "提尔"],
+      "correctIndex": 2,
+      "explanation": "弗雷是北欧神话中的丰收之神，掌管阳光和雨露。"
+    },
+    {
+      "id": "q_deity_029",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "希腊神话中，信使之神是谁?",
+      "options": ["阿波罗", "赫尔墨斯", "阿瑞斯", "赫菲斯托斯"],
+      "correctIndex": 1,
+      "explanation": "赫尔墨斯是众神的信使，也是商人和小偷的保护神。"
+    },
+    {
+      "id": "q_deity_030",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "日本神话中，须佐之男是什么神?",
+      "options": ["海神", "风暴神", "太阳神", "月神"],
+      "correctIndex": 1,
+      "explanation": "须佐之男是日本神话中的风暴之神，天照大神的弟弟。"
+    },
+    {
+      "id": "q_culture_016",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，天庭在哪里?",
+      "options": ["地下", "海底", "天上", "山中"],
+      "correctIndex": 2,
+      "explanation": "天庭位于天上，是神仙居住的地方。"
+    },
+    {
+      "id": "q_culture_017",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，普罗米修斯因何受罚?",
+      "options": ["偷食物", "偷火种", "欺骗宙斯", "叛变"],
+      "correctIndex": 1,
+      "explanation": "普罗米修斯因偷取天火给人类而受到宙斯的惩罚。"
+    },
+    {
+      "id": "q_culture_018",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "北欧神话中，人类是由什么创造的?",
+      "options": ["泥土", "木头", "石头", "光"],
+      "correctIndex": 1,
+      "explanation": "奥丁等神从两棵树木创造了第一对人类。"
+    },
+    {
+      "id": "q_culture_019",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "埃及金字塔是为谁建造的?",
+      "options": ["神", "法老", "平民", "祭司"],
+      "correctIndex": 1,
+      "explanation": "金字塔是法老的陵墓，用于保存法老的遗体和陪葬品。"
+    },
+    {
+      "id": "q_culture_020",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "日本神话中，三神器不包括?",
+      "options": ["八咫镜", "草薙剑", "八尺琼勾玉", "神乐铃"],
+      "correctIndex": 3,
+      "explanation": "日本三神器是八咫镜、草薙剑和八尺琼勾玉。"
+    },
+    {
+      "id": "q_creature_031",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "中国神话中，白泽能做什么?",
+      "options": ["喷火", "预知万物", "控制天气", "隐身"],
+      "correctIndex": 1,
+      "explanation": "白泽是能言人语、知晓万物的瑞兽。"
+    },
+    {
+      "id": "q_creature_032",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "希腊神话中的奇美拉是什么?",
+      "options": ["单一生物", "复合怪物", "神兽", "精灵"],
+      "correctIndex": 1,
+      "explanation": "奇美拉是狮头、羊身、蛇尾的复合怪物。"
+    },
+    {
+      "id": "q_creature_033",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "北欧神话中，哪种生物会在诸神黄昏时吞噬太阳?",
+      "options": ["芬里尔", "斯科尔", "哈提", "尼德霍格"],
+      "correctIndex": 1,
+      "explanation": "斯科尔是追逐太阳的巨狼，将在诸神黄昏时吞噬太阳。"
+    },
+    {
+      "id": "q_creature_034",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "凯尔特神话中，报丧女妖叫什么?",
+      "options": ["班希", "塞壬", "美杜莎", "哈尔庇亚"],
+      "correctIndex": 0,
+      "explanation": "班希是凯尔特神话中的报丧女妖，其哭声预示死亡。"
+    },
+    {
+      "id": "q_creature_035",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "印度神话中，迦楼罗是什么生物?",
+      "options": ["蛇", "金翅大鸟", "狮子", "龙"],
+      "correctIndex": 1,
+      "explanation": "迦楼罗是印度神话中的金翅大鸟，是毗湿奴的坐骑。"
+    },
+    {
+      "id": "q_deity_031",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "印度神话中，保护之神是谁?",
+      "options": ["梵天", "毗湿奴", "湿婆", "因陀罗"],
+      "correctIndex": 1,
+      "explanation": "毗湿奴是印度教三主神之一，主管保护与维持。"
+    },
+    {
+      "id": "q_deity_032",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，酒神是谁?",
+      "options": ["阿波罗", "狄俄尼索斯", "赫尔墨斯", "潘"],
+      "correctIndex": 1,
+      "explanation": "狄俄尼索斯是葡萄酒与狂欢之神。"
+    },
+    {
+      "id": "q_deity_033",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "中国神话中，神农尝百草是为了什么?",
+      "options": ["寻找仙药", "教民医药", "充饥", "祭祀"],
+      "correctIndex": 1,
+      "explanation": "神农尝百草是为了辨别草药，教导人民治病救人。"
+    },
+    {
+      "id": "q_deity_034",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "希腊神话中，太阳神是谁?",
+      "options": ["宙斯", "阿波罗", "赫利俄斯", "阿瑞斯"],
+      "correctIndex": 1,
+      "explanation": "阿波罗是光明与艺术之神，常被称为太阳神。"
+    },
+    {
+      "id": "q_deity_035",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "北欧神话中，战争与正义之神是谁?",
+      "options": ["奥丁", "托尔", "提尔", "海姆达尔"],
+      "correctIndex": 2,
+      "explanation": "提尔是北欧神话中的战争与正义之神。"
+    },
+    {
+      "id": "q_ability_001",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "以下哪种能力与火属性相关?",
+      "options": ["冰冻", "燃烧", "治愈", "飞行"],
+      "correctIndex": 1,
+      "explanation": "燃烧是典型的火属性能力。"
+    },
+    {
+      "id": "q_ability_002",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "美杜莎的能力是什么?",
+      "options": ["喷火", "石化", "飞行", "隐身"],
+      "correctIndex": 1,
+      "explanation": "美杜莎能将直视她眼睛的人变成石头。"
+    },
+    {
+      "id": "q_ability_003",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "北欧神话中，奥丁的乌鸦有什么能力?",
+      "options": ["战斗", "侦察世界", "预言", "变形"],
+      "correctIndex": 1,
+      "explanation": "奥丁的两只乌鸦每天飞遍世界，向他汇报见闻。"
+    },
+    {
+      "id": "q_ability_004",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "凤凰最著名的能力是什么?",
+      "options": ["喷水", "隐身", "涅槃重生", "预言"],
+      "correctIndex": 2,
+      "explanation": "凤凰能在火焰中死亡并重生，象征不朽。"
+    },
+    {
+      "id": "q_ability_005",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "九尾狐通常有什么能力?",
+      "options": ["控制风", "变化人形", "控制水", "石化"],
+      "correctIndex": 1,
+      "explanation": "九尾狐能变化成人形，通常是美女形象。"
+    },
+    {
+      "id": "q_creature_036",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "日本神话中的河童生活在哪里?",
+      "options": ["山里", "河里", "海里", "天上"],
+      "correctIndex": 1,
+      "explanation": "河童是日本传说中生活在河流中的妖怪。"
+    },
+    {
+      "id": "q_creature_037",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "希腊神话中，地狱犬守护什么地方?",
+      "options": ["宝库", "冥界入口", "天堂", "迷宫"],
+      "correctIndex": 1,
+      "explanation": "刻耳柏洛斯守护冥界入口，防止亡魂逃离。"
+    },
+    {
+      "id": "q_creature_038",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "中国神话中的四凶包括?",
+      "options": ["青龙、白虎", "饕餮、穷奇", "麒麟、凤凰", "朱雀、玄武"],
+      "correctIndex": 1,
+      "explanation": "四凶是混沌、穷奇、梼杌、饕餮。"
+    },
+    {
+      "id": "q_creature_039",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "西方传说中的鬼魂害怕什么?",
+      "options": ["水", "阳光", "风", "土"],
+      "correctIndex": 1,
+      "explanation": "西方传说中许多鬼魂和吸血鬼害怕阳光。"
+    },
+    {
+      "id": "q_creature_040",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "北欧神话中的精灵分为几种?",
+      "options": ["一种", "两种", "三种", "四种"],
+      "correctIndex": 1,
+      "explanation": "北欧神话中精灵分为光明精灵和黑暗精灵两种。"
+    },
+    {
+      "id": "q_deity_036",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "埃及神话中，死神是谁?",
+      "options": ["拉", "阿努比斯", "荷鲁斯", "塞特"],
+      "correctIndex": 1,
+      "explanation": "阿努比斯是埃及神话中的死神，豺狼头人身。"
+    },
+    {
+      "id": "q_deity_037",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁是宙斯的妻子?",
+      "options": ["雅典娜", "阿芙洛狄忒", "赫拉", "阿尔忒弥斯"],
+      "correctIndex": 2,
+      "explanation": "赫拉是宙斯的妻子，婚姻和家庭女神。"
+    },
+    {
+      "id": "q_deity_038",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "中国神话中，蚩尤是什么神?",
+      "options": ["太阳神", "战神", "水神", "风神"],
+      "correctIndex": 1,
+      "explanation": "蚩尤是上古战神，与黄帝大战于涿鹿。"
+    },
+    {
+      "id": "q_deity_039",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "印度神话中，象头神叫什么?",
+      "options": ["梵天", "毗湿奴", "象头神伽内什", "哈努曼"],
+      "correctIndex": 2,
+      "explanation": "伽内什是象头人身的智慧之神，是湿婆之子。"
+    },
+    {
+      "id": "q_deity_040",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "北欧神话中，彩虹桥连接哪两个世界?",
+      "options": ["人间和冥界", "阿斯加德和中庭", "天堂和地狱", "精灵界和矮人界"],
+      "correctIndex": 1,
+      "explanation": "彩虹桥比弗罗斯特连接神界阿斯加德和人间中庭。"
+    },
+    {
+      "id": "q_culture_021",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "希腊神话中，迷宫是谁建造的?",
+      "options": ["宙斯", "代达罗斯", "忒修斯", "弥诺斯"],
+      "correctIndex": 1,
+      "explanation": "代达罗斯是著名的建筑师，建造了关押弥诺陶洛斯的迷宫。"
+    },
+    {
+      "id": "q_culture_022",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "北欧神话中，阿斯加德是谁的居所?",
+      "options": ["人类", "诸神", "巨人", "矮人"],
+      "correctIndex": 1,
+      "explanation": "阿斯加德是北欧诸神的居所。"
+    },
+    {
+      "id": "q_culture_023",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "中国神话中，轮回转世的观念源于哪个宗教?",
+      "options": ["道教", "佛教", "儒教", "原始信仰"],
+      "correctIndex": 1,
+      "explanation": "轮回转世的观念主要源于印度佛教，后融入中国神话。"
+    },
+    {
+      "id": "q_culture_024",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "日本神社中供奉的主要是?",
+      "options": ["佛", "神", "祖先", "英雄"],
+      "correctIndex": 1,
+      "explanation": "日本神社主要供奉神道教中的神灵。"
+    },
+    {
+      "id": "q_culture_025",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "凯尔特神话主要流传于哪些地区?",
+      "options": ["北欧", "地中海", "不列颠和爱尔兰", "东欧"],
+      "correctIndex": 2,
+      "explanation": "凯尔特神话主要流传于爱尔兰、威尔士、苏格兰等地。"
+    },
+    {
+      "id": "q_ability_006",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "以下哪种能力与水属性相关?",
+      "options": ["雷击", "冰冻", "燃烧", "风暴"],
+      "correctIndex": 1,
+      "explanation": "冰冻是水属性的延伸能力。"
+    },
+    {
+      "id": "q_ability_007",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "洛基最著名的能力是什么?",
+      "options": ["力量", "变形", "飞行", "预言"],
+      "correctIndex": 1,
+      "explanation": "洛基是变形大师，能变成各种生物。"
+    },
+    {
+      "id": "q_ability_008",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "中国神话中，白泽的能力来源于什么?",
+      "options": ["神赐", "天生智慧", "修炼", "吞噬"],
+      "correctIndex": 1,
+      "explanation": "白泽天生具有知晓万物的智慧。"
+    },
+    {
+      "id": "q_ability_009",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "龙通常与什么能力关联?",
+      "options": ["读心", "喷火/水", "隐身", "石化"],
+      "correctIndex": 1,
+      "explanation": "东西方龙都常具有喷火或控水的能力。"
+    },
+    {
+      "id": "q_ability_010",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "希腊神话中，赫尔墨斯的飞行能力来自?",
+      "options": ["翅膀", "飞鞋", "魔法", "神力"],
+      "correctIndex": 1,
+      "explanation": "赫尔墨斯穿着有翅膀的飞行凉鞋。"
+    },
+    {
+      "id": "q_creature_041",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "吸血鬼害怕什么?",
+      "options": ["水", "大蒜", "火", "盐"],
+      "correctIndex": 1,
+      "explanation": "在西方传说中，吸血鬼害怕大蒜、阳光和十字架。"
+    },
+    {
+      "id": "q_creature_042",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁杀死了美杜莎?",
+      "options": ["赫拉克勒斯", "忒修斯", "珀尔修斯", "阿喀琉斯"],
+      "correctIndex": 2,
+      "explanation": "珀尔修斯用雅典娜的盾牌反射，砍下了美杜莎的头。"
+    },
+    {
+      "id": "q_creature_043",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "中国神话中的獬豸有什么特点?",
+      "options": ["能吐火", "能辨别善恶", "能飞", "能预言"],
+      "correctIndex": 1,
+      "explanation": "獬豸是能辨别善恶的神兽，常见于法律标志。"
+    },
+    {
+      "id": "q_creature_044",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "埃及神话中，法老死后会变成什么?",
+      "options": ["神", "星星", "永生者", "以上都对"],
+      "correctIndex": 3,
+      "explanation": "古埃及人相信法老死后会成神并获得永生。"
+    },
+    {
+      "id": "q_creature_045",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "希腊神话中，哈尔庇亚是什么形象?",
+      "options": ["蛇身女人", "鸟身女人", "马身女人", "鱼身女人"],
+      "correctIndex": 1,
+      "explanation": "哈尔庇亚是鸟身女人头的怪物。"
+    },
+    {
+      "id": "q_deity_041",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，财神是谁?",
+      "options": ["关公", "赵公明", "文昌帝君", "土地公"],
+      "correctIndex": 1,
+      "explanation": "赵公明是道教中最广为人知的财神。"
+    },
+    {
+      "id": "q_deity_042",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，工匠之神赫菲斯托斯的妻子是谁?",
+      "options": ["赫拉", "阿芙洛狄忒", "雅典娜", "德墨忒尔"],
+      "correctIndex": 1,
+      "explanation": "爱与美之神阿芙洛狄忒是赫菲斯托斯的妻子。"
+    },
+    {
+      "id": "q_deity_043",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "北欧神话中，守护彩虹桥的神是谁?",
+      "options": ["托尔", "海姆达尔", "弗雷", "提尔"],
+      "correctIndex": 1,
+      "explanation": "海姆达尔是彩虹桥的守护者，有着敏锐的视力和听力。"
+    },
+    {
+      "id": "q_deity_044",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，灶王爷的职责是什么?",
+      "options": ["保护家庭", "监督善恶", "赐福", "招财"],
+      "correctIndex": 1,
+      "explanation": "灶王爷监督家庭善恶，每年向玉帝汇报。"
+    },
+    {
+      "id": "q_deity_045",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，农业女神是谁?",
+      "options": ["赫拉", "德墨忒尔", "阿芙洛狄忒", "赫斯提亚"],
+      "correctIndex": 1,
+      "explanation": "德墨忒尔是农业和丰收女神。"
+    },
+    {
+      "id": "q_culture_026",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "希腊神话的主要来源是哪部作品?",
+      "options": ["圣经", "荷马史诗", "神曲", "埃达"],
+      "correctIndex": 1,
+      "explanation": "荷马史诗（伊利亚特和奥德赛）是希腊神话的重要来源。"
+    },
+    {
+      "id": "q_culture_027",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "北欧神话的主要来源是什么?",
+      "options": ["荷马史诗", "埃达", "圣经", "古兰经"],
+      "correctIndex": 1,
+      "explanation": "诗体埃达和散文埃达是北欧神话的主要文献来源。"
+    },
+    {
+      "id": "q_culture_028",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "中国最早的神话记载在哪部典籍中?",
+      "options": ["史记", "山海经", "论语", "道德经"],
+      "correctIndex": 1,
+      "explanation": "《山海经》是中国最早记载神话传说的典籍之一。"
+    },
+    {
+      "id": "q_culture_029",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "埃及神话中，法老被认为是谁的化身?",
+      "options": ["拉", "奥西里斯", "荷鲁斯", "阿努比斯"],
+      "correctIndex": 2,
+      "explanation": "法老被认为是荷鲁斯在人间的化身。"
+    },
+    {
+      "id": "q_culture_030",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "日本神话中，伊邪那岐和伊邪那美创造了什么?",
+      "options": ["人类", "日本列岛", "太阳", "月亮"],
+      "correctIndex": 1,
+      "explanation": "这对神创造了日本的各个岛屿。"
+    },
+    {
+      "id": "q_creature_046",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "狼人在什么时候变身?",
+      "options": ["日落", "满月", "新月", "黎明"],
+      "correctIndex": 1,
+      "explanation": "西方传说中狼人在满月之夜变身。"
+    },
+    {
+      "id": "q_creature_047",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "希腊神话中，百眼巨人叫什么?",
+      "options": ["独眼巨人", "阿耳戈斯", "提丰", "基迦斯"],
+      "correctIndex": 1,
+      "explanation": "阿耳戈斯是全身有一百只眼睛的巨人。"
+    },
+    {
+      "id": "q_creature_048",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "中国神话中的鲲有多大?",
+      "options": ["一丈", "百里", "不知其几千里", "一座山"],
+      "correctIndex": 2,
+      "explanation": "鲲之大，不知其几千里也。化而为鹏，飞则翼若垂天之云。"
+    },
+    {
+      "id": "q_creature_049",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "以下哪个是日本妖怪?",
+      "options": ["九尾狐", "河童", "天狗", "以上都是"],
+      "correctIndex": 3,
+      "explanation": "九尾狐、河童、天狗都是著名的日本妖怪。"
+    },
+    {
+      "id": "q_creature_050",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "凯尔特神话中，精灵族叫什么?",
+      "options": ["矮人", "图阿哈德达南", "巨人", "海妖"],
+      "correctIndex": 1,
+      "explanation": "图阿哈德达南是凯尔特神话中的神族/精灵族。"
+    },
+    {
+      "id": "q_deity_046",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，月老的职责是什么?",
+      "options": ["掌管财运", "掌管婚姻", "掌管学业", "掌管健康"],
+      "correctIndex": 1,
+      "explanation": "月老是掌管姻缘的神，用红线牵引有缘人。"
+    },
+    {
+      "id": "q_deity_047",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，赫斯提亚是什么女神?",
+      "options": ["战争女神", "炉火女神", "月亮女神", "农业女神"],
+      "correctIndex": 1,
+      "explanation": "赫斯提亚是家庭和炉火女神。"
+    },
+    {
+      "id": "q_deity_048",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "北欧神话中，巴德尔的死因是什么?",
+      "options": ["被雷击", "被槲寄生刺中", "被毒蛇咬", "战死"],
+      "correctIndex": 1,
+      "explanation": "洛基用槲寄生做的箭矢让盲神霍德尔射死了巴德尔。"
+    },
+    {
+      "id": "q_deity_049",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "印度神话中，猴神是谁?",
+      "options": ["伽内什", "哈努曼", "毗湿奴", "梵天"],
+      "correctIndex": 1,
+      "explanation": "哈努曼是印度史诗中的猴神，帮助罗摩救回妻子。"
+    },
+    {
+      "id": "q_deity_050",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "日本神话中，月读是什么神?",
+      "options": ["太阳神", "月神", "海神", "风神"],
+      "correctIndex": 1,
+      "explanation": "月读是日本神话中的月神，天照大神的弟弟。"
+    },
+    {
+      "id": "q_creature_051",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "中国神话中，青鸟是谁的使者?",
+      "options": ["玉皇大帝", "西王母", "嫦娥", "女娲"],
+      "correctIndex": 1,
+      "explanation": "青鸟是西王母的使者，传递消息。"
+    },
+    {
+      "id": "q_creature_052",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "希腊神话中的天马是从谁的血中诞生的?",
+      "options": ["宙斯", "美杜莎", "赫拉", "波塞冬"],
+      "correctIndex": 1,
+      "explanation": "珀伽索斯从被斩首的美杜莎的血中诞生。"
+    },
+    {
+      "id": "q_creature_053",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "埃及神话中，贝努鸟象征什么?",
+      "options": ["死亡", "重生", "战争", "智慧"],
+      "correctIndex": 1,
+      "explanation": "贝努鸟是埃及版的凤凰，象征太阳的重生。"
+    },
+    {
+      "id": "q_creature_054",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "北欧神话中，奥丁的两只狼叫什么?",
+      "options": ["思想和记忆", "基利和弗雷基", "斯科尔和哈提", "芬里尔和尼德霍格"],
+      "correctIndex": 1,
+      "explanation": "基利和弗雷基是奥丁的两只狼，意为贪婪者。"
+    },
+    {
+      "id": "q_creature_055",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "以下哪种生物是希腊神话中的海怪?",
+      "options": ["海德拉", "斯库拉", "芬里尔", "耶梦加得"],
+      "correctIndex": 1,
+      "explanation": "斯库拉是希腊神话中的六头海怪。"
+    },
+    {
+      "id": "q_deity_051",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，妈祖是什么神?",
+      "options": ["山神", "海神", "河神", "雨神"],
+      "correctIndex": 1,
+      "explanation": "妈祖是海上守护神，保佑航海平安。"
+    },
+    {
+      "id": "q_deity_052",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，潘是什么神?",
+      "options": ["太阳神", "牧神", "海神", "战神"],
+      "correctIndex": 1,
+      "explanation": "潘是牧神和自然之神，羊腿人身。"
+    },
+    {
+      "id": "q_deity_053",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "北欧神话中，弗丽嘉是什么女神?",
+      "options": ["战争女神", "婚姻女神", "美貌女神", "狩猎女神"],
+      "correctIndex": 1,
+      "explanation": "弗丽嘉是奥丁的妻子，婚姻和母性女神。"
+    },
+    {
+      "id": "q_deity_054",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "希腊神话中，掌管收获的神是谁?",
+      "options": ["宙斯", "德墨忒尔", "雅典娜", "阿芙洛狄忒"],
+      "correctIndex": 1,
+      "explanation": "德墨忒尔是农业和收获女神。"
+    },
+    {
+      "id": "q_deity_055",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "中国神话中，二郎神的武器是什么?",
+      "options": ["方天画戟", "三尖两刃刀", "金箍棒", "青龙偃月刀"],
+      "correctIndex": 1,
+      "explanation": "二郎神杨戬使用三尖两刃刀。"
+    },
+    {
+      "id": "q_culture_031",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "希腊神话中，人类经历了几个时代?",
+      "options": ["三个", "四个", "五个", "六个"],
+      "correctIndex": 2,
+      "explanation": "人类经历了黄金、白银、青铜、英雄和黑铁五个时代。"
+    },
+    {
+      "id": "q_culture_032",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "北欧神话中，矮人住在哪个世界?",
+      "options": ["阿斯加德", "中庭", "斯瓦塔尔法海姆", "约顿海姆"],
+      "correctIndex": 2,
+      "explanation": "矮人住在斯瓦塔尔法海姆或尼达维利尔。"
+    },
+    {
+      "id": "q_culture_033",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "印度神话中，宇宙的毁灭与重生周期叫什么?",
+      "options": ["轮回", "劫", "涅槃", "梵"],
+      "correctIndex": 1,
+      "explanation": "在印度教中，宇宙经历创造、维持、毁灭的周期叫做劫。"
+    },
+    {
+      "id": "q_culture_034",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，传说中有多少层天?",
+      "options": ["九层", "十八层", "三十三层", "八十一层"],
+      "correctIndex": 2,
+      "explanation": "道教传说天有三十三重天。"
+    },
+    {
+      "id": "q_culture_035",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "埃及神话中，来世审判在哪里进行?",
+      "options": ["金字塔", "真理大厅", "尼罗河", "沙漠"],
+      "correctIndex": 1,
+      "explanation": "亡者在真理大厅接受四十二位神的审判。"
+    },
+    {
+      "id": "q_ability_011",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "以下哪种能力通常属于暗属性?",
+      "options": ["治愈", "诅咒", "祝福", "净化"],
+      "correctIndex": 1,
+      "explanation": "诅咒是典型的暗属性能力。"
+    },
+    {
+      "id": "q_ability_012",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "海神波塞冬用三叉戟能做什么?",
+      "options": ["控制雷电", "引发地震", "变形", "飞行"],
+      "correctIndex": 1,
+      "explanation": "波塞冬的三叉戟能引发地震和海啸。"
+    },
+    {
+      "id": "q_ability_013",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "北欧神话中，奥丁的枪贡格尼尔有什么特点?",
+      "options": ["能回到主人手中", "百发百中", "能斩杀一切", "以上都对"],
+      "correctIndex": 3,
+      "explanation": "贡格尼尔百发百中，能回到主人手中，无坚不摧。"
+    },
+    {
+      "id": "q_ability_014",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "风属性生物通常具有什么能力?",
+      "options": ["飞行和速度", "力量", "治愈", "石化"],
+      "correctIndex": 0,
+      "explanation": "风属性生物通常具有飞行和高速移动的能力。"
+    },
+    {
+      "id": "q_ability_015",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "希腊神话中，阿喀琉斯的弱点在哪里?",
+      "options": ["心脏", "脚后跟", "眼睛", "手"],
+      "correctIndex": 1,
+      "explanation": "阿喀琉斯只有脚后跟是弱点，因为母亲握着那里浸入冥河。"
+    },
+    {
+      "id": "q_creature_056",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "精灵通常与什么元素关联?",
+      "options": ["火", "水", "自然", "暗"],
+      "correctIndex": 2,
+      "explanation": "精灵通常与森林和自然关联密切。"
+    },
+    {
+      "id": "q_creature_057",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "日本神话中，天狗有什么特征?",
+      "options": ["三只眼", "长鼻子", "尖耳朵", "翅膀"],
+      "correctIndex": 1,
+      "explanation": "天狗的标志性特征是红色的长鼻子。"
+    },
+    {
+      "id": "q_creature_058",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "希腊神话中，提丰是宙斯最强大的敌人，他有多少个头?",
+      "options": ["一个", "三个", "九个", "一百个"],
+      "correctIndex": 3,
+      "explanation": "提丰有一百个蛇头，是众神最可怕的敌人。"
+    },
+    {
+      "id": "q_creature_059",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "西方龙通常有几只翅膀?",
+      "options": ["没有", "一对", "两对", "三对"],
+      "correctIndex": 1,
+      "explanation": "西方龙通常有一对蝙蝠状的翅膀。"
+    },
+    {
+      "id": "q_creature_060",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "中国神话中的毕方是什么动物?",
+      "options": ["龙", "凤", "火鸟", "麒麟"],
+      "correctIndex": 2,
+      "explanation": "毕方是中国神话中的火鸟，出现的地方会发生火灾。"
+    },
+    {
+      "id": "q_deity_056",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "希腊神话中，丘比特是什么神?",
+      "options": ["战争之神", "爱神", "信使", "酒神"],
+      "correctIndex": 1,
+      "explanation": "丘比特(厄洛斯)是爱神，用金箭射中的人会坠入爱河。"
+    },
+    {
+      "id": "q_deity_057",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "中国神话中，四海龙王谁主管东海?",
+      "options": ["敖广", "敖钦", "敖顺", "敖闰"],
+      "correctIndex": 0,
+      "explanation": "敖广是东海龙王。"
+    },
+    {
+      "id": "q_deity_058",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "北欧神话中，弗雷的武器是什么?",
+      "options": ["锤子", "矛", "魔剑", "斧头"],
+      "correctIndex": 2,
+      "explanation": "弗雷原本拥有一把能自己战斗的魔剑，但为追求巨人女儿而放弃了。"
+    },
+    {
+      "id": "q_deity_059",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "埃及神话中，智慧之神是谁?",
+      "options": ["拉", "透特", "荷鲁斯", "阿努比斯"],
+      "correctIndex": 1,
+      "explanation": "透特是埃及神话中的智慧之神，朱鹭头人身。"
+    },
+    {
+      "id": "q_deity_060",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "印度神话中，谁是梵天的坐骑?",
+      "options": ["迦楼罗", "那伽", "天鹅", "狮子"],
+      "correctIndex": 2,
+      "explanation": "梵天的坐骑是天鹅或孔雀。"
+    },
+    {
+      "id": "q_creature_061",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "以下哪种生物在中国文化中代表长寿?",
+      "options": ["龙", "凤", "龟", "虎"],
+      "correctIndex": 2,
+      "explanation": "龟在中国文化中是长寿的象征。"
+    },
+    {
+      "id": "q_creature_062",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁是半人半马的智者?",
+      "options": ["阿喀琉斯", "喀戎", "赫拉克勒斯", "忒修斯"],
+      "correctIndex": 1,
+      "explanation": "喀戎是半人马中最智慧的，教导过许多英雄。"
+    },
+    {
+      "id": "q_creature_063",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "北欧神话中，拉塔托斯克是什么生物?",
+      "options": ["松鼠", "鹰", "蛇", "鹿"],
+      "correctIndex": 0,
+      "explanation": "拉塔托斯克是世界树上的松鼠，在龙和鹰之间传话挑拨。"
+    },
+    {
+      "id": "q_deity_061",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，孙悟空被称为什么?",
+      "options": ["斗战胜佛", "齐天大圣", "美猴王", "以上都是"],
+      "correctIndex": 3,
+      "explanation": "孙悟空有多个称号，包括齐天大圣、美猴王、斗战胜佛。"
+    },
+    {
+      "id": "q_deity_062",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，珀耳塞福涅是谁的女儿?",
+      "options": ["赫拉", "雅典娜", "德墨忒尔", "阿芙洛狄忒"],
+      "correctIndex": 2,
+      "explanation": "珀耳塞福涅是德墨忒尔的女儿，被哈迪斯掳走成为冥后。"
+    },
+    {
+      "id": "q_deity_063",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "埃及神话中，塞特杀死了谁?",
+      "options": ["拉", "荷鲁斯", "奥西里斯", "阿努比斯"],
+      "correctIndex": 2,
+      "explanation": "塞特杀死了自己的兄弟奥西里斯，篡夺王位。"
+    },
+    {
+      "id": "q_culture_036",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，天界、人间、冥界合称什么?",
+      "options": ["三界", "三才", "三元", "三清"],
+      "correctIndex": 0,
+      "explanation": "天界、人间、冥界合称三界。"
+    },
+    {
+      "id": "q_culture_037",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，伊甸园的金苹果由谁看守?",
+      "options": ["赫拉", "宙斯", "赫斯珀里得斯姐妹", "雅典娜"],
+      "correctIndex": 2,
+      "explanation": "赫斯珀里得斯姐妹守护着金苹果园。"
+    },
+    {
+      "id": "q_culture_038",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "北欧神话中，诸神黄昏后世界会怎样?",
+      "options": ["彻底毁灭", "重生", "冻结", "燃烧"],
+      "correctIndex": 1,
+      "explanation": "诸神黄昏后世界会重生，新的神和人类将出现。"
+    },
+    {
+      "id": "q_attribute_011",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "白虎代表什么方位?",
+      "options": ["东", "西", "南", "北"],
+      "correctIndex": 1,
+      "explanation": "白虎代表西方，属金。"
+    },
+    {
+      "id": "q_attribute_012",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "玄武是什么动物组合?",
+      "options": ["龙蛇", "龟蛇", "龙龟", "蛇凤"],
+      "correctIndex": 1,
+      "explanation": "玄武是龟蛇合体的神兽。"
+    },
+    {
+      "id": "q_attribute_013",
+      "category": "attribute",
+      "difficulty": "hard",
+      "question": "五行相克中，火克什么?",
+      "options": ["木", "金", "水", "土"],
+      "correctIndex": 1,
+      "explanation": "五行相克：火克金，金克木，木克土，土克水，水克火。"
+    },
+    {
+      "id": "q_ability_016",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "雷神通常掌控什么能力?",
+      "options": ["雷电", "冰霜", "火焰", "治愈"],
+      "correctIndex": 0,
+      "explanation": "雷神掌控雷电之力。"
+    },
+    {
+      "id": "q_ability_017",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "托尔的锤子叫什么?",
+      "options": ["雷霆", "妙尔尼尔", "贡格尼尔", "格拉墨"],
+      "correctIndex": 1,
+      "explanation": "托尔的神锤叫妙尔尼尔，能引发雷电。"
+    },
+    {
+      "id": "q_ability_018",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "中国神话中，夸父追日最后怎么了?",
+      "options": ["追上太阳", "渴死途中", "被太阳烧死", "放弃追逐"],
+      "correctIndex": 1,
+      "explanation": "夸父追日最终渴死在途中，手杖化为桃林。"
+    },
+    {
+      "id": "q_creature_064",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "人鱼通常生活在哪里?",
+      "options": ["天上", "海里", "山中", "沙漠"],
+      "correctIndex": 1,
+      "explanation": "人鱼是海洋生物，生活在海中。"
+    },
+    {
+      "id": "q_creature_065",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "中国神话中，相柳有几个头?",
+      "options": ["三个", "五个", "九个", "十二个"],
+      "correctIndex": 2,
+      "explanation": "相柳是九头蛇怪，是共工的部下。"
+    },
+    {
+      "id": "q_creature_066",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "希腊神话中，谁杀死了九头蛇海德拉?",
+      "options": ["忒修斯", "珀尔修斯", "赫拉克勒斯", "阿喀琉斯"],
+      "correctIndex": 2,
+      "explanation": "赫拉克勒斯完成十二项任务之一，杀死了九头蛇。"
+    },
+    {
+      "id": "q_deity_064",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "日本神话中，风神叫什么?",
+      "options": ["风神", "雷神", "须佐之男", "风魔"],
+      "correctIndex": 2,
+      "explanation": "须佐之男是风暴之神。"
+    },
+    {
+      "id": "q_deity_065",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "中国神话中，哪吒的父亲是谁?",
+      "options": ["李靖", "玉帝", "太乙真人", "姜子牙"],
+      "correctIndex": 0,
+      "explanation": "哪吒的父亲是李靖，托塔天王。"
+    },
+    {
+      "id": "q_deity_066",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "希腊神话中，谁是命运三女神之一?",
+      "options": ["克罗托", "拉刻西斯", "阿特洛波斯", "以上都是"],
+      "correctIndex": 3,
+      "explanation": "命运三女神是克罗托、拉刻西斯和阿特洛波斯。"
+    },
+    {
+      "id": "q_culture_039",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国传统文化中，龙凤呈祥代表什么?",
+      "options": ["战争", "吉祥如意", "灾难", "变化"],
+      "correctIndex": 1,
+      "explanation": "龙凤呈祥象征吉祥、幸福和美满。"
+    },
+    {
+      "id": "q_culture_040",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "北欧神话中，巨人族住在哪个世界?",
+      "options": ["阿斯加德", "中庭", "约顿海姆", "尼弗尔海姆"],
+      "correctIndex": 2,
+      "explanation": "巨人族住在约顿海姆。"
+    },
+    {
+      "id": "q_culture_041",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "埃及神话中，冥界有多少道门?",
+      "options": ["七道", "十二道", "四十二道", "一百零八道"],
+      "correctIndex": 1,
+      "explanation": "埃及冥界有十二道门，对应一夜的十二个小时。"
+    },
+    {
+      "id": "q_attribute_014",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "光属性通常象征什么?",
+      "options": ["邪恶", "正义与纯洁", "混乱", "死亡"],
+      "correctIndex": 1,
+      "explanation": "光属性通常象征正义、纯洁和希望。"
+    },
+    {
+      "id": "q_attribute_015",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "中国五行中，金生什么?",
+      "options": ["木", "水", "火", "土"],
+      "correctIndex": 1,
+      "explanation": "五行相生：金生水。"
+    },
+    {
+      "id": "q_attribute_016",
+      "category": "attribute",
+      "difficulty": "hard",
+      "question": "在元素相克中，雷属性通常克制什么?",
+      "options": ["火", "水", "风", "土"],
+      "correctIndex": 1,
+      "explanation": "雷电克水，因为水导电。"
+    },
+    {
+      "id": "q_ability_019",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "治愈能力通常与什么属性关联?",
+      "options": ["暗", "光", "火", "雷"],
+      "correctIndex": 1,
+      "explanation": "治愈能力通常与光明或自然属性关联。"
+    },
+    {
+      "id": "q_ability_020",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "孙悟空的筋斗云一个筋斗能翻多远?",
+      "options": ["千里", "万里", "十万八千里", "无限远"],
+      "correctIndex": 2,
+      "explanation": "孙悟空的筋斗云一个筋斗十万八千里。"
+    },
+    {
+      "id": "q_ability_021",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "希腊神话中，宙斯能变成什么形态?",
+      "options": ["只能是人形", "只能是动物", "可以变成任何形态", "只能是神形"],
+      "correctIndex": 2,
+      "explanation": "宙斯能变成各种形态，包括天鹅、公牛、雨水等。"
+    },
+    {
+      "id": "q_creature_067",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "凯尔特神话中，独角兽代表什么?",
+      "options": ["邪恶", "纯洁", "战争", "死亡"],
+      "correctIndex": 1,
+      "explanation": "独角兽象征纯洁和高贵。"
+    },
+    {
+      "id": "q_creature_068",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "印度神话中，那伽是什么生物?",
+      "options": ["龙", "蛇神", "鸟", "狮子"],
+      "correctIndex": 1,
+      "explanation": "那伽是印度神话中的蛇神或龙神。"
+    },
+    {
+      "id": "q_creature_069",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "日本神话中，谁斩杀了八岐大蛇?",
+      "options": ["天照大神", "须佐之男", "月读", "伊邪那岐"],
+      "correctIndex": 1,
+      "explanation": "须佐之男斩杀八岐大蛇，从其尾部得到草薙剑。"
+    },
+    {
+      "id": "q_deity_067",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "观音菩萨通常手持什么?",
+      "options": ["宝剑", "净瓶", "金箍棒", "扇子"],
+      "correctIndex": 1,
+      "explanation": "观音菩萨通常手持净瓶，内装甘露。"
+    },
+    {
+      "id": "q_deity_068",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁背负天空?",
+      "options": ["宙斯", "阿特拉斯", "赫拉克勒斯", "普罗米修斯"],
+      "correctIndex": 1,
+      "explanation": "泰坦神阿特拉斯被罚永远背负天空。"
+    },
+    {
+      "id": "q_deity_069",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "北欧神话中，谁是光明之神?",
+      "options": ["奥丁", "托尔", "巴德尔", "弗雷"],
+      "correctIndex": 2,
+      "explanation": "巴德尔是光明之神，最受爱戴的神。"
+    },
+    {
+      "id": "q_culture_042",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，仙桃能让人怎样?",
+      "options": ["变强", "长生不老", "飞天", "隐身"],
+      "correctIndex": 1,
+      "explanation": "王母娘娘的蟠桃能让人长生不老。"
+    },
+    {
+      "id": "q_culture_043",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，英雄需要完成的任务通常有多少项?",
+      "options": ["七项", "十项", "十二项", "十五项"],
+      "correctIndex": 2,
+      "explanation": "赫拉克勒斯完成了著名的十二项任务。"
+    },
+    {
+      "id": "q_culture_044",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "北欧神话中，世界最终会如何?",
+      "options": ["永恒存在", "毁灭重生循环", "被神统治", "变成冰原"],
+      "correctIndex": 1,
+      "explanation": "北欧神话认为世界会经历毁灭和重生的循环。"
+    },
+    {
+      "id": "q_creature_070",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "中国神话中，仙鹤象征什么?",
+      "options": ["死亡", "长寿", "战争", "爱情"],
+      "correctIndex": 1,
+      "explanation": "仙鹤象征长寿和吉祥。"
+    },
+    {
+      "id": "q_creature_071",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "希腊神话中，弥诺陶洛斯住在哪里?",
+      "options": ["山洞", "迷宫", "宫殿", "森林"],
+      "correctIndex": 1,
+      "explanation": "弥诺陶洛斯被关在克里特岛的迷宫中。"
+    },
+    {
+      "id": "q_creature_072",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "埃及神话中，阿匹卜是什么?",
+      "options": ["太阳", "混沌之蛇", "狮子", "鹰"],
+      "correctIndex": 1,
+      "explanation": "阿匹卜是混沌之蛇，每晚试图吞噬太阳神拉。"
+    },
+    {
+      "id": "q_deity_070",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，关羽死后被尊为什么神?",
+      "options": ["财神", "武财神", "战神", "门神"],
+      "correctIndex": 1,
+      "explanation": "关羽死后被尊为武财神和忠义神。"
+    },
+    {
+      "id": "q_deity_071",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁创造了人类?",
+      "options": ["宙斯", "普罗米修斯", "雅典娜", "阿波罗"],
+      "correctIndex": 1,
+      "explanation": "普罗米修斯用泥土创造了人类。"
+    },
+    {
+      "id": "q_deity_072",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "北欧神话中，谁杀死了巴德尔?",
+      "options": ["洛基", "霍德尔", "托尔", "奥丁"],
+      "correctIndex": 1,
+      "explanation": "盲神霍德尔在洛基的诱导下射死了巴德尔。"
+    },
+    {
+      "id": "q_culture_045",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，牛郎织女一年见几次面?",
+      "options": ["一次", "两次", "三次", "四次"],
+      "correctIndex": 0,
+      "explanation": "牛郎织女每年七夕在鹊桥相会一次。"
+    },
+    {
+      "id": "q_culture_046",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，奥德修斯漂泊了多少年?",
+      "options": ["七年", "十年", "十二年", "二十年"],
+      "correctIndex": 1,
+      "explanation": "奥德修斯在海上漂泊了十年才回到家乡。"
+    },
+    {
+      "id": "q_culture_047",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "印度神话中，四个时代中最好的时代是?",
+      "options": ["圆满时代", "三分时代", "二分时代", "争斗时代"],
+      "correctIndex": 0,
+      "explanation": "圆满时代(Satya Yuga)是最好的黄金时代。"
+    },
+    {
+      "id": "q_attribute_017",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "暗属性通常象征什么?",
+      "options": ["正义", "神秘与未知", "欢乐", "和平"],
+      "correctIndex": 1,
+      "explanation": "暗属性通常象征神秘、未知和隐藏的力量。"
+    },
+    {
+      "id": "q_attribute_018",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "五行中，土克什么?",
+      "options": ["金", "木", "水", "火"],
+      "correctIndex": 2,
+      "explanation": "五行相克：土克水。"
+    },
+    {
+      "id": "q_attribute_019",
+      "category": "attribute",
+      "difficulty": "hard",
+      "question": "中国五行中，哪个季节对应木?",
+      "options": ["春", "夏", "秋", "冬"],
+      "correctIndex": 0,
+      "explanation": "木对应春季，火对应夏季，金对应秋季，水对应冬季。"
+    },
+    {
+      "id": "q_ability_022",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "龙通常具有什么特殊能力?",
+      "options": ["隐身", "控制天气", "读心", "预言"],
+      "correctIndex": 1,
+      "explanation": "龙通常能控制天气，召唤风雨。"
+    },
+    {
+      "id": "q_ability_023",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "希腊神话中，赫尔墨斯的飞鞋叫什么?",
+      "options": ["神翼", "塔拉利亚", "风之靴", "天行者"],
+      "correctIndex": 1,
+      "explanation": "赫尔墨斯穿着有翅膀的飞鞋塔拉利亚。"
+    },
+    {
+      "id": "q_ability_024",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "孙悟空的火眼金睛是怎么来的?",
+      "options": ["天生的", "炼丹炉炼成的", "师傅传授的", "吃蟠桃得到的"],
+      "correctIndex": 1,
+      "explanation": "孙悟空在太上老君的炼丹炉中被炼成火眼金睛。"
+    },
+    {
+      "id": "q_creature_073",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "日本神话中，狐狸修炼多久可以长出九条尾巴?",
+      "options": ["百年", "千年", "万年", "不确定"],
+      "correctIndex": 1,
+      "explanation": "传说狐狸修炼千年可以长出九条尾巴，成为九尾狐。"
+    },
+    {
+      "id": "q_creature_074",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁杀死了弥诺陶洛斯?",
+      "options": ["赫拉克勒斯", "忒修斯", "珀尔修斯", "阿喀琉斯"],
+      "correctIndex": 1,
+      "explanation": "忒修斯在迷宫中杀死了弥诺陶洛斯。"
+    },
+    {
+      "id": "q_creature_075",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "中国神话中，夔牛有几条腿?",
+      "options": ["两条", "一条", "四条", "六条"],
+      "correctIndex": 1,
+      "explanation": "夔是独脚神兽，外形似牛。"
+    },
+    {
+      "id": "q_deity_073",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，土地公公管什么?",
+      "options": ["天气", "土地和乡里", "财运", "婚姻"],
+      "correctIndex": 1,
+      "explanation": "土地公公是地方守护神，管理土地和乡里事务。"
+    },
+    {
+      "id": "q_deity_074",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "埃及神话中，谁复活了奥西里斯?",
+      "options": ["拉", "伊西斯", "荷鲁斯", "阿努比斯"],
+      "correctIndex": 1,
+      "explanation": "女神伊西斯用魔法复活了丈夫奥西里斯。"
+    },
+    {
+      "id": "q_deity_075",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "印度神话中，雷神因陀罗的武器是什么?",
+      "options": ["三叉戟", "金刚杵", "弓箭", "宝剑"],
+      "correctIndex": 1,
+      "explanation": "因陀罗的武器是金刚杵(伐折罗)。"
+    },
+    {
+      "id": "q_culture_048",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "西方神话中，吸血鬼怕什么?",
+      "options": ["水", "阳光", "风", "土"],
+      "correctIndex": 1,
+      "explanation": "吸血鬼害怕阳光、大蒜和十字架。"
+    },
+    {
+      "id": "q_culture_049",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "北欧神话中，尤克特拉希尔有几根主根?",
+      "options": ["一根", "两根", "三根", "四根"],
+      "correctIndex": 2,
+      "explanation": "世界树有三根主根，分别通向三个世界。"
+    },
+    {
+      "id": "q_culture_050",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "中国神话中，谁创造了人类?",
+      "options": ["盘古", "女娲", "伏羲", "神农"],
+      "correctIndex": 1,
+      "explanation": "女娲用泥土造人，创造了人类。"
+    },
+    {
+      "id": "q_creature_076",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "西方神话中，哪种生物守护宝藏?",
+      "options": ["精灵", "龙", "矮人", "巨人"],
+      "correctIndex": 1,
+      "explanation": "西方神话中龙通常守护宝藏。"
+    },
+    {
+      "id": "q_creature_077",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "中国神话中，梼杌象征什么?",
+      "options": ["善良", "顽固凶恶", "智慧", "长寿"],
+      "correctIndex": 1,
+      "explanation": "梼杌是四凶之一，象征顽固不化和凶恶。"
+    },
+    {
+      "id": "q_creature_078",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "希腊神话中，巨蟹座的原型是什么?",
+      "options": ["螃蟹", "龙虾", "海蛇", "乌龟"],
+      "correctIndex": 0,
+      "explanation": "巨蟹座的原型是被赫拉克勒斯杀死的大螃蟹。"
+    },
+    {
+      "id": "q_deity_076",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，八仙之首是谁?",
+      "options": ["吕洞宾", "铁拐李", "何仙姑", "张果老"],
+      "correctIndex": 1,
+      "explanation": "铁拐李被认为是八仙中最年长的。"
+    },
+    {
+      "id": "q_deity_077",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁是音乐和诗歌之神?",
+      "options": ["宙斯", "阿波罗", "赫尔墨斯", "狄俄尼索斯"],
+      "correctIndex": 1,
+      "explanation": "阿波罗是音乐、诗歌和艺术之神。"
+    },
+    {
+      "id": "q_deity_078",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "日本神话中，伊邪那岐去冥界寻找谁?",
+      "options": ["天照", "月读", "伊邪那美", "须佐之男"],
+      "correctIndex": 2,
+      "explanation": "伊邪那岐去黄泉之国寻找死去的妻子伊邪那美。"
+    },
+    {
+      "id": "q_culture_051",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，地府的最高统治者是谁?",
+      "options": ["阎罗王", "牛头马面", "判官", "黑白无常"],
+      "correctIndex": 0,
+      "explanation": "阎罗王是地府的最高统治者。"
+    },
+    {
+      "id": "q_culture_052",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁打开了潘多拉魔盒?",
+      "options": ["宙斯", "潘多拉", "普罗米修斯", "雅典娜"],
+      "correctIndex": 1,
+      "explanation": "潘多拉因好奇打开了魔盒，释放出所有灾难。"
+    },
+    {
+      "id": "q_culture_053",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "北欧神话中，冥界叫什么名字?",
+      "options": ["哈迪斯", "黄泉", "赫尔海姆", "地狱"],
+      "correctIndex": 2,
+      "explanation": "北欧神话的冥界叫赫尔海姆，由女神赫尔统治。"
+    },
+    {
+      "id": "q_attribute_020",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "自然属性生物通常居住在哪里?",
+      "options": ["沙漠", "森林", "火山", "深海"],
+      "correctIndex": 1,
+      "explanation": "自然属性生物通常居住在森林和草原。"
+    },
+    {
+      "id": "q_attribute_021",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "风属性克制什么属性?",
+      "options": ["火", "水", "土", "雷"],
+      "correctIndex": 2,
+      "explanation": "风能吹散土，因此风克土。"
+    },
+    {
+      "id": "q_attribute_022",
+      "category": "attribute",
+      "difficulty": "hard",
+      "question": "中国五行中，中央对应什么?",
+      "options": ["木", "火", "土", "金"],
+      "correctIndex": 2,
+      "explanation": "五行中土对应中央方位。"
+    },
+    {
+      "id": "q_ability_025",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "隐身能力通常与什么关联?",
+      "options": ["光明", "暗影", "火焰", "雷电"],
+      "correctIndex": 1,
+      "explanation": "隐身能力通常与暗影和黑暗关联。"
+    },
+    {
+      "id": "q_ability_026",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "希腊神话中，阿喀琉斯除了脚后跟外刀枪不入，这是为什么?",
+      "options": ["神的祝福", "浸过冥河", "吃了仙药", "天生神力"],
+      "correctIndex": 1,
+      "explanation": "阿喀琉斯的母亲提着他的脚后跟浸入冥河，使其刀枪不入。"
+    },
+    {
+      "id": "q_ability_027",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "中国神话中，哪吒有几件法宝?",
+      "options": ["三件", "五件", "七件", "九件"],
+      "correctIndex": 2,
+      "explanation": "哪吒有七件法宝：风火轮、火尖枪、混天绫、乾坤圈等。"
+    },
+    {
+      "id": "q_creature_079",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "人们通常用什么颜色描述西方龙?",
+      "options": ["金色", "红色或黑色", "白色", "蓝色"],
+      "correctIndex": 1,
+      "explanation": "西方龙通常被描绘为红色或黑色。"
+    },
+    {
+      "id": "q_creature_080",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "北欧神话中，哪种生物住在地下打造神器?",
+      "options": ["精灵", "矮人", "巨人", "人类"],
+      "correctIndex": 1,
+      "explanation": "矮人是北欧神话中的工匠，打造了许多神器。"
+    },
+    {
+      "id": "q_creature_081",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "中国神话中，混沌是什么形象?",
+      "options": ["无形", "像狗", "像熊", "像鸟"],
+      "correctIndex": 1,
+      "explanation": "混沌是四凶之一，形如犬，长毛四足。"
+    },
+    {
+      "id": "q_deity_079",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，门神是谁?",
+      "options": ["秦琼和尉迟恭", "关羽和张飞", "孙悟空和猪八戒", "李靖和哪吒"],
+      "correctIndex": 0,
+      "explanation": "最常见的门神是秦琼和尉迟恭。"
+    },
+    {
+      "id": "q_deity_080",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁是彩虹女神?",
+      "options": ["赫拉", "伊里斯", "雅典娜", "阿芙洛狄忒"],
+      "correctIndex": 1,
+      "explanation": "伊里斯是彩虹女神和众神的信使。"
+    },
+    {
+      "id": "q_deity_081",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "埃及神话中，巴斯特女神是什么形象?",
+      "options": ["狮头", "猫头", "鹰头", "蛇头"],
+      "correctIndex": 1,
+      "explanation": "巴斯特是猫头女神，掌管家庭和保护。"
+    },
+    {
+      "id": "q_culture_054",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，嫦娥奔月发生在什么时候?",
+      "options": ["春节", "端午", "中秋", "重阳"],
+      "correctIndex": 2,
+      "explanation": "嫦娥奔月的传说与中秋节相关。"
+    },
+    {
+      "id": "q_culture_055",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，特洛伊战争持续了多久?",
+      "options": ["五年", "七年", "十年", "十二年"],
+      "correctIndex": 2,
+      "explanation": "特洛伊战争持续了十年。"
+    },
+    {
+      "id": "q_culture_056",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "北欧神话中，瓦尔哈拉需要多少扇门?",
+      "options": ["一百扇", "三百扇", "五百四十扇", "一千扇"],
+      "correctIndex": 2,
+      "explanation": "瓦尔哈拉有五百四十扇门，每扇可容八百勇士通过。"
+    },
+    {
+      "id": "q_creature_082",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "中国神话中，金乌代表什么?",
+      "options": ["月亮", "太阳", "星星", "彩虹"],
+      "correctIndex": 1,
+      "explanation": "金乌是三足神鸟，代表太阳。"
+    },
+    {
+      "id": "q_creature_083",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "希腊神话中，牛头人身的怪物的母亲是谁?",
+      "options": ["赫拉", "帕西淮", "美杜莎", "潘多拉"],
+      "correctIndex": 1,
+      "explanation": "弥诺陶洛斯是帕西淮与公牛所生。"
+    },
+    {
+      "id": "q_creature_084",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "日本神话中，酒吞童子是什么妖怪?",
+      "options": ["鬼王", "妖狐", "河童", "天狗"],
+      "correctIndex": 0,
+      "explanation": "酒吞童子是日本平安时代最强的鬼王。"
+    },
+    {
+      "id": "q_deity_082",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，四大天王守护哪里?",
+      "options": ["天庭", "凡间", "冥界", "东海"],
+      "correctIndex": 0,
+      "explanation": "四大天王守护天界的东南西北四方。"
+    },
+    {
+      "id": "q_deity_083",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁是时间之神?",
+      "options": ["宙斯", "克洛诺斯", "俄瑞斯忒斯", "阿波罗"],
+      "correctIndex": 1,
+      "explanation": "克洛诺斯是时间之神，也是宙斯的父亲。"
+    },
+    {
+      "id": "q_deity_084",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "印度神话中，罗摩是谁的化身?",
+      "options": ["梵天", "毗湿奴", "湿婆", "因陀罗"],
+      "correctIndex": 1,
+      "explanation": "罗摩是毗湿奴的第七个化身。"
+    },
+    {
+      "id": "q_culture_057",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，龙王有几个?",
+      "options": ["一个", "四个", "七个", "九个"],
+      "correctIndex": 1,
+      "explanation": "四海龙王分别统治东南西北四海。"
+    },
+    {
+      "id": "q_culture_058",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，金羊毛在哪里?",
+      "options": ["奥林匹斯山", "科尔喀斯", "雅典", "斯巴达"],
+      "correctIndex": 1,
+      "explanation": "金羊毛在遥远的科尔喀斯国。"
+    },
+    {
+      "id": "q_culture_059",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "埃及神话中，法老需要通过多少项审判才能进入来世?",
+      "options": ["七项", "十二项", "四十二项", "七十二项"],
+      "correctIndex": 2,
+      "explanation": "亡者需要向四十二位神宣告无罪才能通过审判。"
+    },
+    {
+      "id": "q_attribute_023",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "火属性生物通常居住在哪里?",
+      "options": ["海洋", "火山", "森林", "沙漠"],
+      "correctIndex": 1,
+      "explanation": "火属性生物通常居住在火山等炎热之地。"
+    },
+    {
+      "id": "q_attribute_024",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "冰属性是哪个属性的延伸?",
+      "options": ["火", "水", "风", "暗"],
+      "correctIndex": 1,
+      "explanation": "冰属性通常被视为水属性的延伸。"
+    },
+    {
+      "id": "q_attribute_025",
+      "category": "attribute",
+      "difficulty": "hard",
+      "question": "五行中，金克什么?",
+      "options": ["木", "火", "土", "水"],
+      "correctIndex": 0,
+      "explanation": "五行相克：金克木。"
+    },
+    {
+      "id": "q_ability_028",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "预言能力通常需要什么?",
+      "options": ["力量", "智慧", "速度", "隐身"],
+      "correctIndex": 1,
+      "explanation": "预言能力通常需要智慧和洞察力。"
+    },
+    {
+      "id": "q_ability_029",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "北欧神话中，奥丁的枪有什么能力?",
+      "options": ["百发百中", "能回到手中", "无坚不摧", "以上都是"],
+      "correctIndex": 3,
+      "explanation": "贡格尼尔具有百发百中、能回到手中等多重能力。"
+    },
+    {
+      "id": "q_ability_030",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "中国神话中，二十八宿是什么?",
+      "options": ["神仙", "星宿神", "妖怪", "法宝"],
+      "correctIndex": 1,
+      "explanation": "二十八宿是天上的二十八个星宿，对应二十八位星君。"
+    },
+    {
+      "id": "q_creature_085",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "哪种生物在西方传说中能喷火?",
+      "options": ["独角兽", "飞马", "龙", "狮鹫"],
+      "correctIndex": 2,
+      "explanation": "西方龙能喷火，是其标志性能力。"
+    },
+    {
+      "id": "q_creature_086",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "中国神话中，朱雀是什么动物?",
+      "options": ["鸟", "龙", "虎", "龟"],
+      "correctIndex": 0,
+      "explanation": "朱雀是神鸟，代表南方和火。"
+    },
+    {
+      "id": "q_creature_087",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "希腊神话中，谁杀死了米诺陶洛斯?",
+      "options": ["赫拉克勒斯", "珀尔修斯", "忒修斯", "俄底修斯"],
+      "correctIndex": 2,
+      "explanation": "忒修斯在迷宫中杀死了米诺陶洛斯。"
+    },
+    {
+      "id": "q_deity_085",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，哪吒有几个头几只手?",
+      "options": ["一头二手", "三头六臂", "三头八臂", "九头十八臂"],
+      "correctIndex": 1,
+      "explanation": "哪吒法相是三头六臂。"
+    },
+    {
+      "id": "q_deity_086",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁是葡萄酒之神?",
+      "options": ["阿波罗", "狄俄尼索斯", "赫尔墨斯", "阿瑞斯"],
+      "correctIndex": 1,
+      "explanation": "狄俄尼索斯是葡萄酒、狂欢和戏剧之神。"
+    },
+    {
+      "id": "q_deity_087",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "日本神话中，稻荷神的使者是什么?",
+      "options": ["狐狸", "乌鸦", "蛇", "鹿"],
+      "correctIndex": 0,
+      "explanation": "稻荷神的使者和象征是白狐。"
+    },
+    {
+      "id": "q_culture_060",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，五岳之首是哪座山?",
+      "options": ["泰山", "华山", "衡山", "嵩山"],
+      "correctIndex": 0,
+      "explanation": "泰山是五岳之首。"
+    },
+    {
+      "id": "q_culture_061",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，奥德修斯用什么方法通过塞壬海域?",
+      "options": ["战斗", "封耳朵", "快速通过", "魔法"],
+      "correctIndex": 1,
+      "explanation": "奥德修斯用蜡封住水手耳朵，自己绑在桅杆上。"
+    },
+    {
+      "id": "q_culture_062",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "北欧神话中，诸神黄昏的信号是什么?",
+      "options": ["巴德尔之死", "芬里尔脱困", "加拉尔号角响起", "以上都是"],
+      "correctIndex": 3,
+      "explanation": "巴德尔之死、芬里尔脱困和加拉尔号角都是诸神黄昏的标志。"
+    },
+    {
+      "id": "q_creature_088",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "精灵通常有什么特征?",
+      "options": ["高大粗壮", "矮小丑陋", "美丽修长", "无形无影"],
+      "correctIndex": 2,
+      "explanation": "精灵通常被描绘为美丽修长、耳朵尖长的生物。"
+    },
+    {
+      "id": "q_creature_089",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "中国神话中，麒麟是什么的合体?",
+      "options": ["龙凤", "鹿牛", "狮虎", "多种动物"],
+      "correctIndex": 3,
+      "explanation": "麒麟是多种瑞兽特征的集合体。"
+    },
+    {
+      "id": "q_creature_090",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "埃及神话中，狮身人面兽提出什么谜语?",
+      "options": ["生命的意义", "早中晚不同脚", "世界的起源", "神的名字"],
+      "correctIndex": 1,
+      "explanation": "斯芬克斯的谜语是：什么生物早上四条腿，中午两条腿，晚上三条腿？答案是人。"
+    },
+    {
+      "id": "q_deity_088",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "佛教中的弥勒佛是什么佛?",
+      "options": ["过去佛", "现在佛", "未来佛", "护法佛"],
+      "correctIndex": 2,
+      "explanation": "弥勒佛是未来佛，将在释迦牟尼之后成佛。"
+    },
+    {
+      "id": "q_deity_089",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，美惠三女神掌管什么?",
+      "options": ["战争", "美丽和魅力", "智慧", "农业"],
+      "correctIndex": 1,
+      "explanation": "美惠三女神掌管美丽、魅力和欢乐。"
+    },
+    {
+      "id": "q_deity_090",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "北欧神话中，谁是海洋之神?",
+      "options": ["奥丁", "埃吉尔", "尼约德", "托尔"],
+      "correctIndex": 1,
+      "explanation": "埃吉尔是北欧神话中的海洋巨人和海神。"
+    },
+    {
+      "id": "q_culture_063",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国传说中，端午节吃粽子是为了纪念谁?",
+      "options": ["孔子", "屈原", "孟子", "老子"],
+      "correctIndex": 1,
+      "explanation": "端午节吃粽子是为了纪念投江的诗人屈原。"
+    },
+    {
+      "id": "q_culture_064",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁是缪斯女神?",
+      "options": ["一位", "三位", "七位", "九位"],
+      "correctIndex": 3,
+      "explanation": "缪斯是九位掌管文艺的女神。"
+    },
+    {
+      "id": "q_culture_065",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "印度神话中，世界坐落在什么之上?",
+      "options": ["巨龟", "大象", "莲花", "龟和象"],
+      "correctIndex": 3,
+      "explanation": "印度神话中世界坐落在四头大象背上，大象站在巨龟之上。"
+    },
+    {
+      "id": "q_attribute_026",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "雷电属性通常与什么天气关联?",
+      "options": ["晴天", "暴风雨", "下雪", "大雾"],
+      "correctIndex": 1,
+      "explanation": "雷电属性与暴风雨天气关联最密切。"
+    },
+    {
+      "id": "q_attribute_027",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "圣光属性通常克制什么?",
+      "options": ["火", "水", "暗", "风"],
+      "correctIndex": 2,
+      "explanation": "光明克制黑暗，这是最经典的属性相克。"
+    },
+    {
+      "id": "q_attribute_028",
+      "category": "attribute",
+      "difficulty": "hard",
+      "question": "五行中，水生什么?",
+      "options": ["木", "火", "土", "金"],
+      "correctIndex": 0,
+      "explanation": "五行相生：水生木。"
+    },
+    {
+      "id": "q_ability_031",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "飞行能力通常需要什么?",
+      "options": ["翅膀或魔法", "力量", "智慧", "武器"],
+      "correctIndex": 0,
+      "explanation": "飞行通常需要翅膀或魔法支持。"
+    },
+    {
+      "id": "q_ability_032",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "孙悟空的金箍棒最重能有多重?",
+      "options": ["一千斤", "八千斤", "一万三千五百斤", "十万斤"],
+      "correctIndex": 2,
+      "explanation": "金箍棒重一万三千五百斤。"
+    },
+    {
+      "id": "q_ability_033",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "希腊神话中，谁有预言能力?",
+      "options": ["阿波罗", "赫拉", "宙斯", "雅典娜"],
+      "correctIndex": 0,
+      "explanation": "阿波罗是预言之神，掌管神谕。"
+    },
+    {
+      "id": "q_creature_091",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "吸血鬼的弱点是什么?",
+      "options": ["火", "大蒜和阳光", "水", "风"],
+      "correctIndex": 1,
+      "explanation": "吸血鬼害怕大蒜、阳光和十字架。"
+    },
+    {
+      "id": "q_creature_092",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "中国神话中，螣蛇能做什么?",
+      "options": ["喷火", "腾云驾雾", "隐身", "预知"],
+      "correctIndex": 1,
+      "explanation": "螣蛇是能够腾云驾雾的神蛇。"
+    },
+    {
+      "id": "q_creature_093",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "希腊神话中，谁猎杀卡吕冬野猪?",
+      "options": ["赫拉克勒斯", "阿塔兰忒", "忒修斯", "珀尔修斯"],
+      "correctIndex": 1,
+      "explanation": "女猎手阿塔兰忒首先射伤了卡吕冬野猪。"
+    },
+    {
+      "id": "q_deity_091",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，猪八戒原本是什么神?",
+      "options": ["天蓬元帅", "卷帘大将", "斗战胜佛", "净坛使者"],
+      "correctIndex": 0,
+      "explanation": "猪八戒原是天蓬元帅，因戏嫦娥被贬下凡。"
+    },
+    {
+      "id": "q_deity_092",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁是睡神?",
+      "options": ["梦神", "修普诺斯", "塔那托斯", "厄瑞玻斯"],
+      "correctIndex": 1,
+      "explanation": "修普诺斯是睡眠之神。"
+    },
+    {
+      "id": "q_deity_093",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "埃及神话中，谁是战争女神?",
+      "options": ["伊西斯", "巴斯特", "塞赫美特", "哈索尔"],
+      "correctIndex": 2,
+      "explanation": "塞赫美特是埃及的战争女神，狮头人身。"
+    },
+    {
+      "id": "q_culture_066",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，天兵天将的首领是谁?",
+      "options": ["玉帝", "李靖", "关羽", "哪吒"],
+      "correctIndex": 1,
+      "explanation": "李靖是托塔天王，统领天兵天将。"
+    },
+    {
+      "id": "q_culture_067",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁解开了戈耳狄俄斯之结?",
+      "options": ["赫拉克勒斯", "亚历山大大帝", "忒修斯", "俄底修斯"],
+      "correctIndex": 1,
+      "explanation": "亚历山大大帝用剑斩断了戈耳狄俄斯之结。"
+    },
+    {
+      "id": "q_culture_068",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "北欧神话中，世界树的根下有几口井?",
+      "options": ["一口", "两口", "三口", "四口"],
+      "correctIndex": 2,
+      "explanation": "世界树根下有三口井：命运之井、智慧之泉和赫瓦格密尔泉。"
+    },
+    {
+      "id": "q_attribute_029",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "土属性通常代表什么?",
+      "options": ["变化", "稳定厚重", "速度", "锐利"],
+      "correctIndex": 1,
+      "explanation": "土属性象征稳定、厚重和坚固。"
+    },
+    {
+      "id": "q_attribute_030",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "毒属性通常与什么关联?",
+      "options": ["光明", "自然或暗影", "火焰", "冰霜"],
+      "correctIndex": 1,
+      "explanation": "毒属性通常与自然或暗影属性关联。"
+    },
+    {
+      "id": "q_ability_034",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "变形能力最著名的神是谁?",
+      "options": ["宙斯", "洛基", "孙悟空", "以上都是"],
+      "correctIndex": 3,
+      "explanation": "宙斯、洛基和孙悟空都擅长变形。"
+    },
+    {
+      "id": "q_ability_035",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "中国神话中，七十二变是谁的本领?",
+      "options": ["孙悟空", "二郎神", "猪八戒", "A和B都是"],
+      "correctIndex": 3,
+      "explanation": "孙悟空和二郎神都会七十二变。"
+    },
+    {
+      "id": "q_ability_036",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "希腊神话中，赫拉克勒斯的力量来源是什么?",
+      "options": ["神的血统", "魔法", "训练", "诅咒"],
+      "correctIndex": 0,
+      "explanation": "赫拉克勒斯是宙斯之子，拥有神的血统和力量。"
+    },
+    {
+      "id": "q_creature_094",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "哪种生物在传说中能起死回生?",
+      "options": ["龙", "凤凰", "麒麟", "玄武"],
+      "correctIndex": 1,
+      "explanation": "凤凰能浴火重生，象征不朽。"
+    },
+    {
+      "id": "q_creature_095",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "北欧神话中，谁的坐骑是八足马?",
+      "options": ["托尔", "奥丁", "弗雷", "提尔"],
+      "correctIndex": 1,
+      "explanation": "奥丁的坐骑是八足神马斯莱普尼尔。"
+    },
+    {
+      "id": "q_creature_096",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "日本神话中，雪女是什么妖怪?",
+      "options": ["善良的", "邪恶的", "中性的", "视情况而定"],
+      "correctIndex": 3,
+      "explanation": "雪女在不同传说中形象不同，有善有恶。"
+    },
+    {
+      "id": "q_deity_094",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，沙僧原是什么神?",
+      "options": ["天蓬元帅", "卷帘大将", "托塔天王", "哪吒"],
+      "correctIndex": 1,
+      "explanation": "沙僧原是卷帘大将，因失手打破琉璃盏被贬。"
+    },
+    {
+      "id": "q_deity_095",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁是医药之神?",
+      "options": ["阿波罗", "阿斯克勒庇俄斯", "赫尔墨斯", "狄俄尼索斯"],
+      "correctIndex": 1,
+      "explanation": "阿斯克勒庇俄斯是医药之神，阿波罗之子。"
+    },
+    {
+      "id": "q_deity_096",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "印度神话中，克里希那是谁的化身?",
+      "options": ["梵天", "毗湿奴", "湿婆", "因陀罗"],
+      "correctIndex": 1,
+      "explanation": "克里希那是毗湿奴的第八个化身。"
+    },
+    {
+      "id": "q_culture_069",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，天界有几重天?",
+      "options": ["九重", "十八重", "三十三重", "八十一重"],
+      "correctIndex": 2,
+      "explanation": "道教认为天有三十三重天。"
+    },
+    {
+      "id": "q_culture_070",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，忒修斯用什么找到迷宫出口?",
+      "options": ["魔法", "线团", "地图", "记忆"],
+      "correctIndex": 1,
+      "explanation": "忒修斯用阿里阿德涅的线团找到迷宫出口。"
+    },
+    {
+      "id": "q_culture_071",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "埃及神话中，心脏比羽毛重会怎样?",
+      "options": ["进入天堂", "被怪兽吞噬", "轮回转世", "成为神"],
+      "correctIndex": 1,
+      "explanation": "心脏比羽毛重表示有罪，会被怪兽阿米特吞噬。"
+    },
+    {
+      "id": "q_creature_097",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "僵尸在中国传说中靠什么移动?",
+      "options": ["走路", "跳跃", "飞行", "爬行"],
+      "correctIndex": 1,
+      "explanation": "中国传说中的僵尸通常是跳跃移动。"
+    },
+    {
+      "id": "q_creature_098",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁守护金苹果?",
+      "options": ["拉冬", "刻耳柏洛斯", "海德拉", "奇美拉"],
+      "correctIndex": 0,
+      "explanation": "百头巨龙拉冬守护金苹果园。"
+    },
+    {
+      "id": "q_creature_099",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "凯尔特神话中，彩虹的尽头有什么?",
+      "options": ["宝藏", "妖精的金子", "仙境入口", "神殿"],
+      "correctIndex": 1,
+      "explanation": "凯尔特传说彩虹尽头有妖精的金子。"
+    },
+    {
+      "id": "q_deity_097",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，白娘子是什么成精?",
+      "options": ["狐狸", "蛇", "鲤鱼", "仙鹤"],
+      "correctIndex": 1,
+      "explanation": "白娘子是白蛇修炼成精。"
+    },
+    {
+      "id": "q_deity_098",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，九位缪斯女神的领袖是谁?",
+      "options": ["卡利俄珀", "克利俄", "埃拉托", "乌拉尼亚"],
+      "correctIndex": 0,
+      "explanation": "卡利俄珀是史诗女神，被认为是缪斯之首。"
+    },
+    {
+      "id": "q_deity_099",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "北欧神话中，尼约德是什么神?",
+      "options": ["战争之神", "海洋之神", "农业之神", "智慧之神"],
+      "correctIndex": 1,
+      "explanation": "尼约德是华纳神族的海洋和风之神。"
+    },
+    {
+      "id": "q_culture_072",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，地府有几殿阎王?",
+      "options": ["七殿", "八殿", "十殿", "十二殿"],
+      "correctIndex": 2,
+      "explanation": "地府有十殿阎王，分别掌管不同罪业。"
+    },
+    {
+      "id": "q_culture_073",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，赫拉克勒斯完成任务是为了?",
+      "options": ["赎罪", "成神", "救人", "财富"],
+      "correctIndex": 0,
+      "explanation": "赫拉克勒斯完成十二项任务是为了赎罪。"
+    },
+    {
+      "id": "q_culture_074",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "日本神话中，黄泉国的入口在哪?",
+      "options": ["富士山", "出云", "京都", "伊予"],
+      "correctIndex": 1,
+      "explanation": "黄泉国的入口在出云国的黄泉比良坂。"
+    },
+    {
+      "id": "q_attribute_031",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "金属属性通常代表什么?",
+      "options": ["柔软", "锐利坚硬", "温暖", "寒冷"],
+      "correctIndex": 1,
+      "explanation": "金属属性象征锐利、坚硬和肃杀。"
+    },
+    {
+      "id": "q_attribute_032",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "混沌属性代表什么?",
+      "options": ["秩序", "无序与原始", "光明", "黑暗"],
+      "correctIndex": 1,
+      "explanation": "混沌属性代表无序、原始和未分化的力量。"
+    },
+    {
+      "id": "q_ability_037",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "召唤能力通常召唤什么?",
+      "options": ["武器", "生物或精灵", "食物", "建筑"],
+      "correctIndex": 1,
+      "explanation": "召唤能力通常召唤生物、精灵或元素。"
+    },
+    {
+      "id": "q_ability_038",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "中国神话中，吐真言是什么能力?",
+      "options": ["说谎", "强制说真话", "预言", "治愈"],
+      "correctIndex": 1,
+      "explanation": "吐真言可以让人不由自主说出真话。"
+    },
+    {
+      "id": "q_ability_039",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "希腊神话中，谁拥有黄金触碰能力?",
+      "options": ["宙斯", "弥达斯", "阿波罗", "赫菲斯托斯"],
+      "correctIndex": 1,
+      "explanation": "弥达斯国王被赐予点石成金的能力，但也因此受苦。"
+    },
+    {
+      "id": "q_creature_100",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "哪种生物在传说中能带来好运?",
+      "options": ["黑猫", "乌鸦", "四叶草", "蝙蝠"],
+      "correctIndex": 2,
+      "explanation": "四叶草在西方传说中象征幸运。"
+    },
+    {
+      "id": "q_creature_101",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "中国神话中，相柳被谁杀死?",
+      "options": ["女娲", "大禹", "黄帝", "后羿"],
+      "correctIndex": 1,
+      "explanation": "九头蛇相柳被大禹斩杀。"
+    },
+    {
+      "id": "q_creature_102",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "北欧神话中，世界树上有几只鹿?",
+      "options": ["一只", "两只", "四只", "九只"],
+      "correctIndex": 2,
+      "explanation": "世界树上有四只鹿啃食树叶。"
+    },
+    {
+      "id": "q_deity_100",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "观世音菩萨的坐骑是什么?",
+      "options": ["白象", "青狮", "金龙", "朝天犼"],
+      "correctIndex": 3,
+      "explanation": "观音菩萨的坐骑是朝天犼（也称金毛犼）。"
+    },
+    {
+      "id": "q_deity_101",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁是复仇女神?",
+      "options": ["涅墨西斯", "厄里倪厄斯", "A和B都是", "赫拉"],
+      "correctIndex": 2,
+      "explanation": "涅墨西斯是正义复仇女神，厄里倪厄斯是复仇三女神。"
+    },
+    {
+      "id": "q_deity_102",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "埃及神话中，谁是书写和知识之神?",
+      "options": ["拉", "透特", "奥西里斯", "阿努比斯"],
+      "correctIndex": 1,
+      "explanation": "透特是智慧、书写和魔法之神。"
+    },
+    {
+      "id": "q_culture_075",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，龙生九子，各有不同。这是真的吗?",
+      "options": ["是的", "不是", "有争议", "无记载"],
+      "correctIndex": 0,
+      "explanation": "龙生九子是中国传统神话，九子各有特点和喜好。"
+    },
+    {
+      "id": "q_culture_076",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，伊卡洛斯为什么坠落?",
+      "options": ["翅膀断了", "飞太高蜡融化", "被击落", "太累了"],
+      "correctIndex": 1,
+      "explanation": "伊卡洛斯飞得太高，太阳融化了蜡制的翅膀。"
+    },
+    {
+      "id": "q_culture_077",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "北欧神话中，英灵殿的屋顶是什么做的?",
+      "options": ["黄金", "盾牌", "树叶", "云彩"],
+      "correctIndex": 1,
+      "explanation": "瓦尔哈拉的屋顶由盾牌铺成。"
+    },
+    {
+      "id": "q_creature_103",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "美人鱼的下半身是什么?",
+      "options": ["蛇", "鱼", "海豚", "章鱼"],
+      "correctIndex": 1,
+      "explanation": "美人鱼是人身鱼尾的海洋生物。"
+    },
+    {
+      "id": "q_creature_104",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "中国神话中，应龙帮助谁打败了蚩尤?",
+      "options": ["炎帝", "黄帝", "大禹", "后羿"],
+      "correctIndex": 1,
+      "explanation": "应龙助黄帝战蚩尤于涿鹿之野。"
+    },
+    {
+      "id": "q_creature_105",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "希腊神话中，什么生物是狮头、羊身、蛇尾?",
+      "options": ["奇美拉", "狮鹫", "斯芬克斯", "米诺陶洛斯"],
+      "correctIndex": 0,
+      "explanation": "奇美拉是狮头、羊身、蛇尾的复合怪物。"
+    },
+    {
+      "id": "q_deity_103",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，灶王爷什么时候上天汇报?",
+      "options": ["除夕", "腊月二十三", "正月初一", "中秋"],
+      "correctIndex": 1,
+      "explanation": "灶王爷在腊月二十三上天汇报人间善恶。"
+    },
+    {
+      "id": "q_deity_104",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁是梦神?",
+      "options": ["修普诺斯", "摩耳甫斯", "塔那托斯", "厄瑞玻斯"],
+      "correctIndex": 1,
+      "explanation": "摩耳甫斯是梦神，修普诺斯的儿子。"
+    },
+    {
+      "id": "q_deity_105",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "印度神话中，萨拉斯瓦蒂女神掌管什么?",
+      "options": ["战争", "知识和艺术", "财富", "爱情"],
+      "correctIndex": 1,
+      "explanation": "萨拉斯瓦蒂是知识、艺术和音乐女神。"
+    },
+    {
+      "id": "q_culture_078",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，八仙过海各显什么?",
+      "options": ["武功", "神通", "法宝", "智慧"],
+      "correctIndex": 1,
+      "explanation": "八仙过海，各显神通，展现各自的法术。"
+    },
+    {
+      "id": "q_culture_079",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，潘多拉盒子里最后剩下什么?",
+      "options": ["绝望", "希望", "勇气", "爱"],
+      "correctIndex": 1,
+      "explanation": "潘多拉关闭盒子时，希望还留在里面。"
+    },
+    {
+      "id": "q_culture_080",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "北欧神话中，奥丁用什么换取智慧?",
+      "options": ["一只眼睛", "一只手", "生命", "王位"],
+      "correctIndex": 0,
+      "explanation": "奥丁献出一只眼睛换取智慧之泉的泉水。"
+    },
+    {
+      "id": "q_ability_040",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "时间控制是什么类型的能力?",
+      "options": ["普通能力", "强大能力", "基础能力", "无用能力"],
+      "correctIndex": 1,
+      "explanation": "时间控制是非常强大和稀有的能力。"
+    },
+    {
+      "id": "q_ability_041",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "中国神话中，定身术是什么能力?",
+      "options": ["治愈", "定住对方", "变身", "飞行"],
+      "correctIndex": 1,
+      "explanation": "定身术可以让对方暂时无法移动。"
+    },
+    {
+      "id": "q_ability_042",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "希腊神话中，谁拥有使物体变成石头的能力?",
+      "options": ["宙斯", "美杜莎", "雅典娜", "波塞冬"],
+      "correctIndex": 1,
+      "explanation": "美杜莎能将直视她眼睛的生物变成石头。"
+    },
+    {
+      "id": "q_creature_106",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "童话中，哪种生物会吐金币?",
+      "options": ["青蛙", "蟾蜍", "蛇", "龙"],
+      "correctIndex": 1,
+      "explanation": "童话中蟾蜍吐金币的故事广为流传。"
+    },
+    {
+      "id": "q_creature_107",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "中国神话中，谁是百兽之王?",
+      "options": ["龙", "虎", "狮", "麒麟"],
+      "correctIndex": 1,
+      "explanation": "虎被称为百兽之王。"
+    },
+    {
+      "id": "q_creature_108",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "希腊神话中，谁的眼泪变成了琥珀?",
+      "options": ["赫利俄斯的女儿们", "缪斯女神", "宁芙仙女", "命运女神"],
+      "correctIndex": 0,
+      "explanation": "赫利俄斯的女儿们为法厄同哭泣，眼泪变成了琥珀。"
+    },
+    {
+      "id": "q_deity_106",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，财神赵公明的坐骑是什么?",
+      "options": ["白虎", "黑虎", "青狮", "麒麟"],
+      "correctIndex": 1,
+      "explanation": "赵公明的坐骑是黑虎。"
+    },
+    {
+      "id": "q_deity_107",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁是青春女神?",
+      "options": ["赫柏", "阿芙洛狄忒", "珀耳塞福涅", "赫拉"],
+      "correctIndex": 0,
+      "explanation": "赫柏是青春女神，为众神斟酒。"
+    },
+    {
+      "id": "q_deity_108",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "北欧神话中，谁是诗歌之神?",
+      "options": ["奥丁", "布拉基", "洛基", "巴德尔"],
+      "correctIndex": 1,
+      "explanation": "布拉基是北欧的诗歌和音乐之神。"
+    },
+    {
+      "id": "q_culture_081",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国传说中，鲤鱼跃龙门后会变成什么?",
+      "options": ["仙鹤", "凤凰", "龙", "麒麟"],
+      "correctIndex": 2,
+      "explanation": "鲤鱼跃过龙门后会化身为龙。"
+    },
+    {
+      "id": "q_culture_082",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，阿喀琉斯的盔甲是谁打造的?",
+      "options": ["宙斯", "赫菲斯托斯", "雅典娜", "波塞冬"],
+      "correctIndex": 1,
+      "explanation": "火神赫菲斯托斯为阿喀琉斯打造了神器盔甲。"
+    },
+    {
+      "id": "q_culture_083",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "埃及神话中，死者的心脏要和什么女神的羽毛比较?",
+      "options": ["伊西斯", "玛亚特", "巴斯特", "哈索尔"],
+      "correctIndex": 1,
+      "explanation": "死者的心脏要和真理女神玛亚特的羽毛比较。"
+    },
+    {
+      "id": "q_attribute_033",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "神圣属性通常与什么关联?",
+      "options": ["邪恶", "光明和正义", "黑暗", "混沌"],
+      "correctIndex": 1,
+      "explanation": "神圣属性与光明、正义和纯洁关联。"
+    },
+    {
+      "id": "q_attribute_034",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "灵魂属性通常具有什么特点?",
+      "options": ["物理攻击", "精神影响", "元素伤害", "治愈效果"],
+      "correctIndex": 1,
+      "explanation": "灵魂属性通常影响精神和意识。"
+    },
+    {
+      "id": "q_ability_043",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "复活能力通常属于什么类型?",
+      "options": ["攻击类", "治愈类", "神迹类", "元素类"],
+      "correctIndex": 2,
+      "explanation": "复活能力通常被视为神迹级别的能力。"
+    },
+    {
+      "id": "q_ability_044",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "中国神话中，开天辟地用的是什么?",
+      "options": ["神剑", "盘古斧", "金箍棒", "三叉戟"],
+      "correctIndex": 1,
+      "explanation": "盘古用盘古斧开天辟地。"
+    },
+    {
+      "id": "q_ability_045",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "希腊神话中，谁能控制死亡?",
+      "options": ["宙斯", "哈迪斯", "塔那托斯", "B和C都是"],
+      "correctIndex": 3,
+      "explanation": "哈迪斯是冥王，塔那托斯是死神，都能控制死亡。"
+    },
+    {
+      "id": "q_creature_109",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "西方传说中，龙守护的宝藏通常在哪里?",
+      "options": ["山洞", "海底", "天空", "森林"],
+      "correctIndex": 0,
+      "explanation": "西方龙通常在山洞中守护宝藏。"
+    },
+    {
+      "id": "q_creature_110",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "日本神话中，座敷童子是什么?",
+      "options": ["恶鬼", "福神", "妖怪", "动物精"],
+      "correctIndex": 1,
+      "explanation": "座敷童子是日本的家庭守护灵，带来好运。"
+    },
+    {
+      "id": "q_deity_109",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，文殊菩萨的坐骑是什么?",
+      "options": ["白象", "青狮", "孔雀", "白马"],
+      "correctIndex": 1,
+      "explanation": "文殊菩萨的坐骑是青狮。"
+    },
+    {
+      "id": "q_deity_110",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁是彩虹女神伊里斯的父母?",
+      "options": ["宙斯和赫拉", "涛玛斯和厄勒克特拉", "俄刻阿诺斯和忒堤斯", "乌拉诺斯和盖亚"],
+      "correctIndex": 1,
+      "explanation": "伊里斯是泰坦神涛玛斯和厄勒克特拉的女儿。"
+    },
+    {
+      "id": "q_culture_084",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国传统中，麒麟送子象征什么?",
+      "options": ["灾难", "吉祥降子", "战争", "丰收"],
+      "correctIndex": 1,
+      "explanation": "麒麟送子是吉祥的象征，预示生贵子。"
+    },
+    {
+      "id": "q_culture_085",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，阿尔戈英雄探险是为了什么?",
+      "options": ["寻找宝藏", "夺取金羊毛", "拯救公主", "打败怪兽"],
+      "correctIndex": 1,
+      "explanation": "阿尔戈英雄们的任务是夺取金羊毛。"
+    },
+    {
+      "id": "q_culture_086",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "北欧神话中，诸神黄昏后谁会统治新世界?",
+      "options": ["奥丁的儿子", "巴德尔和霍德尔", "托尔的儿子", "以上都是"],
+      "correctIndex": 3,
+      "explanation": "诸神黄昏后，众神的后代将共同统治新世界。"
+    },
+    {
+      "id": "q_creature_111",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "印度神话中，迦楼罗的天敌是什么?",
+      "options": ["龙", "那伽(蛇)", "狮子", "大象"],
+      "correctIndex": 1,
+      "explanation": "迦楼罗以那伽(蛇神)为食，两者是天敌。"
+    },
+    {
+      "id": "q_deity_111",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "埃及神话中，谁是爱与音乐女神?",
+      "options": ["伊西斯", "哈索尔", "巴斯特", "塞赫美特"],
+      "correctIndex": 1,
+      "explanation": "哈索尔是爱、美、音乐和舞蹈女神。"
+    },
+    {
+      "id": "q_culture_087",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，孟婆汤有什么作用?",
+      "options": ["增强记忆", "忘记前世", "长生不老", "增加法力"],
+      "correctIndex": 1,
+      "explanation": "孟婆汤让亡魂忘记前世记忆，投胎转世。"
+    },
+    {
+      "id": "q_ability_046",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "北欧神话中，托尔的锤子有什么特殊能力?",
+      "options": ["投出后自动回来", "永不损坏", "引发雷电", "以上都是"],
+      "correctIndex": 3,
+      "explanation": "妙尔尼尔具有多重神奇能力。"
+    },
+    {
+      "id": "q_creature_112",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "传说中，哪种动物能看到鬼魂?",
+      "options": ["狗", "猫", "马", "A和B都是"],
+      "correctIndex": 3,
+      "explanation": "民间传说狗和猫都能看到鬼魂。"
+    },
+    {
+      "id": "q_deity_112",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，普贤菩萨的坐骑是什么?",
+      "options": ["白象", "青狮", "白马", "金龙"],
+      "correctIndex": 0,
+      "explanation": "普贤菩萨的坐骑是六牙白象。"
+    },
+    {
+      "id": "q_culture_088",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，俄耳甫斯为了救谁下冥界?",
+      "options": ["妻子欧律狄刻", "母亲", "朋友", "女儿"],
+      "correctIndex": 0,
+      "explanation": "俄耳甫斯为了救妻子欧律狄刻下到冥界。"
+    },
+    {
+      "id": "q_attribute_035",
+      "category": "attribute",
+      "difficulty": "hard",
+      "question": "五行中，木克什么?",
+      "options": ["金", "水", "火", "土"],
+      "correctIndex": 3,
+      "explanation": "五行相克：木克土。"
+    },
+    {
+      "id": "q_creature_113",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "希腊神话中，谁是半人半神的英雄之祖?",
+      "options": ["赫拉克勒斯", "珀尔修斯", "忒修斯", "阿喀琉斯"],
+      "correctIndex": 1,
+      "explanation": "珀尔修斯是最早的半神英雄之一。"
+    },
+    {
+      "id": "q_deity_113",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "日本神话中，七福神有几位?",
+      "options": ["五位", "六位", "七位", "八位"],
+      "correctIndex": 2,
+      "explanation": "日本七福神共有七位神明，带来不同的福气。"
+    },
+    {
+      "id": "q_culture_089",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，奈何桥在哪里?",
+      "options": ["天界", "人间", "冥界", "海底"],
+      "correctIndex": 2,
+      "explanation": "奈何桥在冥界，是亡魂投胎前必经之路。"
+    },
+    {
+      "id": "q_ability_047",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "读心术属于什么类型的能力?",
+      "options": ["物理", "精神", "元素", "治愈"],
+      "correctIndex": 1,
+      "explanation": "读心术是精神类能力。"
+    },
+    {
+      "id": "q_creature_114",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "凯尔特神话中，变身海豹的生物叫什么?",
+      "options": ["海妖", "塞尔基", "美人鱼", "宁芙"],
+      "correctIndex": 1,
+      "explanation": "塞尔基是凯尔特神话中能变身海豹的生物。"
+    },
+    {
+      "id": "q_deity_114",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "印度神话中，财富女神是谁?",
+      "options": ["萨拉斯瓦蒂", "拉克希米", "帕尔瓦蒂", "杜尔迦"],
+      "correctIndex": 1,
+      "explanation": "拉克希米是财富、幸运和美丽女神。"
+    },
+    {
+      "id": "q_culture_090",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "北欧神话中，侏儒是怎么来的?",
+      "options": ["神创造的", "从巨人尸体生出的蛆虫变的", "自然诞生", "人类变化"],
+      "correctIndex": 1,
+      "explanation": "侏儒是从巨人伊米尔尸体上的蛆虫变化而来。"
+    },
+    {
+      "id": "q_attribute_036",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "星辰属性通常与什么关联?",
+      "options": ["大地", "天空和命运", "海洋", "火焰"],
+      "correctIndex": 1,
+      "explanation": "星辰属性与天空、命运和占卜关联。"
+    },
+    {
+      "id": "q_ability_048",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "中国神话中，移山填海是谁的事迹?",
+      "options": ["盘古", "女娲", "愚公", "精卫"],
+      "correctIndex": 2,
+      "explanation": "愚公移山是著名的中国神话故事。"
+    },
+    {
+      "id": "q_creature_114",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "中国神话中，哪种生物是龙的幼年形态?",
+      "options": ["蛟", "虬", "螭", "以上都是"],
+      "correctIndex": 3,
+      "explanation": "蛟、虬、螭都是龙的不同幼年形态。"
+    },
+    {
+      "id": "q_creature_115",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁守护金羊毛?",
+      "options": ["百头龙拉冬", "不眠龙", "九头蛇", "刻耳柏洛斯"],
+      "correctIndex": 1,
+      "explanation": "不眠龙守护着金羊毛，从不睡觉。"
+    },
+    {
+      "id": "q_creature_116",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "北欧神话中，世界树上的鹰叫什么名字?",
+      "options": ["福金", "雾尼", "维德弗尔尼尔", "赫拉斯瓦尔格"],
+      "correctIndex": 2,
+      "explanation": "维德弗尔尼尔是世界树顶端的巨鹰。"
+    },
+    {
+      "id": "q_creature_117",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "日本神话中，哪种妖怪喜欢相扑?",
+      "options": ["河童", "天狗", "狸猫", "鬼"],
+      "correctIndex": 0,
+      "explanation": "河童喜欢相扑和黄瓜。"
+    },
+    {
+      "id": "q_creature_118",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "印度神话中，谁是蛇王舍沙的兄弟?",
+      "options": ["迦楼罗", "那伽", "阿修罗", "夜叉"],
+      "correctIndex": 0,
+      "explanation": "迦楼罗和舍沙是兄弟，但迦楼罗以蛇为食。"
+    },
+    {
+      "id": "q_creature_119",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "埃及神话中，谁是混沌的化身?",
+      "options": ["阿佩普", "塞特", "奥西里斯", "阿努比斯"],
+      "correctIndex": 0,
+      "explanation": "阿佩普是混沌巨蛇，代表混沌与黑暗。"
+    },
+    {
+      "id": "q_creature_120",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "凯尔特神话中，四叶草象征什么?",
+      "options": ["死亡", "幸运", "战争", "智慧"],
+      "correctIndex": 1,
+      "explanation": "四叶草在凯尔特文化中象征幸运。"
+    },
+    {
+      "id": "q_deity_115",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，谁是财神?",
+      "options": ["关公", "赵公明", "土地公", "灶王爷"],
+      "correctIndex": 1,
+      "explanation": "赵公明是道教中最广为人知的财神。"
+    },
+    {
+      "id": "q_deity_116",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁是农业女神德墨忒尔的女儿?",
+      "options": ["赫拉", "珀耳塞福涅", "阿芙洛狄忒", "雅典娜"],
+      "correctIndex": 1,
+      "explanation": "珀耳塞福涅是德墨忒尔的女儿，被哈迪斯掳走成为冥后。"
+    },
+    {
+      "id": "q_deity_117",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "北欧神话中，谁是诗歌之神?",
+      "options": ["奥丁", "布拉基", "洛基", "弗雷"],
+      "correctIndex": 1,
+      "explanation": "布拉基是北欧的诗歌和音乐之神。"
+    },
+    {
+      "id": "q_deity_118",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "日本神话中，七福神中的大黑天掌管什么?",
+      "options": ["战争", "财富", "智慧", "爱情"],
+      "correctIndex": 1,
+      "explanation": "大黑天是七福神之一，掌管财富和商业。"
+    },
+    {
+      "id": "q_deity_119",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "印度神话中，谁是战争女神?",
+      "options": ["萨拉斯瓦蒂", "拉克希米", "杜尔迦", "帕尔瓦蒂"],
+      "correctIndex": 2,
+      "explanation": "杜尔迦是战争女神，湿婆的化身之一。"
+    },
+    {
+      "id": "q_deity_120",
+      "category": "deity",
+      "difficulty": "hard",
+      "question": "埃及神话中，谁是音乐女神?",
+      "options": ["伊西斯", "哈索尔", "巴斯特", "塞赫美特"],
+      "correctIndex": 1,
+      "explanation": "哈索尔是爱、美、音乐和舞蹈女神。"
+    },
+    {
+      "id": "q_culture_091",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，天宫有多少重天?",
+      "options": ["九重", "十八重", "三十三重", "八十一重"],
+      "correctIndex": 2,
+      "explanation": "道教认为天有三十三重天。"
+    },
+    {
+      "id": "q_culture_092",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁建造了迷宫?",
+      "options": ["宙斯", "代达罗斯", "弥诺斯", "雅典娜"],
+      "correctIndex": 1,
+      "explanation": "代达罗斯是著名工匠，建造了克里特迷宫。"
+    },
+    {
+      "id": "q_culture_093",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "北欧神话中，英灵殿有多少扇门?",
+      "options": ["一百扇", "三百扇", "五百四十扇", "一千扇"],
+      "correctIndex": 2,
+      "explanation": "瓦尔哈拉有五百四十扇门，每扇可容八百勇士通过。"
+    },
+    {
+      "id": "q_attribute_037",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "冰属性通常克制什么属性?",
+      "options": ["火", "水", "风", "土"],
+      "correctIndex": 0,
+      "explanation": "冰能灭火，因此冰属性克制火属性。"
+    },
+    {
+      "id": "q_attribute_038",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "在五行中，土生什么?",
+      "options": ["金", "木", "水", "火"],
+      "correctIndex": 0,
+      "explanation": "五行相生：土生金。"
+    },
+    {
+      "id": "q_attribute_039",
+      "category": "attribute",
+      "difficulty": "hard",
+      "question": "神圣属性通常与什么对立?",
+      "options": ["火", "暗", "水", "风"],
+      "correctIndex": 1,
+      "explanation": "神圣属性与暗属性对立，代表光明与黑暗的对抗。"
+    },
+    {
+      "id": "q_ability_049",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "哪种能力可以让使用者隐身?",
+      "options": ["透明术", "遁术", "隐身术", "以上都是"],
+      "correctIndex": 3,
+      "explanation": "透明术、遁术、隐身术都是隐身能力的不同表现形式。"
+    },
+    {
+      "id": "q_ability_050",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "孙悟空的七十二变属于什么类型的能力?",
+      "options": ["变形", "分身", "召唤", "时间"],
+      "correctIndex": 0,
+      "explanation": "七十二变是变形能力，可以变化成各种形态。"
+    },
+    {
+      "id": "q_creature_121",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "中国神话中，哪种生物守护宝藏?",
+      "options": ["龙", "凤凰", "麒麟", "玄武"],
+      "correctIndex": 0,
+      "explanation": "龙通常守护宝藏，是财富的象征。"
+    },
+    {
+      "id": "q_creature_122",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁是最早的半神英雄?",
+      "options": ["赫拉克勒斯", "珀尔修斯", "忒修斯", "阿喀琉斯"],
+      "correctIndex": 1,
+      "explanation": "珀尔修斯是最早的半神英雄之一，杀死了美杜莎。"
+    },
+    {
+      "id": "q_creature_123",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "北欧神话中，世界树的根下有几口井?",
+      "options": ["一口", "两口", "三口", "四口"],
+      "correctIndex": 2,
+      "explanation": "世界树根下有三口井：命运之井、智慧之泉和赫瓦格密尔泉。"
+    },
+    {
+      "id": "q_deity_121",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，八仙之首是谁?",
+      "options": ["吕洞宾", "铁拐李", "何仙姑", "张果老"],
+      "correctIndex": 1,
+      "explanation": "铁拐李被认为是八仙中最年长的。"
+    },
+    {
+      "id": "q_deity_122",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁是复仇女神?",
+      "options": ["涅墨西斯", "厄里倪厄斯", "以上都是", "赫拉"],
+      "correctIndex": 2,
+      "explanation": "涅墨西斯是正义复仇女神，厄里倪厄斯是复仇三女神。"
+    },
+    {
+      "id": "q_culture_094",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，龙生九子各有不同，这是真的吗?",
+      "options": ["是的", "不是", "有争议", "无记载"],
+      "correctIndex": 0,
+      "explanation": "龙生九子是中国传统神话，九子各有特点和喜好。"
+    },
+    {
+      "id": "q_attribute_040",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "毒属性通常与什么关联?",
+      "options": ["光明", "自然或暗影", "火焰", "冰霜"],
+      "correctIndex": 1,
+      "explanation": "毒属性通常与自然或暗影属性关联。"
+    },
+    {
+      "id": "q_ability_051",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "复活能力属于什么类型?",
+      "options": ["攻击类", "治愈类", "神迹类", "元素类"],
+      "correctIndex": 2,
+      "explanation": "复活能力通常被视为神迹级别的能力。"
+    },
+    {
+      "id": "q_creature_124",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "日本神话中，哪种妖怪住在瓶子里?",
+      "options": ["河童", "瓶长", "天狗", "鬼"],
+      "correctIndex": 1,
+      "explanation": "瓶长是住在瓶子里的妖怪。"
+    },
+    {
+      "id": "q_creature_125",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "印度神话中，哪种生物是湿婆的坐骑?",
+      "options": ["迦楼罗", "南迪", "天鹅", "狮子"],
+      "correctIndex": 1,
+      "explanation": "南迪是神牛，是湿婆的坐骑。"
+    },
+    {
+      "id": "q_creature_126",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "埃及神话中，谁守护法老的木乃伊?",
+      "options": ["阿努比斯", "塞尔凯特", "荷鲁斯", "透特"],
+      "correctIndex": 1,
+      "explanation": "蝎子女神塞尔凯特保护法老的木乃伊。"
+    },
+    {
+      "id": "q_deity_123",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，谁是文昌帝君?",
+      "options": ["关公", "文曲星", "文昌帝君", "孔子"],
+      "correctIndex": 1,
+      "explanation": "文昌帝君即文曲星，主管功名利禄。"
+    },
+    {
+      "id": "q_deity_124",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁是青春女神?",
+      "options": ["赫柏", "阿芙洛狄忒", "珀耳塞福涅", "赫拉"],
+      "correctIndex": 0,
+      "explanation": "赫柏是青春女神，为众神斟酒。"
+    },
+    {
+      "id": "q_culture_095",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，孟婆汤有什么作用?",
+      "options": ["增强记忆", "忘记前世", "长生不老", "增加法力"],
+      "correctIndex": 1,
+      "explanation": "孟婆汤让亡魂忘记前世记忆，投胎转世。"
+    },
+    {
+      "id": "q_attribute_041",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "混沌属性代表什么?",
+      "options": ["秩序", "无序与原始", "光明", "黑暗"],
+      "correctIndex": 1,
+      "explanation": "混沌属性代表无序、原始和未分化的力量。"
+    },
+    {
+      "id": "q_ability_052",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "中国神话中，定身术是什么能力?",
+      "options": ["治愈", "定住对方", "变身", "飞行"],
+      "correctIndex": 1,
+      "explanation": "定身术可以让对方暂时无法移动。"
+    },
+    {
+      "id": "q_creature_127",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "凯尔特神话中，什么生物喜欢恶作剧?",
+      "options": ["妖精", "巨人", "龙", "狼"],
+      "correctIndex": 0,
+      "explanation": "凯尔特妖精喜欢恶作剧和捉弄人类。"
+    },
+    {
+      "id": "q_creature_128",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "中国神话中，相柳有几个头?",
+      "options": ["三个", "五个", "九个", "十二个"],
+      "correctIndex": 2,
+      "explanation": "相柳是九头蛇怪，是共工的部下。"
+    },
+    {
+      "id": "q_creature_129",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "希腊神话中，谁杀死了九头蛇海德拉?",
+      "options": ["忒修斯", "珀尔修斯", "赫拉克勒斯", "阿喀琉斯"],
+      "correctIndex": 2,
+      "explanation": "赫拉克勒斯完成十二项任务之一，杀死了九头蛇。"
+    },
+    {
+      "id": "q_deity_125",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "日本神话中，稻荷神的使者是什么?",
+      "options": ["狐狸", "乌鸦", "蛇", "鹿"],
+      "correctIndex": 0,
+      "explanation": "稻荷神的使者和象征是白狐。"
+    },
+    {
+      "id": "q_deity_126",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "印度神话中，谁是财富女神?",
+      "options": ["萨拉斯瓦蒂", "拉克希米", "帕尔瓦蒂", "杜尔迦"],
+      "correctIndex": 1,
+      "explanation": "拉克希米是财富、幸运和美丽女神。"
+    },
+    {
+      "id": "q_culture_096",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，忒修斯用什么找到迷宫出口?",
+      "options": ["魔法", "线团", "地图", "记忆"],
+      "correctIndex": 1,
+      "explanation": "忒修斯用阿里阿德涅的线团找到迷宫出口。"
+    },
+    {
+      "id": "q_attribute_042",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "灵魂属性通常具有什么特点?",
+      "options": ["物理攻击", "精神影响", "元素伤害", "治愈效果"],
+      "correctIndex": 1,
+      "explanation": "灵魂属性通常影响精神和意识。"
+    },
+    {
+      "id": "q_ability_053",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "希腊神话中，谁拥有黄金触碰能力?",
+      "options": ["宙斯", "弥达斯", "阿波罗", "赫菲斯托斯"],
+      "correctIndex": 1,
+      "explanation": "弥达斯国王被赐予点石成金的能力。"
+    },
+    {
+      "id": "q_creature_130",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "北欧神话中，哪种生物住在地下打造神器?",
+      "options": ["精灵", "矮人", "巨人", "人类"],
+      "correctIndex": 1,
+      "explanation": "矮人是北欧神话中的工匠，打造了许多神器。"
+    },
+    {
+      "id": "q_creature_131",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "埃及神话中，谁是死神?",
+      "options": ["拉", "阿努比斯", "荷鲁斯", "塞特"],
+      "correctIndex": 1,
+      "explanation": "阿努比斯是埃及神话中的死神，豺狼头人身。"
+    },
+    {
+      "id": "q_creature_132",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "凯尔特神话中，无头骑士手持什么?",
+      "options": ["剑", "自己的头", "火把", "长矛"],
+      "correctIndex": 1,
+      "explanation": "无头骑士手提自己的头颅，头颅的眼睛燃烧着鬼火。"
+    },
+    {
+      "id": "q_deity_127",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，土地公管什么?",
+      "options": ["天气", "土地和乡里", "财运", "婚姻"],
+      "correctIndex": 1,
+      "explanation": "土地公公是地方守护神，管理土地和乡里事务。"
+    },
+    {
+      "id": "q_deity_128",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "埃及神话中，谁复活了奥西里斯?",
+      "options": ["拉", "伊西斯", "荷鲁斯", "阿努比斯"],
+      "correctIndex": 1,
+      "explanation": "女神伊西斯用魔法复活了丈夫奥西里斯。"
+    },
+    {
+      "id": "q_culture_097",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，奈何桥在哪里?",
+      "options": ["天界", "人间", "冥界", "海底"],
+      "correctIndex": 2,
+      "explanation": "奈何桥在冥界，是亡魂投胎前必经之路。"
+    },
+    {
+      "id": "q_attribute_043",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "星辰属性与什么关联?",
+      "options": ["大地", "天空和命运", "海洋", "火焰"],
+      "correctIndex": 1,
+      "explanation": "星辰属性与天空、命运和占卜关联。"
+    },
+    {
+      "id": "q_ability_054",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "读心术属于什么类型的能力?",
+      "options": ["物理", "精神", "元素", "治愈"],
+      "correctIndex": 1,
+      "explanation": "读心术是精神类能力。"
+    },
+    {
+      "id": "q_creature_133",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "日本神话中，雪女穿什么颜色的衣服?",
+      "options": ["红色", "白色", "黑色", "蓝色"],
+      "correctIndex": 1,
+      "explanation": "雪女穿着白色和服。"
+    },
+    {
+      "id": "q_creature_134",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "印度神话中，谁是毗湿奴的坐骑?",
+      "options": ["迦楼罗", "南迪", "天鹅", "狮子"],
+      "correctIndex": 0,
+      "explanation": "迦楼罗是金翅大鸟，是毗湿奴的坐骑。"
+    },
+    {
+      "id": "q_creature_135",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "希腊神话中，谁守护金苹果园?",
+      "options": ["拉冬", "刻耳柏洛斯", "海德拉", "奇美拉"],
+      "correctIndex": 0,
+      "explanation": "百头巨龙拉冬守护金苹果园。"
+    },
+    {
+      "id": "q_deity_129",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "北欧神话中，谁是海洋之神?",
+      "options": ["奥丁", "埃吉尔", "尼约德", "托尔"],
+      "correctIndex": 1,
+      "explanation": "埃吉尔是北欧神话中的海洋巨人和海神。"
+    },
+    {
+      "id": "q_deity_130",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "中国神话中，谁是门神?",
+      "options": ["秦琼和尉迟恭", "关羽和张飞", "孙悟空和猪八戒", "李靖和哪吒"],
+      "correctIndex": 0,
+      "explanation": "最常见的门神是秦琼和尉迟恭。"
+    },
+    {
+      "id": "q_culture_098",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，潘多拉盒子里最后剩下什么?",
+      "options": ["绝望", "希望", "勇气", "爱"],
+      "correctIndex": 1,
+      "explanation": "潘多拉关闭盒子时，希望还留在里面。"
+    },
+    {
+      "id": "q_attribute_044",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "金属属性通常代表什么?",
+      "options": ["柔软", "锐利坚硬", "温暖", "寒冷"],
+      "correctIndex": 1,
+      "explanation": "金属属性象征锐利、坚硬和肃杀。"
+    },
+    {
+      "id": "q_ability_055",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "北欧神话中，托尔的锤子有什么特殊能力?",
+      "options": ["投出后自动回来", "永不损坏", "引发雷电", "以上都是"],
+      "correctIndex": 3,
+      "explanation": "妙尔尼尔具有多重神奇能力。"
+    },
+    {
+      "id": "q_creature_136",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "埃及神话中，圣甲虫象征什么?",
+      "options": ["死亡", "重生", "战争", "智慧"],
+      "correctIndex": 1,
+      "explanation": "圣甲虫在埃及神话中象征太阳的重生。"
+    },
+    {
+      "id": "q_creature_137",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "凯尔特神话中，报丧女妖叫什么?",
+      "options": ["班希", "塞壬", "美杜莎", "哈尔庇亚"],
+      "correctIndex": 0,
+      "explanation": "班希是凯尔特神话中的报丧女妖，其哭声预示死亡。"
+    },
+    {
+      "id": "q_creature_138",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "中国神话中，夔牛有几条腿?",
+      "options": ["两条", "一条", "四条", "六条"],
+      "correctIndex": 1,
+      "explanation": "夔是独脚神兽，外形似牛。"
+    },
+    {
+      "id": "q_deity_131",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "日本神话中，谁是风神?",
+      "options": ["风神", "雷神", "须佐之男", "风魔"],
+      "correctIndex": 2,
+      "explanation": "须佐之男是风暴之神。"
+    },
+    {
+      "id": "q_deity_132",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "印度神话中，雷神因陀罗的武器是什么?",
+      "options": ["三叉戟", "金刚杵", "弓箭", "宝剑"],
+      "correctIndex": 1,
+      "explanation": "因陀罗的武器是金刚杵(伐折罗)。"
+    },
+    {
+      "id": "q_culture_099",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，地府有几殿阎王?",
+      "options": ["七殿", "八殿", "十殿", "十二殿"],
+      "correctIndex": 2,
+      "explanation": "地府有十殿阎王，分别掌管不同罪业。"
+    },
+    {
+      "id": "q_attribute_045",
+      "category": "attribute",
+      "difficulty": "hard",
+      "question": "五行中，水克什么?",
+      "options": ["木", "金", "火", "土"],
+      "correctIndex": 2,
+      "explanation": "五行相克：水克火。"
+    },
+    {
+      "id": "q_ability_056",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "召唤能力通常召唤什么?",
+      "options": ["武器", "生物或精灵", "食物", "建筑"],
+      "correctIndex": 1,
+      "explanation": "召唤能力通常召唤生物、精灵或元素。"
+    },
+    {
+      "id": "q_creature_139",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "希腊神话中，刻耳柏洛斯有几个头?",
+      "options": ["一个", "两个", "三个", "九个"],
+      "correctIndex": 2,
+      "explanation": "刻耳柏洛斯是三头犬，守护冥界入口。"
+    },
+    {
+      "id": "q_creature_140",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "北欧神话中，芬里尔最终会吞噬谁?",
+      "options": ["托尔", "洛基", "奥丁", "弗雷"],
+      "correctIndex": 2,
+      "explanation": "在诸神黄昏中，芬里尔巨狼会吞噬众神之父奥丁。"
+    },
+    {
+      "id": "q_creature_141",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "日本神话中，酒吞童子是什么妖怪?",
+      "options": ["鬼王", "妖狐", "河童", "天狗"],
+      "correctIndex": 0,
+      "explanation": "酒吞童子是日本平安时代最强的鬼王。"
+    },
+    {
+      "id": "q_deity_133",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，四大天王守护哪里?",
+      "options": ["天庭", "凡间", "冥界", "东海"],
+      "correctIndex": 0,
+      "explanation": "四大天王守护天界的东南西北四方。"
+    },
+    {
+      "id": "q_deity_134",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "埃及神话中，谁是战争女神?",
+      "options": ["伊西斯", "巴斯特", "塞赫美特", "哈索尔"],
+      "correctIndex": 2,
+      "explanation": "塞赫美特是埃及的战争女神，狮头人身。"
+    },
+    {
+      "id": "q_culture_100",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，赫拉克勒斯完成任务是为了?",
+      "options": ["赎罪", "成神", "救人", "财富"],
+      "correctIndex": 0,
+      "explanation": "赫拉克勒斯完成十二项任务是为了赎罪。"
+    },
+    {
+      "id": "q_attribute_046",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "神圣属性通常与什么关联?",
+      "options": ["邪恶", "光明和正义", "黑暗", "混沌"],
+      "correctIndex": 1,
+      "explanation": "神圣属性与光明、正义和纯洁关联。"
+    },
+    {
+      "id": "q_ability_057",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "中国神话中，开天辟地用的是什么?",
+      "options": ["神剑", "盘古斧", "金箍棒", "三叉戟"],
+      "correctIndex": 1,
+      "explanation": "盘古用盘古斧开天辟地。"
+    },
+    {
+      "id": "q_creature_142",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "印度神话中，迦楼罗的天敌是什么?",
+      "options": ["龙", "那伽(蛇)", "狮子", "大象"],
+      "correctIndex": 1,
+      "explanation": "迦楼罗以那伽(蛇神)为食，两者是天敌。"
+    },
+    {
+      "id": "q_creature_143",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "凯尔特神话中，海豹精灵叫什么?",
+      "options": ["海妖", "塞尔基", "美人鱼", "宁芙"],
+      "correctIndex": 1,
+      "explanation": "塞尔基是凯尔特神话中能变身海豹的精灵。"
+    },
+    {
+      "id": "q_creature_144",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "中国神话中，白泽能做什么?",
+      "options": ["喷火", "预知万物", "控制天气", "隐身"],
+      "correctIndex": 1,
+      "explanation": "白泽是能言人语、知晓万物的瑞兽。"
+    },
+    {
+      "id": "q_deity_135",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "希腊神话中，谁是时间之神?",
+      "options": ["宙斯", "克洛诺斯", "俄瑞斯忒斯", "阿波罗"],
+      "correctIndex": 1,
+      "explanation": "克洛诺斯是时间之神，也是宙斯的父亲。"
+    },
+    {
+      "id": "q_deity_136",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "北欧神话中，谁守护彩虹桥?",
+      "options": ["托尔", "海姆达尔", "弗雷", "提尔"],
+      "correctIndex": 1,
+      "explanation": "海姆达尔是彩虹桥的守护者。"
+    },
+    {
+      "id": "q_culture_101",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，八仙过海各显什么?",
+      "options": ["武功", "神通", "法宝", "智慧"],
+      "correctIndex": 1,
+      "explanation": "八仙过海，各显神通，展现各自的法术。"
+    },
+    {
+      "id": "q_attribute_047",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "土属性通常代表什么?",
+      "options": ["变化", "稳定厚重", "速度", "锐利"],
+      "correctIndex": 1,
+      "explanation": "土属性象征稳定、厚重和坚固。"
+    },
+    {
+      "id": "q_ability_058",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "变形能力最著名的神是谁?",
+      "options": ["宙斯", "洛基", "孙悟空", "以上都是"],
+      "correctIndex": 3,
+      "explanation": "宙斯、洛基和孙悟空都擅长变形。"
+    },
+    {
+      "id": "q_creature_145",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "日本神话中，天狗有什么特征?",
+      "options": ["三只眼", "长鼻子", "尖耳朵", "翅膀"],
+      "correctIndex": 1,
+      "explanation": "天狗的标志性特征是红色的长鼻子。"
+    },
+    {
+      "id": "q_creature_146",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "埃及神话中，本努鸟象征什么?",
+      "options": ["死亡", "重生", "战争", "智慧"],
+      "correctIndex": 1,
+      "explanation": "本努鸟是埃及版的凤凰，象征太阳的重生。"
+    },
+    {
+      "id": "q_creature_147",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "希腊神话中，提丰有多少个头?",
+      "options": ["一个", "三个", "九个", "一百个"],
+      "correctIndex": 3,
+      "explanation": "提丰有一百个蛇头，是众神最可怕的敌人。"
+    },
+    {
+      "id": "q_deity_137",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，文殊菩萨的坐骑是什么?",
+      "options": ["白象", "青狮", "孔雀", "白马"],
+      "correctIndex": 1,
+      "explanation": "文殊菩萨的坐骑是青狮。"
+    },
+    {
+      "id": "q_deity_138",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "印度神话中，罗摩是谁的化身?",
+      "options": ["梵天", "毗湿奴", "湿婆", "因陀罗"],
+      "correctIndex": 1,
+      "explanation": "罗摩是毗湿奴的第七个化身。"
+    },
+    {
+      "id": "q_culture_102",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "北欧神话中，奥丁用什么换取智慧?",
+      "options": ["一只眼睛", "一只手", "生命", "王位"],
+      "correctIndex": 0,
+      "explanation": "奥丁献出一只眼睛换取智慧之泉的泉水。"
+    },
+    {
+      "id": "q_attribute_048",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "暗属性通常象征什么?",
+      "options": ["正义", "神秘与未知", "欢乐", "和平"],
+      "correctIndex": 1,
+      "explanation": "暗属性通常象征神秘、未知和隐藏的力量。"
+    },
+    {
+      "id": "q_ability_059",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "孙悟空的火眼金睛是怎么来的?",
+      "options": ["天生的", "炼丹炉炼成的", "师傅传授的", "吃蟠桃得到的"],
+      "correctIndex": 1,
+      "explanation": "孙悟空在太上老君的炼丹炉中被炼成火眼金睛。"
+    },
+    {
+      "id": "q_creature_148",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "凯尔特神话中，矮妖精守护什么?",
+      "options": ["宝剑", "金币罐", "圣杯", "魔法书"],
+      "correctIndex": 1,
+      "explanation": "爱尔兰矮妖精守护着彩虹尽头的金币罐。"
+    },
+    {
+      "id": "q_creature_149",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "中国神话中，谁是百兽之王?",
+      "options": ["龙", "虎", "狮", "麒麟"],
+      "correctIndex": 1,
+      "explanation": "虎被称为百兽之王。"
+    },
+    {
+      "id": "q_creature_150",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "希腊神话中，奇美拉是什么?",
+      "options": ["单一生物", "复合怪物", "神兽", "精灵"],
+      "correctIndex": 1,
+      "explanation": "奇美拉是狮头、羊身、蛇尾的复合怪物。"
+    },
+    {
+      "id": "q_deity_139",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "日本神话中，七福神有几位?",
+      "options": ["五位", "六位", "七位", "八位"],
+      "correctIndex": 2,
+      "explanation": "日本七福神共有七位神明，带来不同的福气。"
+    },
+    {
+      "id": "q_deity_140",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "埃及神话中，谁是爱与音乐女神?",
+      "options": ["伊西斯", "哈索尔", "巴斯特", "塞赫美特"],
+      "correctIndex": 1,
+      "explanation": "哈索尔是爱、美、音乐和舞蹈女神。"
+    },
+    {
+      "id": "q_culture_103",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国传说中，鲤鱼跃龙门后会变成什么?",
+      "options": ["仙鹤", "凤凰", "龙", "麒麟"],
+      "correctIndex": 2,
+      "explanation": "鲤鱼跃过龙门后会化身为龙。"
+    },
+    {
+      "id": "q_attribute_049",
+      "category": "attribute",
+      "difficulty": "hard",
+      "question": "五行中，木生什么?",
+      "options": ["金", "水", "火", "土"],
+      "correctIndex": 2,
+      "explanation": "五行相生：木生火。"
+    },
+    {
+      "id": "q_ability_060",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "时间控制是什么类型的能力?",
+      "options": ["普通能力", "强大能力", "基础能力", "无用能力"],
+      "correctIndex": 1,
+      "explanation": "时间控制是非常强大和稀有的能力。"
+    },
+    {
+      "id": "q_creature_151",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "北欧神话中，奥丁的八足神马叫什么?",
+      "options": ["芬里尔", "斯莱普尼尔", "尼德霍格", "赫里姆法克西"],
+      "correctIndex": 1,
+      "explanation": "斯莱普尼尔是奥丁的八足神马，是洛基所生。"
+    },
+    {
+      "id": "q_creature_152",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "印度神话中，哪种生物是象头神伽内什的坐骑?",
+      "options": ["老鼠", "狮子", "大象", "孔雀"],
+      "correctIndex": 0,
+      "explanation": "象神伽内什的坐骑是神鼠。"
+    },
+    {
+      "id": "q_creature_153",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "埃及神话中，心脏要和什么女神的羽毛比较?",
+      "options": ["伊西斯", "玛亚特", "巴斯特", "哈索尔"],
+      "correctIndex": 1,
+      "explanation": "死者的心脏要和真理女神玛亚特的羽毛比较。"
+    },
+    {
+      "id": "q_deity_141",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，普贤菩萨的坐骑是什么?",
+      "options": ["白象", "青狮", "白马", "金龙"],
+      "correctIndex": 0,
+      "explanation": "普贤菩萨的坐骑是六牙白象。"
+    },
+    {
+      "id": "q_deity_142",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁是医药之神?",
+      "options": ["阿波罗", "阿斯克勒庇俄斯", "赫尔墨斯", "狄俄尼索斯"],
+      "correctIndex": 1,
+      "explanation": "阿斯克勒庇俄斯是医药之神，阿波罗之子。"
+    },
+    {
+      "id": "q_culture_104",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，俄耳甫斯为了救谁下冥界?",
+      "options": ["妻子欧律狄刻", "母亲", "朋友", "女儿"],
+      "correctIndex": 0,
+      "explanation": "俄耳甫斯为了救妻子欧律狄刻下到冥界。"
+    },
+    {
+      "id": "q_attribute_050",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "自然属性通常代表什么?",
+      "options": ["死亡", "生命与植物", "黑暗", "混沌"],
+      "correctIndex": 1,
+      "explanation": "自然属性代表生命、植物和大地的力量。"
+    },
+    {
+      "id": "q_ability_061",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "希腊神话中，谁能控制死亡?",
+      "options": ["宙斯", "哈迪斯", "塔那托斯", "B和C都是"],
+      "correctIndex": 3,
+      "explanation": "哈迪斯是冥王，塔那托斯是死神，都能控制死亡。"
+    },
+    {
+      "id": "q_creature_154",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "凯尔特神话中，绿人是什么?",
+      "options": ["巨人", "森林精灵", "妖精", "神明"],
+      "correctIndex": 1,
+      "explanation": "绿人是森林精灵的化身，面容由树叶和藤蔓构成。"
+    },
+    {
+      "id": "q_creature_155",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "日本神话中，狛犬守护什么?",
+      "options": ["城堡", "神社", "皇宫", "寺庙"],
+      "correctIndex": 1,
+      "explanation": "狛犬是守护神社的石狮子。"
+    },
+    {
+      "id": "q_creature_156",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "中国神话中，混沌是什么形象?",
+      "options": ["无形", "像狗", "像熊", "像鸟"],
+      "correctIndex": 1,
+      "explanation": "混沌是四凶之一，形如犬，长毛四足。"
+    },
+    {
+      "id": "q_deity_143",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "北欧神话中，谁是和平与丰收之神?",
+      "options": ["托尔", "洛基", "弗雷", "提尔"],
+      "correctIndex": 2,
+      "explanation": "弗雷是北欧神话中的丰收之神。"
+    },
+    {
+      "id": "q_deity_144",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "印度神话中，克里希那是谁的化身?",
+      "options": ["梵天", "毗湿奴", "湿婆", "因陀罗"],
+      "correctIndex": 1,
+      "explanation": "克里希那是毗湿奴的第八个化身。"
+    },
+    {
+      "id": "q_culture_105",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，龙王有几个?",
+      "options": ["一个", "四个", "七个", "九个"],
+      "correctIndex": 1,
+      "explanation": "四海龙王分别统治东南西北四海。"
+    },
+    {
+      "id": "q_attribute_051",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "冰属性是哪个属性的延伸?",
+      "options": ["火", "水", "风", "暗"],
+      "correctIndex": 1,
+      "explanation": "冰属性通常被视为水属性的延伸。"
+    },
+    {
+      "id": "q_ability_062",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "飞行能力通常需要什么?",
+      "options": ["翅膀或魔法", "力量", "智慧", "武器"],
+      "correctIndex": 0,
+      "explanation": "飞行通常需要翅膀或魔法支持。"
+    },
+    {
+      "id": "q_creature_157",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "希腊神话中，飞马从谁的血中诞生?",
+      "options": ["宙斯", "美杜莎", "赫拉", "波塞冬"],
+      "correctIndex": 1,
+      "explanation": "珀伽索斯从被斩首的美杜莎的血中诞生。"
+    },
+    {
+      "id": "q_creature_158",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "埃及神话中，鳄鱼神叫什么?",
+      "options": ["拉", "索贝克", "荷鲁斯", "阿努比斯"],
+      "correctIndex": 1,
+      "explanation": "索贝克是鳄鱼神，尼罗河的守护神。"
+    },
+    {
+      "id": "q_creature_159",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "北欧神话中，哪种生物会在诸神黄昏时吞噬太阳?",
+      "options": ["芬里尔", "斯科尔", "哈提", "尼德霍格"],
+      "correctIndex": 1,
+      "explanation": "斯科尔是追逐太阳的巨狼，将在诸神黄昏时吞噬太阳。"
+    },
+    {
+      "id": "q_deity_145",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，灶王爷什么时候上天汇报?",
+      "options": ["除夕", "腊月二十三", "正月初一", "中秋"],
+      "correctIndex": 1,
+      "explanation": "灶王爷在腊月二十三上天汇报人间善恶。"
+    },
+    {
+      "id": "q_deity_146",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁是梦神?",
+      "options": ["修普诺斯", "摩耳甫斯", "塔那托斯", "厄瑞玻斯"],
+      "correctIndex": 1,
+      "explanation": "摩耳甫斯是梦神，修普诺斯的儿子。"
+    },
+    {
+      "id": "q_culture_106",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，金羊毛在哪里?",
+      "options": ["奥林匹斯山", "科尔喀斯", "雅典", "斯巴达"],
+      "correctIndex": 1,
+      "explanation": "金羊毛在遥远的科尔喀斯国。"
+    },
+    {
+      "id": "q_attribute_052",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "火属性生物通常居住在哪里?",
+      "options": ["海洋", "火山", "森林", "沙漠"],
+      "correctIndex": 1,
+      "explanation": "火属性生物通常居住在火山等炎热之地。"
+    },
+    {
+      "id": "q_ability_063",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "孙悟空的金箍棒最重能有多重?",
+      "options": ["一千斤", "八千斤", "一万三千五百斤", "十万斤"],
+      "correctIndex": 2,
+      "explanation": "金箍棒重一万三千五百斤。"
+    },
+    {
+      "id": "q_creature_160",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "凯尔特神话中，冥界猎犬是什么颜色?",
+      "options": ["黑色", "白色红耳", "灰色", "金色"],
+      "correctIndex": 1,
+      "explanation": "威尔士冥界猎犬是白色皮毛红色耳朵。"
+    },
+    {
+      "id": "q_creature_161",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "日本神话中，猫又有几条尾巴?",
+      "options": ["一条", "两条", "三条", "九条"],
+      "correctIndex": 1,
+      "explanation": "猫又拥有分叉的两条尾巴。"
+    },
+    {
+      "id": "q_creature_162",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "印度神话中，千首蛇王叫什么?",
+      "options": ["那伽", "舍沙", "弗栗多", "阿修罗"],
+      "correctIndex": 1,
+      "explanation": "舍沙是千首蛇王，毗湿奴在其身上安眠。"
+    },
+    {
+      "id": "q_deity_147",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "埃及神话中，谁是书写和知识之神?",
+      "options": ["拉", "透特", "奥西里斯", "阿努比斯"],
+      "correctIndex": 1,
+      "explanation": "透特是智慧、书写和魔法之神。"
+    },
+    {
+      "id": "q_deity_148",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "北欧神话中，弗丽嘉是什么女神?",
+      "options": ["战争女神", "婚姻女神", "美貌女神", "狩猎女神"],
+      "correctIndex": 1,
+      "explanation": "弗丽嘉是奥丁的妻子，婚姻和母性女神。"
+    },
+    {
+      "id": "q_culture_107",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，麒麟送子象征什么?",
+      "options": ["灾难", "吉祥降子", "战争", "丰收"],
+      "correctIndex": 1,
+      "explanation": "麒麟送子是吉祥的象征，预示生贵子。"
+    },
+    {
+      "id": "q_attribute_053",
+      "category": "attribute",
+      "difficulty": "hard",
+      "question": "五行中，金生什么?",
+      "options": ["木", "水", "火", "土"],
+      "correctIndex": 1,
+      "explanation": "五行相生：金生水。"
+    },
+    {
+      "id": "q_ability_064",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "治愈能力通常与什么属性关联?",
+      "options": ["暗", "光", "火", "雷"],
+      "correctIndex": 1,
+      "explanation": "治愈能力通常与光明或自然属性关联。"
+    },
+    {
+      "id": "q_creature_163",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "希腊神话中，半人马是什么形象?",
+      "options": ["蛇身人面", "狮身人面", "牛头人身", "马身人头"],
+      "correctIndex": 3,
+      "explanation": "半人马是上半身为人、下半身为马的生物。"
+    },
+    {
+      "id": "q_creature_164",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "埃及神话中，法老死后会变成什么?",
+      "options": ["神", "星星", "永生者", "以上都对"],
+      "correctIndex": 3,
+      "explanation": "古埃及人相信法老死后会成神并获得永生。"
+    },
+    {
+      "id": "q_creature_165",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "北欧神话中，拉塔托斯克在世界树上做什么?",
+      "options": ["守护树", "传递消息", "啃食树叶", "睡觉"],
+      "correctIndex": 1,
+      "explanation": "拉塔托斯克在世界树上下奔跑传递消息，搬弄是非。"
+    },
+    {
+      "id": "q_deity_149",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，月老的职责是什么?",
+      "options": ["掌管财运", "掌管婚姻", "掌管学业", "掌管健康"],
+      "correctIndex": 1,
+      "explanation": "月老是掌管姻缘的神，用红线牵引有缘人。"
+    },
+    {
+      "id": "q_deity_150",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "印度神话中，萨拉斯瓦蒂女神掌管什么?",
+      "options": ["战争", "知识和艺术", "财富", "爱情"],
+      "correctIndex": 1,
+      "explanation": "萨拉斯瓦蒂是知识、艺术和音乐女神。"
+    },
+    {
+      "id": "q_culture_108",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，阿尔戈英雄探险是为了什么?",
+      "options": ["寻找宝藏", "夺取金羊毛", "拯救公主", "打败怪兽"],
+      "correctIndex": 1,
+      "explanation": "阿尔戈英雄们的任务是夺取金羊毛。"
+    },
+    {
+      "id": "q_attribute_054",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "风属性生物通常具有什么能力?",
+      "options": ["飞行和速度", "力量", "治愈", "石化"],
+      "correctIndex": 0,
+      "explanation": "风属性生物通常具有飞行和高速移动的能力。"
+    },
+    {
+      "id": "q_ability_065",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "希腊神话中，阿喀琉斯的弱点在哪里?",
+      "options": ["心脏", "脚后跟", "眼睛", "手"],
+      "correctIndex": 1,
+      "explanation": "阿喀琉斯只有脚后跟是弱点。"
+    },
+    {
+      "id": "q_creature_166",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "凯尔特神话中，爱尔兰美人鱼戴什么颜色的帽子?",
+      "options": ["白色", "红色", "绿色", "蓝色"],
+      "correctIndex": 1,
+      "explanation": "爱尔兰美人鱼梅罗戴着红色帽子。"
+    },
+    {
+      "id": "q_creature_167",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "日本神话中，络新妇是什么妖怪?",
+      "options": ["狐狸精", "蜘蛛妖", "蛇妖", "猫妖"],
+      "correctIndex": 1,
+      "explanation": "络新妇是日本蜘蛛妖怪，上半身是美女下半身是蜘蛛。"
+    },
+    {
+      "id": "q_creature_168",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "印度神话中，野猪神是谁的化身?",
+      "options": ["梵天", "毗湿奴", "湿婆", "因陀罗"],
+      "correctIndex": 1,
+      "explanation": "野猪神筏罗诃是毗湿奴的化身。"
+    },
+    {
+      "id": "q_deity_151",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "埃及神话中，猫神是谁?",
+      "options": ["伊西斯", "巴斯特", "塞赫美特", "哈索尔"],
+      "correctIndex": 1,
+      "explanation": "巴斯特是埃及的猫首女神。"
+    },
+    {
+      "id": "q_deity_152",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "北欧神话中，谁是战争与正义之神?",
+      "options": ["奥丁", "托尔", "提尔", "海姆达尔"],
+      "correctIndex": 2,
+      "explanation": "提尔是北欧神话中的战争与正义之神。"
+    },
+    {
+      "id": "q_culture_109",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，仙桃能让人怎样?",
+      "options": ["变强", "长生不老", "飞天", "隐身"],
+      "correctIndex": 1,
+      "explanation": "王母娘娘的蟠桃能让人长生不老。"
+    },
+    {
+      "id": "q_attribute_055",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "圣光属性通常克制什么?",
+      "options": ["火", "水", "暗", "风"],
+      "correctIndex": 2,
+      "explanation": "光明克制黑暗，这是最经典的属性相克。"
+    },
+    {
+      "id": "q_ability_066",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "龙通常具有什么特殊能力?",
+      "options": ["隐身", "控制天气", "读心", "预言"],
+      "correctIndex": 1,
+      "explanation": "龙通常能控制天气，召唤风雨。"
+    },
+    {
+      "id": "q_creature_169",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "希腊神话中，独眼巨人有几只眼睛?",
+      "options": ["一只", "两只", "三只", "四只"],
+      "correctIndex": 0,
+      "explanation": "库克洛普斯是希腊神话中只有一只眼睛的巨人。"
+    },
+    {
+      "id": "q_creature_170",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "埃及神话中，河马女神保护谁?",
+      "options": ["法老", "孕妇和婴儿", "战士", "祭司"],
+      "correctIndex": 1,
+      "explanation": "河马女神塔沃里特保护孕妇和婴儿。"
+    },
+    {
+      "id": "q_creature_171",
+      "category": "creature",
+      "difficulty": "hard",
+      "question": "北欧神话中，世界树上有几只鹿?",
+      "options": ["一只", "两只", "四只", "九只"],
+      "correctIndex": 2,
+      "explanation": "世界树上有四只鹿啃食树叶。"
+    },
+    {
+      "id": "q_deity_153",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，观音菩萨通常手持什么?",
+      "options": ["宝剑", "净瓶", "金箍棒", "扇子"],
+      "correctIndex": 1,
+      "explanation": "观音菩萨通常手持净瓶，内装甘露。"
+    },
+    {
+      "id": "q_deity_154",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁背负天空?",
+      "options": ["宙斯", "阿特拉斯", "赫拉克勒斯", "普罗米修斯"],
+      "correctIndex": 1,
+      "explanation": "泰坦神阿特拉斯被罚永远背负天空。"
+    },
+    {
+      "id": "q_culture_110",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，英雄需要完成的任务通常有多少项?",
+      "options": ["七项", "十项", "十二项", "十五项"],
+      "correctIndex": 2,
+      "explanation": "赫拉克勒斯完成了著名的十二项任务。"
+    },
+    {
+      "id": "q_attribute_056",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "雷电属性通常与什么天气关联?",
+      "options": ["晴天", "暴风雨", "下雪", "大雾"],
+      "correctIndex": 1,
+      "explanation": "雷电属性与暴风雨天气关联最密切。"
+    },
+    {
+      "id": "q_ability_067",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "希腊神话中，赫尔墨斯的飞行能力来自?",
+      "options": ["翅膀", "飞鞋", "魔法", "神力"],
+      "correctIndex": 1,
+      "explanation": "赫尔墨斯穿着有翅膀的飞行凉鞋。"
+    },
+    {
+      "id": "q_creature_172",
+      "category": "creature",
+      "difficulty": "easy",
+      "question": "凯尔特神话中，有角之神叫什么?",
+      "options": ["塞尔努诺斯", "潘", "达贡", "巴力"],
+      "correctIndex": 0,
+      "explanation": "塞尔努诺斯是凯尔特的森林之神，人身鹿角。"
+    },
+    {
+      "id": "q_creature_173",
+      "category": "creature",
+      "difficulty": "medium",
+      "question": "日本神话中，犬神是什么?",
+      "options": ["守护神", "狗灵", "妖怪", "神兽"],
+      "correctIndex": 1,
+      "explanation": "日本犬神是被封印的狗灵。"
+    },
+    {
+      "id": "q_deity_155",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "印度神话中，保护之神是谁?",
+      "options": ["梵天", "毗湿奴", "湿婆", "因陀罗"],
+      "correctIndex": 1,
+      "explanation": "毗湿奴是印度教三主神之一，主管保护与维持。"
+    },
+    {
+      "id": "q_deity_156",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "埃及神话中，冥王是谁?",
+      "options": ["拉", "荷鲁斯", "奥西里斯", "塞特"],
+      "correctIndex": 2,
+      "explanation": "奥西里斯是埃及神话中的冥王。"
+    },
+    {
+      "id": "q_culture_111",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，五岳之首是哪座山?",
+      "options": ["泰山", "华山", "衡山", "嵩山"],
+      "correctIndex": 0,
+      "explanation": "泰山是五岳之首。"
+    },
+    {
+      "id": "q_attribute_057",
+      "category": "attribute",
+      "difficulty": "hard",
+      "question": "五行中，火克什么?",
+      "options": ["木", "金", "水", "土"],
+      "correctIndex": 1,
+      "explanation": "五行相克：火克金。"
+    },
+    {
+      "id": "q_ability_068",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "预言能力通常需要什么?",
+      "options": ["力量", "智慧", "速度", "隐身"],
+      "correctIndex": 1,
+      "explanation": "预言能力通常需要智慧和洞察力。"
+    },
+    {
+      "id": "q_deity_157",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "北欧神话中，谁是光明之神?",
+      "options": ["奥丁", "托尔", "巴德尔", "弗雷"],
+      "correctIndex": 2,
+      "explanation": "巴德尔是光明之神，最受爱戴的神。"
+    },
+    {
+      "id": "q_deity_158",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "中国神话中，哪吒有几个头几只手?",
+      "options": ["一头二手", "三头六臂", "三头八臂", "九头十八臂"],
+      "correctIndex": 1,
+      "explanation": "哪吒法相是三头六臂。"
+    },
+    {
+      "id": "q_culture_112",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，伊卡洛斯为什么坠落?",
+      "options": ["翅膀断了", "飞太高蜡融化", "被击落", "太累了"],
+      "correctIndex": 1,
+      "explanation": "伊卡洛斯飞得太高，太阳融化了蜡制的翅膀。"
+    },
+    {
+      "id": "q_attribute_058",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "光属性通常象征什么?",
+      "options": ["邪恶", "正义与纯洁", "混乱", "死亡"],
+      "correctIndex": 1,
+      "explanation": "光属性通常象征正义、纯洁和希望。"
+    },
+    {
+      "id": "q_ability_069",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "北欧神话中，奥丁的枪有什么能力?",
+      "options": ["百发百中", "能回到手中", "无坚不摧", "以上都是"],
+      "correctIndex": 3,
+      "explanation": "贡格尼尔具有百发百中、能回到手中等多重能力。"
+    },
+    {
+      "id": "q_deity_159",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，猪八戒原本是什么神?",
+      "options": ["天蓬元帅", "卷帘大将", "斗战胜佛", "净坛使者"],
+      "correctIndex": 0,
+      "explanation": "猪八戒原是天蓬元帅。"
+    },
+    {
+      "id": "q_deity_160",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁是酒神?",
+      "options": ["阿波罗", "狄俄尼索斯", "赫尔墨斯", "潘"],
+      "correctIndex": 1,
+      "explanation": "狄俄尼索斯是葡萄酒与狂欢之神。"
+    },
+    {
+      "id": "q_culture_113",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，牛郎织女一年见几次面?",
+      "options": ["一次", "两次", "三次", "四次"],
+      "correctIndex": 0,
+      "explanation": "牛郎织女每年七夕在鹊桥相会一次。"
+    },
+    {
+      "id": "q_attribute_059",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "五行中，土生什么?",
+      "options": ["金", "木", "水", "火"],
+      "correctIndex": 0,
+      "explanation": "五行相生：土生金。"
+    },
+    {
+      "id": "q_ability_070",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "隐身能力通常与什么关联?",
+      "options": ["光明", "暗影", "火焰", "雷电"],
+      "correctIndex": 1,
+      "explanation": "隐身能力通常与暗影和黑暗关联。"
+    },
+    {
+      "id": "q_deity_161",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "埃及神话中，太阳神是谁?",
+      "options": ["奥西里斯", "阿努比斯", "拉", "荷鲁斯"],
+      "correctIndex": 2,
+      "explanation": "拉是埃及神话中最重要的太阳神。"
+    },
+    {
+      "id": "q_deity_162",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "北欧神话中，巴德尔的死因是什么?",
+      "options": ["被雷击", "被槲寄生刺中", "被毒蛇咬", "战死"],
+      "correctIndex": 1,
+      "explanation": "洛基用槲寄生做的箭矢让盲神霍德尔射死了巴德尔。"
+    },
+    {
+      "id": "q_culture_114",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，奥德修斯漂泊了多少年?",
+      "options": ["七年", "十年", "十二年", "二十年"],
+      "correctIndex": 1,
+      "explanation": "奥德修斯在海上漂泊了十年才回到家乡。"
+    },
+    {
+      "id": "q_attribute_060",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "自然属性生物通常居住在哪里?",
+      "options": ["沙漠", "森林", "火山", "深海"],
+      "correctIndex": 1,
+      "explanation": "自然属性生物通常居住在森林和草原。"
+    },
+    {
+      "id": "q_ability_071",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "海神波塞冬用三叉戟能做什么?",
+      "options": ["控制雷电", "引发地震", "变形", "飞行"],
+      "correctIndex": 1,
+      "explanation": "波塞冬的三叉戟能引发地震和海啸。"
+    },
+    {
+      "id": "q_deity_163",
+      "category": "deity",
+      "difficulty": "easy",
+      "question": "中国神话中，沙僧原是什么神?",
+      "options": ["天蓬元帅", "卷帘大将", "托塔天王", "哪吒"],
+      "correctIndex": 1,
+      "explanation": "沙僧原是卷帘大将。"
+    },
+    {
+      "id": "q_deity_164",
+      "category": "deity",
+      "difficulty": "medium",
+      "question": "印度神话中，毁灭之神是谁?",
+      "options": ["梵天", "毗湿奴", "湿婆", "因陀罗"],
+      "correctIndex": 2,
+      "explanation": "湿婆是印度教三主神之一，主管毁灭与重生。"
+    },
+    {
+      "id": "q_culture_115",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国传统中，端午节吃粽子是为了纪念谁?",
+      "options": ["孔子", "屈原", "孟子", "老子"],
+      "correctIndex": 1,
+      "explanation": "端午节吃粽子是为了纪念投江的诗人屈原。"
+    },
+    {
+      "id": "q_attribute_061",
+      "category": "attribute",
+      "difficulty": "hard",
+      "question": "五行中，木克什么?",
+      "options": ["金", "水", "火", "土"],
+      "correctIndex": 3,
+      "explanation": "五行相克：木克土。"
+    },
+    {
+      "id": "q_ability_072",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "以下哪种能力与火属性相关?",
+      "options": ["冰冻", "燃烧", "治愈", "飞行"],
+      "correctIndex": 1,
+      "explanation": "燃烧是典型的火属性能力。"
+    },
+    {
+      "id": "q_culture_116",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，普罗米修斯因何受罚?",
+      "options": ["偷食物", "偷火种", "欺骗宙斯", "叛变"],
+      "correctIndex": 1,
+      "explanation": "普罗米修斯因偷取天火给人类而受到宙斯的惩罚。"
+    },
+    {
+      "id": "q_attribute_062",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "以下哪种能力通常属于暗属性?",
+      "options": ["治愈", "诅咒", "祝福", "净化"],
+      "correctIndex": 1,
+      "explanation": "诅咒是典型的暗属性能力。"
+    },
+    {
+      "id": "q_ability_073",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "美杜莎的能力是什么?",
+      "options": ["喷火", "石化", "飞行", "隐身"],
+      "correctIndex": 1,
+      "explanation": "美杜莎能将直视她眼睛的人变成石头。"
+    },
+    {
+      "id": "q_culture_117",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "北欧神话中，世界树叫什么?",
+      "options": ["生命树", "智慧树", "尤克特拉希尔", "神树"],
+      "correctIndex": 2,
+      "explanation": "尤克特拉希尔是北欧神话中的世界之树。"
+    },
+    {
+      "id": "q_attribute_063",
+      "category": "attribute",
+      "difficulty": "medium",
+      "question": "风属性克制什么属性?",
+      "options": ["火", "水", "土", "雷"],
+      "correctIndex": 2,
+      "explanation": "风能吹散土，因此风克土。"
+    },
+    {
+      "id": "q_ability_074",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "凤凰最著名的能力是什么?",
+      "options": ["喷水", "隐身", "涅槃重生", "预言"],
+      "correctIndex": 2,
+      "explanation": "凤凰能在火焰中死亡并重生。"
+    },
+    {
+      "id": "q_culture_118",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "日本神话中，三神器不包括?",
+      "options": ["八咫镜", "草薙剑", "八尺琼勾玉", "神乐铃"],
+      "correctIndex": 3,
+      "explanation": "日本三神器是八咫镜、草薙剑和八尺琼勾玉。"
+    },
+    {
+      "id": "q_attribute_064",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "在元素相克中，水属性通常克制什么属性?",
+      "options": ["风", "火", "雷", "暗"],
+      "correctIndex": 1,
+      "explanation": "水能灭火，因此水属性克制火属性。"
+    },
+    {
+      "id": "q_ability_075",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "九尾狐通常有什么能力?",
+      "options": ["控制风", "变化人形", "控制水", "石化"],
+      "correctIndex": 1,
+      "explanation": "九尾狐能变化成人形，通常是美女形象。"
+    },
+    {
+      "id": "q_culture_119",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，天庭在哪里?",
+      "options": ["地下", "海底", "天上", "山中"],
+      "correctIndex": 2,
+      "explanation": "天庭位于天上，是神仙居住的地方。"
+    },
+    {
+      "id": "q_attribute_065",
+      "category": "attribute",
+      "difficulty": "hard",
+      "question": "在元素相克中，雷属性通常克制什么?",
+      "options": ["火", "水", "风", "土"],
+      "correctIndex": 1,
+      "explanation": "雷电克水，因为水导电。"
+    },
+    {
+      "id": "q_ability_076",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "以下哪种能力与水属性相关?",
+      "options": ["雷击", "冰冻", "燃烧", "风暴"],
+      "correctIndex": 1,
+      "explanation": "冰冻是水属性的延伸能力。"
+    },
+    {
+      "id": "q_culture_120",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，缪斯女神有几位?",
+      "options": ["一位", "三位", "七位", "九位"],
+      "correctIndex": 3,
+      "explanation": "缪斯是九位掌管文艺的女神。"
+    },
+    {
+      "id": "q_attribute_066",
+      "category": "attribute",
+      "difficulty": "easy",
+      "question": "青龙代表哪个方位?",
+      "options": ["东", "西", "南", "北"],
+      "correctIndex": 0,
+      "explanation": "青龙代表东方，属木。"
+    },
+    {
+      "id": "q_ability_077",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "洛基最著名的能力是什么?",
+      "options": ["力量", "变形", "飞行", "预言"],
+      "correctIndex": 1,
+      "explanation": "洛基是变形大师，能变成各种生物。"
+    },
+    {
+      "id": "q_culture_121",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，西王母住在哪里?",
+      "options": ["天庭", "昆仑山", "蓬莱", "瀛洲"],
+      "correctIndex": 1,
+      "explanation": "西王母居住在昆仑山的瑶池。"
+    },
+    {
+      "id": "q_ability_078",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "雷神通常掌控什么能力?",
+      "options": ["雷电", "冰霜", "火焰", "治愈"],
+      "correctIndex": 0,
+      "explanation": "雷神掌控雷电之力。"
+    },
+    {
+      "id": "q_culture_122",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，人类经历了几个时代?",
+      "options": ["三个", "四个", "五个", "六个"],
+      "correctIndex": 2,
+      "explanation": "人类经历了黄金、白银、青铜、英雄和黑铁五个时代。"
+    },
+    {
+      "id": "q_ability_079",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "中国神话中，二十八宿是什么?",
+      "options": ["神仙", "星宿神", "妖怪", "法宝"],
+      "correctIndex": 1,
+      "explanation": "二十八宿是天上的二十八个星宿，对应二十八位星君。"
+    },
+    {
+      "id": "q_culture_123",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "日本神话中，神道教的神叫什么?",
+      "options": ["佛", "神", "天", "灵"],
+      "correctIndex": 1,
+      "explanation": "日本神道教中的神被称为'神'(カミ/kami)。"
+    },
+    {
+      "id": "q_ability_080",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "以下哪种能力可以让使用者隐身?",
+      "options": ["透明术", "遁术", "隐身术", "以上都是"],
+      "correctIndex": 3,
+      "explanation": "透明术、遁术、隐身术都是隐身能力的不同表现形式。"
+    },
+    {
+      "id": "q_culture_124",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "埃及神话中，死者之书是用来做什么的?",
+      "options": ["记录历史", "指引亡魂", "召唤神灵", "预言未来"],
+      "correctIndex": 1,
+      "explanation": "死者之书是古埃及的葬礼文献，指引死者通过冥界的试炼。"
+    },
+    {
+      "id": "q_ability_081",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "希腊神话中，阿喀琉斯除了脚后跟外刀枪不入，这是为什么?",
+      "options": ["神的祝福", "浸过冥河", "吃了仙药", "天生神力"],
+      "correctIndex": 1,
+      "explanation": "阿喀琉斯的母亲提着他的脚后跟浸入冥河，使其刀枪不入。"
+    },
+    {
+      "id": "q_culture_125",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "北欧神话中，有几个世界?",
+      "options": ["七个", "八个", "九个", "十个"],
+      "correctIndex": 2,
+      "explanation": "北欧神话中有九大世界。"
+    },
+    {
+      "id": "q_ability_082",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "凤凰通常与哪种属性关联最密切?",
+      "options": ["水", "火", "风", "雷"],
+      "correctIndex": 1,
+      "explanation": "凤凰是火属性的代表，象征涅槃重生。"
+    },
+    {
+      "id": "q_culture_126",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，冥界叫什么?",
+      "options": ["冥府", "地狱", "哈迪斯", "冥土"],
+      "correctIndex": 2,
+      "explanation": "哈迪斯既是冥王的名字，也是希腊冥界的名称。"
+    },
+    {
+      "id": "q_ability_083",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "北欧雷神托尔代表什么属性?",
+      "options": ["火", "水", "雷", "风"],
+      "correctIndex": 2,
+      "explanation": "托尔是雷神，掌控雷电之力。"
+    },
+    {
+      "id": "q_culture_127",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "中国神话中，黄泉是什么地方?",
+      "options": ["仙界", "冥界", "人间", "魔界"],
+      "correctIndex": 1,
+      "explanation": "黄泉是中国神话中死者灵魂所去的地下世界。"
+    },
+    {
+      "id": "q_ability_084",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "玄武在五行中代表什么属性?",
+      "options": ["火", "水", "土", "金"],
+      "correctIndex": 1,
+      "explanation": "玄武代表北方和水属性。"
+    },
+    {
+      "id": "q_culture_128",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "希腊神话中，命运三女神掌管什么?",
+      "options": ["美丽", "智慧", "生命之线", "战争"],
+      "correctIndex": 2,
+      "explanation": "命运三女神分别纺织、测量和剪断生命之线。"
+    },
+    {
+      "id": "q_ability_085",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "光明与黑暗属性的关系通常是?",
+      "options": ["相生", "相克", "无关", "融合"],
+      "correctIndex": 1,
+      "explanation": "光明与黑暗是对立的属性，互相克制。"
+    },
+    {
+      "id": "q_culture_129",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "北欧神话中，英灵殿叫什么?",
+      "options": ["阿斯加德", "瓦尔哈拉", "尼弗尔海姆", "约顿海姆"],
+      "correctIndex": 1,
+      "explanation": "瓦尔哈拉是北欧神话中英勇战死的战士死后的归宿。"
+    },
+    {
+      "id": "q_ability_086",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "北欧神话中，奥丁的乌鸦有什么能力?",
+      "options": ["战斗", "侦察世界", "预言", "变形"],
+      "correctIndex": 1,
+      "explanation": "奥丁的两只乌鸦每天飞遍世界，向他汇报见闻。"
+    },
+    {
+      "id": "q_culture_130",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "中国神话中，蓬莱仙岛位于哪里?",
+      "options": ["西方", "东海", "南方", "北方"],
+      "correctIndex": 1,
+      "explanation": "蓬莱仙岛位于东海之上，是传说中的仙人居所。"
+    },
+    {
+      "id": "q_ability_087",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "中国神话中，七十二变是谁的本领?",
+      "options": ["孙悟空", "二郎神", "猪八戒", "A和B都是"],
+      "correctIndex": 3,
+      "explanation": "孙悟空和二郎神都会七十二变。"
+    },
+    {
+      "id": "q_ability_088",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "希腊神话中，赫尔墨斯的飞鞋叫什么?",
+      "options": ["神翼", "塔拉利亚", "风之靴", "天行者"],
+      "correctIndex": 1,
+      "explanation": "赫尔墨斯穿着有翅膀的飞鞋塔拉利亚。"
+    },
+    {
+      "id": "q_ability_089",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "希腊神话中，赫拉克勒斯的力量来源是什么?",
+      "options": ["神的血统", "魔法", "训练", "诅咒"],
+      "correctIndex": 0,
+      "explanation": "赫拉克勒斯是宙斯之子，拥有神的血统和力量。"
+    },
+    {
+      "id": "q_ability_090",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "中国神话中，哪吒有几件法宝?",
+      "options": ["三件", "五件", "七件", "九件"],
+      "correctIndex": 2,
+      "explanation": "哪吒有七件法宝：风火轮、火尖枪、混天绫、乾坤圈等。"
+    },
+    {
+      "id": "q_ability_091",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁拥有使物体变成石头的能力?",
+      "options": ["宙斯", "美杜莎", "雅典娜", "波塞冬"],
+      "correctIndex": 1,
+      "explanation": "美杜莎能将直视她眼睛的生物变成石头。"
+    },
+    {
+      "id": "q_ability_092",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "孙悟空的筋斗云一个筋斗能翻多远?",
+      "options": ["千里", "万里", "十万八千里", "无限远"],
+      "correctIndex": 2,
+      "explanation": "孙悟空的筋斗云一个筋斗十万八千里。"
+    },
+    {
+      "id": "q_ability_093",
+      "category": "ability",
+      "difficulty": "hard",
+      "question": "希腊神话中，宙斯能变成什么形态?",
+      "options": ["只能是人形", "只能是动物", "可以变成任何形态", "只能是神形"],
+      "correctIndex": 2,
+      "explanation": "宙斯能变成各种形态，包括天鹅、公牛、雨水等。"
+    },
+    {
+      "id": "q_ability_094",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "中国神话中，夸父追日最后怎么了?",
+      "options": ["追上太阳", "渴死途中", "被太阳烧死", "放弃追逐"],
+      "correctIndex": 1,
+      "explanation": "夸父追日最终渴死在途中，手杖化为桃林。"
+    },
+    {
+      "id": "q_ability_095",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "希腊神话中，谁有预言能力?",
+      "options": ["阿波罗", "赫拉", "宙斯", "雅典娜"],
+      "correctIndex": 0,
+      "explanation": "阿波罗是预言之神，掌管神谕。"
+    },
+    {
+      "id": "q_ability_096",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "中国神话中，白泽的能力来源于什么?",
+      "options": ["神赐", "天生智慧", "修炼", "吞噬"],
+      "correctIndex": 1,
+      "explanation": "白泽天生具有知晓万物的智慧。"
+    },
+    {
+      "id": "q_ability_097",
+      "category": "ability",
+      "difficulty": "medium",
+      "question": "龙通常与什么能力关联?",
+      "options": ["读心", "喷火/水", "隐身", "石化"],
+      "correctIndex": 1,
+      "explanation": "东西方龙都常具有喷火或控水的能力。"
+    },
+    {
+      "id": "q_ability_098",
+      "category": "ability",
+      "difficulty": "easy",
+      "question": "托尔的锤子叫什么?",
+      "options": ["雷霆", "妙尔尼尔", "贡格尼尔", "格拉墨"],
+      "correctIndex": 1,
+      "explanation": "托尔的神锤叫妙尔尼尔，能引发雷电。"
+    }
+  ]
+}

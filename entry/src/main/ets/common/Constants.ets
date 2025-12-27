@@ -258,6 +258,12 @@ export class StorageKeys {
   static readonly USER_CREATURES: string = 'user_creatures';
   static readonly SETTINGS: string = 'settings';
   static readonly THEME: string = 'theme';
+  // 挑战系统相关
+  static readonly CHALLENGE_STATS: string = 'challenge_stats';
+  static readonly LEADERBOARD_DAILY: string = 'leaderboard_daily';
+  static readonly LEADERBOARD_WEEKLY: string = 'leaderboard_weekly';
+  static readonly LEADERBOARD_ALLTIME: string = 'leaderboard_alltime';
+  static readonly QUIZ_HISTORY: string = 'quiz_history';
 }
 
 /**
@@ -266,6 +272,7 @@ export class StorageKeys {
 export class GlobalStateKeys {
   static readonly FAVORITE_COUNT: string = 'globalFavoriteCount';
   static readonly HISTORY_COUNT: string = 'globalHistoryCount';
+  static readonly CHALLENGE_STATS_VERSION: string = 'challengeStatsVersion';
 }
 
 /**
@@ -291,4 +298,9 @@ export class RouterPaths {
   static readonly ATTRIBUTE_TEST: string = 'pages/AttributeTest';
   static readonly TOPIC_LIST: string = 'pages/TopicList';
   static readonly TOPIC_DETAIL: string = 'pages/TopicDetail';
+  // 挑战系统相关
+  static readonly QUIZ_GAME: string = 'pages/QuizGame';
+  static readonly QUIZ_RESULT: string = 'pages/QuizResult';
+  static readonly LEADERBOARD: string = 'pages/Leaderboard';
+  static readonly ACHIEVEMENTS: string = 'pages/Achievements';
 }

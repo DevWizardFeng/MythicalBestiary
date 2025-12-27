@@ -54,58 +54,67 @@ struct AttributeDetail {
   }
 
   build() {
-    Column() {
-      // 顶部导航
-      Row() {
-        Image($r('app.media.ic_arrow_left'))
-          .width(24)
-          .height(24)
-          .onClick(() => {
-            router.back();
-          })
+    Stack() {
+      // 背景图片
+      Image($r('app.media.bg_attribute_detail'))
+        .width('100%')
+        .height('100%')
+        .objectFit(ImageFit.Cover)
 
-        Text(this.attribute?.nameCn || '属性详情')
-          .fontSize(18)
-          .fontWeight(FontWeight.Bold)
-          .fontColor(DarkTheme.textPrimary)
-          .margin({ left: 16 })
+      Column() {
+        // 顶部导航
+        Row() {
+          Image($r('app.media.ic_arrow_left'))
+            .width(24)
+            .height(24)
+            .onClick(() => {
+              router.back();
+            })
 
-        Blank()
-      }
-      .width('100%')
-      .padding({ left: 16, right: 16, top: 12, bottom: 12 })
+          Text(this.attribute?.nameCn || '属性详情')
+            .fontSize(18)
+            .fontWeight(FontWeight.Bold)
+            .fontColor(DarkTheme.textPrimary)
+            .margin({ left: 16 })
 
-      if (this.isLoading) {
-        this.LoadingView()
-      } else if (this.attribute) {
-        Scroll() {
-          Column({ space: 24 }) {
-            // 属性卡片
-            this.AttributeCard()
-
-            // 属性含义
-            this.MeaningSection()
-
-            // 相克关系
-            this.RelationshipSection()
-
-            // 该属性神兽
-            if (this.creatures.length > 0) {
-              this.CreaturesSection()
-            }
-
-            Column()
-              .height(32)
-          }
+          Blank()
         }
         .width('100%')
-        .layoutWeight(1)
-        .scrollBar(BarState.Off)
+        .padding({ left: 16, right: 16, top: 12, bottom: 12 })
+
+        if (this.isLoading) {
+          this.LoadingView()
+        } else if (this.attribute) {
+          Scroll() {
+            Column({ space: 24 }) {
+              // 属性卡片
+              this.AttributeCard()
+
+              // 属性含义
+              this.MeaningSection()
+
+              // 相克关系
+              this.RelationshipSection()
+
+              // 该属性神兽
+              if (this.creatures.length > 0) {
+                this.CreaturesSection()
+              }
+
+              Column()
+                .height(32)
+            }
+          }
+          .width('100%')
+          .layoutWeight(1)
+          .scrollBar(BarState.Off)
+        }
       }
+      .width('100%')
+      .height('100%')
     }
     .width('100%')
     .height('100%')
-    .backgroundColor(DarkTheme.background)
   }
 
   @Builder

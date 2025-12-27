@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ic_rank_bronze",
+    "name_cn": "青铜段位",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_rank_silver",
+    "name_cn": "白银段位",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_rank_gold",
+    "name_cn": "黄金段位",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_rank_platinum",
+    "name_cn": "铂金段位",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "ic_rank_diamond",
+    "name_cn": "钻石段位",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  }
+]
