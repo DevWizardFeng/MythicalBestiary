@@ -4,7 +4,7 @@
  */
 
 import router from '@ohos.router';
-import { DarkTheme } from '../common/Theme';
+import { DarkTheme, CardStyle } from '../common/Theme';
 import { CultureType, getCultureName, getCultureColor, getAttributeName, getAttributeColor, AttributeType, RarityType, getRarityName, getRarityColor } from '../common/Constants';
 import { MythicalCreature } from '../model/MythicalCreature';
 import { Deity } from '../model/Deity';
@@ -130,7 +130,7 @@ export struct GuideTab {
       }
       .width('100%')
       .height(44)
-      .backgroundColor(DarkTheme.backgroundCard)
+      .backgroundColor(CardStyle.glassBackground)
 
       if (this.isLoading) {
         this.LoadingView()
@@ -144,7 +144,6 @@ export struct GuideTab {
     }
     .width('100%')
     .height('100%')
-    .backgroundColor(DarkTheme.background)
   }
 
   @Builder
@@ -297,8 +296,18 @@ export struct GuideTab {
       .alignItems(HorizontalAlign.Start)
       .width('100%')
     }
-    .backgroundColor(DarkTheme.backgroundCard)
-    .borderRadius(12)
+    .backgroundColor(CardStyle.glassBackground)
+    .borderRadius(CardStyle.borderRadius)
+    .border({
+      width: CardStyle.borderWidth,
+      color: CardStyle.borderColor
+    })
+    .shadow({
+      radius: CardStyle.shadowRadius,
+      color: CardStyle.shadowColor,
+      offsetX: CardStyle.shadowOffsetX,
+      offsetY: CardStyle.shadowOffsetY
+    })
     .onClick(() => {
       router.pushUrl({
         url: 'pages/DeityDetail',
@@ -326,7 +335,7 @@ export struct GuideTab {
         })
       }
       .width('100%')
-      .backgroundColor(DarkTheme.backgroundCard)
+      .backgroundColor(CardStyle.glassBackground)
 
       // 具体筛选选项
       Scroll() {

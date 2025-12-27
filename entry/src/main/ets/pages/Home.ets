@@ -4,7 +4,7 @@
  */
 
 import router from '@ohos.router';
-import { DarkTheme } from '../common/Theme';
+import { DarkTheme, CardStyle } from '../common/Theme';
 import { CultureType, AttributeType, CultureNames, AttributeNames, AttributeColors, getCultureName, getCultureColor } from '../common/Constants';
 import { MythicalCreature } from '../model/MythicalCreature';
 import { Deity } from '../model/Deity';
@@ -239,7 +239,6 @@ export struct Home {
     }
     .width('100%')
     .height('100%')
-    .backgroundColor(DarkTheme.background)
   }
 
   @Builder
@@ -278,8 +277,18 @@ export struct Home {
     .width(68)
     .height(76)
     .justifyContent(FlexAlign.Center)
-    .backgroundColor(DarkTheme.backgroundCard)
-    .borderRadius(12)
+    .backgroundColor(CardStyle.glassBackground)
+    .borderRadius(CardStyle.borderRadius)
+    .border({
+      width: CardStyle.borderWidth,
+      color: CardStyle.borderColor
+    })
+    .shadow({
+      radius: CardStyle.shadowRadius,
+      color: CardStyle.shadowColor,
+      offsetX: CardStyle.shadowOffsetX,
+      offsetY: CardStyle.shadowOffsetY
+    })
     .onClick(() => {
       if (entry.type === 'culture') {
         router.pushUrl({

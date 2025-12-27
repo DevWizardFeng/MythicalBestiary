@@ -1270,6 +1270,15 @@
       "type": "spirit",
       "attribute": "nature",
       "prompt": "凯尔特绿人，森林精灵的化身，面容由树叶和藤蔓构成，嘴里长出枝条，象征自然的重生，周围是古老的凯尔特森林"
+    },
+    {
+      "id": "bg_main_mystical",
+      "name_cn": "山水云雾背景",
+      "name_en": "Mystical Background",
+      "culture": "background",
+      "type": "background",
+      "attribute": "none",
+      "prompt": "东方仙境山水背景，深蓝紫色天空渐变，远山层叠若隐若现，金色祥云缭绕飘渺，仙雾弥漫的空灵意境，无人物无生物，中国水墨画风格与奇幻艺术融合，底部云海翻涌，顶部星辰点缀，适合作为手机App背景，色调以深蓝紫为主配合金色光效，4K超高清，极致细节"
     }
   ]
 }

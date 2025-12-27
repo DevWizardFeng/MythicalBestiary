@@ -46,9 +46,9 @@ export const DarkTheme: ThemeColors = {
   backgroundSecondary: '#2d1b4e',
   backgroundCard: '#252550',
 
-  textPrimary: '#e0e0e0',
-  textSecondary: '#9e9e9e',
-  textTertiary: '#666666',
+  textPrimary: '#ffffff',
+  textSecondary: '#b0b0c0',
+  textTertiary: '#8080a0',
 
   accent: '#ffd700',
   accentSecondary: '#9d4edd',
@@ -218,3 +218,40 @@ export function getCardStyle(theme: ThemeColors): CardStyleConfig {
   };
   return config;
 }
+
+/**
+ * 毛玻璃卡片样式接口
+ */
+interface GlassCardStyleConfig {
+  glassBackground: string;
+  borderColor: string;
+  borderWidth: number;
+  borderRadius: number;
+  shadowRadius: number;
+  shadowColor: string;
+  shadowOffsetX: number;
+  shadowOffsetY: number;
+  blurRadius: number;
+}
+
+/**
+ * 卡片样式配置（毛玻璃+光晕阴影）
+ */
+export const CardStyle: GlassCardStyleConfig = {
+  // 半透明毛玻璃背景
+  glassBackground: 'rgba(30, 30, 60, 0.65)',
+
+  // 金色边框
+  borderColor: 'rgba(255, 215, 0, 0.12)',
+  borderWidth: 1,
+  borderRadius: 16,
+
+  // 紫色光晕阴影
+  shadowRadius: 24,
+  shadowColor: 'rgba(157, 78, 221, 0.3)',
+  shadowOffsetX: 0,
+  shadowOffsetY: 8,
+
+  // 毛玻璃参数
+  blurRadius: 20
+};

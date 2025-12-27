@@ -34,7 +34,7 @@ from pathlib import Path
 
 # API 配置 (不可修改)
 BASE_URL = "https://ark.cn-beijing.volces.com/api/v3/images/generations"
-API_KEY = "ac40d75f-cc57-4403-bad4-1f0f84f29208"
+API_KEY = "096dd19b-a3ba-4dd1-a610-8c3495b18548"
 MODEL = "doubao-seedream-4-5-251128"
 
 # 项目根目录
@@ -47,7 +47,7 @@ HARMONY_MEDIA_DIR = PROJECT_ROOT / "entry" / "src" / "main" / "resources" / "bas
 LOG_DIR = Path(__file__).parent / "logs"
 
 # 支持的文化分类
-CULTURES = ["chinese", "greek", "norse", "japanese", "indian", "egyptian", "celtic", "icon"]
+CULTURES = ["chinese", "greek", "norse", "japanese", "indian", "egyptian", "celtic", "icon", "background"]
 
 
 def setup_logging():

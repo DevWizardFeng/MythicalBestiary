@@ -5,7 +5,7 @@
 import { MythicalCreature } from '../model/MythicalCreature';
 import { AttributeType, RarityType, CultureType,
   getAttributeColor, getRarityColor, getRarityName, getCultureName, ColorPair, RarityInfo, CultureNameInfo } from '../common/Constants';
-import { DarkTheme } from '../common/Theme';
+import { DarkTheme, CardStyle } from '../common/Theme';
 
 @Component
 export struct CreatureCard {
@@ -22,8 +22,18 @@ export struct CreatureCard {
       }
     }
     .width(this.mode === 'grid' ? '100%' : '100%')
-    .backgroundColor(DarkTheme.backgroundCard)
-    .borderRadius(12)
+    .backgroundColor(CardStyle.glassBackground)
+    .borderRadius(CardStyle.borderRadius)
+    .border({
+      width: CardStyle.borderWidth,
+      color: CardStyle.borderColor
+    })
+    .shadow({
+      radius: CardStyle.shadowRadius,
+      color: CardStyle.shadowColor,
+      offsetX: CardStyle.shadowOffsetX,
+      offsetY: CardStyle.shadowOffsetY
+    })
     .clip(true)
     .onClick(() => {
       if (this.onItemClick) {

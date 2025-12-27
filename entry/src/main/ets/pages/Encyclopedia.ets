@@ -4,7 +4,7 @@
  */
 
 import router from '@ohos.router';
-import { DarkTheme } from '../common/Theme';
+import { DarkTheme, CardStyle } from '../common/Theme';
 import { AttributeType, CultureType, AttributeNames, AttributeColors, CultureNames } from '../common/Constants';
 import { DataLoader } from '../utils/DataLoader';
 import { Attribute } from '../model/Attribute';
@@ -123,8 +123,18 @@ export struct Encyclopedia {
               }
               .width('100%')
               .padding(16)
-              .backgroundColor(DarkTheme.backgroundCard)
-              .borderRadius(12)
+              .backgroundColor(CardStyle.glassBackground)
+              .borderRadius(CardStyle.borderRadius)
+              .border({
+                width: CardStyle.borderWidth,
+                color: CardStyle.borderColor
+              })
+              .shadow({
+                radius: CardStyle.shadowRadius,
+                color: CardStyle.shadowColor,
+                offsetX: CardStyle.shadowOffsetX,
+                offsetY: CardStyle.shadowOffsetY
+              })
               .margin({ left: 16, right: 16 })
               .onClick(() => {
                 router.pushUrl({ url: 'pages/DeityList' });
@@ -156,8 +166,18 @@ export struct Encyclopedia {
               }
               .width('100%')
               .padding(16)
-              .backgroundColor(DarkTheme.backgroundCard)
-              .borderRadius(12)
+              .backgroundColor(CardStyle.glassBackground)
+              .borderRadius(CardStyle.borderRadius)
+              .border({
+                width: CardStyle.borderWidth,
+                color: CardStyle.borderColor
+              })
+              .shadow({
+                radius: CardStyle.shadowRadius,
+                color: CardStyle.shadowColor,
+                offsetX: CardStyle.shadowOffsetX,
+                offsetY: CardStyle.shadowOffsetY
+              })
               .margin({ left: 16, right: 16 })
               .onClick(() => {
                 router.pushUrl({ url: 'pages/AbilityList' });
@@ -176,7 +196,6 @@ export struct Encyclopedia {
     }
     .width('100%')
     .height('100%')
-    .backgroundColor(DarkTheme.background)
   }
 
   @Builder
@@ -213,8 +232,18 @@ export struct Encyclopedia {
     .width('100%')
     .height(80)
     .justifyContent(FlexAlign.Center)
-    .backgroundColor(DarkTheme.backgroundCard)
-    .borderRadius(12)
+    .backgroundColor(CardStyle.glassBackground)
+    .borderRadius(CardStyle.borderRadius)
+    .border({
+      width: CardStyle.borderWidth,
+      color: CardStyle.borderColor
+    })
+    .shadow({
+      radius: CardStyle.shadowRadius,
+      color: CardStyle.shadowColor,
+      offsetX: CardStyle.shadowOffsetX,
+      offsetY: CardStyle.shadowOffsetY
+    })
     .onClick(() => {
       router.pushUrl({
         url: 'pages/AttributeDetail',
@@ -255,8 +284,18 @@ export struct Encyclopedia {
     }
     .width('100%')
     .padding(12)
-    .backgroundColor(DarkTheme.backgroundCard)
-    .borderRadius(12)
+    .backgroundColor(CardStyle.glassBackground)
+    .borderRadius(CardStyle.borderRadius)
+    .border({
+      width: CardStyle.borderWidth,
+      color: CardStyle.borderColor
+    })
+    .shadow({
+      radius: CardStyle.shadowRadius,
+      color: CardStyle.shadowColor,
+      offsetX: CardStyle.shadowOffsetX,
+      offsetY: CardStyle.shadowOffsetY
+    })
     .onClick(() => {
       router.pushUrl({
         url: 'pages/CultureDetail',

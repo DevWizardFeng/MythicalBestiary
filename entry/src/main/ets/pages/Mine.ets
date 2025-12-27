@@ -4,7 +4,7 @@
  */
 
 import router from '@ohos.router';
-import { DarkTheme } from '../common/Theme';
+import { DarkTheme, CardStyle } from '../common/Theme';
 import { GlobalStateKeys } from '../common/Constants';
 import { StorageUtil } from '../utils/Storage';
 import { UserSettings } from '../model/UserData';
@@ -78,8 +78,18 @@ export struct Mine {
               route: 'pages/History'
             })
           }
-          .backgroundColor(DarkTheme.backgroundCard)
-          .borderRadius(12)
+          .backgroundColor(CardStyle.glassBackground)
+          .borderRadius(CardStyle.borderRadius)
+          .border({
+            width: CardStyle.borderWidth,
+            color: CardStyle.borderColor
+          })
+          .shadow({
+            radius: CardStyle.shadowRadius,
+            color: CardStyle.shadowColor,
+            offsetX: CardStyle.shadowOffsetX,
+            offsetY: CardStyle.shadowOffsetY
+          })
           .margin({ left: 16, right: 16 })
 
           // 互动功能
@@ -105,8 +115,18 @@ export struct Mine {
               route: 'pages/AttributeTest'
             })
           }
-          .backgroundColor(DarkTheme.backgroundCard)
-          .borderRadius(12)
+          .backgroundColor(CardStyle.glassBackground)
+          .borderRadius(CardStyle.borderRadius)
+          .border({
+            width: CardStyle.borderWidth,
+            color: CardStyle.borderColor
+          })
+          .shadow({
+            radius: CardStyle.shadowRadius,
+            color: CardStyle.shadowColor,
+            offsetX: CardStyle.shadowOffsetX,
+            offsetY: CardStyle.shadowOffsetY
+          })
           .margin({ left: 16, right: 16 })
 
           // 设置
@@ -118,8 +138,18 @@ export struct Mine {
               route: 'pages/Settings'
             })
           }
-          .backgroundColor(DarkTheme.backgroundCard)
-          .borderRadius(12)
+          .backgroundColor(CardStyle.glassBackground)
+          .borderRadius(CardStyle.borderRadius)
+          .border({
+            width: CardStyle.borderWidth,
+            color: CardStyle.borderColor
+          })
+          .shadow({
+            radius: CardStyle.shadowRadius,
+            color: CardStyle.shadowColor,
+            offsetX: CardStyle.shadowOffsetX,
+            offsetY: CardStyle.shadowOffsetY
+          })
           .margin({ left: 16, right: 16 })
 
           // 关于
@@ -147,7 +177,6 @@ export struct Mine {
     }
     .width('100%')
     .height('100%')
-    .backgroundColor(DarkTheme.background)
   }
 
   @Builder
@@ -184,8 +213,18 @@ export struct Mine {
     }
     .width('100%')
     .padding(16)
-    .backgroundColor(DarkTheme.backgroundCard)
-    .borderRadius(12)
+    .backgroundColor(CardStyle.glassBackground)
+    .borderRadius(CardStyle.borderRadius)
+    .border({
+      width: CardStyle.borderWidth,
+      color: CardStyle.borderColor
+    })
+    .shadow({
+      radius: CardStyle.shadowRadius,
+      color: CardStyle.shadowColor,
+      offsetX: CardStyle.shadowOffsetX,
+      offsetY: CardStyle.shadowOffsetY
+    })
     .margin({ left: 16, right: 16 })
   }
 
