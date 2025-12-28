@@ -332,11 +332,11 @@ struct DeityDetail {
       Column() {
         SaveButton({
           icon: SaveIconStyle.FULL_FILLED,
-          text: SaveDescription.DOWNLOAD,  // 使用 DOWNLOAD 避免显示文字
-          buttonType: ButtonType.Circle
+          buttonType: ButtonType.Capsule
         })
-          .iconSize(20)
-          .padding(0)
+          .width(36)
+          .height(36)
+          .backgroundColor('rgba(0,0,0,0.3)')
           .onClick(async (event: ClickEvent, result: SaveButtonOnClickResult) => {
             if (result === SaveButtonOnClickResult.SUCCESS) {
               await this.saveImageToGallery();
@@ -345,11 +345,6 @@ struct DeityDetail {
             }
           })
       }
-      .width(36)
-      .height(36)
-      .justifyContent(FlexAlign.Center)
-      .backgroundColor('rgba(0,0,0,0.3)')  // 与其他按钮一致的半透明黑色
-      .borderRadius(18)
       .margin({ right: 8 })
 
       // 收藏按钮
