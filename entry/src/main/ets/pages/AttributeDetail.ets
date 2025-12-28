@@ -10,6 +10,8 @@ import { Attribute } from '../model/Attribute';
 import { MythicalCreature } from '../model/MythicalCreature';
 import { DataLoader } from '../utils/DataLoader';
 import { CreatureCard } from '../components/CreatureCard';
+import { TTSManager, TTSState } from '../utils/TTSManager';
+import { promptAction } from '@kit.ArkUI';
 
 interface RouterParams {
   attributeId: string;
@@ -21,7 +23,9 @@ struct AttributeDetail {
   @State attribute: Attribute | null = null;
   @State creatures: MythicalCreature[] = [];
   @State isLoading: boolean = true;
+  @State isTTSPlaying: boolean = false;
   private attributeId: string = '';
+  private ttsManager: TTSManager = new TTSManager();
 
   aboutToAppear() {
     const params = router.getParams() as RouterParams;
@@ -29,6 +33,11 @@ struct AttributeDetail {
       this.attributeId = params.attributeId;
       this.loadData();
     }
+    this.initTTS();
+  }
+
+  aboutToDisappear(): void {
+    this.releaseTTS();
   }
 
   async loadData() {
@@ -51,6 +60,109 @@ struct AttributeDetail {
       console.error('Failed to load attribute detail:', error);
       this.isLoading = false;
     }
+  }
+
+  /**
+   * 初始化 TTS 引擎
+   */
+  async initTTS(): Promise<void> {
+    try {
+      await this.ttsManager.init()
+
+      // 设置状态变化监听器
+      this.ttsManager.setOnStateChange((state: TTSState) => {
+        this.isTTSPlaying = (state === TTSState.PLAYING)
+      })
+
+      console.info('TTS 引擎初始化成功')
+    } catch (error) {
+      console.error('TTS 引擎初始化失败:', error)
+    }
+  }
+
+  /**
+   * 释放 TTS 资源
+   */
+  async releaseTTS(): Promise<void> {
+    try {
+      await this.ttsManager.release()
+      console.info('TTS 资源已释放')
+    } catch (error) {
+      console.error('TTS 资源释放失败:', error)
+    }
+  }
+
+  /**
+   * 播放/停止语音
+   */
+  async toggleTTS(): Promise<void> {
+    if (!this.attribute) return
+
+    try {
+      if (this.isTTSPlaying) {
+        // 停止播放
+        this.isTTSPlaying = false
+        await this.ttsManager.stop()
+      } else {
+        // 组合要朗读的文本
+        const text = this.buildIntroText()
+
+        // 快速切换状态来"预热"动效（解决首次点击动效不生效问题）
+        this.isTTSPlaying = true
+        this.isTTSPlaying = false
+        setTimeout(() => {
+          this.isTTSPlaying = true
+        }, 16) // 一帧的时间（约16ms）
+
+        // 开始播放
+        try {
+          await this.ttsManager.speak(text)
+        } catch (speakError) {
+          this.isTTSPlaying = false
+          throw new Error(`TTS 播放失败: ${speakError}`)
+        }
+      }
+    } catch (error) {
+      console.error('TTS 操作失败:', error)
+      this.isTTSPlaying = false
+      promptAction.showToast({
+        message: '语音播放失败，请稍后重试',
+        duration: 2000,
+        bottom: 100
+      })
+    }
+  }
+
+  /**
+   * 构建要朗读的文本
+   */
+  private buildIntroText(): string {
+    if (!this.attribute) return ''
+
+    const parts: string[] = []
+
+    // 名称
+    parts.push(`${this.attribute.nameCn}属性。`)
+    if (this.attribute.nameEn) {
+      parts.push(`英文名称：${this.attribute.nameEn}。`)
+    }
+
+    // 含义
+    if (this.attribute.meaning) {
+      parts.push(`属性含义：${this.attribute.meaning}`)
+    }
+
+    // 优势
+    if (this.attribute.strengths && this.attribute.strengths.length > 0) {
+      parts.push(`属性优势：${this.attribute.strengths.join('、')}。`)
+    }
+
+    // 弱点
+    if (this.attribute.weaknesses && this.attribute.weaknesses.length > 0) {
+      parts.push(`属性弱点：${this.attribute.weaknesses.join('、')}。`)
+    }
+
+    return parts.join(' ')
   }
 
   build() {
@@ -78,6 +190,23 @@ struct AttributeDetail {
             .margin({ left: 16 })
 
           Blank()
+
+          // 语音播放按钮
+          Column() {
+            SymbolGlyph($r('sys.symbol.speaker_wave_3'))
+              .fontSize(20)
+              .fontColor(['#D4AF37'])
+              .symbolEffect(
+                new HierarchicalSymbolEffect(EffectFillStyle.ITERATIVE),
+                this.isTTSPlaying
+              )
+          }
+          .width(36)
+          .height(36)
+          .justifyContent(FlexAlign.Center)
+          .backgroundColor('rgba(0,0,0,0.3)')
+          .borderRadius(18)
+          .onClick(() => this.toggleTTS())
         }
         .width('100%')
         .padding({ left: 16, right: 16, top: 12, bottom: 12 })

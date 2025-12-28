@@ -14,6 +14,11 @@ import { StorageUtil } from '../utils/Storage';
 import { CreatureCard } from '../components/CreatureCard';
 import { AttributeTag } from '../components/AttributeTag';
 import { RarityBadge } from '../components/RarityBadge';
+import { TTSManager, TTSState } from '../utils/TTSManager';
+import { promptAction } from '@kit.ArkUI';
+import { photoAccessHelper } from '@kit.MediaLibraryKit';
+import { fileIo } from '@kit.CoreFileKit';
+import { BusinessError } from '@kit.BasicServicesKit';
 
 interface RouterParams {
   creatureId: string;
@@ -27,7 +32,9 @@ struct CreatureDetail {
   @State isFavorite: boolean = false;
   @State isLoading: boolean = true;
   @State currentTab: number = 0;
+  @State isTTSPlaying: boolean = false;
   private creatureId: string = '';
+  private ttsManager: TTSManager = new TTSManager();
 
   private tabs: string[] = ['神话传说', '能力特点', '文化象征'];
 
@@ -37,6 +44,11 @@ struct CreatureDetail {
       this.creatureId = params.creatureId;
       this.loadData();
     }
+    this.initTTS();
+  }
+
+  aboutToDisappear(): void {
+    this.releaseTTS();
   }
 
   async loadData() {
@@ -84,6 +96,163 @@ struct CreatureDetail {
     } catch (error) {
       console.error('Failed to toggle favorite:', error);
     }
+  }
+
+  /**
+   * 保存图片到相册
+   */
+  async saveImageToGallery() {
+    try {
+      if (!this.creature?.image) {
+        promptAction.showToast({ message: '图片不存在' });
+        return;
+      }
+
+      const context = this.getUIContext().getHostContext();
+      if (!context) {
+        promptAction.showToast({ message: '获取上下文失败' });
+        return;
+      }
+
+      const helper = photoAccessHelper.getPhotoAccessHelper(context);
+
+      // 创建媒体库图片文件
+      const uri = await helper.createAsset(photoAccessHelper.PhotoType.IMAGE, 'png');
+      const file = await fileIo.open(uri, fileIo.OpenMode.READ_WRITE | fileIo.OpenMode.CREATE);
+
+      // 读取应用资源图片内容
+      const imageResourceId = $r(`app.media.${this.creature.image}`).id;
+      const mediaContent = await context.resourceManager.getMediaContent(imageResourceId, 0);
+      const imageBuffer = mediaContent.buffer;
+
+      // 写入媒体库文件
+      await fileIo.write(file.fd, imageBuffer);
+      await fileIo.close(file.fd);
+
+      promptAction.showToast({ message: '已保存至相册' });
+    } catch (error) {
+      const err = error as BusinessError;
+      console.error(`Failed to save image: ${err.code}, ${err.message}`);
+      promptAction.showToast({ message: '保存失败' });
+    }
+  }
+
+  /**
+   * 初始化 TTS 引擎
+   */
+  async initTTS(): Promise<void> {
+    try {
+      await this.ttsManager.init()
+
+      // 设置状态变化监听器
+      this.ttsManager.setOnStateChange((state: TTSState) => {
+        this.isTTSPlaying = (state === TTSState.PLAYING)
+      })
+
+      console.info('TTS 引擎初始化成功')
+    } catch (error) {
+      console.error('TTS 引擎初始化失败:', error)
+    }
+  }
+
+  /**
+   * 释放 TTS 资源
+   */
+  async releaseTTS(): Promise<void> {
+    try {
+      await this.ttsManager.release()
+      console.info('TTS 资源已释放')
+    } catch (error) {
+      console.error('TTS 资源释放失败:', error)
+    }
+  }
+
+  /**
+   * 播放/停止语音
+   */
+  async toggleTTS(): Promise<void> {
+    if (!this.creature) return
+
+    try {
+      if (this.isTTSPlaying) {
+        // 停止播放
+        this.isTTSPlaying = false
+        await this.ttsManager.stop()
+      } else {
+        // 组合要朗读的文本
+        const text = this.buildIntroText()
+
+        // 快速切换状态来"预热"动效（解决首次点击动效不生效问题）
+        this.isTTSPlaying = true
+        this.isTTSPlaying = false
+        setTimeout(() => {
+          this.isTTSPlaying = true
+        }, 16) // 一帧的时间（约16ms）
+
+        // 开始播放
+        try {
+          await this.ttsManager.speak(text)
+        } catch (speakError) {
+          this.isTTSPlaying = false
+          throw new Error(`TTS 播放失败: ${speakError}`)
+        }
+      }
+    } catch (error) {
+      console.error('TTS 操作失败:', error)
+      this.isTTSPlaying = false
+      promptAction.showToast({
+        message: '语音播放失败，请稍后重试',
+        duration: 2000,
+        bottom: 100
+      })
+    }
+  }
+
+  /**
+   * 构建要朗读的文本
+   */
+  private buildIntroText(): string {
+    if (!this.creature) return ''
+
+    const parts: string[] = []
+
+    // 名称和品质
+    const rarityName = getRarityName(this.creature.rarity as RarityType).cn
+    parts.push(`${this.creature.name.cn}，${rarityName}品质神兽。`)
+
+    // 英文名和原名
+    if (this.creature.name.en) {
+      parts.push(`英文名称：${this.creature.name.en}。`)
+    }
+    if (this.creature.name.original && this.creature.name.original !== this.creature.name.cn) {
+      parts.push(`原名：${this.creature.name.original}。`)
+    }
+
+    // 分类
+    const cultureName = getCultureName(this.creature.culture as CultureType).cn
+    const typeName = getCreatureTypeName(this.creature.type as CreatureType).cn
+    const alignmentName = getAlignmentName(this.creature.alignment as AlignmentType).cn
+    parts.push(`来自${cultureName}神话，属于${typeName}类型，阵营为${alignmentName}。`)
+
+    // 描述
+    parts.push(this.creature.description)
+
+    // 神话传说
+    if (this.creature.mythology) {
+      parts.push(`神话传说：${this.creature.mythology}`)
+    }
+
+    // 能力特点
+    if (this.creature.abilities && this.creature.abilities.length > 0) {
+      parts.push(`能力特点：${this.creature.abilities.join('、')}。`)
+    }
+
+    // 文化象征
+    if (this.creature.symbolism) {
+      parts.push(`文化象征：${this.creature.symbolism}`)
+    }
+
+    return parts.join(' ')
   }
 
   build() {
@@ -153,6 +322,30 @@ struct CreatureDetail {
 
       Blank()
 
+      // 保存按钮
+      Column() {
+        SaveButton({
+          icon: SaveIconStyle.FULL_FILLED,
+          text: SaveDescription.DOWNLOAD,  // 使用 DOWNLOAD 避免显示文字
+          buttonType: ButtonType.Circle
+        })
+          .iconSize(20)
+          .padding(0)
+          .onClick(async (event: ClickEvent, result: SaveButtonOnClickResult) => {
+            if (result === SaveButtonOnClickResult.SUCCESS) {
+              await this.saveImageToGallery();
+            } else {
+              promptAction.showToast({ message: '授权失败' });
+            }
+          })
+      }
+      .width(36)
+      .height(36)
+      .justifyContent(FlexAlign.Center)
+      .backgroundColor('rgba(0,0,0,0.3)')  // 与其他按钮一致的半透明黑色
+      .borderRadius(18)
+      .margin({ right: 8 })
+
       // 收藏按钮
       Stack() {
         Circle()
@@ -169,7 +362,7 @@ struct CreatureDetail {
       })
     }
     .width('100%')
-    .padding({ left: 16, right: 16, top: 48, bottom: 12 })
+    .padding({ left: 16, right: 16, top: 12, bottom: 12 })
   }
 
   @Builder
@@ -329,10 +522,34 @@ struct CreatureDetail {
   @Builder
   MythologyContent() {
     Column({ space: 12 }) {
-      Text('神话传说')
-        .fontSize(16)
-        .fontWeight(FontWeight.Bold)
-        .fontColor(DarkTheme.textPrimary)
+      // 标题行：标题文字 + 语音播放按钮
+      Row() {
+        Text('神话传说')
+          .fontSize(16)
+          .fontWeight(FontWeight.Bold)
+          .fontColor(DarkTheme.textPrimary)
+
+        Blank()
+
+        // 语音播放按钮
+        Column() {
+          SymbolGlyph($r('sys.symbol.speaker_wave_3'))
+            .fontSize(20)
+            .fontColor(['#D4AF37'])
+            .symbolEffect(
+              new HierarchicalSymbolEffect(EffectFillStyle.ITERATIVE),
+              this.isTTSPlaying
+            )
+        }
+        .width(36)
+        .height(36)
+        .justifyContent(FlexAlign.Center)
+        .backgroundColor('#1A2233')
+        .borderRadius(18)
+        .border({ width: 1, color: '#333' })
+        .onClick(() => this.toggleTTS())
+      }
+      .width('100%')
 
       Text(this.creature?.mythology || '暂无神话传说记载')
         .fontSize(14)
@@ -349,10 +566,34 @@ struct CreatureDetail {
   @Builder
   AbilitiesContent() {
     Column({ space: 12 }) {
-      Text('能力特点')
-        .fontSize(16)
-        .fontWeight(FontWeight.Bold)
-        .fontColor(DarkTheme.textPrimary)
+      // 标题行：标题文字 + 语音播放按钮
+      Row() {
+        Text('能力特点')
+          .fontSize(16)
+          .fontWeight(FontWeight.Bold)
+          .fontColor(DarkTheme.textPrimary)
+
+        Blank()
+
+        // 语音播放按钮
+        Column() {
+          SymbolGlyph($r('sys.symbol.speaker_wave_3'))
+            .fontSize(20)
+            .fontColor(['#D4AF37'])
+            .symbolEffect(
+              new HierarchicalSymbolEffect(EffectFillStyle.ITERATIVE),
+              this.isTTSPlaying
+            )
+        }
+        .width(36)
+        .height(36)
+        .justifyContent(FlexAlign.Center)
+        .backgroundColor('#1A2233')
+        .borderRadius(18)
+        .border({ width: 1, color: '#333' })
+        .onClick(() => this.toggleTTS())
+      }
+      .width('100%')
 
       if (this.creature?.abilities && this.creature.abilities.length > 0) {
         ForEach(this.creature.abilities, (ability: string, index: number) => {
@@ -384,10 +625,34 @@ struct CreatureDetail {
   @Builder
   SymbolismContent() {
     Column({ space: 12 }) {
-      Text('文化象征')
-        .fontSize(16)
-        .fontWeight(FontWeight.Bold)
-        .fontColor(DarkTheme.textPrimary)
+      // 标题行：标题文字 + 语音播放按钮
+      Row() {
+        Text('文化象征')
+          .fontSize(16)
+          .fontWeight(FontWeight.Bold)
+          .fontColor(DarkTheme.textPrimary)
+
+        Blank()
+
+        // 语音播放按钮
+        Column() {
+          SymbolGlyph($r('sys.symbol.speaker_wave_3'))
+            .fontSize(20)
+            .fontColor(['#D4AF37'])
+            .symbolEffect(
+              new HierarchicalSymbolEffect(EffectFillStyle.ITERATIVE),
+              this.isTTSPlaying
+            )
+        }
+        .width(36)
+        .height(36)
+        .justifyContent(FlexAlign.Center)
+        .backgroundColor('#1A2233')
+        .borderRadius(18)
+        .border({ width: 1, color: '#333' })
+        .onClick(() => this.toggleTTS())
+      }
+      .width('100%')
 
       Text(this.creature?.symbolism || '暂无象征意义记载')
         .fontSize(14)

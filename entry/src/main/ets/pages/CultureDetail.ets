@@ -10,6 +10,8 @@ import { MythicalCreature } from '../model/MythicalCreature';
 import { Deity } from '../model/Deity';
 import { DataLoader } from '../utils/DataLoader';
 import { CreatureCard } from '../components/CreatureCard';
+import { TTSManager, TTSState } from '../utils/TTSManager';
+import { promptAction } from '@kit.ArkUI';
 
 interface RouterParams {
   cultureId: string;
@@ -22,7 +24,9 @@ struct CultureDetail {
   @State deities: Deity[] = [];
   @State creatures: MythicalCreature[] = [];
   @State isLoading: boolean = true;
+  @State isTTSPlaying: boolean = false;
   private cultureId: string = '';
+  private ttsManager: TTSManager = new TTSManager();
 
   aboutToAppear() {
     const params = router.getParams() as RouterParams;
@@ -30,6 +34,11 @@ struct CultureDetail {
       this.cultureId = params.cultureId;
       this.loadData();
     }
+    this.initTTS();
+  }
+
+  aboutToDisappear(): void {
+    this.releaseTTS();
   }
 
   async loadData() {
@@ -57,6 +66,109 @@ struct CultureDetail {
     }
   }
 
+  /**
+   * 初始化 TTS 引擎
+   */
+  async initTTS(): Promise<void> {
+    try {
+      await this.ttsManager.init()
+
+      // 设置状态变化监听器
+      this.ttsManager.setOnStateChange((state: TTSState) => {
+        this.isTTSPlaying = (state === TTSState.PLAYING)
+      })
+
+      console.info('TTS 引擎初始化成功')
+    } catch (error) {
+      console.error('TTS 引擎初始化失败:', error)
+    }
+  }
+
+  /**
+   * 释放 TTS 资源
+   */
+  async releaseTTS(): Promise<void> {
+    try {
+      await this.ttsManager.release()
+      console.info('TTS 资源已释放')
+    } catch (error) {
+      console.error('TTS 资源释放失败:', error)
+    }
+  }
+
+  /**
+   * 播放/停止语音
+   */
+  async toggleTTS(): Promise<void> {
+    if (!this.culture) return
+
+    try {
+      if (this.isTTSPlaying) {
+        // 停止播放
+        this.isTTSPlaying = false
+        await this.ttsManager.stop()
+      } else {
+        // 组合要朗读的文本
+        const text = this.buildIntroText()
+
+        // 快速切换状态来"预热"动效（解决首次点击动效不生效问题）
+        this.isTTSPlaying = true
+        this.isTTSPlaying = false
+        setTimeout(() => {
+          this.isTTSPlaying = true
+        }, 16) // 一帧的时间（约16ms）
+
+        // 开始播放
+        try {
+          await this.ttsManager.speak(text)
+        } catch (speakError) {
+          this.isTTSPlaying = false
+          throw new Error(`TTS 播放失败: ${speakError}`)
+        }
+      }
+    } catch (error) {
+      console.error('TTS 操作失败:', error)
+      this.isTTSPlaying = false
+      promptAction.showToast({
+        message: '语音播放失败，请稍后重试',
+        duration: 2000,
+        bottom: 100
+      })
+    }
+  }
+
+  /**
+   * 构建要朗读的文本
+   */
+  private buildIntroText(): string {
+    if (!this.culture) return ''
+
+    const parts: string[] = []
+
+    // 名称
+    parts.push(`${this.culture.nameCn}神话体系。`)
+    if (this.culture.nameEn) {
+      parts.push(`英文名称：${this.culture.nameEn}。`)
+    }
+
+    // 文化背景
+    if (this.culture.background) {
+      parts.push(this.culture.background)
+    }
+
+    // 宇宙观
+    if (this.culture.cosmology) {
+      parts.push(`宇宙观：${this.culture.cosmology}`)
+    }
+
+    // 文化特色
+    if (this.culture.features && this.culture.features.length > 0) {
+      parts.push(`文化特色：${this.culture.features.join('、')}。`)
+    }
+
+    return parts.join(' ')
+  }
+
   build() {
     Stack() {
       // 背景图片
@@ -82,6 +194,23 @@ struct CultureDetail {
             .margin({ left: 16 })
 
           Blank()
+
+          // 语音播放按钮
+          Column() {
+            SymbolGlyph($r('sys.symbol.speaker_wave_3'))
+              .fontSize(20)
+              .fontColor(['#D4AF37'])
+              .symbolEffect(
+                new HierarchicalSymbolEffect(EffectFillStyle.ITERATIVE),
+                this.isTTSPlaying
+              )
+          }
+          .width(36)
+          .height(36)
+          .justifyContent(FlexAlign.Center)
+          .backgroundColor('rgba(0,0,0,0.3)')
+          .borderRadius(18)
+          .onClick(() => this.toggleTTS())
         }
         .width('100%')
         .padding({ left: 16, right: 16, top: 12, bottom: 12 })
