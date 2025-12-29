@@ -105,38 +105,66 @@ struct DeityDetail {
    * 保存图片到相册
    */
   async saveImageToGallery() {
+    if (!this.deity?.image) {
+      promptAction.showToast({ message: '图片不存在' });
+      return;
+    }
+
     try {
-      if (!this.deity?.image) {
-        promptAction.showToast({ message: '图片不存在' });
-        return;
-      }
-
-      const context = this.getUIContext().getHostContext();
-      if (!context) {
-        promptAction.showToast({ message: '获取上下文失败' });
-        return;
-      }
-
+      const context = getContext(this);
       const helper = photoAccessHelper.getPhotoAccessHelper(context);
 
-      // 创建媒体库图片文件
-      const uri = await helper.createAsset(photoAccessHelper.PhotoType.IMAGE, 'png');
+      // 提取文件扩展名
+      const imageName = this.deity.image;
+      const extension = 'png';
+      console.info(`[DeityDetail] 准备保存图片: ${imageName}.${extension}`);
+
+      // onClick触发后1分钟内通过createAsset接口创建图片文件
+      console.info('[DeityDetail] 调用 createAsset...');
+      const uri = await helper.createAsset(photoAccessHelper.PhotoType.IMAGE, extension);
+      console.info(`[DeityDetail] createAsset 成功, URI: ${uri}`);
+
+      // 使用uri打开文件
       const file = await fileIo.open(uri, fileIo.OpenMode.READ_WRITE | fileIo.OpenMode.CREATE);
+      console.info(`[DeityDetail] 文件已打开, fd: ${file.fd}`);
 
-      // 读取应用资源图片内容
-      const imageResourceId = $r(`app.media.${this.deity.image}`).id;
-      const mediaContent = await context.resourceManager.getMediaContent(imageResourceId, 0);
-      const imageBuffer = mediaContent.buffer;
+      try {
+        // 读取rawfile中的图片数据
+        const imagePath = `images/${imageName}.${extension}`;
+        console.info(`[DeityDetail] 读取图片: ${imagePath}`);
+        const imageFile = context.resourceManager.getRawFileContentSync(imagePath);
+        console.info(`[DeityDetail] 图片读取成功, 大小: ${imageFile.buffer.byteLength} bytes`);
 
-      // 写入媒体库文件
-      await fileIo.write(file.fd, imageBuffer);
-      await fileIo.close(file.fd);
+        // 将图片数据写入相册文件
+        await fileIo.write(file.fd, imageFile.buffer);
+        console.info('[DeityDetail] 图片写入成功');
 
-      promptAction.showToast({ message: '已保存至相册' });
+        // 关闭文件
+        await fileIo.close(file.fd);
+        console.info('[DeityDetail] 文件已关闭');
+
+        // 提示保存成功
+        promptAction.showToast({
+          message: '图片已保存到相册',
+          duration: 2000,
+          bottom: 100
+        });
+      } catch (writeError) {
+        // 写入失败时关闭文件
+        await fileIo.close(file.fd);
+        const err = writeError as BusinessError;
+        console.error(`[DeityDetail] 写入失败: ${err.code} - ${err.message}`);
+        throw new Error(`Failed to write image: ${err.code} - ${err.message}`);
+      }
     } catch (error) {
       const err = error as BusinessError;
-      console.error(`Failed to save image: ${err.code}, ${err.message}`);
-      promptAction.showToast({ message: '保存失败' });
+      console.error(`[DeityDetail] 下载图片失败: ${err.code} - ${err.message}`);
+      console.error(`[DeityDetail] 错误堆栈: ${JSON.stringify(err)}`);
+      promptAction.showToast({
+        message: '保存图片失败，请稍后重试',
+        duration: 2000,
+        bottom: 100
+      });
     }
   }
 

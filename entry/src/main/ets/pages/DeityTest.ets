@@ -30,6 +30,7 @@ struct DeityTest {
   @State domainScores: Map<string, number> = new Map();
   @State allDeities: Deity[] = [];
   @State matchDescription: string = '';
+  @State selectedIndex: number = -1; // 当前选中的选项索引
 
   private questions: DeityQuestion[] = [
     {
@@ -100,12 +101,21 @@ struct DeityTest {
     }
   }
 
-  selectOption(option: DeityOption) {
+  async selectOption(option: DeityOption, index: number) {
+    // 先高亮选中的选项
+    this.selectedIndex = index;
+
+    // 短暂延迟，让用户看到高亮效果
+    await new Promise<void>(resolve => setTimeout(resolve, 300));
+
     // 累加该选项对应的神职领域得分
     for (const domain of option.domains) {
       const currentScore = this.domainScores.get(domain) || 0;
       this.domainScores.set(domain, currentScore + 1);
     }
+
+    // 重置选中状态
+    this.selectedIndex = -1;
 
     // 进入下一题或完成测试
     if (this.currentQuestionIndex < this.questions.length - 1) {
@@ -189,6 +199,7 @@ struct DeityTest {
     this.selectedDeity = null;
     this.domainScores = new Map();
     this.matchDescription = '';
+    this.selectedIndex = -1;
   }
 
   build() {
@@ -294,18 +305,20 @@ struct DeityTest {
           Row() {
             Text(option.text)
               .fontSize(16)
-              .fontColor('#ffffff')
+              .fontColor(this.selectedIndex === index ? '#ffd700' : '#ffffff')
           }
           .width('100%')
           .padding(16)
-          .backgroundColor('rgba(255,255,255,0.1)')
+          .backgroundColor(this.selectedIndex === index ? 'rgba(255,215,0,0.2)' : 'rgba(255,255,255,0.1)')
           .borderRadius(12)
           .border({
-            width: 1,
-            color: 'rgba(255,215,0,0.3)'
+            width: this.selectedIndex === index ? 2 : 1,
+            color: this.selectedIndex === index ? '#ffd700' : 'rgba(255,215,0,0.3)'
           })
           .onClick(() => {
-            this.selectOption(option);
+            if (this.selectedIndex === -1) { // 防止重复点击
+              this.selectOption(option, index);
+            }
           })
         })
       }
@@ -321,8 +334,19 @@ struct DeityTest {
 
   @Builder
   ResultView() {
-    Scroll() {
-      Column({ space: 24 }) {
+    // 安全检查：确保结果数据已准备好
+    if (!this.selectedDeity) {
+      Column() {
+        Text('加载中...')
+          .fontSize(16)
+          .fontColor('rgba(255,255,255,0.6)')
+      }
+      .width('100%')
+      .height('100%')
+      .justifyContent(FlexAlign.Center)
+    } else {
+      Scroll() {
+        Column({ space: 24 }) {
         // 结果标题
         Text('你的守护神祇')
           .fontSize(16)
@@ -330,129 +354,127 @@ struct DeityTest {
           .margin({ top: 16 })
 
         // 神祇图片
-        if (this.selectedDeity) {
-          Stack({ alignContent: Alignment.Bottom }) {
-            Image($r(`app.media.${this.selectedDeity.image}`))
-              .width('100%')
-              .height(280)
-              .objectFit(ImageFit.Cover)
-              .borderRadius(16)
-
-            // 渐变遮罩
-            Column()
-              .width('100%')
-              .height('60%')
-              .linearGradient({
-                direction: GradientDirection.Top,
-                colors: [['rgba(0,0,0,0.8)', 0], ['rgba(0,0,0,0)', 1]]
-              })
-              .borderRadius({ bottomLeft: 16, bottomRight: 16 })
-
-            // 名称
-            Column({ space: 4 }) {
-              Row({ space: 8 }) {
-                Text(this.selectedDeity.name.cn)
-                  .fontSize(28)
-                  .fontWeight(FontWeight.Bold)
-                  .fontColor('#ffffff')
-
-                Text(getCultureName(this.selectedDeity.culture as CultureType).cn)
-                  .fontSize(12)
-                  .fontColor('#ffffff')
-                  .backgroundColor(getCultureColor(this.selectedDeity.culture as CultureType))
-                  .padding({ left: 8, right: 8, top: 4, bottom: 4 })
-                  .borderRadius(8)
-              }
-
-              Text(this.selectedDeity.name.en)
-                .fontSize(14)
-                .fontColor('rgba(255,255,255,0.7)')
-            }
-            .padding(16)
+        Stack({ alignContent: Alignment.Bottom }) {
+          Image($r(`app.media.${this.selectedDeity.image}`))
             .width('100%')
-            .alignItems(HorizontalAlign.Start)
-          }
-          .width('100%')
-          .height(280)
-          .margin({ left: 16, right: 16 })
+            .height(280)
+            .objectFit(ImageFit.Cover)
+            .borderRadius(16)
 
-          // 匹配描述
-          Column({ space: 8 }) {
-            Text('命运解读')
-              .fontSize(12)
-              .fontColor('rgba(255,255,255,0.5)')
+          // 渐变遮罩
+          Column()
+            .width('100%')
+            .height('60%')
+            .linearGradient({
+              direction: GradientDirection.Top,
+              colors: [['rgba(0,0,0,0.8)', 0], ['rgba(0,0,0,0)', 1]]
+            })
+            .borderRadius({ bottomLeft: 16, bottomRight: 16 })
 
-            Text(this.matchDescription)
-              .fontSize(16)
-              .fontColor('#ffd700')
-              .lineHeight(24)
-          }
-          .width('100%')
-          .padding(16)
-          .backgroundColor('rgba(255,215,0,0.1)')
-          .borderRadius(12)
-          .margin({ left: 16, right: 16 })
+          // 名称
+          Column({ space: 4 }) {
+            Row({ space: 8 }) {
+              Text(this.selectedDeity.name.cn)
+                .fontSize(28)
+                .fontWeight(FontWeight.Bold)
+                .fontColor('#ffffff')
 
-          // 神职领域
-          Column({ space: 12 }) {
-            Text('神职领域')
-              .fontSize(14)
-              .fontColor('rgba(255,255,255,0.6)')
-
-            Flex({ wrap: FlexWrap.Wrap }) {
-              ForEach(this.selectedDeity.domain.slice(0, 4), (domain: string, index: number) => {
-                Text(domain)
-                  .fontSize(14)
-                  .fontColor('#ffffff')
-                  .backgroundColor(DarkTheme.accent + '44')
-                  .padding({ left: 12, right: 12, top: 6, bottom: 6 })
-                  .borderRadius(16)
-                  .margin({ right: 8, bottom: 8 })
-              }, (domain: string, index: number) => `result_domain_${index}`)
+              Text(getCultureName(this.selectedDeity.culture as CultureType).cn)
+                .fontSize(12)
+                .fontColor('#ffffff')
+                .backgroundColor(getCultureColor(this.selectedDeity.culture as CultureType))
+                .padding({ left: 8, right: 8, top: 4, bottom: 4 })
+                .borderRadius(8)
             }
+
+            Text(this.selectedDeity.name.en)
+              .fontSize(14)
+              .fontColor('rgba(255,255,255,0.7)')
           }
-          .width('100%')
           .padding(16)
-          .backgroundColor('rgba(255,255,255,0.05)')
-          .borderRadius(12)
-          .margin({ left: 16, right: 16 })
-          .alignItems(HorizontalAlign.Start)
-
-          // 操作按钮
-          Row({ space: 16 }) {
-            Button('重新测试')
-              .fontSize(14)
-              .fontColor('#ffd700')
-              .backgroundColor('transparent')
-              .border({
-                width: 1,
-                color: '#ffd700'
-              })
-              .width('45%')
-              .height(44)
-              .borderRadius(22)
-              .onClick(() => {
-                this.resetTest();
-              })
-
-            Button('查看详情')
-              .fontSize(14)
-              .fontColor('#1a1a2e')
-              .backgroundColor('#ffd700')
-              .width('45%')
-              .height(44)
-              .borderRadius(22)
-              .onClick(() => {
-                router.pushUrl({
-                  url: 'pages/DeityDetail',
-                  params: { deityId: this.selectedDeity?.id }
-                });
-              })
-          }
           .width('100%')
-          .padding({ left: 16, right: 16 })
-          .margin({ top: 8 })
+          .alignItems(HorizontalAlign.Start)
         }
+        .width('100%')
+        .height(280)
+        .margin({ left: 16, right: 16 })
+
+        // 匹配描述
+        Column({ space: 8 }) {
+          Text('命运解读')
+            .fontSize(12)
+            .fontColor('rgba(255,255,255,0.5)')
+
+          Text(this.matchDescription)
+            .fontSize(16)
+            .fontColor('#ffd700')
+            .lineHeight(24)
+        }
+        .width('100%')
+        .padding(16)
+        .backgroundColor('rgba(255,215,0,0.1)')
+        .borderRadius(12)
+        .margin({ left: 16, right: 16 })
+
+        // 神职领域
+        Column({ space: 12 }) {
+          Text('神职领域')
+            .fontSize(14)
+            .fontColor('rgba(255,255,255,0.6)')
+
+          Flex({ wrap: FlexWrap.Wrap }) {
+            ForEach(this.selectedDeity.domain.slice(0, 4), (domain: string, index: number) => {
+              Text(domain)
+                .fontSize(14)
+                .fontColor('#ffffff')
+                .backgroundColor(DarkTheme.accent + '44')
+                .padding({ left: 12, right: 12, top: 6, bottom: 6 })
+                .borderRadius(16)
+                .margin({ right: 8, bottom: 8 })
+            }, (domain: string, index: number) => `result_domain_${index}`)
+          }
+        }
+        .width('100%')
+        .padding(16)
+        .backgroundColor('rgba(255,255,255,0.05)')
+        .borderRadius(12)
+        .margin({ left: 16, right: 16 })
+        .alignItems(HorizontalAlign.Start)
+
+        // 操作按钮
+        Row({ space: 16 }) {
+          Button('重新测试')
+            .fontSize(14)
+            .fontColor('#ffd700')
+            .backgroundColor('transparent')
+            .border({
+              width: 1,
+              color: '#ffd700'
+            })
+            .width('45%')
+            .height(44)
+            .borderRadius(22)
+            .onClick(() => {
+              this.resetTest();
+            })
+
+          Button('查看详情')
+            .fontSize(14)
+            .fontColor('#1a1a2e')
+            .backgroundColor('#ffd700')
+            .width('45%')
+            .height(44)
+            .borderRadius(22)
+            .onClick(() => {
+              router.pushUrl({
+                url: 'pages/DeityDetail',
+                params: { deityId: this.selectedDeity?.id }
+              });
+            })
+        }
+        .width('100%')
+        .padding({ left: 16, right: 16 })
+        .margin({ top: 8 })
 
         Column()
           .height(32)
@@ -461,5 +483,6 @@ struct DeityTest {
     .width('100%')
     .layoutWeight(1)
     .scrollBar(BarState.Off)
+    }
   }
 }

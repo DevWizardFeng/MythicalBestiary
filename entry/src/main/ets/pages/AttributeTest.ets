@@ -5,7 +5,7 @@
 
 import router from '@ohos.router';
 import { DarkTheme } from '../common/Theme';
-import { AttributeType, AttributeNames, AttributeColors } from '../common/Constants';
+import { AttributeType, getAttributeName, getAttributeColor } from '../common/Constants';
 import { MythicalCreature } from '../model/MythicalCreature';
 import { DataLoader } from '../utils/DataLoader';
 
@@ -27,6 +27,7 @@ struct AttributeTest {
   @State isComplete: boolean = false;
   @State resultAttribute: AttributeType | null = null;
   @State resultCreatures: MythicalCreature[] = [];
+  @State selectedIndex: number = -1; // 当前选中的选项索引
 
   private questions: Question[] = [
     {
@@ -84,15 +85,24 @@ struct AttributeTest {
     });
   }
 
-  selectOption(option: QuestionOption) {
+  async selectOption(option: QuestionOption, index: number) {
+    // 先高亮选中的选项
+    this.selectedIndex = index;
+
+    // 短暂延迟，让用户看到高亮效果
+    await new Promise<void>(resolve => setTimeout(resolve, 300));
+
     // 更新分数
     const currentScore = this.scores.get(option.attribute) || 0;
     this.scores.set(option.attribute, currentScore + 1);
 
+    // 重置选中状态
+    this.selectedIndex = -1;
+
     if (this.currentQuestion < this.questions.length - 1) {
       this.currentQuestion++;
     } else {
-      this.calculateResult();
+      await this.calculateResult();
     }
   }
 
@@ -108,20 +118,22 @@ struct AttributeTest {
       }
     });
 
-    this.resultAttribute = maxAttribute;
-
     // 加载该属性的神兽
+    let creatures: MythicalCreature[] = [];
     try {
       const dataLoader = DataLoader.getInstance();
       await dataLoader.initialize();
       const allCreatures = dataLoader.getAllCreatures();
-      this.resultCreatures = allCreatures
+      creatures = allCreatures
         .filter(c => c.attributes.primary === maxAttribute)
         .slice(0, 3);
     } catch (error) {
       console.error('Failed to load creatures:', error);
     }
 
+    // 确保在UI渲染前所有数据都已准备好
+    this.resultAttribute = maxAttribute;
+    this.resultCreatures = creatures;
     this.isComplete = true;
   }
 
@@ -130,6 +142,7 @@ struct AttributeTest {
     this.isComplete = false;
     this.resultAttribute = null;
     this.resultCreatures = [];
+    this.selectedIndex = -1;
 
     const attributes: AttributeType[] = ['fire', 'water', 'wind', 'thunder', 'light', 'dark', 'nature'];
     attributes.forEach(attr => {
@@ -234,18 +247,20 @@ struct AttributeTest {
           Row() {
             Text(option.text)
               .fontSize(16)
-              .fontColor(DarkTheme.textPrimary)
+              .fontColor(this.selectedIndex === index ? '#ffffff' : DarkTheme.textPrimary)
           }
           .width('100%')
           .padding(16)
-          .backgroundColor(DarkTheme.backgroundCard)
+          .backgroundColor(this.selectedIndex === index ? 'rgba(138, 43, 226, 0.25)' : DarkTheme.backgroundCard)
           .borderRadius(12)
           .border({
-            width: 1,
-            color: DarkTheme.divider
+            width: this.selectedIndex === index ? 2 : 1,
+            color: this.selectedIndex === index ? '#8a2be2' : DarkTheme.divider
           })
           .onClick(() => {
-            this.selectOption(option);
+            if (this.selectedIndex === -1) { // 防止重复点击
+              this.selectOption(option, index);
+            }
           })
         })
       }
@@ -261,8 +276,19 @@ struct AttributeTest {
 
   @Builder
   ResultView() {
-    Scroll() {
-      Column({ space: 24 }) {
+    // 安全检查：确保结果数据已准备好
+    if (!this.resultAttribute) {
+      Column() {
+        Text('加载中...')
+          .fontSize(16)
+          .fontColor(DarkTheme.textSecondary)
+      }
+      .width('100%')
+      .height('100%')
+      .justifyContent(FlexAlign.Center)
+    } else {
+      Scroll() {
+        Column({ space: 24 }) {
         // 结果标题
         Column({ space: 8 }) {
           Text('测试完成!')
@@ -284,12 +310,12 @@ struct AttributeTest {
             .clip(true)
             .borderRadius(50)
 
-          Text(AttributeNames[this.resultAttribute as AttributeType].cn)
+          Text(getAttributeName(this.resultAttribute as AttributeType).cn)
             .fontSize(32)
             .fontWeight(FontWeight.Bold)
-            .fontColor(AttributeColors[this.resultAttribute as AttributeType].primary)
+            .fontColor(getAttributeColor(this.resultAttribute as AttributeType).primary)
 
-          Text(AttributeNames[this.resultAttribute as AttributeType].en)
+          Text(getAttributeName(this.resultAttribute as AttributeType).en)
             .fontSize(16)
             .fontColor(DarkTheme.textSecondary)
         }
@@ -358,6 +384,7 @@ struct AttributeTest {
     .width('100%')
     .layoutWeight(1)
     .scrollBar(BarState.Off)
+    }
   }
 
   getAttributeDescription(): string {

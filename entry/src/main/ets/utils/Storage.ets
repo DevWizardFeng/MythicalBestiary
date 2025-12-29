@@ -29,6 +29,18 @@ import {
   checkNewAchievements,
   PredefinedAchievements
 } from '../model/Leaderboard';
+import {
+  UserCardCollection,
+  Card,
+  CheckInRecord,
+  createEmptyCardCollection,
+  drawRandomCard,
+  upgradeCard,
+  hasCheckedInToday,
+  getTodayString,
+  calculateConsecutiveDays
+} from '../model/CardCollection';
+import { MythicalCreature } from '../model/MythicalCreature';
 
 /**
  * 挑战结果更新返回值接口
@@ -156,6 +168,8 @@ export class StorageManager {
    */
   private updateGlobalFavoriteCount(favorites: UserFavorites): void {
     const count = favorites.creatureIds.length + (favorites.deityIds?.length || 0);
+    // 先删除再创建，强制触发 @StorageLink 更新（即使值相同）
+    AppStorage.delete(GlobalStateKeys.FAVORITE_COUNT);
     AppStorage.setOrCreate(GlobalStateKeys.FAVORITE_COUNT, count);
   }
 
@@ -289,6 +303,8 @@ export class StorageManager {
    * 更新全局浏览数
    */
   private updateGlobalHistoryCount(history: UserHistory): void {
+    // 先删除再创建，强制触发 @StorageLink 更新（即使值相同）
+    AppStorage.delete(GlobalStateKeys.HISTORY_COUNT);
     AppStorage.setOrCreate(GlobalStateKeys.HISTORY_COUNT, history.items.length);
   }
 
@@ -784,8 +800,34 @@ export class StorageUtil {
     await this.manager.addHistoryWithType(id, type);
   }
 
+  async clearAllFavorites(): Promise<void> {
+    // 清空所有收藏（神兽和神祇）
+    try {
+      const pref = await preferences.getPreferences(getContext(), 'user_data');
+      const emptyFavorites = JSON.stringify({ creatureIds: [], deityIds: [], updatedAt: Date.now() });
+      await pref.put(StorageKeys.FAVORITES, emptyFavorites);
+      await pref.flush();
+      // 更新全局状态
+      AppStorage.delete(GlobalStateKeys.FAVORITE_COUNT);
+      AppStorage.setOrCreate(GlobalStateKeys.FAVORITE_COUNT, 0);
+    } catch (e) {
+      console.error('清空收藏失败:', e);
+    }
+  }
+
   async clearBrowsingHistory(): Promise<void> {
-    await this.manager.clearHistory();
+    // 直接使用 preferences 清除，确保数据被正确删除
+    try {
+      const pref = await preferences.getPreferences(getContext(), 'user_data');
+      const emptyHistory = JSON.stringify({ items: [], maxItems: 100 });
+      await pref.put(StorageKeys.HISTORY, emptyHistory);
+      await pref.flush();
+      // 更新全局状态
+      AppStorage.delete(GlobalStateKeys.HISTORY_COUNT);
+      AppStorage.setOrCreate(GlobalStateKeys.HISTORY_COUNT, 0);
+    } catch (e) {
+      console.error('清空浏览历史失败:', e);
+    }
   }
 
   // 搜索历史相关
@@ -844,4 +886,212 @@ export class StorageUtil {
   async saveSettings(settings: UserSettings): Promise<void> {
     await this.manager.saveSettings(settings);
   }
+
+  // ========== 卡牌收集系统相关 ==========
+
+  /**
+   * 获取卡牌收集数据
+   */
+  async getCardCollection(): Promise<UserCardCollection> {
+    try {
+      const pref = await preferences.getPreferences(getContext(), 'card_data');
+      const data = await pref.get(StorageKeys.CARD_COLLECTION, '');
+
+      if (data && typeof data === 'string' && data.length > 0) {
+        const parsed: Record<string, Object> = JSON.parse(data) as Record<string, Object>;
+        // 将普通对象转换为Map
+        const cards: Map<string, Card> = new Map<string, Card>();
+        if (parsed.cards) {
+          const cardsObj = parsed.cards as Record<string, Object>;
+          const entries = Object.entries(cardsObj);
+          for (let i = 0; i < entries.length; i++) {
+            const entry = entries[i];
+            cards.set(entry[0], entry[1] as Card);
+          }
+        }
+
+        const collection: UserCardCollection = {
+          cards: cards,
+          checkInHistory: (parsed.checkInHistory as CheckInRecord[]) || [],
+          lastCheckIn: (parsed.lastCheckIn as string) || '',
+          consecutiveDays: (parsed.consecutiveDays as number) || 0,
+          totalCheckIns: (parsed.totalCheckIns as number) || 0
+        };
+        return collection;
+      }
+    } catch (e) {
+      console.error('获取卡牌收集数据失败:', e);
+    }
+
+    return createEmptyCardCollection();
+  }
+
+  /**
+   * 保存卡牌收集数据
+   */
+  async saveCardCollection(collection: UserCardCollection): Promise<void> {
+    try {
+      const pref = await preferences.getPreferences(getContext(), 'card_data');
+      // 将Map转换为普通对象用于序列化
+      const cardsObj: Record<string, Card> = {};
+      collection.cards.forEach((value: Card, key: string) => {
+        cardsObj[key] = value;
+      });
+
+      const toSave: CardCollectionSaveData = {
+        cards: cardsObj,
+        checkInHistory: collection.checkInHistory,
+        lastCheckIn: collection.lastCheckIn,
+        consecutiveDays: collection.consecutiveDays,
+        totalCheckIns: collection.totalCheckIns
+      };
+      await pref.put(StorageKeys.CARD_COLLECTION, JSON.stringify(toSave));
+      await pref.flush();
+    } catch (e) {
+      console.error('保存卡牌收集数据失败:', e);
+    }
+  }
+
+  /**
+   * 每日签到
+   * @param creatures 所有神兽列表
+   * @returns 签到记录，包含获得的卡牌
+   */
+  async dailyCheckIn(creatures: MythicalCreature[]): Promise<CheckInRecord | null> {
+    try {
+      console.log('[Storage] dailyCheckIn called, creatures:', creatures.length);
+      const collection = await this.getCardCollection();
+      const today = getTodayString();
+      console.log('[Storage] Today:', today, 'Last check-in:', collection.lastCheckIn);
+
+      // 检查今天是否已签到
+      if (hasCheckedInToday(collection.lastCheckIn)) {
+        console.log('[Storage] Already checked in today');
+        return null;
+      }
+
+      // 计算连续签到天数
+      const yesterday = new Date();
+      yesterday.setDate(yesterday.getDate() - 1);
+      const yesterdayString = `${yesterday.getFullYear()}-${String(yesterday.getMonth() + 1).padStart(2, '0')}-${String(yesterday.getDate()).padStart(2, '0')}`;
+
+      let consecutiveDays = 1;
+      if (collection.lastCheckIn === yesterdayString) {
+        consecutiveDays = collection.consecutiveDays + 1;
+      }
+      console.log('[Storage] Consecutive days:', consecutiveDays);
+
+      // 随机抽取一张卡牌
+      const drawnCreature = drawRandomCard(creatures);
+      console.log('[Storage] Drew creature:', drawnCreature.name.cn, 'Rarity:', drawnCreature.rarity);
+      const existingCard = collection.cards.get(drawnCreature.id);
+
+      let newCard: Card;
+      if (existingCard) {
+        // 已有卡牌，升级
+        const upgraded = upgradeCard(existingCard);
+        newCard = upgraded || existingCard;
+        collection.cards.set(drawnCreature.id, newCard);
+      } else {
+        // 新卡牌
+        newCard = {
+          id: drawnCreature.id,
+          creatureId: drawnCreature.id,
+          rarity: drawnCreature.rarity,
+          obtainedAt: Date.now(),
+          level: 1,
+          duplicates: 0
+        };
+        collection.cards.set(drawnCreature.id, newCard);
+      }
+
+      // 创建签到记录
+      const record: CheckInRecord = {
+        date: today,
+        timestamp: Date.now(),
+        reward: newCard,
+        consecutive: consecutiveDays
+      };
+
+      // 更新收集数据
+      collection.checkInHistory.unshift(record);
+      if (collection.checkInHistory.length > 30) {
+        collection.checkInHistory = collection.checkInHistory.slice(0, 30);
+      }
+      collection.lastCheckIn = today;
+      collection.consecutiveDays = consecutiveDays;
+      collection.totalCheckIns += 1;
+
+      console.log('[Storage] Saving collection - consecutive:', collection.consecutiveDays, 'total:', collection.totalCheckIns);
+      // 保存
+      await this.saveCardCollection(collection);
+      console.log('[Storage] Collection saved successfully');
+
+      return record;
+    } catch (e) {
+      console.error('每日签到失败:', e);
+      return null;
+    }
+  }
+
+  /**
+   * 获取卡牌详情
+   */
+  async getCard(creatureId: string): Promise<Card | null> {
+    const collection = await this.getCardCollection();
+    return collection.cards.get(creatureId) || null;
+  }
+
+  /**
+   * 检查今天是否已签到
+   */
+  async hasTodayCheckedIn(): Promise<boolean> {
+    const collection = await this.getCardCollection();
+    return hasCheckedInToday(collection.lastCheckIn);
+  }
+
+  /**
+   * 获取签到历史
+   */
+  async getCheckInHistory(limit: number = 10): Promise<CheckInRecord[]> {
+    const collection = await this.getCardCollection();
+    return collection.checkInHistory.slice(0, limit);
+  }
+
+  /**
+   * 获取卡牌收集统计
+   */
+  async getCardStats(): Promise<CardStats> {
+    const collection = await this.getCardCollection();
+    const stats: CardStats = {
+      totalCards: 0,
+      collectedCards: collection.cards.size,
+      completionRate: 0,
+      consecutiveDays: collection.consecutiveDays,
+      totalCheckIns: collection.totalCheckIns
+    };
+    return stats;
+  }
+}
+
+/**
+ * 卡牌统计接口
+ */
+export interface CardStats {
+  totalCards: number;
+  collectedCards: number;
+  completionRate: number;
+  consecutiveDays: number;
+  totalCheckIns: number;
+}
+
+/**
+ * 卡牌收集保存数据接口
+ */
+interface CardCollectionSaveData {
+  cards: Record<string, Card>;
+  checkInHistory: CheckInRecord[];
+  lastCheckIn: string;
+  consecutiveDays: number;
+  totalCheckIns: number;
 }

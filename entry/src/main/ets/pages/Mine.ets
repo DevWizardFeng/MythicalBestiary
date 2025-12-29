@@ -64,18 +64,68 @@ export struct Mine {
 
           // 功能入口
           Column({ space: 1 }) {
-            this.MenuItem({
-              icon: $r('app.media.ic_favorite_filled'),
-              title: '我的收藏',
-              subtitle: `已收藏 ${this.favoriteCount} 项`,
-              route: 'pages/Favorites'
+            // 我的收藏 - 直接使用 this.favoriteCount，确保 @StorageLink 变化时触发更新
+            Row() {
+              Image($r('app.media.ic_favorite_filled'))
+                .width(24)
+                .height(24)
+                .clip(true)
+                .borderRadius(12)
+
+              Column({ space: 2 }) {
+                Text('我的收藏')
+                  .fontSize(16)
+                  .fontColor(DarkTheme.textPrimary)
+
+                Text(`已收藏 ${this.favoriteCount} 项`)
+                  .fontSize(12)
+                  .fontColor(DarkTheme.textSecondary)
+              }
+              .alignItems(HorizontalAlign.Start)
+              .margin({ left: 12 })
+
+              Blank()
+
+              Image($r('app.media.ic_arrow_right'))
+                .width(16)
+                .height(16)
+            }
+            .width('100%')
+            .padding(16)
+            .onClick(() => {
+              router.pushUrl({ url: 'pages/Favorites' });
             })
 
-            this.MenuItem({
-              icon: $r('app.media.ic_browse'),
-              title: '浏览历史',
-              subtitle: `已浏览 ${this.historyCount} 项`,
-              route: 'pages/History'
+            // 浏览历史 - 直接使用 this.historyCount，确保 @StorageLink 变化时触发更新
+            Row() {
+              Image($r('app.media.ic_browse'))
+                .width(24)
+                .height(24)
+                .clip(true)
+                .borderRadius(12)
+
+              Column({ space: 2 }) {
+                Text('浏览历史')
+                  .fontSize(16)
+                  .fontColor(DarkTheme.textPrimary)
+
+                Text(`已浏览 ${this.historyCount} 项`)
+                  .fontSize(12)
+                  .fontColor(DarkTheme.textSecondary)
+              }
+              .alignItems(HorizontalAlign.Start)
+              .margin({ left: 12 })
+
+              Blank()
+
+              Image($r('app.media.ic_arrow_right'))
+                .width(16)
+                .height(16)
+            }
+            .width('100%')
+            .padding(16)
+            .onClick(() => {
+              router.pushUrl({ url: 'pages/History' });
             })
           }
           .backgroundColor(CardStyle.glassBackground)
@@ -205,10 +255,31 @@ export struct Mine {
 
       Blank()
 
-      // 统计数据
+      // 统计数据 - 直接访问 this.状态变量，确保 @StorageLink 变化时触发更新
       Row({ space: 24 }) {
-        this.StatItem(this.favoriteCount.toString(), '收藏')
-        this.StatItem(this.historyCount.toString(), '浏览')
+        // 收藏统计 - 直接使用 this.favoriteCount
+        Column({ space: 4 }) {
+          Text(this.favoriteCount.toString())
+            .fontSize(20)
+            .fontWeight(FontWeight.Bold)
+            .fontColor(DarkTheme.accent)
+
+          Text('收藏')
+            .fontSize(12)
+            .fontColor(DarkTheme.textSecondary)
+        }
+
+        // 浏览统计 - 直接使用 this.historyCount
+        Column({ space: 4 }) {
+          Text(this.historyCount.toString())
+            .fontSize(20)
+            .fontWeight(FontWeight.Bold)
+            .fontColor(DarkTheme.accent)
+
+          Text('浏览')
+            .fontSize(12)
+            .fontColor(DarkTheme.textSecondary)
+        }
       }
     }
     .width('100%')

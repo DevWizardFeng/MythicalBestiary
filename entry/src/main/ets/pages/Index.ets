@@ -4,6 +4,7 @@
  */
 
 import { DarkTheme } from '../common/Theme';
+import { GlobalStateKeys } from '../common/Constants';
 import { Home } from './Home';
 import { ChallengeTab } from '../components/ChallengeTab';
 import { GuideTab } from '../components/GuideTab';
@@ -35,6 +36,29 @@ struct Index {
     if (this.currentIndex === 1) {
       // 当前在挑战Tab，刷新数据
       this.challengeRefreshKey++;
+    } else if (this.currentIndex === 4) {
+      // 当前在我的Tab，刷新全局状态
+      this.refreshMineTabGlobalState();
+    }
+  }
+
+  async refreshMineTabGlobalState() {
+    try {
+      const storage = StorageUtil.getInstance();
+      await storage.initialize();
+
+      // 重新读取收藏数和浏览数，强制更新 AppStorage
+      const favorites = await storage.getFavorites();
+      const deityFavorites = await storage.getDeityFavorites();
+      const favoriteCount = favorites.length + deityFavorites.length;
+      AppStorage.delete(GlobalStateKeys.FAVORITE_COUNT);
+      AppStorage.setOrCreate(GlobalStateKeys.FAVORITE_COUNT, favoriteCount);
+
+      const history = await storage.getBrowsingHistory();
+      AppStorage.delete(GlobalStateKeys.HISTORY_COUNT);
+      AppStorage.setOrCreate(GlobalStateKeys.HISTORY_COUNT, history.length);
+    } catch (error) {
+      console.error('Failed to refresh Mine tab global state:', error);
     }
   }
 
@@ -158,6 +182,10 @@ struct Index {
           // 切换到挑战Tab时刷新数据
           if (index === 1) {
             this.challengeRefreshKey++;
+          }
+          // 切换到我的Tab时刷新全局状态
+          else if (index === 4) {
+            this.refreshMineTabGlobalState();
           }
         })
         .scrollable(false)

@@ -1,67 +1,49 @@
 /**
  * 神话志 - 设置页面
- * 主题、缓存等设置
+ * 数据管理等设置
  */
 
 import router from '@ohos.router';
+import promptAction from '@ohos.promptAction';
 import { DarkTheme } from '../common/Theme';
 import { StorageUtil } from '../utils/Storage';
-import { UserSettings } from '../model/UserData';
-
-interface SettingItem {
-  title: string;
-  subtitle: string;
-  hasToggle?: boolean;
-  toggleValue?: boolean;
-  hasArrow?: boolean;
-  action?: () => void;
-}
 
 @Entry
 @Component
 struct Settings {
-  @State settings: UserSettings = {
-    theme: 'dark',
-    autoPlayBanner: true,
-    showEnglishName: true,
-    cacheEnabled: true
-  };
-
-  aboutToAppear() {
-    this.loadSettings();
-  }
-
-  async loadSettings() {
+  async clearAllFavorites() {
     try {
       const storage = StorageUtil.getInstance();
       await storage.initialize();
-      const savedSettings = await storage.getSettings();
-      if (savedSettings) {
-        this.settings = savedSettings;
-      }
+      await storage.clearAllFavorites();
+      promptAction.showToast({
+        message: '收藏已全部清空',
+        duration: 2000
+      });
     } catch (error) {
-      console.error('Failed to load settings:', error);
+      console.error('Failed to clear favorites:', error);
+      promptAction.showToast({
+        message: '清除失败',
+        duration: 2000
+      });
     }
   }
 
-  async saveSettings() {
+  async clearBrowsingHistory() {
     try {
       const storage = StorageUtil.getInstance();
-      await storage.saveSettings(this.settings);
-    } catch (error) {
-      console.error('Failed to save settings:', error);
-    }
-  }
-
-  async clearCache() {
-    try {
-      const storage = StorageUtil.getInstance();
+      await storage.initialize();
       await storage.clearBrowsingHistory();
-      await storage.clearSearchHistory();
-      // 简单提示
-      console.info('Cache cleared');
+      promptAction.showToast({
+        message: '浏览记录已清除',
+        duration: 2000
+      });
     } catch (error) {
-      console.error('Failed to clear cache:', error);
+      console.error('Failed to clear browsing history:', error);
+      promptAction.showToast({
+        message: '清除失败',
+        duration: 2000
+      });
     }
   }
 
@@ -89,35 +71,16 @@ struct Settings {
 
       Scroll() {
         Column({ space: 16 }) {
-          // 显示设置
-          Column({ space: 1 }) {
-            this.SectionHeader('显示设置')
-
-            this.ToggleItem('自动播放轮播', '首页轮播图自动切换', this.settings.autoPlayBanner, (value: boolean) => {
-              this.settings.autoPlayBanner = value;
-              this.saveSettings();
-            })
-
-            this.ToggleItem('显示英文名', '在列表中显示神兽英文名', this.settings.showEnglishName, (value: boolean) => {
-              this.settings.showEnglishName = value;
-              this.saveSettings();
-            })
-          }
-          .backgroundColor(DarkTheme.backgroundCard)
-          .borderRadius(12)
-          .margin({ left: 16, right: 16 })
-
           // 数据管理
           Column({ space: 1 }) {
             this.SectionHeader('数据管理')
 
-            this.ActionItem('清除浏览记录', '清空所有浏览历史', () => {
-              this.clearCache();
+            this.ActionItem('清空所有收藏', '清除全部神兽和神祇收藏', () => {
+              this.clearAllFavorites();
             })
 
-            this.ActionItem('清除搜索记录', '清空所有搜索历史', async () => {
-              const storage = StorageUtil.getInstance();
-              await storage.clearSearchHistory();
+            this.ActionItem('清除浏览记录', '清空所有浏览历史', () => {
+              this.clearBrowsingHistory();
             })
           }
           .backgroundColor(DarkTheme.backgroundCard)
@@ -138,11 +101,13 @@ struct Settings {
           Column()
             .height(32)
         }
-        .padding({ top: 12 })
+        .width('100%')
+        .alignItems(HorizontalAlign.Start)
       }
       .width('100%')
       .layoutWeight(1)
       .scrollBar(BarState.Off)
+      .align(Alignment.Top)
     }
     .width('100%')
     .height('100%')
@@ -156,32 +121,6 @@ struct Settings {
       .fontColor(DarkTheme.textTertiary)
       .padding({ left: 16, top: 12, bottom: 8 })
       .width('100%')
-  }
-
-  @Builder
-  ToggleItem(title: string, subtitle: string, value: boolean, onChange: (value: boolean) => void) {
-    Row() {
-      Column({ space: 2 }) {
-        Text(title)
-          .fontSize(16)
-          .fontColor(DarkTheme.textPrimary)
-
-        Text(subtitle)
-          .fontSize(12)
-          .fontColor(DarkTheme.textSecondary)
-      }
-      .alignItems(HorizontalAlign.Start)
-
-      Blank()
-
-      Toggle({ type: ToggleType.Switch, isOn: value })
-        .selectedColor(DarkTheme.accent)
-        .onChange((isOn: boolean) => {
-          onChange(isOn);
-        })
-    }
-    .width('100%')
-    .padding(16)
   }
 
   @Builder

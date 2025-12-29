@@ -264,6 +264,11 @@ export class StorageKeys {
   static readonly LEADERBOARD_WEEKLY: string = 'leaderboard_weekly';
   static readonly LEADERBOARD_ALLTIME: string = 'leaderboard_alltime';
   static readonly QUIZ_HISTORY: string = 'quiz_history';
+  // 卡牌收集系统相关
+  static readonly CARD_COLLECTION: string = 'card_collection';
+  static readonly CHECK_IN_HISTORY: string = 'check_in_history';
+  static readonly LAST_CHECK_IN: string = 'last_check_in';
+  static readonly CONSECUTIVE_DAYS: string = 'consecutive_days';
 }
 
 /**
