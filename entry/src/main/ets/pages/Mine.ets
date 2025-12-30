@@ -204,7 +204,7 @@ export struct Mine {
 
           // 关于
           Column() {
-            Text('神话志 v1.0.0')
+            Text('神话志 v1.0.2')
               .fontSize(12)
               .fontColor(DarkTheme.textTertiary)
 

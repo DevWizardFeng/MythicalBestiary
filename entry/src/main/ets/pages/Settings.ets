@@ -91,8 +91,8 @@ struct Settings {
           Column({ space: 1 }) {
             this.SectionHeader('关于')
 
-            this.InfoItem('版本', 'v1.0.0')
-            this.InfoItem('开发者', '神话志团队')
+            this.InfoItem('版本', 'v1.0.2')
+            this.InfoItem('开发者', '个人开发：罗顺枫')
           }
           .backgroundColor(DarkTheme.backgroundCard)
           .borderRadius(12)
