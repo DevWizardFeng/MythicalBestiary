@@ -22,8 +22,9 @@ interface RouterParams {
   filterValue?: string;
 }
 
+@Entry
 @Component
-export struct CreatureList {
+struct CreatureList {
   @State creatures: MythicalCreature[] = [];
   @State filteredCreatures: MythicalCreature[] = [];
   @State isLoading: boolean = true;

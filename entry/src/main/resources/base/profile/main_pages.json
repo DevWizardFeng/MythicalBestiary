@@ -1,6 +1,7 @@
 {
   "src": [
     "pages/Index",
+    "pages/CreatureList",
     "pages/CreatureDetail",
     "pages/DeityList",
     "pages/DeityDetail",
