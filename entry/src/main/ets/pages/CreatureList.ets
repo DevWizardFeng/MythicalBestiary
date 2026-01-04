@@ -144,22 +144,37 @@ struct CreatureList {
   }
 
   build() {
-    Column() {
-      // 顶部标题
-      Row() {
-        Text('神兽图鉴')
-          .fontSize(20)
-          .fontWeight(FontWeight.Bold)
-          .fontColor(DarkTheme.textPrimary)
+    Stack() {
+      // 背景图片
+      Image($r('app.media.bg_main_mystical'))
+        .width('100%')
+        .height('100%')
+        .objectFit(ImageFit.Cover)
 
-        Blank()
+      Column() {
+        // 顶部导航
+        Row() {
+          Image($r('app.media.ic_arrow_left'))
+            .width(24)
+            .height(24)
+            .onClick(() => {
+              router.back();
+            })
 
-        Text(`${this.filteredCreatures.length}只`)
-          .fontSize(14)
-          .fontColor(DarkTheme.textSecondary)
-      }
-      .width('100%')
-      .padding({ left: 16, right: 16, top: 12, bottom: 12 })
+          Text('神兽图鉴')
+            .fontSize(18)
+            .fontWeight(FontWeight.Bold)
+            .fontColor(DarkTheme.textPrimary)
+            .margin({ left: 16 })
+
+          Blank()
+
+          Text(`${this.filteredCreatures.length}只`)
+            .fontSize(14)
+            .fontColor(DarkTheme.textSecondary)
+        }
+        .width('100%')
+        .padding({ left: 16, right: 16, top: 12, bottom: 12 })
 
       // 筛选类型切换
       Row({ space: 0 }) {
@@ -231,10 +246,12 @@ struct CreatureList {
         .padding({ left: 16, right: 16, top: 12, bottom: 12 })
         .layoutWeight(1)
       }
+      }
+      .width('100%')
+      .height('100%')
     }
     .width('100%')
     .height('100%')
-    .backgroundColor(DarkTheme.background)
   }
 
   @Builder

@@ -65,61 +65,63 @@ struct DeityList {
   }
 
   build() {
-    Column() {
-      // 顶部导航栏
-      this.TopBar()
+    Stack() {
+      // 背景图片
+      Image($r('app.media.bg_main_mystical'))
+        .width('100%')
+        .height('100%')
+        .objectFit(ImageFit.Cover)
 
-      // 文化筛选
-      this.FilterBar()
+      Column() {
+        // 顶部导航栏
+        this.TopBar()
 
-      if (this.isLoading) {
-        this.LoadingView()
-      } else if (this.filteredDeities.length === 0) {
-        this.EmptyView()
-      } else {
-        // 主神网格列表
-        Grid() {
-          ForEach(this.filteredDeities, (deity: Deity) => {
-            GridItem() {
-              this.DeityCard(deity)
-            }
-          })
+        // 文化筛选
+        this.FilterBar()
+
+        if (this.isLoading) {
+          this.LoadingView()
+        } else if (this.filteredDeities.length === 0) {
+          this.EmptyView()
+        } else {
+          // 主神网格列表
+          Grid() {
+            ForEach(this.filteredDeities, (deity: Deity) => {
+              GridItem() {
+                this.DeityCard(deity)
+              }
+            })
+          }
+          .columnsTemplate('1fr 1fr')
+          .rowsGap(12)
+          .columnsGap(12)
+          .padding({ left: 16, right: 16, top: 12, bottom: 12 })
+          .layoutWeight(1)
         }
-        .columnsTemplate('1fr 1fr')
-        .rowsGap(12)
-        .columnsGap(12)
-        .padding({ left: 16, right: 16, top: 12, bottom: 12 })
-        .layoutWeight(1)
       }
+      .width('100%')
+      .height('100%')
     }
     .width('100%')
     .height('100%')
-    .backgroundColor(DarkTheme.background)
   }
 
   @Builder
   TopBar() {
     Row() {
       // 返回按钮
-      Stack() {
-        Circle()
-          .width(36)
-          .height(36)
-          .fill(DarkTheme.backgroundSecondary)
-
-        Image($r('app.media.ic_arrow_left'))
-          .width(20)
-          .height(20)
-      }
-      .onClick(() => {
-        router.back();
-      })
+      Image($r('app.media.ic_arrow_left'))
+        .width(24)
+        .height(24)
+        .onClick(() => {
+          router.back();
+        })
 
       Text('神祇图鉴')
-        .fontSize(20)
+        .fontSize(18)
         .fontWeight(FontWeight.Bold)
         .fontColor(DarkTheme.textPrimary)
-        .margin({ left: 12 })
+        .margin({ left: 16 })
 
       Blank()
 
@@ -128,7 +130,7 @@ struct DeityList {
         .fontColor(DarkTheme.textSecondary)
     }
     .width('100%')
-    .padding({ left: 16, right: 16, top: 48, bottom: 12 })
+    .padding({ left: 16, right: 16, top: 12, bottom: 12 })
   }
 
   @Builder
