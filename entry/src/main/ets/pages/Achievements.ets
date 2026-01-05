@@ -163,11 +163,11 @@ struct Achievements {
         Text(`${this.unlockedCount}`)
           .fontSize(28)
           .fontWeight(FontWeight.Bold)
-          .fontColor(DarkTheme.accent)
+          .fontColor('#ffd700')
 
         Text('已解锁')
           .fontSize(12)
-          .fontColor(DarkTheme.textSecondary)
+          .fontColor('#d0d0e8')
       }
       .layoutWeight(1)
 
@@ -175,18 +175,18 @@ struct Achievements {
       Column()
         .width(1)
         .height(40)
-        .backgroundColor(CardStyle.borderColor)
+        .backgroundColor('rgba(120, 120, 160, 0.4)')
 
       // 总数
       Column({ space: 4 }) {
         Text(`${PredefinedAchievements.length}`)
           .fontSize(28)
           .fontWeight(FontWeight.Bold)
-          .fontColor(DarkTheme.textPrimary)
+          .fontColor('#ffffff')
 
         Text('总成就')
           .fontSize(12)
-          .fontColor(DarkTheme.textSecondary)
+          .fontColor('#d0d0e8')
       }
       .layoutWeight(1)
 
@@ -194,28 +194,28 @@ struct Achievements {
       Column()
         .width(1)
         .height(40)
-        .backgroundColor(CardStyle.borderColor)
+        .backgroundColor('rgba(120, 120, 160, 0.4)')
 
       // 奖励积分
       Column({ space: 4 }) {
         Text(`+${this.totalPoints}`)
           .fontSize(28)
           .fontWeight(FontWeight.Bold)
-          .fontColor('#4CAF50')
+          .fontColor('#66ff66')
 
         Text('奖励积分')
           .fontSize(12)
-          .fontColor(DarkTheme.textSecondary)
+          .fontColor('#d0d0e8')
       }
       .layoutWeight(1)
     }
     .width('100%')
     .padding(20)
-    .backgroundColor(CardStyle.glassBackground)
+    .backgroundColor('rgba(25, 25, 55, 0.92)')
     .borderRadius(CardStyle.borderRadius)
     .border({
-      width: CardStyle.borderWidth,
-      color: CardStyle.borderColor
+      width: 1,
+      color: 'rgba(100, 100, 140, 0.3)'
     })
   }
 
@@ -234,15 +234,16 @@ struct Achievements {
     Column() {
       Text(`${label} (${count})`)
         .fontSize(13)
-        .fontColor(this.selectedFilter === value ? DarkTheme.accent : DarkTheme.textSecondary)
+        .fontWeight(FontWeight.Medium)
+        .fontColor(this.selectedFilter === value ? '#ffffff' : '#b0b0c8')
     }
     .layoutWeight(1)
     .padding({ top: 10, bottom: 10 })
-    .backgroundColor(this.selectedFilter === value ? DarkTheme.accent + '22' : CardStyle.glassBackground)
+    .backgroundColor(this.selectedFilter === value ? 'rgba(255, 215, 0, 0.25)' : 'rgba(25, 25, 55, 0.92)')
     .borderRadius(20)
     .border({
-      width: this.selectedFilter === value ? 1 : CardStyle.borderWidth,
-      color: this.selectedFilter === value ? DarkTheme.accent : CardStyle.borderColor
+      width: 1,
+      color: this.selectedFilter === value ? '#ffd700' : 'rgba(100, 100, 140, 0.3)'
     })
     .onClick(() => {
       this.selectedFilter = value;
@@ -267,13 +268,13 @@ struct Achievements {
         Image($r(`app.media.${achievement.icon}`))
           .width(32)
           .height(32)
-          .fillColor(isUnlocked ? getAchievementRarityColor(achievement.rarity) : DarkTheme.textTertiary)
+          .fillColor(isUnlocked ? getAchievementRarityColor(achievement.rarity) : '#6b6b8a')
       }
       .width(56)
       .height(56)
       .backgroundColor(isUnlocked ?
-        getAchievementRarityColor(achievement.rarity) + '22' :
-        DarkTheme.backgroundSecondary)
+        getAchievementRarityColor(achievement.rarity) + '33' :
+        'rgba(40, 40, 70, 0.9)')
       .borderRadius(28)
       .justifyContent(FlexAlign.Center)
 
@@ -283,26 +284,27 @@ struct Achievements {
           Text(achievement.name)
             .fontSize(16)
             .fontWeight(FontWeight.Bold)
-            .fontColor(isUnlocked ? DarkTheme.textPrimary : DarkTheme.textTertiary)
+            .fontColor(isUnlocked ? '#ffffff' : '#8a8aa0')
 
           Text(getAchievementRarityName(achievement.rarity))
             .fontSize(10)
-            .fontColor(isUnlocked ? getAchievementRarityColor(achievement.rarity) : DarkTheme.textTertiary)
+            .fontWeight(FontWeight.Medium)
+            .fontColor(isUnlocked ? '#ffffff' : '#8a8aa0')
             .backgroundColor(isUnlocked ?
-              getAchievementRarityColor(achievement.rarity) + '22' :
-              DarkTheme.backgroundSecondary)
-            .padding({ left: 6, right: 6, top: 2, bottom: 2 })
-            .borderRadius(8)
+              getAchievementRarityColor(achievement.rarity) + '88' :
+              'rgba(60, 60, 90, 0.9)')
+            .padding({ left: 8, right: 8, top: 3, bottom: 3 })
+            .borderRadius(10)
         }
 
         Text(achievement.description)
           .fontSize(12)
-          .fontColor(isUnlocked ? DarkTheme.textSecondary : DarkTheme.textTertiary)
+          .fontColor(isUnlocked ? '#d0d0e8' : '#7a7a98')
 
         if (isUnlocked) {
           Text(this.formatUnlockTime(this.getUnlockTime(achievement.id)))
             .fontSize(10)
-            .fontColor(DarkTheme.textSecondary)
+            .fontColor('#b0b0c8')
         }
       }
       .alignItems(HorizontalAlign.Start)
@@ -313,7 +315,10 @@ struct Achievements {
         Text(`+${achievement.rewardPoints}`)
           .fontSize(14)
           .fontWeight(FontWeight.Bold)
-          .fontColor(isUnlocked ? DarkTheme.accent : DarkTheme.textTertiary)
+          .fontColor(isUnlocked ? '#ffffff' : '#7a7a98')
+          .backgroundColor(isUnlocked ? getAchievementRarityColor(achievement.rarity) + '66' : 'transparent')
+          .padding(isUnlocked ? { left: 8, right: 8, top: 4, bottom: 4 } : 0)
+          .borderRadius(8)
 
         if (isUnlocked) {
           Image($r('app.media.ic_correct'))
@@ -326,13 +331,12 @@ struct Achievements {
     }
     .width('100%')
     .padding(12)
-    .backgroundColor(CardStyle.glassBackground)
+    .backgroundColor('rgba(25, 25, 55, 0.92)')
     .borderRadius(12)
     .border({
-      width: CardStyle.borderWidth,
-      color: isUnlocked ? getAchievementRarityColor(achievement.rarity) + '44' : CardStyle.borderColor
+      width: 1,
+      color: isUnlocked ? getAchievementRarityColor(achievement.rarity) + '66' : 'rgba(100, 100, 140, 0.3)'
     })
-    .opacity(isUnlocked ? 1 : 0.7)
   }
 
   formatUnlockTime(timestamp: number | undefined): string {
