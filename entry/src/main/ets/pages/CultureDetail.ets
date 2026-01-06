@@ -237,11 +237,16 @@ struct CultureDetail {
               }
 
               // 文化特色
+              // 著名神话故事（优先展示）
+              if (this.stories.length > 0) {
+                this.StoriesSection()
+              }
+
               if (this.culture.features && this.culture.features.length > 0) {
                 this.FeaturesSection()
               }
 
-              // 该文化主神（优先展示）
+              // 该文化主神
               if (this.deities.length > 0) {
                 this.DeitiesSection()
               }
@@ -249,11 +254,6 @@ struct CultureDetail {
               // 该文化神兽
               if (this.creatures.length > 0) {
                 this.CreaturesSection()
-              }
-
-              // 著名神话故事
-              if (this.stories.length > 0) {
-                this.StoriesSection()
               }
 
               Column()
