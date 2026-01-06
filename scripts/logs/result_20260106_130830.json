@@ -1,0 +1,72 @@
+[
+  {
+    "id": "story_celtic_01",
+    "name_cn": "库丘林与库利牛封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_celtic_01.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_celtic_02",
+    "name_cn": "利尔的孩子们封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_celtic_02.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_celtic_03",
+    "name_cn": "黛尔德丽的悲歌封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_celtic_03.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_celtic_04",
+    "name_cn": "达努神族的降临封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_celtic_04.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_celtic_05",
+    "name_cn": "奥辛与青春之地封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_celtic_05.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_celtic_06",
+    "name_cn": "芬恩与智慧之鲑封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_celtic_06.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_celtic_07",
+    "name_cn": "布兰的航海封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_celtic_07.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_celtic_08",
+    "name_cn": "普维尔与阿隆温封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_celtic_08.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_celtic_09",
+    "name_cn": "亚瑟王与圣杯封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_celtic_09.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_celtic_10",
+    "name_cn": "马比诺吉昂四分支封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_celtic_10.png",
+    "tokens": 16384
+  }
+]

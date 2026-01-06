@@ -1407,6 +1407,711 @@
       "type": "background",
       "attribute": "none",
       "prompt": "专题详情页背景，知识殿堂风格的深蓝紫色背景渐变，天空中有古老典籍翻开的抽象图案和知识之光的金色光晕，云层呈现出书页般的层叠质感，星辰排列成文字和符号的暗示，远处是智慧图书馆般的建筑剪影，底部云海中浮现古老卷轴和羊皮纸的纹理，整体营造出探索神话知识的学术氛围，无人物无生物，色调深邃确保专题内容文字高度清晰可读，适合作为手机App专题页背景，4K超高清，极致细节"
+    },
+    {
+      "id": "story_chinese_01",
+      "name_cn": "女娲补天封面",
+      "name_en": "Nuwa Mends the Sky",
+      "culture": "chinese",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，女娲娘娘站在云端，双手托举发光的五色神石，正在修补破碎的天空，天空有巨大的裂缝透出混沌之光，五彩石浆流淌填补裂隙，女娲身披霞光云裳，长发飘逸，神态庄严慈悲，背景是火焰与洪水交织的末世景象，中国古典神话风格，史诗级场景，竖版构图适合手机壁纸，4K超高清"
+    },
+    {
+      "id": "story_chinese_02",
+      "name_cn": "盘古开天封面",
+      "name_en": "Pangu Creates the World",
+      "culture": "chinese",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，盘古巨人站立于混沌之中，手持巨斧劈开天地，上方是清气上升形成的蓝天白云，下方是浊气下沉形成的大地山川，盘古身躯顶天立地，肌肉虬结力量感十足，周围是混沌被劈开时的光芒迸发，中国上古神话风格，创世史诗场景，竖版构图，4K超高清"
+    },
+    {
+      "id": "story_chinese_03",
+      "name_cn": "嫦娥奔月封面",
+      "name_en": "Chang'e Flies to the Moon",
+      "culture": "chinese",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，嫦娥仙子身穿飘逸的白色仙裙，在满月之夜飘然升空飞向月宫，长袖飘带如云似雾，身边有玉兔相伴，背景是深蓝色星空和巨大的满月，月宫若隐若现，地面是后羿望月的剪影，凄美浪漫的中国神话风格，竖版构图，4K超高清"
+    },
+    {
+      "id": "story_chinese_04",
+      "name_cn": "后羿射日封面",
+      "name_en": "Houyi Shoots the Suns",
+      "culture": "chinese",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，神射手后羿张弓搭箭瞄准天空，天空中有九个太阳正在坠落燃烧，大地干裂焦黑，后羿身材魁梧英武，神弓发出金色光芒，箭矢带着火焰射向太阳，史诗级英雄场景，中国上古神话风格，热血激昂的构图，竖版4K超高清"
+    },
+    {
+      "id": "story_chinese_05",
+      "name_cn": "精卫填海封面",
+      "name_en": "Jingwei Fills the Sea",
+      "culture": "chinese",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，精卫鸟口衔石子飞翔在波涛汹涌的大海上空，小鸟羽毛斑斓坚毅，眼神执着，背景是金色夕阳下的无垠大海，海浪滔天，远处是发鸠山的剪影，展现以弱胜强、坚持不懈的精神，中国神话风格，悲壮而美丽的场景，竖版构图，4K超高清"
+    },
+    {
+      "id": "story_chinese_06",
+      "name_cn": "大禹治水封面",
+      "name_en": "Da Yu Controls the Floods",
+      "culture": "chinese",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，大禹站在滔天洪水前指挥治水，手持神铲开山凿河，身披蓑衣风尘仆仆，周围是汹涌的洪水和正在疏导的河道，远处是新开辟的九州山川，展现治理洪水的壮阔场面，中国上古神话风格，英雄史诗场景，竖版构图，4K超高清"
+    },
+    {
+      "id": "story_chinese_07",
+      "name_cn": "夸父追日封面",
+      "name_en": "Kuafu Chases the Sun",
+      "culture": "chinese",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，巨人夸父奔跑在大地上追逐太阳，身材魁伟肌肉虬结，手持桃木杖，太阳在前方天际散发炽热光芒，大地被晒得龟裂，夸父跑过的地方形成峡谷，展现执着追求的悲壮精神，中国上古神话风格，史诗级场景，竖版构图，4K超高清"
+    },
+    {
+      "id": "story_chinese_08",
+      "name_cn": "牛郎织女封面",
+      "name_en": "The Cowherd and Weaver Girl",
+      "culture": "chinese",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，七夕之夜牛郎织女在鹊桥相会，织女身穿华丽的仙女服饰，牛郎身着朴素农服，两人深情相望，脚下是喜鹊搭成的银色鹊桥，背景是银河星空璀璨，浪漫唯美的爱情场景，中国神话风格，竖版构图，4K超高清"
+    },
+    {
+      "id": "story_chinese_09",
+      "name_cn": "哪吒闹海封面",
+      "name_en": "Nezha Conquers the Sea",
+      "culture": "chinese",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，少年哪吒脚踩风火轮手持乾坤圈和火尖枪，在东海龙宫前大战龙太子，海水翻涌成巨浪，哪吒混天绫飘扬如火焰，表情英勇无畏，背景是海底龙宫和惊恐的虾兵蟹将，中国神话风格，热血战斗场景，竖版构图，4K超高清"
+    },
+    {
+      "id": "story_chinese_10",
+      "name_cn": "西天取经封面",
+      "name_en": "Journey to the West",
+      "culture": "chinese",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，唐僧师徒四人行走在西天取经路上，唐僧骑白马手持禅杖，孙悟空手持金箍棒腾云驾雾，猪八戒扛着九齿钉耙，沙僧挑着担子，背景是奇峰异石的西域山川，夕阳余晖中前路漫漫，中国神话风格，史诗旅途场景，竖版构图，4K超高清"
+    },
+    {
+      "id": "story_greek_01",
+      "name_cn": "众神的诞生封面",
+      "name_en": "Birth of the Gods",
+      "culture": "greek",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，宙斯率领奥林匹斯众神站在云端之上，众神光芒万丈，下方是被击败的泰坦巨神，雷电和神圣光芒交织，奥林匹斯山在背景中若隐若现，希腊古典神话风格，史诗级众神集结场景，4K超高清"
+    },
+    {
+      "id": "story_greek_02",
+      "name_cn": "普罗米修斯盗火封面",
+      "name_en": "Prometheus Steals Fire",
+      "culture": "greek",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，泰坦神普罗米修斯手持燃烧的火炬，从奥林匹斯山飞向人间，火焰照亮黑暗的夜空，下方是黑暗中期盼光明的人类，普罗米修斯面容坚毅，希腊神话风格，叛逆者带来光明的史诗场景，4K超高清"
+    },
+    {
+      "id": "story_greek_03",
+      "name_cn": "潘多拉魔盒封面",
+      "name_en": "Pandora's Box",
+      "culture": "greek",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，美丽的潘多拉站在打开的神秘盒子前，黑色的灾祸如烟雾般从盒中飞出弥漫天空，唯有一道微光留在盒底象征希望，潘多拉表情惊恐又好奇，希腊神话风格，命运之盒开启的戏剧性场景，4K超高清"
+    },
+    {
+      "id": "story_greek_04",
+      "name_cn": "珀尔修斯斩美杜莎封面",
+      "name_en": "Perseus Slays Medusa",
+      "culture": "greek",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，英雄珀尔修斯手持镜盾和钻石剑，斩下蛇发女妖美杜莎的头颅，飞马珀伽索斯从美杜莎颈部诞生飞向天空，周围是石化的雕像，希腊神话风格，英雄战胜怪物的史诗瞬间，4K超高清"
+    },
+    {
+      "id": "story_greek_05",
+      "name_cn": "赫拉克勒斯十二功封面",
+      "name_en": "Twelve Labors of Heracles",
+      "culture": "greek",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，肌肉发达的赫拉克勒斯披着狮皮，手持巨棍，背景是他的十二功业剪影：九头蛇海德拉、涅墨亚狮子、三头犬刻耳柏洛斯等，希腊神话最伟大英雄的传奇画像，史诗级英雄肖像，4K超高清"
+    },
+    {
+      "id": "story_greek_06",
+      "name_cn": "俄狄浦斯王封面",
+      "name_en": "Oedipus Rex",
+      "culture": "greek",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，俄狄浦斯站在斯芬克斯面前回答谜语，背景是命运三女神纺织生命之线，天空中有不祥的预言符号，底比斯城在远处，希腊悲剧风格，命运与预言的阴郁氛围，4K超高清"
+    },
+    {
+      "id": "story_greek_07",
+      "name_cn": "特洛伊战争封面",
+      "name_en": "Trojan War",
+      "culture": "greek",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，特洛伊战争的史诗场景，巨大的木马矗立在特洛伊城前，希腊战船在海面上，天空中众神观战，阿喀琉斯和赫克托耳的影子对峙，希腊神话风格，十年大战的壮阔场面，4K超高清"
+    },
+    {
+      "id": "story_greek_08",
+      "name_cn": "奥德修斯归乡封面",
+      "name_en": "Odyssey",
+      "culture": "greek",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，奥德修斯的船在狂风巨浪中航行，海上有塞壬海妖、独眼巨人、六头怪等危险的剪影，奥德修斯站在船头望向远方故乡，希腊神话风格，十年海上漂泊的冒险画卷，4K超高清"
+    },
+    {
+      "id": "story_greek_09",
+      "name_cn": "伊卡洛斯飞天封面",
+      "name_en": "Icarus Flight",
+      "culture": "greek",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，少年伊卡洛斯张开蜡制翅膀飞向太阳，羽毛开始脱落融化，父亲代达罗斯在下方呼喊，太阳炽热刺眼，大海在脚下，希腊神话风格，飞向太阳的悲剧瞬间，4K超高清"
+    },
+    {
+      "id": "story_greek_10",
+      "name_cn": "阿波罗与达芙妮封面",
+      "name_en": "Apollo and Daphne",
+      "culture": "greek",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，太阳神阿波罗追逐美丽的达芙妮，达芙妮正在变成月桂树，皮肤变为树皮双臂变为枝条，阿波罗伸手却只能触碰到树叶，希腊神话风格，爱与逃避的凄美瞬间，4K超高清"
+    },
+
+    {
+      "id": "story_norse_01",
+      "name_cn": "世界的创生封面",
+      "name_en": "Creation of the World",
+      "culture": "norse",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，北欧创世神话场景，金伦加鸿沟中冰与火相遇，左侧是尼弗尔海姆的冰霜世界，右侧是穆斯贝尔海姆的火焰领域，中央诞生的霜巨人尤弥尔与神牛奥德姆拉的轮廓若隐若现，北欧神话风格，创世的壮阔场景，4K超高清"
+    },
+    {
+      "id": "story_norse_02",
+      "name_cn": "奥丁求智封面",
+      "name_en": "Odin's Quest for Wisdom",
+      "culture": "norse",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，众神之父奥丁倒挂在世界之树尤克特拉希尔上，长矛刺穿身体，独眼凝视着漂浮的卢恩符文，周围是宇宙的星辰和神秘的光芒，北欧神话风格，以牺牲换取智慧的庄严场景，4K超高清"
+    },
+    {
+      "id": "story_norse_03",
+      "name_cn": "托尔的锤子封面",
+      "name_en": "Thor's Hammer",
+      "culture": "norse",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，雷神托尔高举妙尔尼尔雷神之锤，锤子周围环绕着雷电和闪光，托尔身披红色披风肌肉虬结，背景是北欧风格的锻造炉火，北欧神话风格，雷神的威武形象，4K超高清"
+    },
+    {
+      "id": "story_norse_04",
+      "name_cn": "洛基的诡计封面",
+      "name_en": "Loki's Tricks",
+      "culture": "norse",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，恶作剧之神洛基站在阴影中，半边脸露出狡黠的笑容，背后是他的三个可怕子女的轮廓：巨狼芬里尔、巨蛇耶梦加得、死神海拉，绿色的魔法光芒环绕，北欧神话风格，背叛与阴谋的氛围，4K超高清"
+    },
+    {
+      "id": "story_norse_05",
+      "name_cn": "芬里尔的锁链封面",
+      "name_en": "Fenrir's Binding",
+      "culture": "norse",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，巨狼芬里尔被魔法丝带格莱普尼尔束缚，口中插着一把剑无法合拢，眼中燃烧着愤怒和仇恨的火焰，战神提尔站在一旁失去了一只手，北欧神话风格，囚禁与复仇的预兆，4K超高清"
+    },
+    {
+      "id": "story_norse_06",
+      "name_cn": "弗蕾雅的项链封面",
+      "name_en": "Freya's Necklace",
+      "culture": "norse",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，爱与美之女神弗蕾雅站在星光下，颈间佩戴着闪烁的布里辛嘉曼项链，项链发出璀璨的宝石光芒，弗蕾雅美丽而忧伤，眼角有金色的泪滴，北欧神话风格，欲望与代价的象征，4K超高清"
+    },
+    {
+      "id": "story_norse_07",
+      "name_cn": "齐格鲁德屠龙封面",
+      "name_en": "Sigurd Slays the Dragon",
+      "culture": "norse",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，英雄齐格鲁德手持神剑格拉姆从地坑中刺向巨龙法夫尼尔的心脏，龙血喷涌，巨龙垂死挣扎，背景是堆积如山的诅咒黄金，北欧神话风格，英雄屠龙的史诗瞬间，4K超高清"
+    },
+    {
+      "id": "story_norse_08",
+      "name_cn": "瓦尔哈拉的英灵封面",
+      "name_en": "Valhalla's Warriors",
+      "culture": "norse",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，金色的瓦尔哈拉英灵殿大门敞开，瓦尔基里女武神骑着飞马从战场上空飞来，带领战死的英灵进入殿堂，殿内可见英灵战士们举杯欢庆，北欧神话风格，荣耀与永恒的战士天堂，4K超高清"
+    },
+    {
+      "id": "story_norse_09",
+      "name_cn": "海姆达尔与彩虹桥封面",
+      "name_en": "Heimdall and Bifrost",
+      "culture": "norse",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，守护神海姆达尔站在彩虹桥比弗罗斯特的入口，手持基亚拉尔号角，金色的铠甲闪闪发光，身后是七彩的彩虹桥延伸向阿斯加德，北欧神话风格，永恒守护者的威严，4K超高清"
+    },
+    {
+      "id": "story_norse_10",
+      "name_cn": "诸神黄昏封面",
+      "name_en": "Ragnarok",
+      "culture": "norse",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，诸神黄昏的终极决战，火巨人苏尔特尔高举燃烧的巨剑，天空被火焰染红，奥丁与巨狼芬里尔对峙，托尔与巨蛇耶梦加得缠斗，彩虹桥崩塌，世界在毁灭中燃烧，北欧神话风格，末日与重生的史诗画面，4K超高清"
+    },
+
+    {
+      "id": "story_japanese_01",
+      "name_cn": "天地开辟封面",
+      "name_en": "Creation of Heaven and Earth",
+      "culture": "japanese",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，日本创世神话场景，伊邪那岐和伊邪那美站在天浮桥上，手持天沼矛搅动混沌的海洋，海水滴落形成淤能碁吕岛，周围是日出的金色光芒和神圣的云彩，日本神话风格，创世的庄严瞬间，4K超高清"
+    },
+    {
+      "id": "story_japanese_02",
+      "name_cn": "天照大神与天岩户封面",
+      "name_en": "Amaterasu and the Cave",
+      "culture": "japanese",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，太阳女神天照大神站在天岩户洞口，金色的光芒从她身后射出照亮黑暗的世界，八百万神祇在洞外欢庆，天宇受卖命正在跳舞，日本神话风格，太阳复出的神圣时刻，4K超高清"
+    },
+    {
+      "id": "story_japanese_03",
+      "name_cn": "须佐之男斩八岐大蛇封面",
+      "name_en": "Susanoo Slays Orochi",
+      "culture": "japanese",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，风暴之神须佐之男手持神剑十拳剑，正在斩杀巨大的八岐大蛇，八个蛇头在暴风雨中翻腾，蛇血染红河流，背景是日本古代森林和雷电，日本神话风格，英雄屠龙的史诗瞬间，4K超高清"
+    },
+    {
+      "id": "story_japanese_04",
+      "name_cn": "因幡白兔封面",
+      "name_en": "The White Hare of Inaba",
+      "culture": "japanese",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，大国主神弯腰帮助受伤的白兔，白兔全身伤痕累累正在康复，背景是日本因幡国的海岸和蒲草田，温暖的夕阳光芒，日本神话风格，仁慈与善良的温馨画面，4K超高清"
+    },
+    {
+      "id": "story_japanese_05",
+      "name_cn": "海幸山幸封面",
+      "name_en": "Luck of Sea and Mountain",
+      "culture": "japanese",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，山幸彦骑着巨大的海龟潜入龙宫城，龙宫城金碧辉煌珊瑚为柱珍珠为帘，乙姬公主在宫门迎接，周围是五彩斑斓的海洋生物，日本神话风格，龙宫奇遇的梦幻场景，4K超高清"
+    },
+    {
+      "id": "story_japanese_06",
+      "name_cn": "浦岛太郎封面",
+      "name_en": "Urashima Taro",
+      "culture": "japanese",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，渔夫浦岛太郎骑着巨大的海龟在深蓝色的海洋中前行，前方是闪烁着珍珠光芒的龙宫城，周围是神秘的海底世界和发光的水母，日本民间传说风格，充满奇幻色彩的海底旅程，4K超高清"
+    },
+    {
+      "id": "story_japanese_07",
+      "name_cn": "桃太郎封面",
+      "name_en": "Momotaro",
+      "culture": "japanese",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，少年英雄桃太郎站在船头，身边是忠诚的狗猴雉三个伙伴，前方是鬼之岛的剪影，桃太郎手持日本刀表情英勇，背景是波涛汹涌的大海和朝阳，日本民间传说风格，英雄出征的热血画面，4K超高清"
+    },
+    {
+      "id": "story_japanese_08",
+      "name_cn": "竹取物语封面",
+      "name_en": "Tale of the Bamboo Cutter",
+      "culture": "japanese",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，辉夜姬身穿华丽的十二单和服站在满月之下，她正缓缓升向月宫，身边是哭泣的养父母和追赶的侍卫，月光下她的身影渐渐透明，日本古典物语风格，凄美离别的月夜场景，4K超高清"
+    },
+    {
+      "id": "story_japanese_09",
+      "name_cn": "安倍晴明封面",
+      "name_en": "Abe no Seimei",
+      "culture": "japanese",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，阴阳师安倍晴明身穿狩衣手持扇子，周围漂浮着十二神将式神，五芒星符咒在空中闪烁，背景是平安京的神社和月夜，一只白狐的影子若隐若现，日本平安时代风格，神秘的阴阳术场景，4K超高清"
+    },
+    {
+      "id": "story_japanese_10",
+      "name_cn": "酒吞童子封面",
+      "name_en": "Shuten-doji",
+      "culture": "japanese",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，源赖光和四天王武士进入大江山鬼窟，面对红皮肤巨大的鬼王酒吞童子，酒吞童子手持酒杯邪笑，周围是火焰和众多小鬼，气氛诡异恐怖，日本平安时代风格，英雄讨伐鬼王的史诗对峙，4K超高清"
+    },
+
+    {
+      "id": "story_indian_01",
+      "name_cn": "搅拌乳海封面",
+      "name_en": "Churning of the Ocean",
+      "culture": "indian",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，印度神话搅拌乳海的壮观场景，众神与阿修罗分别拉着蛇王婆苏吉的头尾，曼陀罗山在乳白色海洋中央旋转，巨龟俱利摩在海底托住山峰，乳海中涌出各种珍宝和甘露，金色光芒与神圣氛围，印度神话风格，史诗级创世场景，4K超高清"
+    },
+    {
+      "id": "story_indian_02",
+      "name_cn": "罗摩与悉多封面",
+      "name_en": "Rama and Sita",
+      "culture": "indian",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，英雄罗摩手持神弓站在楞伽岛战场，身后是神猴哈努曼和猴子大军，前方是魔王罗波那的宫殿，悉多公主的身影在远处，史诗罗摩衍那的高潮场景，印度神话风格，正义与邪恶的最终对决，4K超高清"
+    },
+    {
+      "id": "story_indian_03",
+      "name_cn": "迦楼罗与那伽封面",
+      "name_en": "Garuda and Nagas",
+      "culture": "indian",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，金翅大鹏鸟迦楼罗展开巨大的金色翅膀翱翔天际，脚下是盘踞的众多那伽龙蛇，迦楼罗口中衔着不死甘露宝瓶，金光与蛇影交织，印度神话风格，神鸟与龙蛇的宿命对决，4K超高清"
+    },
+    {
+      "id": "story_indian_04",
+      "name_cn": "湿婆与萨蒂封面",
+      "name_en": "Shiva and Sati",
+      "culture": "indian",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，毁灭之神湿婆悲痛地抱着萨蒂的遗体，周围是毁灭性的火焰和混乱的能量，湿婆的第三只眼燃烧着愤怒，背景是印度神殿的废墟，表现永恒之爱与悲剧的氛围，印度神话风格，悲壮而神圣的场景，4K超高清"
+    },
+    {
+      "id": "story_indian_05",
+      "name_cn": "象头神的诞生封面",
+      "name_en": "Birth of Ganesha",
+      "culture": "indian",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，象头神伽内什诞生的神圣时刻，湿婆将象头安放在孩子身上，金色的神圣光芒环绕，帕尔瓦蒂女神在旁见证，背景是喜马拉雅山的神殿，印度神话风格，智慧之神诞生的庄严场景，4K超高清"
+    },
+    {
+      "id": "story_indian_06",
+      "name_cn": "黑天的童年封面",
+      "name_en": "Krishna's Childhood",
+      "culture": "indian",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，蓝色皮肤的黑天克里希纳幼年形态，站在戈瓦尔丹山顶用一根手指举起整座山，保护村民免受暴风雨侵袭，周围是牧民和牛群，神圣的金色光芒，印度神话风格，牧童神展现神力的奇迹场景，4K超高清"
+    },
+    {
+      "id": "story_indian_07",
+      "name_cn": "毗湿奴十化身封面",
+      "name_en": "Ten Avatars of Vishnu",
+      "culture": "indian",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，毗湿奴神居中盘坐在莲花上，周围环绕着他的十个化身的剪影：鱼神、龟神、野猪神、人狮、矮人、持斧罗摩、罗摩、黑天、佛陀、迦尔吉，宇宙星空背景，印度神话风格，轮回救世的史诗画卷，4K超高清"
+    },
+    {
+      "id": "story_indian_08",
+      "name_cn": "因陀罗与弗栗多封面",
+      "name_en": "Indra and Vritra",
+      "culture": "indian",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，雷神因陀罗骑着白象艾拉瓦塔，高举金刚杵劈向巨龙弗栗多，雷电交加的史诗战场，巨龙盘踞在山间堵塞河流，即将被劈开释放河水，印度神话风格，雷神斩龙的英雄传说，4K超高清"
+    },
+    {
+      "id": "story_indian_09",
+      "name_cn": "摩诃婆罗多大战封面",
+      "name_en": "Mahabharata War",
+      "culture": "indian",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，俱卢之野的史诗大战场景，阿周那站在战车上，黑天克里希纳担任御者传授薄伽梵歌，两军对峙旗帜飘扬，战象和战车密布，印度史诗风格，十八日血战的壮阔开端，4K超高清"
+    },
+    {
+      "id": "story_indian_10",
+      "name_cn": "恒河降临封面",
+      "name_en": "Descent of the Ganges",
+      "culture": "indian",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，恒河从天界倾泻而下的壮观场景，湿婆神站在喜马拉雅山巅用他纠结的长发承接恒河的冲击，水流化为无数细流从发丝间落入人间，跋吉罗多王在下方虔诚祈祷，印度神话风格，圣河降临的神圣时刻，4K超高清"
+    },
+
+    {
+      "id": "story_egyptian_01",
+      "name_cn": "奥西里斯与伊西斯封面",
+      "name_en": "Osiris and Isis",
+      "culture": "egyptian",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，埃及冥界之王奥西里斯被伊西斯女神复活的神圣时刻，奥西里斯身穿白色亚麻布木乃伊裹尸布手持连枷和权杖，皮肤呈绿色象征重生，伊西斯展开巨大的翅膀环抱丈夫施展复活魔法，金色的神圣光芒环绕，背景是埃及神殿和尼罗河，埃及神话风格，死而复生的史诗场景，4K超高清"
+    },
+    {
+      "id": "story_egyptian_02",
+      "name_cn": "荷鲁斯的复仇封面",
+      "name_en": "Revenge of Horus",
+      "culture": "egyptian",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，鹰头神荷鲁斯与混沌之神塞特的史诗对决，荷鲁斯身穿金色铠甲头戴双冠手持长矛，塞特化身为黑色野兽形态，两神在沙漠战场上激烈交战，闪电和沙尘暴交织，荷鲁斯之眼闪烁神圣光芒，背景是金字塔和狮身人面像，埃及神话风格，王位之争的决战时刻，4K超高清"
+    },
+    {
+      "id": "story_egyptian_03",
+      "name_cn": "拉的太阳船封面",
+      "name_en": "Ra's Solar Boat",
+      "culture": "egyptian",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，太阳神拉乘坐金色的曼杰特太阳船航行在天空与冥界之间，拉头顶太阳圆盘散发耀眼光芒，船上众神各司其职，下方是巨大的混沌之蛇阿佩普张开血盆大口试图吞噬太阳，星空与火焰交织的壮观场景，埃及神话风格，永恒轮回的太阳之旅，4K超高清"
+    },
+    {
+      "id": "story_egyptian_04",
+      "name_cn": "阿努比斯与亡者审判封面",
+      "name_en": "Anubis and the Judgment",
+      "culture": "egyptian",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，胡狼头神阿努比斯主持亡者审判的庄严场景，中央是巨大的天平一端放着心脏一端放着玛阿特的羽毛，托特神在旁记录结果，奥西里斯端坐王座审视一切，怪兽阿米特蹲伏在天平下等待吞噬罪人，冥界审判厅金光与阴影交织，埃及神话风格，生死审判的神圣时刻，4K超高清"
+    },
+    {
+      "id": "story_egyptian_05",
+      "name_cn": "托特与月亮封面",
+      "name_en": "Thoth and the Moon",
+      "culture": "egyptian",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，朱鹭头智慧之神托特与月神孔苏下棋对弈的神秘场景，托特手持书写板记录胜负，面前是埃及古老的塞尼特棋盘，月光从孔苏身上流向托特，背景是满天星辰和新月渐变为满月，象征时间的创造，埃及神话风格，智慧赢得时间的传说，4K超高清"
+    },
+    {
+      "id": "story_egyptian_06",
+      "name_cn": "塞赫美特的愤怒封面",
+      "name_en": "Wrath of Sekhmet",
+      "culture": "egyptian",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，狮首战争女神塞赫美特在人间肆虐的恐怖场景，塞赫美特头顶太阳圆盘眼中燃烧怒火，全身散发烈焰光芒，大地被染成血红色，尼罗河中流淌着红色的啤酒，远处是逃难的人类和燃烧的村庄，埃及神话风格，神罚与救赎的史诗画面，4K超高清"
+    },
+    {
+      "id": "story_egyptian_07",
+      "name_cn": "伊西斯与拉的真名封面",
+      "name_en": "Isis and Ra's True Name",
+      "culture": "egyptian",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，女巫伊西斯从年迈的太阳神拉口中获取真名的神秘场景，伊西斯身穿华丽服饰施展魔法，拉神被毒蛇咬伤痛苦不堪，一道金色的能量从拉的心脏传入伊西斯的心脏象征真名的传递，周围环绕着象形文字和魔法符文，埃及神话风格，知识与力量的交换，4K超高清"
+    },
+    {
+      "id": "story_egyptian_08",
+      "name_cn": "本努鸟的传说封面",
+      "name_en": "Legend of the Bennu Bird",
+      "culture": "egyptian",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，埃及不死鸟本努从烈火中重生的壮观场景，灰色苍鹭形态的本努鸟头戴双羽冠从火焰与灰烬中展翅飞起，全身散发金红色的神圣光芒，背景是赫利奥波利斯的太阳神殿和初升的太阳，火焰与凤凰交织，埃及神话风格，永恒重生的象征，4K超高清"
+    },
+    {
+      "id": "story_egyptian_09",
+      "name_cn": "索贝克的尼罗河封面",
+      "name_en": "Sobek and the Nile",
+      "culture": "egyptian",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，鳄鱼神索贝克从尼罗河中升起的威严场景，索贝克鳄鱼头人身头顶羽毛王冠手持权杖，巨大的身躯从翻涌的河水中浮现，周围是莲花和纸莎草，远处是尼罗河泛滥滋润的肥沃土地和埃及神殿，埃及神话风格，生命之河的守护者，4K超高清"
+    },
+    {
+      "id": "story_egyptian_10",
+      "name_cn": "玛阿特与宇宙秩序封面",
+      "name_en": "Maat and Cosmic Order",
+      "culture": "egyptian",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，真理女神玛阿特维护宇宙秩序的神圣场景，玛阿特头戴标志性的鸵鸟羽毛端坐于宇宙中央，周围是太阳月亮星辰按照秩序运行的轨道，天平的意象若隐若现，金色的神圣光芒代表真理和正义，背景是埃及的天空和大地和谐统一，埃及神话风格，永恒法则的化身，4K超高清"
+    },
+
+    {
+      "id": "story_celtic_01",
+      "name_cn": "库丘林与库利牛封面",
+      "name_en": "Cu Chulainn and Cattle Raid",
+      "culture": "celtic",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，凯尔特英雄库丘林独守边关的史诗场景，库丘林身穿战甲手持盖博尔加神枪，进入战斗狂怒扭曲痉挛状态身体变形，周围是倒下的敌人和战旗，背景是爱尔兰翠绿的山丘和迷雾，远处是康诺特大军的剪影，凯尔特神话风格，英雄独战的热血场面，4K超高清"
+    },
+    {
+      "id": "story_celtic_02",
+      "name_cn": "利尔的孩子们封面",
+      "name_en": "Children of Lir",
+      "culture": "celtic",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，四只白天鹅在爱尔兰的湖面上优雅游弋，天鹅是被诅咒的利尔四个孩子，背景是迷雾笼罩的凯尔特湖泊和古老的橡树林，月光洒在水面上银光闪闪，远处是凯尔特式的圆形堡垒剪影，凄美忧伤的氛围，凯尔特神话风格，被诅咒的王子公主传说，4K超高清"
+    },
+    {
+      "id": "story_celtic_03",
+      "name_cn": "黛尔德丽的悲歌封面",
+      "name_en": "Deirdre's Sorrow",
+      "culture": "celtic",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，绝世美女黛尔德丽与英俊的纳西在爱尔兰森林中相拥，背景是古老的凯尔特森林和迷雾，远处是追兵的火把光芒，黛尔德丽一头乌黑长发红唇如血肤若白雪，纳西英武俊美，爱情与悲剧交织的氛围，凯尔特神话风格，命中注定的爱情悲剧，4K超高清"
+    },
+    {
+      "id": "story_celtic_04",
+      "name_cn": "达努神族的降临封面",
+      "name_en": "Coming of Tuatha De Danann",
+      "culture": "celtic",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，达努神族从神秘云雾中降临爱尔兰的壮观场景，众神乘着云彩从天而降，手持四件神器：命运之石利亚法尔、光神之枪、努阿达之剑、达格达之锅，背景是爱尔兰翠绿的山川和大海，金色的神圣光芒，凯尔特神话风格，众神降临的史诗画面，4K超高清"
+    },
+    {
+      "id": "story_celtic_05",
+      "name_cn": "奥辛与青春之地封面",
+      "name_en": "Oisin and Tir na nOg",
+      "culture": "celtic",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，诗人战士奥辛骑着金发公主尼娅芙的白马飞越大海前往青春之地，马蹄踏着海浪飞奔，前方是闪烁着金色光芒的仙境岛屿提尔纳诺，背景是爱尔兰海岸和落日余晖，奇幻浪漫的氛围，凯尔特神话风格，通往永恒仙境的旅程，4K超高清"
+    },
+    {
+      "id": "story_celtic_06",
+      "name_cn": "芬恩与智慧之鲑封面",
+      "name_en": "Finn and Salmon of Knowledge",
+      "culture": "celtic",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，年轻的芬恩麦库尔在博因河边烤制神奇的智慧之鲑，鲑鱼散发着金色的智慧光芒，芬恩用拇指触碰鱼身获得了无尽知识，眼中闪烁智慧之光，背景是爱尔兰神秘的森林和河流，周围漂浮着卢恩符文，凯尔特神话风格，获得智慧的神圣时刻，4K超高清"
+    },
+    {
+      "id": "story_celtic_07",
+      "name_cn": "布兰的航海封面",
+      "name_en": "Voyage of Bran",
+      "culture": "celtic",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，王子布兰的船在神秘的大海上航行探索异界岛屿，船上的凯尔特战士望向前方，海面上漂浮着奇异的花朵和银色苹果枝，远处若隐若现着欢乐之岛和女人之岛的轮廓，迷雾与彩虹交织，凯尔特神话风格，通往异界的海上冒险，4K超高清"
+    },
+    {
+      "id": "story_celtic_08",
+      "name_cn": "普维尔与阿隆温封面",
+      "name_en": "Pwyll and Arawn",
+      "culture": "celtic",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，威尔士国王普维尔与冥界之王阿隆温在神秘的森林中相遇交换身份，两人各骑骏马面对面站立，普维尔的猎犬与阿隆温的白身红耳冥界猎犬对比，背景是威尔士的古老橡树林和迷雾，神秘的凯尔特氛围，威尔士神话风格，人神交换的奇幻场景，4K超高清"
+    },
+    {
+      "id": "story_celtic_09",
+      "name_cn": "亚瑟王与圣杯封面",
+      "name_en": "King Arthur and Holy Grail",
+      "culture": "celtic",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，亚瑟王手持石中剑埃克斯卡利伯站在卡美洛城堡前，圆桌骑士们的剪影环绕周围，天空中圣杯散发着神圣的金色光芒，背景是不列颠的城堡和绿色山丘，雄伟壮观的亚瑟王传奇氛围，凯尔特神话风格，永恒之王的传说，4K超高清"
+    },
+    {
+      "id": "story_celtic_10",
+      "name_cn": "马比诺吉昂四分支封面",
+      "name_en": "Four Branches of Mabinogi",
+      "culture": "celtic",
+      "type": "story",
+      "attribute": "none",
+      "size": "2048x2048",
+      "prompt": "神话故事封面插画，威尔士神话四分支的象征画面，中央是骑着白马的瑞安农女神，四周分别是变成天鹅的布兰温、巨人国王布兰的巨大身影、魔法师格维迪恩的符文、被施法变成鹰的卢的轮廓，背景是威尔士的山川和古老的凯尔特图腾，威尔士神话风格，四个传说交织的史诗画卷，4K超高清"
     }
   ]
 }

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "creature_norse_hel",
+    "name_cn": "海拉",
+    "status": "failed",
+    "error": "超过最大重试次数"
+  },
+  {
+    "id": "story_norse_01",
+    "name_cn": "世界的创生封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_norse_01.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_norse_02",
+    "name_cn": "奥丁求智封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_norse_02.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_norse_03",
+    "name_cn": "托尔的锤子封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_norse_03.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_norse_04",
+    "name_cn": "洛基的诡计封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_norse_04.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_norse_05",
+    "name_cn": "芬里尔的锁链封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_norse_05.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_norse_06",
+    "name_cn": "弗蕾雅的项链封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_norse_06.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_norse_07",
+    "name_cn": "齐格鲁德屠龙封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_norse_07.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_norse_08",
+    "name_cn": "瓦尔哈拉的英灵封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_norse_08.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_norse_09",
+    "name_cn": "海姆达尔与彩虹桥封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_norse_09.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_norse_10",
+    "name_cn": "诸神黄昏封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_norse_10.png",
+    "tokens": 16384
+  }
+]

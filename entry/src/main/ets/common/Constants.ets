@@ -269,6 +269,8 @@ export class StorageKeys {
   static readonly CHECK_IN_HISTORY: string = 'check_in_history';
   static readonly LAST_CHECK_IN: string = 'last_check_in';
   static readonly CONSECUTIVE_DAYS: string = 'consecutive_days';
+  // 故事阅读相关
+  static readonly STORY_PROGRESS: string = 'story_progress';
 }
 
 /**

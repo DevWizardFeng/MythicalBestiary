@@ -19,6 +19,7 @@
     "pages/TopicDetail",
     "pages/QuizGame",
     "pages/QuizResult",
-    "pages/Achievements"
+    "pages/Achievements",
+    "pages/StoryDetail"
   ]
 }

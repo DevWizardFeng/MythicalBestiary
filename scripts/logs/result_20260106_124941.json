@@ -1,0 +1,72 @@
+[
+  {
+    "id": "story_egyptian_01",
+    "name_cn": "奥西里斯与伊西斯封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_egyptian_01.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_egyptian_02",
+    "name_cn": "荷鲁斯的复仇封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_egyptian_02.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_egyptian_03",
+    "name_cn": "拉的太阳船封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_egyptian_03.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_egyptian_04",
+    "name_cn": "阿努比斯与亡者审判封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_egyptian_04.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_egyptian_05",
+    "name_cn": "托特与月亮封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_egyptian_05.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_egyptian_06",
+    "name_cn": "塞赫美特的愤怒封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_egyptian_06.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_egyptian_07",
+    "name_cn": "伊西斯与拉的真名封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_egyptian_07.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_egyptian_08",
+    "name_cn": "本努鸟的传说封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_egyptian_08.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_egyptian_09",
+    "name_cn": "索贝克的尼罗河封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_egyptian_09.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_egyptian_10",
+    "name_cn": "玛阿特与宇宙秩序封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_egyptian_10.png",
+    "tokens": 16384
+  }
+]

@@ -34,7 +34,7 @@ from pathlib import Path
 
 # API 配置 (不可修改)
 BASE_URL = "https://ark.cn-beijing.volces.com/api/v3/images/generations"
-API_KEY = "096dd19b-a3ba-4dd1-a610-8c3495b18548"
+API_KEY = "73857ca0-5c46-4bce-ae12-8f6fc6bf4012"
 MODEL = "doubao-seedream-4-5-251128"
 
 # 项目根目录

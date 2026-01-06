@@ -9,6 +9,7 @@ import { Attribute } from '../model/Attribute';
 import { CultureSystem } from '../model/CultureSystem';
 import { Deity } from '../model/Deity';
 import { QuizQuestion, QuestionCategory, DifficultyLevel, pickRandom, shuffleArray } from '../model/Quiz';
+import { MythStory } from '../model/MythStory';
 
 /**
  * 题库数据文件接口
@@ -39,9 +40,11 @@ export class DataLoader {
   private attributes: Attribute[] = [];
   private cultures: CultureSystem[] = [];
   private deities: Deity[] = [];
+  private stories: MythStory[] = [];
   private quizQuestions: QuizQuestion[] = [];
   private isLoaded: boolean = false;
   private isQuizLoaded: boolean = false;
+  private isStoriesLoaded: boolean = false;
   private context: Context | null = null;
 
   private constructor() {}
@@ -96,7 +99,8 @@ export class DataLoader {
         this.loadRawFile('data/abilities.json'),
         this.loadRawFile('data/attributes.json'),
         this.loadRawFile('data/cultures.json'),
-        this.loadRawFile('data/deities.json')
+        this.loadRawFile('data/deities.json'),
+        this.loadRawFile('data/stories.json')
       ]);
 
       const creaturesData = results[0];
@@ -104,6 +108,7 @@ export class DataLoader {
       const attributesData = results[2];
       const culturesData = results[3];
       const deitiesData = results[4];
+      const storiesData = results[5];
 
       if (creaturesData) {
         this.creatures = JSON.parse(creaturesData) as MythicalCreature[];
@@ -123,6 +128,11 @@ export class DataLoader {
 
       if (deitiesData) {
         this.deities = JSON.parse(deitiesData) as Deity[];
+      }
+
+      if (storiesData) {
+        this.stories = JSON.parse(storiesData) as MythStory[];
+        this.isStoriesLoaded = true;
       }
 
       this.isLoaded = true;
@@ -519,6 +529,55 @@ export class DataLoader {
     }
 
     return counts;
+  }
+
+  // ==================== 神话故事相关 ====================
+
+  /**
+   * 获取所有神话故事
+   */
+  getAllStories(): MythStory[] {
+    return this.stories;
+  }
+
+  /**
+   * 根据ID获取神话故事
+   */
+  getStoryById(id: string): MythStory | undefined {
+    return this.stories.find((s: MythStory) => s.id === id);
+  }
+
+  /**
+   * 根据文化获取神话故事
+   */
+  getStoriesByCulture(cultureId: string): MythStory[] {
+    return this.stories.filter((s: MythStory) => s.cultureId === cultureId);
+  }
+
+  /**
+   * 获取故事总数
+   */
+  getStoryCount(): number {
+    return this.stories.length;
+  }
+
+  /**
+   * 故事是否已加载
+   */
+  isStoriesDataLoaded(): boolean {
+    return this.isStoriesLoaded;
+  }
+
+  /**
+   * 搜索神话故事
+   */
+  searchStories(keyword: string): MythStory[] {
+    const lowerKeyword = keyword.toLowerCase();
+    return this.stories.filter((s: MythStory) =>
+      s.title.toLowerCase().includes(lowerKeyword) ||
+      s.subtitle.toLowerCase().includes(lowerKeyword) ||
+      s.tags.some(tag => tag.toLowerCase().includes(lowerKeyword))
+    );
   }
 }
 

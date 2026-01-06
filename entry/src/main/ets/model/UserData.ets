@@ -3,9 +3,9 @@
  */
 
 /**
- * 条目类型：神兽或神祇
+ * 条目类型：神兽、神祇或故事
  */
-export type EntryType = 'creature' | 'deity';
+export type EntryType = 'creature' | 'deity' | 'story';
 
 /**
  * 用户收藏数据
@@ -13,6 +13,7 @@ export type EntryType = 'creature' | 'deity';
 export interface UserFavorites {
   creatureIds: string[];     // 收藏的神兽ID列表
   deityIds: string[];        // 收藏的神祇ID列表
+  storyIds?: string[];       // 收藏的故事ID列表
   updatedAt: number;         // 最后更新时间戳
 }
 

@@ -51,6 +51,25 @@ export interface ChallengeUpdateResult {
 }
 
 /**
+ * 故事阅读进度项接口
+ */
+interface StoryProgressItem {
+  chapterIndex: number;
+  timestamp: number;
+}
+
+/**
+ * 收藏项接口（用于通用收藏方法）
+ */
+export interface FavoriteItem {
+  type: 'creature' | 'deity' | 'story';
+  id: string;
+  name: string;
+  image: string;
+  timestamp: number;
+}
+
+/**
  * 存储管理器类
  */
 export class StorageManager {
@@ -687,6 +706,107 @@ export class StorageManager {
       console.error('StorageManager: 保存排行榜失败', error);
     }
   }
+
+  // ==================== 故事收藏相关 ====================
+
+  /**
+   * 添加故事收藏
+   */
+  async addStoryFavorite(storyId: string): Promise<void> {
+    const favorites = await this.getFavorites();
+    if (!favorites.storyIds) {
+      favorites.storyIds = [];
+    }
+    if (!favorites.storyIds.includes(storyId)) {
+      favorites.storyIds.push(storyId);
+      favorites.updatedAt = Date.now();
+      await this.saveFavorites(favorites);
+    }
+  }
+
+  /**
+   * 移除故事收藏
+   */
+  async removeStoryFavorite(storyId: string): Promise<void> {
+    const favorites = await this.getFavorites();
+    if (favorites.storyIds) {
+      const index = favorites.storyIds.indexOf(storyId);
+      if (index > -1) {
+        favorites.storyIds.splice(index, 1);
+        favorites.updatedAt = Date.now();
+        await this.saveFavorites(favorites);
+      }
+    }
+  }
+
+  /**
+   * 检查故事是否已收藏
+   */
+  async isStoryFavorite(storyId: string): Promise<boolean> {
+    const favorites = await this.getFavorites();
+    return favorites.storyIds?.includes(storyId) ?? false;
+  }
+
+  /**
+   * 获取故事收藏列表
+   */
+  async getStoryFavorites(): Promise<string[]> {
+    const favorites = await this.getFavorites();
+    return favorites.storyIds || [];
+  }
+
+  // ==================== 故事阅读进度相关 ====================
+
+  /**
+   * 保存故事阅读进度
+   */
+  async saveStoryProgress(storyId: string, chapterIndex: number): Promise<void> {
+    const pref = await this.getPreferences('story_data');
+    if (!pref) {
+      return;
+    }
+
+    try {
+      const progressData = await this.getStoryProgressData();
+      progressData[storyId] = {
+        chapterIndex: chapterIndex,
+        timestamp: Date.now()
+      };
+      await pref.put(StorageKeys.STORY_PROGRESS, JSON.stringify(progressData));
+      await pref.flush();
+    } catch (error) {
+      console.error('StorageManager: 保存故事进度失败', error);
+    }
+  }
+
+  /**
+   * 获取故事阅读进度
+   */
+  async getStoryProgress(storyId: string): Promise<number> {
+    const progressData = await this.getStoryProgressData();
+    return progressData[storyId]?.chapterIndex || 0;
+  }
+
+  /**
+   * 获取所有故事进度数据
+   */
+  private async getStoryProgressData(): Promise<Record<string, StoryProgressItem>> {
+    const pref = await this.getPreferences('story_data');
+    if (!pref) {
+      return {};
+    }
+
+    try {
+      const data = await pref.get(StorageKeys.STORY_PROGRESS, '');
+      if (data && typeof data === 'string' && data.length > 0) {
+        return JSON.parse(data) as Record<string, StoryProgressItem>;
+      }
+    } catch (error) {
+      console.error('StorageManager: 获取故事进度失败', error);
+    }
+
+    return {};
+  }
 }
 
 /**
@@ -1072,6 +1192,84 @@ export class StorageUtil {
     };
     return stats;
   }
+
+  // ========== 故事相关 ==========
+
+  /**
+   * 获取故事收藏列表
+   */
+  async getStoryFavorites(): Promise<string[]> {
+    return await this.manager.getStoryFavorites();
+  }
+
+  /**
+   * 添加故事收藏
+   */
+  async addStoryFavorite(storyId: string): Promise<void> {
+    await this.manager.addStoryFavorite(storyId);
+  }
+
+  /**
+   * 移除故事收藏
+   */
+  async removeStoryFavorite(storyId: string): Promise<void> {
+    await this.manager.removeStoryFavorite(storyId);
+  }
+
+  /**
+   * 检查故事是否已收藏
+   */
+  async isStoryFavorite(storyId: string): Promise<boolean> {
+    return await this.manager.isStoryFavorite(storyId);
+  }
+
+  /**
+   * 保存故事阅读进度
+   */
+  async saveStoryProgress(storyId: string, chapterIndex: number): Promise<void> {
+    await this.manager.saveStoryProgress(storyId, chapterIndex);
+  }
+
+  /**
+   * 获取故事阅读进度
+   */
+  async getStoryProgress(storyId: string): Promise<number> {
+    return await this.manager.getStoryProgress(storyId);
+  }
+
+  /**
+   * 添加通用收藏项
+   */
+  async addFavoriteItem(item: FavoriteItem): Promise<void> {
+    switch (item.type) {
+      case 'creature':
+        await this.manager.addFavorite(item.id);
+        break;
+      case 'deity':
+        await this.manager.addDeityFavorite(item.id);
+        break;
+      case 'story':
+        await this.manager.addStoryFavorite(item.id);
+        break;
+    }
+  }
+
+  /**
+   * 移除通用收藏项
+   */
+  async removeFavoriteItem(id: string): Promise<void> {
+    // 尝试从所有收藏类型中移除
+    await this.manager.removeFavorite(id);
+    await this.manager.removeDeityFavorite(id);
+    await this.manager.removeStoryFavorite(id);
+  }
+
+  /**
+   * 添加历史记录（通用方法）
+   */
+  async addHistoryItem(item: FavoriteItem): Promise<void> {
+    await this.manager.addHistoryWithType(item.id, item.type);
+  }
 }
 
 /**
@@ -1094,4 +1292,21 @@ interface CardCollectionSaveData {
   lastCheckIn: string;
   consecutiveDays: number;
   totalCheckIns: number;
+}
+
+/**
+ * Storage 类别名（兼容 StoryDetail 等页面使用）
+ */
+export class Storage {
+  private static _instance: StorageUtil | null = null;
+
+  /**
+   * 获取单例实例
+   */
+  static getInstance(): StorageUtil {
+    if (!Storage._instance) {
+      Storage._instance = StorageUtil.getInstance();
+    }
+    return Storage._instance;
+  }
 }

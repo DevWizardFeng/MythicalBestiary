@@ -8,6 +8,7 @@ import { DarkTheme } from '../common/Theme';
 import { CultureSystem } from '../model/CultureSystem';
 import { MythicalCreature } from '../model/MythicalCreature';
 import { Deity } from '../model/Deity';
+import { MythStory } from '../model/MythStory';
 import { DataLoader } from '../utils/DataLoader';
 import { CreatureCard } from '../components/CreatureCard';
 import { TTSManager, TTSState } from '../utils/TTSManager';
@@ -23,6 +24,7 @@ struct CultureDetail {
   @State culture: CultureSystem | null = null;
   @State deities: Deity[] = [];
   @State creatures: MythicalCreature[] = [];
+  @State stories: MythStory[] = [];
   @State isLoading: boolean = true;
   @State isTTSPlaying: boolean = false;
   private cultureId: string = '';
@@ -58,6 +60,9 @@ struct CultureDetail {
       this.creatures = allCreatures
         .filter((c: MythicalCreature) => c.culture === this.cultureId)
         .slice(0, 10);
+
+      // 获取该文化的神话故事
+      this.stories = dataLoader.getStoriesByCulture(this.cultureId);
 
       this.isLoading = false;
     } catch (error) {
@@ -244,6 +249,11 @@ struct CultureDetail {
               // 该文化神兽
               if (this.creatures.length > 0) {
                 this.CreaturesSection()
+              }
+
+              // 著名神话故事
+              if (this.stories.length > 0) {
+                this.StoriesSection()
               }
 
               Column()
@@ -495,6 +505,104 @@ struct CultureDetail {
       .columnsGap(12)
       .padding({ left: 16, right: 16 })
     }
+  }
+
+  @Builder
+  StoriesSection() {
+    Column({ space: 12 }) {
+      Row() {
+        Text('著名神话故事')
+          .fontSize(16)
+          .fontWeight(FontWeight.Bold)
+          .fontColor(DarkTheme.textPrimary)
+
+        Blank()
+
+        Text(`共${this.stories.length}个故事`)
+          .fontSize(14)
+          .fontColor(DarkTheme.textSecondary)
+      }
+      .width('100%')
+      .padding({ left: 16, right: 16 })
+
+      // 故事卡片列表
+      Column({ space: 12 }) {
+        ForEach(this.stories, (story: MythStory) => {
+          this.StoryCard(story)
+        })
+      }
+      .padding({ left: 16, right: 16 })
+    }
+  }
+
+  @Builder
+  StoryCard(story: MythStory) {
+    Row({ space: 12 }) {
+      // 封面图
+      Stack() {
+        Image($r(`app.media.${story.cover}`))
+          .width(100)
+          .height(130)
+          .objectFit(ImageFit.Cover)
+          .borderRadius(8)
+
+        // 章节数标签
+        Text(`${story.chapters.length}章`)
+          .fontSize(10)
+          .fontColor('#FFFFFF')
+          .backgroundColor('rgba(0,0,0,0.6)')
+          .padding({ left: 6, right: 6, top: 2, bottom: 2 })
+          .borderRadius(4)
+          .position({ right: 6, bottom: 6 })
+      }
+      .width(100)
+      .height(130)
+
+      // 信息区
+      Column({ space: 8 }) {
+        Text(story.title)
+          .fontSize(16)
+          .fontWeight(FontWeight.Bold)
+          .fontColor(DarkTheme.textPrimary)
+          .maxLines(1)
+          .textOverflow({ overflow: TextOverflow.Ellipsis })
+
+        Text(story.subtitle)
+          .fontSize(13)
+          .fontColor(DarkTheme.textSecondary)
+          .maxLines(2)
+          .textOverflow({ overflow: TextOverflow.Ellipsis })
+          .lineHeight(18)
+
+        Blank()
+
+        // 标签
+        Flex({ wrap: FlexWrap.Wrap }) {
+          ForEach(story.tags.slice(0, 3), (tag: string) => {
+            Text(`#${tag}`)
+              .fontSize(11)
+              .fontColor(DarkTheme.accent)
+              .backgroundColor(DarkTheme.accent + '22')
+              .padding({ left: 8, right: 8, top: 3, bottom: 3 })
+              .borderRadius(10)
+              .margin({ right: 6 })
+          })
+        }
+      }
+      .layoutWeight(1)
+      .height(130)
+      .alignItems(HorizontalAlign.Start)
+    }
+    .width('100%')
+    .padding(12)
+    .backgroundColor(DarkTheme.backgroundCard)
+    .borderRadius(12)
+    .onClick(() => {
+      router.pushUrl({
+        url: 'pages/StoryDetail',
+        params: { storyId: story.id }
+      });
+    })
   }
 
   @Builder

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "story_indian_01",
+    "name_cn": "搅拌乳海封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_indian_01.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_indian_02",
+    "name_cn": "罗摩与悉多封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_indian_02.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_indian_03",
+    "name_cn": "迦楼罗与那伽封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_indian_03.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_indian_04",
+    "name_cn": "湿婆与萨蒂封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_indian_04.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_indian_05",
+    "name_cn": "象头神的诞生封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_indian_05.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_indian_06",
+    "name_cn": "黑天的童年封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_indian_06.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_indian_07",
+    "name_cn": "毗湿奴十化身封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_indian_07.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_indian_08",
+    "name_cn": "因陀罗与弗栗多封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_indian_08.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_indian_09",
+    "name_cn": "摩诃婆罗多大战封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_indian_09.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_indian_10",
+    "name_cn": "恒河降临封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_indian_10.png",
+    "tokens": 16384
+  }
+]

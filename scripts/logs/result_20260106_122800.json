@@ -1,0 +1,72 @@
+[
+  {
+    "id": "story_japanese_01",
+    "name_cn": "天地开辟封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_japanese_01.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_japanese_02",
+    "name_cn": "天照大神与天岩户封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_japanese_02.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_japanese_03",
+    "name_cn": "须佐之男斩八岐大蛇封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_japanese_03.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_japanese_04",
+    "name_cn": "因幡白兔封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_japanese_04.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_japanese_05",
+    "name_cn": "海幸山幸封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_japanese_05.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_japanese_06",
+    "name_cn": "浦岛太郎封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_japanese_06.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_japanese_07",
+    "name_cn": "桃太郎封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_japanese_07.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_japanese_08",
+    "name_cn": "竹取物语封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_japanese_08.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_japanese_09",
+    "name_cn": "安倍晴明封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_japanese_09.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_japanese_10",
+    "name_cn": "酒吞童子封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_japanese_10.png",
+    "tokens": 16384
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "story_greek_01",
+    "name_cn": "众神的诞生封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_greek_01.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_greek_02",
+    "name_cn": "普罗米修斯盗火封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_greek_02.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_greek_03",
+    "name_cn": "潘多拉魔盒封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_greek_03.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_greek_04",
+    "name_cn": "珀尔修斯斩美杜莎封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_greek_04.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_greek_05",
+    "name_cn": "赫拉克勒斯十二功封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_greek_05.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_greek_06",
+    "name_cn": "俄狄浦斯王封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_greek_06.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_greek_07",
+    "name_cn": "特洛伊战争封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_greek_07.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_greek_08",
+    "name_cn": "奥德修斯归乡封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_greek_08.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_greek_09",
+    "name_cn": "伊卡洛斯飞天封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_greek_09.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_greek_10",
+    "name_cn": "阿波罗与达芙妮封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_greek_10.png",
+    "tokens": 16384
+  }
+]

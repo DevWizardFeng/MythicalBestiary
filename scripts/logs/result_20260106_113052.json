@@ -1,0 +1,72 @@
+[
+  {
+    "id": "story_chinese_01",
+    "name_cn": "女娲补天封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_chinese_01.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_chinese_02",
+    "name_cn": "盘古开天封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_chinese_02.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_chinese_03",
+    "name_cn": "嫦娥奔月封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_chinese_03.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_chinese_04",
+    "name_cn": "后羿射日封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_chinese_04.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_chinese_05",
+    "name_cn": "精卫填海封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_chinese_05.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_chinese_06",
+    "name_cn": "大禹治水封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_chinese_06.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_chinese_07",
+    "name_cn": "夸父追日封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_chinese_07.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_chinese_08",
+    "name_cn": "牛郎织女封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_chinese_08.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_chinese_09",
+    "name_cn": "哪吒闹海封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_chinese_09.png",
+    "tokens": 16384
+  },
+  {
+    "id": "story_chinese_10",
+    "name_cn": "西天取经封面",
+    "status": "success",
+    "file_path": "/Users/zyb/Desktop/Harmony/MythicalBestiary/entry/src/main/resources/base/media/story_chinese_10.png",
+    "tokens": 16384
+  }
+]
