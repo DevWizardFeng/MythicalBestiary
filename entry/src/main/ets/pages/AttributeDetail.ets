@@ -25,7 +25,10 @@ struct AttributeDetail {
   @State isLoading: boolean = true;
   @State isTTSPlaying: boolean = false;
   private attributeId: string = '';
-  private ttsManager: TTSManager = new TTSManager();
+  private ttsManager: TTSManager = TTSManager.getInstance();
+  private stateChangeCallback = (state: TTSState) => {
+    this.isTTSPlaying = (state === TTSState.PLAYING)
+  }
 
   aboutToAppear() {
     const params = router.getParams() as RouterParams;
@@ -68,15 +71,11 @@ struct AttributeDetail {
   async initTTS(): Promise<void> {
     try {
       await this.ttsManager.init()
-
-      // 设置状态变化监听器
-      this.ttsManager.setOnStateChange((state: TTSState) => {
-        this.isTTSPlaying = (state === TTSState.PLAYING)
-      })
-
-      console.info('TTS 引擎初始化成功')
+      // 添加状态变化监听器
+      this.ttsManager.addStateChangeListener(this.stateChangeCallback)
+      console.info('AttributeDetail: TTS 引擎初始化成功')
     } catch (error) {
-      console.error('TTS 引擎初始化失败:', error)
+      console.error('AttributeDetail: TTS 引擎初始化失败:', error)
     }
   }
 
@@ -85,10 +84,15 @@ struct AttributeDetail {
    */
   async releaseTTS(): Promise<void> {
     try {
-      await this.ttsManager.release()
-      console.info('TTS 资源已释放')
+      // 移除状态变化监听器
+      this.ttsManager.removeStateChangeListener(this.stateChangeCallback)
+      // 停止当前播放（如果正在播放）
+      if (this.ttsManager.isPlaying()) {
+        await this.ttsManager.stop()
+      }
+      console.info('AttributeDetail: TTS 监听器已移除')
     } catch (error) {
-      console.error('TTS 资源释放失败:', error)
+      console.error('AttributeDetail: TTS 资源释放失败:', error)
     }
   }
 

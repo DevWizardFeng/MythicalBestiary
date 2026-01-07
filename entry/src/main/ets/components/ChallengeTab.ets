@@ -4,6 +4,7 @@
  */
 
 import router from '@ohos.router';
+import { promptAction } from '@kit.ArkUI';
 import { DarkTheme, CardStyle } from '../common/Theme';
 import { RouterPaths, GlobalStateKeys } from '../common/Constants';
 import {
@@ -33,6 +34,7 @@ export struct ChallengeTab {
   @State nextTierScore: number = 1000;
   @State progressPercent: number = 0;
   @State questionCount: number = 0;
+  @State isRefreshing: boolean = false;
   @Prop @Watch('onRefreshKeyChange') refreshKey: number = 0;
   // 监听全局挑战统计版本号变化，自动刷新数据
   @StorageLink(GlobalStateKeys.CHALLENGE_STATS_VERSION) @Watch('onStatsVersionChange') statsVersion: number = 0;
@@ -60,6 +62,8 @@ export struct ChallengeTab {
 
   async loadData() {
     try {
+      this.isRefreshing = true;
+
       // 加载统计数据
       const storageManager = StorageManager.getInstance();
       this.stats = await storageManager.getChallengeStats();
@@ -83,9 +87,11 @@ export struct ChallengeTab {
       this.questionCount = dataLoader.getQuestionCount();
 
       this.isLoading = false;
+      this.isRefreshing = false;
     } catch (error) {
       console.error('ChallengeTab: Failed to load data', error);
       this.isLoading = false;
+      this.isRefreshing = false;
     }
   }
 
@@ -341,9 +347,7 @@ export struct ChallengeTab {
   QuickActions() {
     Row({ space: 12 }) {
       // 刷新数据
-      this.ActionButton('刷新数据', $r('app.media.ic_refresh'), () => {
-        this.loadData();
-      })
+      this.RefreshButton()
 
       // 成就
       this.ActionButton('成就徽章', $r('app.media.ic_medal_gold'), () => {
@@ -351,6 +355,47 @@ export struct ChallengeTab {
       })
     }
     .width('100%')
+  }
+
+  @Builder
+  RefreshButton() {
+    Row({ space: 8 }) {
+      if (this.isRefreshing) {
+        LoadingProgress()
+          .width(20)
+          .height(20)
+          .color(DarkTheme.textPrimary)
+      } else {
+        Image($r('app.media.ic_refresh'))
+          .width(20)
+          .height(20)
+          .fillColor(DarkTheme.textPrimary)
+      }
+
+      Text(this.isRefreshing ? '刷新中...' : '刷新数据')
+        .fontSize(14)
+        .fontColor(DarkTheme.textPrimary)
+    }
+    .layoutWeight(1)
+    .height(48)
+    .backgroundColor(CardStyle.glassBackground)
+    .borderRadius(CardStyle.borderRadius)
+    .border({
+      width: CardStyle.borderWidth,
+      color: CardStyle.borderColor
+    })
+    .justifyContent(FlexAlign.Center)
+    .opacity(this.isRefreshing ? 0.6 : 1.0)
+    .onClick(async () => {
+      if (!this.isRefreshing) {
+        await this.loadData();
+        promptAction.showToast({
+          message: '数据已刷新',
+          duration: 1500,
+          bottom: 100
+        });
+      }
+    })
   }
 
   @Builder

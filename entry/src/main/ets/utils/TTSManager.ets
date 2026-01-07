@@ -17,14 +17,27 @@ export enum TTSState {
 }
 
 /**
- * TTS 管理器
+ * TTS 管理器（全局单例）
  */
 export class TTSManager {
+  private static instance: TTSManager | null = null
   private engine: textToSpeech.TextToSpeechEngine | null = null
   private state: TTSState = TTSState.IDLE
   private currentText: string = ''
   private currentRequestId: string = ''
-  private onStateChange?: (state: TTSState) => void
+  private stateChangeCallbacks: Set<(state: TTSState) => void> = new Set()
+
+  private constructor() {}
+
+  /**
+   * 获取全局单例
+   */
+  static getInstance(): TTSManager {
+    if (!TTSManager.instance) {
+      TTSManager.instance = new TTSManager()
+    }
+    return TTSManager.instance
+  }
 
   /**
    * 初始化 TTS 引擎
@@ -224,9 +237,14 @@ export class TTSManager {
    */
   private updateState(newState: TTSState): void {
     this.state = newState
-    if (this.onStateChange) {
-      this.onStateChange(newState)
-    }
+    // 通知所有监听器
+    this.stateChangeCallbacks.forEach(callback => {
+      try {
+        callback(newState)
+      } catch (error) {
+        console.error('[TTSManager] 状态回调执行失败:', error)
+      }
+    })
   }
 
   /**
@@ -244,9 +262,23 @@ export class TTSManager {
   }
 
   /**
-   * 设置状态变化监听器
+   * 添加状态变化监听器
    */
-  setOnStateChange(callback: (state: TTSState) => void): void {
-    this.onStateChange = callback
+  addStateChangeListener(callback: (state: TTSState) => void): void {
+    this.stateChangeCallbacks.add(callback)
+  }
+
+  /**
+   * 移除状态变化监听器
+   */
+  removeStateChangeListener(callback: (state: TTSState) => void): void {
+    this.stateChangeCallbacks.delete(callback)
+  }
+
+  /**
+   * 清空所有监听器
+   */
+  clearStateChangeListeners(): void {
+    this.stateChangeCallbacks.clear()
   }
 }

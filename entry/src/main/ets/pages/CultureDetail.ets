@@ -28,7 +28,10 @@ struct CultureDetail {
   @State isLoading: boolean = true;
   @State isTTSPlaying: boolean = false;
   private cultureId: string = '';
-  private ttsManager: TTSManager = new TTSManager();
+  private ttsManager: TTSManager = TTSManager.getInstance();
+  private stateChangeCallback = (state: TTSState) => {
+    this.isTTSPlaying = (state === TTSState.PLAYING)
+  }
 
   aboutToAppear() {
     const params = router.getParams() as RouterParams;
@@ -77,15 +80,11 @@ struct CultureDetail {
   async initTTS(): Promise<void> {
     try {
       await this.ttsManager.init()
-
-      // 设置状态变化监听器
-      this.ttsManager.setOnStateChange((state: TTSState) => {
-        this.isTTSPlaying = (state === TTSState.PLAYING)
-      })
-
-      console.info('TTS 引擎初始化成功')
+      // 添加状态变化监听器
+      this.ttsManager.addStateChangeListener(this.stateChangeCallback)
+      console.info('CultureDetail: TTS 引擎初始化成功')
     } catch (error) {
-      console.error('TTS 引擎初始化失败:', error)
+      console.error('CultureDetail: TTS 引擎初始化失败:', error)
     }
   }
 
@@ -94,10 +93,15 @@ struct CultureDetail {
    */
   async releaseTTS(): Promise<void> {
     try {
-      await this.ttsManager.release()
-      console.info('TTS 资源已释放')
+      // 移除状态变化监听器
+      this.ttsManager.removeStateChangeListener(this.stateChangeCallback)
+      // 停止当前播放（如果正在播放）
+      if (this.ttsManager.isPlaying()) {
+        await this.ttsManager.stop()
+      }
+      console.info('CultureDetail: TTS 监听器已移除')
     } catch (error) {
-      console.error('TTS 资源释放失败:', error)
+      console.error('CultureDetail: TTS 资源释放失败:', error)
     }
   }
 
@@ -582,12 +586,17 @@ struct CultureDetail {
             Text(`#${tag}`)
               .fontSize(11)
               .fontColor(DarkTheme.accent)
-              .backgroundColor(DarkTheme.accent + '22')
-              .padding({ left: 8, right: 8, top: 3, bottom: 3 })
-              .borderRadius(10)
-              .margin({ right: 6 })
+              .backgroundColor('rgba(157, 78, 221, 0.3)')
+              .padding({ left: 8, right: 8, top: 4, bottom: 4 })
+              .borderRadius(12)
+              .border({
+                width: 1,
+                color: 'rgba(157, 78, 221, 0.5)'
+              })
+              .margin({ right: 6, bottom: 4 })
           })
         }
+        .margin({ top: 4 })
       }
       .layoutWeight(1)
       .height(130)

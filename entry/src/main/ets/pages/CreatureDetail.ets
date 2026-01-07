@@ -34,7 +34,10 @@ struct CreatureDetail {
   @State currentTab: number = 0;
   @State isTTSPlaying: boolean = false;
   private creatureId: string = '';
-  private ttsManager: TTSManager = new TTSManager();
+  private ttsManager: TTSManager = TTSManager.getInstance();
+  private stateChangeCallback = (state: TTSState) => {
+    this.isTTSPlaying = (state === TTSState.PLAYING)
+  }
 
   private tabs: string[] = ['神话传说', '能力特点', '文化象征'];
 
@@ -171,15 +174,11 @@ struct CreatureDetail {
   async initTTS(): Promise<void> {
     try {
       await this.ttsManager.init()
-
-      // 设置状态变化监听器
-      this.ttsManager.setOnStateChange((state: TTSState) => {
-        this.isTTSPlaying = (state === TTSState.PLAYING)
-      })
-
-      console.info('TTS 引擎初始化成功')
+      // 添加状态变化监听器
+      this.ttsManager.addStateChangeListener(this.stateChangeCallback)
+      console.info('CreatureDetail: TTS 引擎初始化成功')
     } catch (error) {
-      console.error('TTS 引擎初始化失败:', error)
+      console.error('CreatureDetail: TTS 引擎初始化失败:', error)
     }
   }
 
@@ -188,10 +187,15 @@ struct CreatureDetail {
    */
   async releaseTTS(): Promise<void> {
     try {
-      await this.ttsManager.release()
-      console.info('TTS 资源已释放')
+      // 移除状态变化监听器
+      this.ttsManager.removeStateChangeListener(this.stateChangeCallback)
+      // 停止当前播放（如果正在播放）
+      if (this.ttsManager.isPlaying()) {
+        await this.ttsManager.stop()
+      }
+      console.info('CreatureDetail: TTS 监听器已移除')
     } catch (error) {
-      console.error('TTS 资源释放失败:', error)
+      console.error('CreatureDetail: TTS 资源释放失败:', error)
     }
   }
 
@@ -424,6 +428,26 @@ struct CreatureDetail {
           rarity: this.creature?.rarity as RarityType,
           badgeSize: 'medium'
         })
+
+        Blank()
+
+        // 语音播放按钮
+        Column() {
+          SymbolGlyph($r('sys.symbol.speaker_wave_3'))
+            .fontSize(20)
+            .fontColor(['#D4AF37'])
+            .symbolEffect(
+              new HierarchicalSymbolEffect(EffectFillStyle.ITERATIVE),
+              this.isTTSPlaying
+            )
+        }
+        .width(36)
+        .height(36)
+        .justifyContent(FlexAlign.Center)
+        .backgroundColor('#1A2233')
+        .borderRadius(18)
+        .border({ width: 1, color: '#333' })
+        .onClick(() => this.toggleTTS())
       }
       .width('100%')
 
@@ -545,34 +569,10 @@ struct CreatureDetail {
   @Builder
   MythologyContent() {
     Column({ space: 12 }) {
-      // 标题行：标题文字 + 语音播放按钮
-      Row() {
-        Text('神话传说')
-          .fontSize(16)
-          .fontWeight(FontWeight.Bold)
-          .fontColor(DarkTheme.textPrimary)
-
-        Blank()
-
-        // 语音播放按钮
-        Column() {
-          SymbolGlyph($r('sys.symbol.speaker_wave_3'))
-            .fontSize(20)
-            .fontColor(['#D4AF37'])
-            .symbolEffect(
-              new HierarchicalSymbolEffect(EffectFillStyle.ITERATIVE),
-              this.isTTSPlaying
-            )
-        }
-        .width(36)
-        .height(36)
-        .justifyContent(FlexAlign.Center)
-        .backgroundColor('#1A2233')
-        .borderRadius(18)
-        .border({ width: 1, color: '#333' })
-        .onClick(() => this.toggleTTS())
-      }
-      .width('100%')
+      Text('神话传说')
+        .fontSize(16)
+        .fontWeight(FontWeight.Bold)
+        .fontColor(DarkTheme.textPrimary)
 
       Text(this.creature?.mythology || '暂无神话传说记载')
         .fontSize(14)
@@ -589,34 +589,10 @@ struct CreatureDetail {
   @Builder
   AbilitiesContent() {
     Column({ space: 12 }) {
-      // 标题行：标题文字 + 语音播放按钮
-      Row() {
-        Text('能力特点')
-          .fontSize(16)
-          .fontWeight(FontWeight.Bold)
-          .fontColor(DarkTheme.textPrimary)
-
-        Blank()
-
-        // 语音播放按钮
-        Column() {
-          SymbolGlyph($r('sys.symbol.speaker_wave_3'))
-            .fontSize(20)
-            .fontColor(['#D4AF37'])
-            .symbolEffect(
-              new HierarchicalSymbolEffect(EffectFillStyle.ITERATIVE),
-              this.isTTSPlaying
-            )
-        }
-        .width(36)
-        .height(36)
-        .justifyContent(FlexAlign.Center)
-        .backgroundColor('#1A2233')
-        .borderRadius(18)
-        .border({ width: 1, color: '#333' })
-        .onClick(() => this.toggleTTS())
-      }
-      .width('100%')
+      Text('能力特点')
+        .fontSize(16)
+        .fontWeight(FontWeight.Bold)
+        .fontColor(DarkTheme.textPrimary)
 
       if (this.creature?.abilities && this.creature.abilities.length > 0) {
         ForEach(this.creature.abilities, (ability: string, index: number) => {
@@ -648,34 +624,10 @@ struct CreatureDetail {
   @Builder
   SymbolismContent() {
     Column({ space: 12 }) {
-      // 标题行：标题文字 + 语音播放按钮
-      Row() {
-        Text('文化象征')
-          .fontSize(16)
-          .fontWeight(FontWeight.Bold)
-          .fontColor(DarkTheme.textPrimary)
-
-        Blank()
-
-        // 语音播放按钮
-        Column() {
-          SymbolGlyph($r('sys.symbol.speaker_wave_3'))
-            .fontSize(20)
-            .fontColor(['#D4AF37'])
-            .symbolEffect(
-              new HierarchicalSymbolEffect(EffectFillStyle.ITERATIVE),
-              this.isTTSPlaying
-            )
-        }
-        .width(36)
-        .height(36)
-        .justifyContent(FlexAlign.Center)
-        .backgroundColor('#1A2233')
-        .borderRadius(18)
-        .border({ width: 1, color: '#333' })
-        .onClick(() => this.toggleTTS())
-      }
-      .width('100%')
+      Text('文化象征')
+        .fontSize(16)
+        .fontWeight(FontWeight.Bold)
+        .fontColor(DarkTheme.textPrimary)
 
       Text(this.creature?.symbolism || '暂无象征意义记载')
         .fontSize(14)

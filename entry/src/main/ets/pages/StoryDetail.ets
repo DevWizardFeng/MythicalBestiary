@@ -172,6 +172,9 @@ struct StoryDetail {
           // 顶部导航栏
           this.NavigationBar()
 
+          // 固定的章节标签栏
+          this.ChapterTabBar()
+
           // 章节翻页区域
           Swiper(this.swiperController) {
             // 渲染每个章节
@@ -233,58 +236,44 @@ struct StoryDetail {
       }
       .layoutWeight(1)
       .padding({ left: 12, right: 12 })
-
-      // 收藏按钮
-      Stack() {
-        Circle()
-          .width(40)
-          .height(40)
-          .fill('rgba(255,255,255,0.1)')
-
-        Image(this.isFavorite ? $r('app.media.ic_favorite_filled') : $r('app.media.ic_favorite'))
-          .width(20)
-          .height(20)
-          .fillColor(this.isFavorite ? '#FF6B6B' : DarkTheme.textPrimary)
-      }
-      .onClick(() => {
-        this.toggleFavorite();
-      })
     }
     .width('100%')
     .height(56)
     .padding({ left: 16, right: 16, top: 8 })
-    .margin({ top: 40 })
+  }
+
+  @Builder
+  ChapterTabBar() {
+    Row({ space: 8 }) {
+      Text(`第${this.chapterNumberToChinese(this.currentChapter + 1)}章`)
+        .fontSize(14)
+        .fontWeight(FontWeight.Bold)
+        .fontColor('#FFFFFF')
+        .backgroundColor('#FF4444')
+        .padding({ left: 12, right: 12, top: 6, bottom: 6 })
+        .borderRadius(16)
+
+      if (this.story && this.currentChapter < this.story.chapters.length) {
+        Text(this.story.chapters[this.currentChapter].title)
+          .fontSize(16)
+          .fontWeight(FontWeight.Bold)
+          .fontColor(DarkTheme.textPrimary)
+          .layoutWeight(1)
+          .maxLines(1)
+          .textOverflow({ overflow: TextOverflow.Ellipsis })
+      }
+    }
+    .width('100%')
+    .height(48)
+    .padding({ left: 16, right: 16 })
+    .backgroundColor('rgba(0,0,0,0.5)')
+    .alignItems(VerticalAlign.Center)
   }
 
   @Builder
   ChapterPage(chapter: StoryChapter, index: number) {
     Scroll() {
       Column({ space: 20 }) {
-        // 章节标题
-        Row({ space: 8 }) {
-          Text(`第${this.chapterNumberToChinese(index + 1)}章`)
-            .fontSize(12)
-            .fontColor(DarkTheme.accent)
-            .backgroundColor(DarkTheme.accent + '22')
-            .padding({ left: 10, right: 10, top: 4, bottom: 4 })
-            .borderRadius(12)
-
-          Text(chapter.title)
-            .fontSize(20)
-            .fontWeight(FontWeight.Bold)
-            .fontColor(DarkTheme.textPrimary)
-            .layoutWeight(1)
-        }
-        .width('100%')
-        .alignItems(VerticalAlign.Center)
-
-        // 分隔线
-        Row()
-          .width(60)
-          .height(2)
-          .backgroundColor(DarkTheme.accent)
-          .borderRadius(1)
-
         // 章节内容
         Text(chapter.content)
           .fontSize(16)
@@ -337,14 +326,18 @@ struct StoryDetail {
               Text(`#${tag}`)
                 .fontSize(12)
                 .fontColor(DarkTheme.accent)
-                .backgroundColor(DarkTheme.accent + '22')
+                .backgroundColor('rgba(157, 78, 221, 0.3)')
                 .padding({ left: 12, right: 12, top: 6, bottom: 6 })
                 .borderRadius(16)
-                .margin(4)
+                .border({
+                  width: 1,
+                  color: 'rgba(157, 78, 221, 0.5)'
+                })
+                .margin({ left: 4, right: 4, top: 4, bottom: 4 })
             })
           }
           .width('100%')
-          .padding({ left: 16, right: 16 })
+          .padding({ left: 16, right: 16, top: 8, bottom: 8 })
         }
 
         // 相关神兽
